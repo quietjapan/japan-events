@@ -3,7 +3,7 @@
 import json, re, sys, requests
 from urllib.parse import urljoin
 from common import ROOT, UA, og_image
-GENERIC = re.compile(r"(1kuji\.com/ogp|/images/common/|logo|noimage)", re.I)
+GENERIC = re.compile(r"(1kuji\.com/ogp|/images/common/|/img/common/|logo|noimage|xxxx|ogp_portal)", re.I)
 
 def product_image(url):
     try: h = requests.get(url, headers={"User-Agent": UA}, timeout=25).text
@@ -18,11 +18,27 @@ def product_image(url):
         return urljoin(url, m.group(1)) if m else ""
     return ""
 
+def og_any(e):
+    """기본 규칙: 실제 이미지(공식 og:image) 우선, 없을 때만 텍스트 썸네일."""
+    for u in [e.get("official_url"), e.get("source_url")]:
+        if not u: continue
+        try: h = requests.get(u, headers={"User-Agent": UA}, timeout=10).text
+        except Exception: continue
+        og = og_image(h, u)
+        if og and not GENERIC.search(og) and "xxxx" not in og: return og, u
+    return "", ""
+
 def run(files=("events.json", "pending.json")):
     for fn in files:
         f = ROOT / fn; d = json.loads(f.read_text()); n = 0
         for e in d["events"]:
-            if e.get("category") not in ("쿠지", "가챠") or not e.get("official_url"): continue
+            if e.get("category") not in ("쿠지", "가챠"):
+                if e.get("thumbnail") and not GENERIC.search(e["thumbnail"]): continue
+                img, src = og_any(e)
+                if img: e["thumbnail"], e["thumbnail_source"] = img, src; n += 1
+                else: e.pop("thumbnail", None); e.pop("thumbnail_source", None)
+                continue
+            if not e.get("official_url"): continue
             if e.get("thumbnail") and not GENERIC.search(e["thumbnail"]) and e.get("thumb_kind") == "product": continue
             img = product_image(e["official_url"])
             if img:

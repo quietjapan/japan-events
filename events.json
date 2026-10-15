@@ -36,10 +36,11 @@
       "source_tier": "official",
       "verified_at": "2026-10-15",
       "lat": 35.692,
-      "lon": 139.7014
+      "lon": 139.7014,
+      "translation_check": true
     },
     {
-      "title_ko": "귀태랑 탄생 게게게의 수수께끼 × and GALLERY 콜라보 카페",
+      "title_ko": "키타로 탄생: 게게게의 수수께끼 × and GALLERY 콜라보 카페",
       "title_ja": "鬼太郎誕生 ゲゲゲの謎 × and GALLERY Collaboration Cafe",
       "category": "콜라보카페",
       "area": "도쿄",
@@ -72,7 +73,8 @@
       "source_tier": "official",
       "verified_at": "2026-10-15",
       "lat": 35.6745,
-      "lon": 139.7605
+      "lon": 139.7605,
+      "title_ko_source": "https://www.haveagood-holiday.com/ko/articles/kitaro-tanjo-and-gallery-collaboration-cafe-2026 (한국어 표기 확인; 鬼太郎=키타로)"
     },
     {
       "title_ko": "페이트/그랜드 오더 콜라보 레스토랑 「영령들의 만찬」",
@@ -88,8 +90,8 @@
       "source_url": "https://charagoo.jp/collab/event/81ce109c2a20/",
       "notes": "호텔 공식 사이트 예약(9/28부터), 120분제. 굿즈는 식사 주문자만 구매 가능",
       "checked_date": "2026-10-15",
-      "thumbnail": "https://www.princehotels.co.jp/images/common/header_logo.png",
-      "thumbnail_source": "https://www.princehotels.co.jp/sunshine/plan/contents/fate-go/",
+      "thumbnail": "https://charagoo.jp/wp-content/uploads/2026/09/fate-news-20261031.jpg",
+      "thumbnail_source": "https://charagoo.jp/collab/event/81ce109c2a20/",
       "map_query": "東京都豊島区東池袋3‐1‐5",
       "evidence": [
         {
@@ -108,7 +110,8 @@
       "source_tier": "official",
       "verified_at": "2026-10-15",
       "lat": 35.7289,
-      "lon": 139.7193
+      "lon": 139.7193,
+      "translation_check": true
     },
     {
       "title_ko": "하이큐!! × and GALLERY 콜라보 카페",
@@ -144,7 +147,8 @@
       "source_tier": "official",
       "verified_at": "2026-10-15",
       "lat": 35.7312,
-      "lon": 139.7149
+      "lon": 139.7149,
+      "translation_check": true
     },
     {
       "title_ko": "은혼 팝업숍 in 타워레코드",
@@ -180,7 +184,8 @@
       "source_tier": "official",
       "verified_at": "2026-10-15",
       "lat": 35.6616,
-      "lon": 139.7005
+      "lon": 139.7005,
+      "translation_check": true
     },
     {
       "title_ko": "은혼 캐릭터 팝 스토어",
@@ -216,7 +221,8 @@
       "source_tier": "official",
       "verified_at": "2026-10-15",
       "lat": 35.6987,
-      "lon": 139.7714
+      "lon": 139.7714,
+      "translation_check": true
     },
     {
       "title_ko": "MAPPA EXPO 15주년",
@@ -252,7 +258,8 @@
       "source_tier": "official",
       "verified_at": "2026-10-15",
       "lat": 35.677,
-      "lon": 139.7635
+      "lon": 139.7635,
+      "translation_check": true
     },
     {
       "title_ko": "헤타리아 20주년 원화전 WorldFesta",
@@ -288,7 +295,8 @@
       "source_tier": "official",
       "verified_at": "2026-10-15",
       "lat": 35.7289,
-      "lon": 139.7193
+      "lon": 139.7193,
+      "translation_check": true
     },
     {
       "title_ko": "약사의 혼잣말 「하늘에 울리는 춤의 선율」",
@@ -324,7 +332,8 @@
       "source_tier": "official",
       "verified_at": "2026-10-15",
       "lat": 35.6604,
-      "lon": 139.7292
+      "lon": 139.7292,
+      "translation_check": true
     },
     {
       "title_ko": "超 다마고치 축제 in 시부하라",
@@ -340,8 +349,8 @@
       "source_url": "https://charagoo.jp/collab/event/1b6ee1927b7b/",
       "notes": "사전 예약·정리권 운영 가능성 있음 (공식 X에서 안내 예정)",
       "checked_date": "2026-10-15",
-      "thumbnail": "https://tamagotchi-official.com/jp/images/official/ogp_portal.jpg?v2",
-      "thumbnail_source": "https://tamagotchi-official.com/jp/cho-tama-festival",
+      "thumbnail": "https://charagoo.jp/wp-content/uploads/2026/10/tamagotchi-news-20261107.png",
+      "thumbnail_source": "https://charagoo.jp/collab/event/1b6ee1927b7b/",
       "map_query": "",
       "evidence": [
         {
@@ -358,7 +367,8 @@
         }
       ],
       "source_tier": "official",
-      "verified_at": "2026-10-15"
+      "verified_at": "2026-10-15",
+      "translation_check": true
     },
     {
       "title_ko": "후와후완더 시나모롤 파크",
@@ -394,7 +404,8 @@
       "source_tier": "official",
       "verified_at": "2026-10-15",
       "lat": 35.7056,
-      "lon": 139.7519
+      "lon": 139.7519,
+      "translation_check": true
     },
     {
       "title_ko": "제66회 간다 헌책 축제",
@@ -410,8 +421,6 @@
       "source_url": "https://visit-chiyoda.tokyo/app/event/detail/957",
       "notes": "10:00~18:00 (마지막 날 17:00까지)",
       "checked_date": "2026-10-15",
-      "thumbnail": "https://xxxxxxxxx/assets/img/sns.png",
-      "thumbnail_source": "https://jimbou.info/news/20260908.html",
       "map_query": "",
       "evidence": [
         {
@@ -431,7 +440,8 @@
       "verified_at": "2026-10-15",
       "map_note": "공식 페이지 주소가 사무국 주소로 보여 지도 생략 (진보초 거리 일대)",
       "lat": 35.6957,
-      "lon": 139.7577
+      "lon": 139.7577,
+      "translation_check": true
     },
     {
       "title_ko": "이치방쿠지 드래곤볼 SPIRIT OF THE SAIYAN",
@@ -459,7 +469,8 @@
       ],
       "source_tier": "official",
       "verified_at": "2026-10-15",
-      "thumb_kind": "product"
+      "thumb_kind": "product",
+      "translation_check": true
     },
     {
       "title_ko": "이치방쿠지 우마무스메 프리티 더비 14탄",
@@ -487,7 +498,8 @@
       ],
       "source_tier": "official",
       "verified_at": "2026-10-15",
-      "thumb_kind": "product"
+      "thumb_kind": "product",
+      "translation_check": true
     },
     {
       "title_ko": "이치방쿠지 진격의 거인 ~심장을 바쳐라~",
@@ -515,7 +527,8 @@
       ],
       "source_tier": "official",
       "verified_at": "2026-10-15",
-      "thumb_kind": "product"
+      "thumb_kind": "product",
+      "translation_check": true
     },
     {
       "title_ko": "이치방쿠지 카구라바치",
@@ -543,7 +556,8 @@
       ],
       "source_tier": "official",
       "verified_at": "2026-10-15",
-      "thumb_kind": "product"
+      "thumb_kind": "product",
+      "translation_check": true
     },
     {
       "title_ko": "이치방쿠지 원피스 -하늘에 울리는 \"섬의 노랫소리\"-",
@@ -571,7 +585,8 @@
       ],
       "source_tier": "official",
       "verified_at": "2026-10-15",
-      "thumb_kind": "product"
+      "thumb_kind": "product",
+      "translation_check": true
     },
     {
       "title_ko": "이치방쿠지 페이트/그랜드 오더 ~칼데아 픽업 메모리~",
@@ -599,7 +614,8 @@
       ],
       "source_tier": "official",
       "verified_at": "2026-10-15",
-      "thumb_kind": "product"
+      "thumb_kind": "product",
+      "translation_check": true
     },
     {
       "title_ko": "이치방쿠지 고질라 괴수난무 -제로의 고동-",
@@ -627,7 +643,8 @@
       ],
       "source_tier": "official",
       "verified_at": "2026-10-15",
-      "thumb_kind": "product"
+      "thumb_kind": "product",
+      "translation_check": true
     },
     {
       "title_ko": "이치방쿠지 죠죠의 기묘한 모험 The Gathering of RIVALS",
@@ -655,7 +672,8 @@
       ],
       "source_tier": "official",
       "verified_at": "2026-10-15",
-      "thumb_kind": "product"
+      "thumb_kind": "product",
+      "translation_check": true
     },
     {
       "title_ko": "이치방쿠지 페르소나 시리즈 30주년",
@@ -683,7 +701,8 @@
       ],
       "source_tier": "official",
       "verified_at": "2026-10-15",
-      "thumb_kind": "product"
+      "thumb_kind": "product",
+      "translation_check": true
     },
     {
       "title_ko": "조시가야 데즈쿠리이치 (수공예 시장)",
@@ -699,8 +718,6 @@
       "source_url": "https://tezukuriichi.com/home.html",
       "notes": "10:00~16:00, 비 오면 취소. 11월은 오토리 신사 회장 쉼",
       "checked_date": "2026-10-15",
-      "thumbnail": "",
-      "thumbnail_source": "",
       "map_query": "",
       "evidence": [
         {
@@ -713,7 +730,8 @@
       "source_tier": "official",
       "verified_at": "2026-10-15",
       "lat": 35.7208,
-      "lon": 139.7166
+      "lon": 139.7166,
+      "translation_check": true
     },
     {
       "title_ko": "조시가야 데즈쿠리이치 (수공예 시장)",
@@ -729,8 +747,6 @@
       "source_url": "https://tezukuriichi.com/home.html",
       "notes": "10:00~16:00, 비 오면 취소",
       "checked_date": "2026-10-15",
-      "thumbnail": "",
-      "thumbnail_source": "",
       "map_query": "",
       "evidence": [
         {
@@ -743,7 +759,8 @@
       "source_tier": "official",
       "verified_at": "2026-10-15",
       "lat": 35.7208,
-      "lon": 139.7166
+      "lon": 139.7166,
+      "translation_check": true
     },
     {
       "title_ko": "사카모토 데이즈 DJ 그루브 카페",
@@ -779,7 +796,8 @@
       "source_tier": "official",
       "verified_at": "2026-10-15",
       "lat": 35.6661,
-      "lon": 139.7041
+      "lon": 139.7041,
+      "translation_check": true
     },
     {
       "title_ko": "블리치 천년혈전편 콜라보 카페",
@@ -815,7 +833,8 @@
       "source_tier": "official",
       "verified_at": "2026-10-15",
       "lat": 35.6622,
-      "lon": 139.6989
+      "lon": 139.6989,
+      "translation_check": true
     },
     {
       "title_ko": "나의 히어로 아카데미아 카페 WE ARE HERO HOLICS",
@@ -852,7 +871,8 @@
       "source_tier": "official",
       "verified_at": "2026-10-15",
       "lat": 35.6661,
-      "lon": 139.7041
+      "lon": 139.7041,
+      "translation_check": true
     },
     {
       "title_ko": "진격의 거인 DJ 테마 팝업숍",
@@ -888,7 +908,8 @@
       "source_tier": "official",
       "verified_at": "2026-10-15",
       "lat": 35.6616,
-      "lon": 139.7005
+      "lon": 139.7005,
+      "translation_check": true
     },
     {
       "title_ko": "유유백서 팝업숍",
@@ -904,8 +925,8 @@
       "source_url": "https://charagoo.jp/collab/event/c653b7063747/",
       "notes": "2,200엔 구매마다 일러스트 카드 1장 증정",
       "checked_date": "2026-10-15",
-      "thumbnail": "https://eeo.today/store/101/html/template/101/assets/img/common/ogp.png",
-      "thumbnail_source": "https://eeo.today/store/101/title/646",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/7006/20112/7006-20112-e6fde28720cca1f5f8cb12347eb0955c-680x370.jpg?width=536&quality=85%2C75&format=jpeg&auto=webp&fit=bounds&bg-color=fff",
+      "thumbnail_source": "https://www.kadokawa.co.jp/topics/17844/",
       "map_query": "東京都豊島区東池袋1-25-14",
       "evidence": [
         {
@@ -924,7 +945,8 @@
       "source_tier": "official",
       "verified_at": "2026-10-15",
       "lat": 35.7299,
-      "lon": 139.7155
+      "lon": 139.7155,
+      "translation_check": true
     },
     {
       "title_ko": "동방 Project × 도쿄타워",
@@ -940,8 +962,8 @@
       "source_url": "https://charagoo.jp/collab/event/f7a509ad942a/",
       "notes": "",
       "checked_date": "2026-10-15",
-      "thumbnail": "https://tt.tokyocomix.com/wp-content/themes/tt-tcx/images/common/tcx-ogp_600x400.png",
-      "thumbnail_source": "https://tt.tokyocomix.com/touhou-project/",
+      "thumbnail": "https://charagoo.jp/wp-content/uploads/2026/09/touhouproject-news-20261002.jpg",
+      "thumbnail_source": "https://charagoo.jp/collab/event/f7a509ad942a/",
       "map_query": "東京都港区芝公園4-2-8",
       "evidence": [
         {
@@ -960,7 +982,8 @@
       "source_tier": "official",
       "verified_at": "2026-10-15",
       "lat": 35.6586,
-      "lon": 139.7454
+      "lon": 139.7454,
+      "translation_check": true
     },
     {
       "title_ko": "제5인격 팝업숍 in 핸즈 (시부야)",
@@ -995,7 +1018,10 @@
       "source_tier": "official",
       "verified_at": "2026-10-15",
       "lat": 35.662,
-      "lon": 139.6979
+      "lon": 139.6979,
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/16756/8866/16756-8866-0f231e98b4827c596a8ba5dc762fadd3-1200x1200.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "thumbnail_source": "https://prtimes.jp/main/html/rd/p/000008866.000016756.html",
+      "translation_check": true
     },
     {
       "title_ko": "치이카와 ☆ 별 내리는 스카이트리와 비밀의 섬",
@@ -1011,8 +1037,8 @@
       "source_url": "https://charagoo.jp/collab/event/a7d9e207df44/",
       "notes": "전망대 입장권 필요. 콜라보 카페는 식사권 포함 입장권 필요",
       "checked_date": "2026-10-15",
-      "thumbnail": "",
-      "thumbnail_source": "",
+      "thumbnail": "https://charagoo.jp/wp-content/uploads/2026/05/chiikawa-news-20260710.jpg",
+      "thumbnail_source": "https://charagoo.jp/collab/event/a7d9e207df44/",
       "map_query": "東京都墨田区押上1丁目1−2",
       "evidence": [
         {
@@ -1031,7 +1057,8 @@
       "source_tier": "official",
       "verified_at": "2026-10-15",
       "lat": 35.7108,
-      "lon": 139.8138
+      "lon": 139.8138,
+      "translation_check": true
     },
     {
       "title_ko": "고질라 박람회 마이너스의 세계",
@@ -1067,7 +1094,8 @@
       "source_tier": "official",
       "verified_at": "2026-10-15",
       "lat": 35.6816,
-      "lon": 139.7672
+      "lon": 139.7672,
+      "translation_check": true
     },
     {
       "title_ko": "다카하타 후도존 국화 축제",
@@ -1098,7 +1126,8 @@
       "source_tier": "official",
       "verified_at": "2026-10-15",
       "lat": 35.6624,
-      "lon": 139.4128
+      "lon": 139.4128,
+      "translation_check": true
     },
     {
       "title_ko": "다카하타 후도존 단풍 축제",
@@ -1128,7 +1157,8 @@
       "source_tier": "official",
       "verified_at": "2026-10-15",
       "lat": 35.6624,
-      "lon": 139.4128
+      "lon": 139.4128,
+      "translation_check": true
     },
     {
       "title_ko": "치이카와 캡슐 스틱 (가챠)",
@@ -1157,7 +1187,8 @@
       "source_tier": "official",
       "verified_at": "2026-10-15",
       "thumb_kind": "product",
-      "date_label": "10월 5째 주 발매 (지역·매장별 상이)"
+      "date_label": "10월 5째 주 발매 (지역·매장별 상이)",
+      "translation_check": true
     },
     {
       "title_ko": "원피스 유라유라시타이 (가챠)",
@@ -1186,7 +1217,8 @@
       "source_tier": "official",
       "verified_at": "2026-10-15",
       "thumb_kind": "product",
-      "date_label": "10월 5째 주 발매 (지역·매장별 상이)"
+      "date_label": "10월 5째 주 발매 (지역·매장별 상이)",
+      "translation_check": true
     },
     {
       "title_ko": "장송의 프리렌 마치보우케 3 (가챠)",
@@ -1215,7 +1247,8 @@
       "source_tier": "official",
       "verified_at": "2026-10-15",
       "thumb_kind": "product",
-      "date_label": "10월 5째 주 발매 (지역·매장별 상이)"
+      "date_label": "10월 5째 주 발매 (지역·매장별 상이)",
+      "translation_check": true
     },
     {
       "title_ko": "죠죠의 기묘한 모험 황금의 바람 메지루시 액세서리 01 (가챠)",
@@ -1244,7 +1277,8 @@
       "source_tier": "official",
       "verified_at": "2026-10-15",
       "thumb_kind": "product",
-      "date_label": "10월 5째 주 발매 (지역·매장별 상이)"
+      "date_label": "10월 5째 주 발매 (지역·매장별 상이)",
+      "translation_check": true
     },
     {
       "title_ko": "다카하타 후도존 고자레이치 (잡동사니 시장)",
@@ -1274,7 +1308,8 @@
       "source_tier": "official",
       "verified_at": "2026-10-15",
       "lat": 35.6624,
-      "lon": 139.4128
+      "lon": 139.4128,
+      "translation_check": true
     },
     {
       "title_ko": "다카하타 후도존 고자레이치 (잡동사니 시장)",
@@ -1304,7 +1339,8 @@
       "source_tier": "official",
       "verified_at": "2026-10-15",
       "lat": 35.6624,
-      "lon": 139.4128
+      "lon": 139.4128,
+      "translation_check": true
     },
     {
       "title_ko": "제5인격 팝업숍 in 핸즈 (신주쿠)",
@@ -1339,7 +1375,10 @@
       "source_tier": "official",
       "verified_at": "2026-10-15",
       "lat": 35.688,
-      "lon": 139.7027
+      "lon": 139.7027,
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/16756/8866/16756-8866-0f231e98b4827c596a8ba5dc762fadd3-1200x1200.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "thumbnail_source": "https://prtimes.jp/main/html/rd/p/000008866.000016756.html",
+      "translation_check": true
     },
     {
       "title_ko": "오이 경마장 플리마켓 (Tokyo City Flea Market)",
@@ -1369,7 +1408,8 @@
       "source_tier": "official",
       "verified_at": "2026-10-15",
       "lat": 35.5934,
-      "lon": 139.7405
+      "lon": 139.7405,
+      "translation_check": true
     },
     {
       "title_ko": "오이 경마장 플리마켓 (Tokyo City Flea Market)",
@@ -1399,7 +1439,8 @@
       "source_tier": "official",
       "verified_at": "2026-10-15",
       "lat": 35.5934,
-      "lon": 139.7405
+      "lon": 139.7405,
+      "translation_check": true
     },
     {
       "title_ko": "오이 경마장 플리마켓 (Tokyo City Flea Market)",
@@ -1429,7 +1470,8 @@
       "source_tier": "official",
       "verified_at": "2026-10-15",
       "lat": 35.5934,
-      "lon": 139.7405
+      "lon": 139.7405,
+      "translation_check": true
     }
   ]
 }
