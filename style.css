@@ -43,3 +43,5 @@ details.map{font-size:13px}details.map summary{cursor:pointer;color:var(--accent
 .pick label{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-weight:600}
 .pick input{font:inherit;padding:4px 6px;border:1px solid #cbd5e1;border-radius:8px}
 .pickwx{margin-top:6px}.pw{display:flex;gap:10px;align-items:center}.pi{font-size:30px}.ps{font-size:11px;color:#64748b}
+
+.sum{margin:8px 0 2px;padding:8px 10px;background:rgba(127,127,127,.08);border-radius:8px}.sum p{margin:2px 0 0;font-size:14px;line-height:1.5}.sumlbl{font-size:11px;color:var(--mute)}.sumlbl a{color:inherit}
