@@ -5,7 +5,7 @@ from common import ROOT
 def geocode(q):
     try:
         r = requests.get("https://nominatim.openstreetmap.org/search", params={"q": q, "format": "json", "limit": 1, "countrycodes": "jp"},
-                         headers={"User-Agent": "japan-events-calendar/1.0 (github.com/JUNOFLO00/japan-events)"}, timeout=20)
+                         headers={"User-Agent": "japan-events-calendar/1.0 (github.com/quietjapan/japan-events)"}, timeout=20)
         j = r.json()
         return (round(float(j[0]["lat"]), 4), round(float(j[0]["lon"]), 4)) if j else None
     except Exception: return None
