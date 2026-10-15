@@ -392,7 +392,7 @@
       "checked_date": "2026-10-15",
       "thumbnail": "https://xxxxxxxxx/assets/img/sns.png",
       "thumbnail_source": "https://jimbou.info/news/20260908.html",
-      "map_query": "東京都千代田区神田小川町3-22",
+      "map_query": "",
       "evidence": [
         {
           "url": "https://jimbou.info/news/20260908.html",
@@ -408,7 +408,8 @@
         }
       ],
       "source_tier": "official",
-      "verified_at": "2026-10-15"
+      "verified_at": "2026-10-15",
+      "map_note": "공식 페이지 주소가 사무국 주소로 보여 지도 생략 (진보초 거리 일대)"
     },
     {
       "title_ko": "이치방쿠지 드래곤볼 SPIRIT OF THE SAIYAN",
