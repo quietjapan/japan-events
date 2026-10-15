@@ -39,3 +39,8 @@ python -m http.server 8000
 3. 저장소 Settings → Pages → Branch `main` / `/ (root)` → Save
 4. 1~2분 뒤 `https://아이디.github.io/japan-events/` 로 접속
 5. 업데이트할 때는 GitHub에서 `events.json`을 열어 연필(✏️) 버튼으로 고치고 Commit 하면 끝
+
+## 검증 파이프라인 (tools/)
+- 한 번에 실행: `tools/run.sh` → 근거 채우기 + 재검증 + 종료 행사 삭제 + `review.md` 생성
+- 공식 페이지 원문에 '시작일〜종료일'이 그대로 있는 항목만 `events.json`(라이브)에 남고, 나머지는 `pending.json`(사유 포함)으로 빠짐
+- 후보 수집: `/workspace/.pwvenv/bin/python tools/collect.py URL ...` → `candidates.json`
