@@ -38,3 +38,8 @@ details.map{font-size:13px}details.map summary{cursor:pointer;color:var(--accent
 .wx-hd{display:flex;justify-content:space-between;gap:8px;font-size:13px;flex-wrap:wrap}.wx-hd span{color:var(--mute);font-size:11px}.wx-hd a{color:var(--mute)}
 .wxrow{display:flex;gap:6px;overflow-x:auto;margin-top:6px}.wxd{flex:1 0 64px;text-align:center;font-size:12px;padding:4px;border-radius:8px;background:var(--soft)}
 .wxd .i{font-size:20px}.wxd .t{font-weight:700}.wxd .p{color:#3d5a80}.wx-msg{font-size:12px;color:var(--mute)}
+
+.pick{margin:8px 0;padding:8px 10px;border:1px dashed #cbd5e1;border-radius:10px;background:#f8fafc;font-size:14px}
+.pick label{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-weight:600}
+.pick input{font:inherit;padding:4px 6px;border:1px solid #cbd5e1;border-radius:8px}
+.pickwx{margin-top:6px}.pw{display:flex;gap:10px;align-items:center}.pi{font-size:30px}.ps{font-size:11px;color:#64748b}

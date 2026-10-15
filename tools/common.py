@@ -103,11 +103,36 @@ def parse_dates(text, default_year=2026):
     return set().union(*[s for _, _, s in date_tokens(text, default_year)]) if text else set()
 
 RANGE_CH = "〜-ー–―→至"
+MONTH_HDR = re.compile(r"(20\d\d)年(1[0-2]|[1-9])月の予定")
+def expand_month_headers(t):
+    """'2026年10月の予定 18日(日) …' 처럼 달력형 일정표에서 '日'만 있는 날짜에 앞의 달을 붙임."""
+    out, last, mo = [], 0, None
+    for m in MONTH_HDR.finditer(t):
+        out.append((m.start(), m.group(1), m.group(2)))
+    if not out: return t
+    res, pos = [], 0
+    for i, (st, y, mo) in enumerate(out):
+        nxt = out[i + 1][0] if i + 1 < len(out) else len(t)
+        res.append(t[pos:st]); seg = t[st:nxt]
+        seg = re.sub(r"(?<![月\d/.])(3[01]|[12]\d|[1-9])日", lambda m: f"{y}年{mo}月{m.group(1)}日", seg)
+        res.append(seg); pos = nxt
+    return "".join(res)
+
+WEEK_RE = re.compile(r"(20\d\d)年\s*(1[0-2]|[1-9])月\s*第\s*([1-5])\s*週")
+def week_start(quote):
+    """'発売時期 2026年10月 第5週' → 그 주의 첫날(7*(n-1)+1일)."""
+    m = WEEK_RE.search(norm(quote))
+    if not m: return None
+    y, mo, n = map(int, m.groups())
+    try: return dt.date(y, mo, 7 * (n - 1) + 1).isoformat()
+    except ValueError: return None
+
 def derivable(quote, start, end):
     """시작일이 인용문에 있어야 하고, 종료일이 다르면 '시작일 〜 종료일' 이 바로 붙은 범위 표현이어야 통과
     (다른 도시 일정의 날짜가 섞여 우연히 통과하는 것을 막음)."""
     if not start: return False, "시작일 없음(근거로 확정 불가)"
-    t = norm(quote); toks = date_tokens(t)
+    if not end and week_start(quote) == start: return True, ""   # 가챠 '○월 제N주' 발매
+    t = expand_month_headers(norm(quote)); toks = date_tokens(t)
     if not any(start in s for _, _, s in toks): return False, f"인용문에서 시작일 {start} 확인 안 됨"
     if not end or end == start: return True, ""
     for (a1, e1, s1), (a2, e2, s2) in zip(toks, toks[1:]):

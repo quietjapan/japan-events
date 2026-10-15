@@ -49,6 +49,8 @@ def main():
     removed, new_live, new_pend = [], [], []
     for e in allev:
         end = e.get("end") or e.get("start")
+        if not e.get("end") and e.get("start") and e.get("category") in ("가챠", "쿠지"):
+            end = (dt.date.fromisoformat(e["start"]) + dt.timedelta(days=30)).isoformat()  # 발매 후 30일간 '입고 중'
         if end and dt.date.fromisoformat(end) < today:
             removed.append(e); continue
         if "--backfill" in sys.argv and not e.get("evidence"): backfill.enrich(e)
@@ -64,10 +66,10 @@ def main():
     added = [e for e in new_live if key(e) not in prev_live]
     dropped = [e for e in new_pend if key(e) in prev_live]
     L = [f"# 검수 리포트 ({today.isoformat()})", "",
-         f"- 라이브 {len(new_live)}건 / 검수 대기 {len(new_pend)}건 / 종료 삭제 {len(removed)}건", ""]
+         f"- 라이브 {len(new_live)}건 / 미게시(공식 미확인) {len(new_pend)}건 / 종료 삭제 {len(removed)}건", ""]
     L += ["## 새로 자동 게시된 항목", ""] + ([f"- {e['title_ko']} ({e.get('start')}~{e.get('end') or ''}) — {e['evidence'][0]['url']}" for e in added] or ["- 없음"])
     L += ["", "## 라이브에서 빠진 항목 (재검증 실패)", ""] + ([f"- {e['title_ko']}: {e['pending_reason']}" for e in dropped] or ["- 없음"])
-    L += ["", "## 검수 대기 (pending.json) — 공식 페이지 확인 후 evidence 를 채우고 다시 실행", ""]
+    L += ["", "## 미게시 보관 (pending.json) — 공식 출처로 확인되지 않아 사이트에 올리지 않음 (사람 검수 불필요, 공식 근거가 생기면 다음 실행 때 자동 게시)", ""]
     for e in new_pend:
         L.append(f"- **{e['title_ko']}** ({e.get('start') or '?'}~{e.get('end') or ''})  \n  사유: {e['pending_reason']}  \n  공식: {e.get('official_url') or '-'} · 출처: {e.get('source_url') or '-'}")
     L += ["", "## 종료되어 삭제", ""] + ([f"- {e['title_ko']} (종료 {e.get('end') or e.get('start')})" for e in removed] or ["- 없음"])

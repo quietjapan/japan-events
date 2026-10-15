@@ -34,7 +34,9 @@
         }
       ],
       "source_tier": "official",
-      "verified_at": "2026-10-15"
+      "verified_at": "2026-10-15",
+      "lat": 35.692,
+      "lon": 139.7014
     },
     {
       "title_ko": "귀태랑 탄생 게게게의 수수께끼 × and GALLERY 콜라보 카페",
@@ -68,7 +70,9 @@
         }
       ],
       "source_tier": "official",
-      "verified_at": "2026-10-15"
+      "verified_at": "2026-10-15",
+      "lat": 35.6745,
+      "lon": 139.7605
     },
     {
       "title_ko": "페이트/그랜드 오더 콜라보 레스토랑 「영령들의 만찬」",
@@ -102,7 +106,9 @@
         }
       ],
       "source_tier": "official",
-      "verified_at": "2026-10-15"
+      "verified_at": "2026-10-15",
+      "lat": 35.7289,
+      "lon": 139.7193
     },
     {
       "title_ko": "하이큐!! × and GALLERY 콜라보 카페",
@@ -136,7 +142,9 @@
         }
       ],
       "source_tier": "official",
-      "verified_at": "2026-10-15"
+      "verified_at": "2026-10-15",
+      "lat": 35.7312,
+      "lon": 139.7149
     },
     {
       "title_ko": "은혼 팝업숍 in 타워레코드",
@@ -170,7 +178,9 @@
         }
       ],
       "source_tier": "official",
-      "verified_at": "2026-10-15"
+      "verified_at": "2026-10-15",
+      "lat": 35.6616,
+      "lon": 139.7005
     },
     {
       "title_ko": "은혼 캐릭터 팝 스토어",
@@ -204,7 +214,9 @@
         }
       ],
       "source_tier": "official",
-      "verified_at": "2026-10-15"
+      "verified_at": "2026-10-15",
+      "lat": 35.6987,
+      "lon": 139.7714
     },
     {
       "title_ko": "MAPPA EXPO 15주년",
@@ -238,7 +250,9 @@
         }
       ],
       "source_tier": "official",
-      "verified_at": "2026-10-15"
+      "verified_at": "2026-10-15",
+      "lat": 35.677,
+      "lon": 139.7635
     },
     {
       "title_ko": "헤타리아 20주년 원화전 WorldFesta",
@@ -272,7 +286,9 @@
         }
       ],
       "source_tier": "official",
-      "verified_at": "2026-10-15"
+      "verified_at": "2026-10-15",
+      "lat": 35.7289,
+      "lon": 139.7193
     },
     {
       "title_ko": "약사의 혼잣말 「하늘에 울리는 춤의 선율」",
@@ -306,7 +322,9 @@
         }
       ],
       "source_tier": "official",
-      "verified_at": "2026-10-15"
+      "verified_at": "2026-10-15",
+      "lat": 35.6604,
+      "lon": 139.7292
     },
     {
       "title_ko": "超 다마고치 축제 in 시부하라",
@@ -374,7 +392,9 @@
         }
       ],
       "source_tier": "official",
-      "verified_at": "2026-10-15"
+      "verified_at": "2026-10-15",
+      "lat": 35.7056,
+      "lon": 139.7519
     },
     {
       "title_ko": "제66회 간다 헌책 축제",
@@ -409,7 +429,9 @@
       ],
       "source_tier": "official",
       "verified_at": "2026-10-15",
-      "map_note": "공식 페이지 주소가 사무국 주소로 보여 지도 생략 (진보초 거리 일대)"
+      "map_note": "공식 페이지 주소가 사무국 주소로 보여 지도 생략 (진보초 거리 일대)",
+      "lat": 35.6957,
+      "lon": 139.7577
     },
     {
       "title_ko": "이치방쿠지 드래곤볼 SPIRIT OF THE SAIYAN",
@@ -425,7 +447,7 @@
       "source_url": "https://1kuji.com/products/db_z8",
       "notes": "발매일부터 순차 발매, 매장마다 다를 수 있어요",
       "checked_date": "2026-10-15",
-      "thumbnail": "https://1kuji.com/ogp.jpg",
+      "thumbnail": "https://assets.1kuji.com/uploads/product/top_banner/10727/400fefae-ab68-40b8-abd5-98acbc301603.webp",
       "thumbnail_source": "https://1kuji.com/products/db_z8",
       "evidence": [
         {
@@ -436,7 +458,8 @@
         }
       ],
       "source_tier": "official",
-      "verified_at": "2026-10-15"
+      "verified_at": "2026-10-15",
+      "thumb_kind": "product"
     },
     {
       "title_ko": "이치방쿠지 우마무스메 프리티 더비 14탄",
@@ -452,7 +475,7 @@
       "source_url": "https://1kuji.com/products/umamusume17",
       "notes": "발매일부터 순차 발매, 매장마다 다를 수 있어요",
       "checked_date": "2026-10-15",
-      "thumbnail": "https://1kuji.com/ogp.jpg",
+      "thumbnail": "https://assets.1kuji.com/uploads/product/top_banner/10726/83adc030-5a0f-4362-af96-afd1c38c4bf7.webp",
       "thumbnail_source": "https://1kuji.com/products/umamusume17",
       "evidence": [
         {
@@ -463,7 +486,8 @@
         }
       ],
       "source_tier": "official",
-      "verified_at": "2026-10-15"
+      "verified_at": "2026-10-15",
+      "thumb_kind": "product"
     },
     {
       "title_ko": "이치방쿠지 진격의 거인 ~심장을 바쳐라~",
@@ -479,7 +503,7 @@
       "source_url": "https://1kuji.com/products/shingeki16",
       "notes": "발매일부터 순차 발매, 매장마다 다를 수 있어요",
       "checked_date": "2026-10-15",
-      "thumbnail": "https://1kuji.com/ogp.jpg",
+      "thumbnail": "https://assets.1kuji.com/uploads/product/top_banner/10760/297cb29d-7678-4f2a-9f86-28bdf55d3a2b.webp",
       "thumbnail_source": "https://1kuji.com/products/shingeki16",
       "evidence": [
         {
@@ -490,7 +514,8 @@
         }
       ],
       "source_tier": "official",
-      "verified_at": "2026-10-15"
+      "verified_at": "2026-10-15",
+      "thumb_kind": "product"
     },
     {
       "title_ko": "이치방쿠지 카구라바치",
@@ -506,7 +531,7 @@
       "source_url": "https://1kuji.com/products/kagurabachi",
       "notes": "발매일부터 순차 발매, 매장마다 다를 수 있어요",
       "checked_date": "2026-10-15",
-      "thumbnail": "https://1kuji.com/ogp.jpg",
+      "thumbnail": "https://assets.1kuji.com/uploads/product/top_banner/10742/a2c0341d-c282-4cfe-8796-a3a18895fc69.webp",
       "thumbnail_source": "https://1kuji.com/products/kagurabachi",
       "evidence": [
         {
@@ -517,7 +542,8 @@
         }
       ],
       "source_tier": "official",
-      "verified_at": "2026-10-15"
+      "verified_at": "2026-10-15",
+      "thumb_kind": "product"
     },
     {
       "title_ko": "이치방쿠지 원피스 -하늘에 울리는 \"섬의 노랫소리\"-",
@@ -533,7 +559,7 @@
       "source_url": "https://1kuji.com/products/onep_o12",
       "notes": "발매일부터 순차 발매, 매장마다 다를 수 있어요",
       "checked_date": "2026-10-15",
-      "thumbnail": "https://1kuji.com/ogp.jpg",
+      "thumbnail": "https://assets.1kuji.com/uploads/product/top_banner/10770/183d4578-65fd-4ac2-b429-9366b63c76c1.webp",
       "thumbnail_source": "https://1kuji.com/products/onep_o12",
       "evidence": [
         {
@@ -544,7 +570,8 @@
         }
       ],
       "source_tier": "official",
-      "verified_at": "2026-10-15"
+      "verified_at": "2026-10-15",
+      "thumb_kind": "product"
     },
     {
       "title_ko": "이치방쿠지 페이트/그랜드 오더 ~칼데아 픽업 메모리~",
@@ -560,7 +587,7 @@
       "source_url": "https://1kuji.com/products/fate29",
       "notes": "발매일부터 순차 발매, 매장마다 다를 수 있어요",
       "checked_date": "2026-10-15",
-      "thumbnail": "https://1kuji.com/ogp.jpg",
+      "thumbnail": "https://assets.1kuji.com/uploads/product/top_banner/10756/5f55c805-da19-4a27-9e4e-10f7bd768bd0.webp",
       "thumbnail_source": "https://1kuji.com/products/fate29",
       "evidence": [
         {
@@ -571,7 +598,8 @@
         }
       ],
       "source_tier": "official",
-      "verified_at": "2026-10-15"
+      "verified_at": "2026-10-15",
+      "thumb_kind": "product"
     },
     {
       "title_ko": "이치방쿠지 고질라 괴수난무 -제로의 고동-",
@@ -587,7 +615,7 @@
       "source_url": "https://1kuji.com/products/godzilla10",
       "notes": "발매일부터 순차 발매, 매장마다 다를 수 있어요",
       "checked_date": "2026-10-15",
-      "thumbnail": "https://1kuji.com/ogp.jpg",
+      "thumbnail": "https://assets.1kuji.com/uploads/product/top_banner/10789/827adbcd-6f7c-4d71-8285-79a543854a79.webp",
       "thumbnail_source": "https://1kuji.com/products/godzilla10",
       "evidence": [
         {
@@ -598,7 +626,8 @@
         }
       ],
       "source_tier": "official",
-      "verified_at": "2026-10-15"
+      "verified_at": "2026-10-15",
+      "thumb_kind": "product"
     },
     {
       "title_ko": "이치방쿠지 죠죠의 기묘한 모험 The Gathering of RIVALS",
@@ -614,7 +643,7 @@
       "source_url": "https://1kuji.com/products/jojo_26",
       "notes": "발매일부터 순차 발매, 매장마다 다를 수 있어요",
       "checked_date": "2026-10-15",
-      "thumbnail": "https://1kuji.com/ogp.jpg",
+      "thumbnail": "https://assets.1kuji.com/uploads/product/top_banner/10771/45e9d075-428f-45a8-bc7a-6a553a40caa0.webp",
       "thumbnail_source": "https://1kuji.com/products/jojo_26",
       "evidence": [
         {
@@ -625,7 +654,8 @@
         }
       ],
       "source_tier": "official",
-      "verified_at": "2026-10-15"
+      "verified_at": "2026-10-15",
+      "thumb_kind": "product"
     },
     {
       "title_ko": "이치방쿠지 페르소나 시리즈 30주년",
@@ -641,7 +671,7 @@
       "source_url": "https://1kuji.com/products/persona_30th",
       "notes": "발매일부터 순차 발매, 매장마다 다를 수 있어요",
       "checked_date": "2026-10-15",
-      "thumbnail": "https://1kuji.com/ogp.jpg",
+      "thumbnail": "https://assets.1kuji.com/uploads/product/top_banner/10768/f8d0271e-b224-482b-a65c-422ba694921c.webp",
       "thumbnail_source": "https://1kuji.com/products/persona_30th",
       "evidence": [
         {
@@ -652,7 +682,8 @@
         }
       ],
       "source_tier": "official",
-      "verified_at": "2026-10-15"
+      "verified_at": "2026-10-15",
+      "thumb_kind": "product"
     },
     {
       "title_ko": "조시가야 데즈쿠리이치 (수공예 시장)",
@@ -680,7 +711,9 @@
         }
       ],
       "source_tier": "official",
-      "verified_at": "2026-10-15"
+      "verified_at": "2026-10-15",
+      "lat": 35.7208,
+      "lon": 139.7166
     },
     {
       "title_ko": "조시가야 데즈쿠리이치 (수공예 시장)",
@@ -708,7 +741,695 @@
         }
       ],
       "source_tier": "official",
-      "verified_at": "2026-10-15"
+      "verified_at": "2026-10-15",
+      "lat": 35.7208,
+      "lon": 139.7166
+    },
+    {
+      "title_ko": "사카모토 데이즈 DJ 그루브 카페",
+      "title_ja": "SAKAMOTO DAYS DJ GROOVE CAFE at 洒落CAFE",
+      "category": "콜라보카페",
+      "area": "도쿄",
+      "venue": "샤레 CAFE 하라카도점 (도큐플라자 하라주쿠)",
+      "start": "2026-11-03",
+      "end": "2026-11-15",
+      "reservation": "",
+      "price": "",
+      "official_url": "https://shop.anique.jp/blogs/news/sakamoto-days-dj-groove-cafe",
+      "source_url": "https://charagoo.jp/collab/event/52daa83d12c9/",
+      "notes": "하라카도점은 푸드코트 방식이에요",
+      "checked_date": "2026-10-15",
+      "thumbnail": "http://shop.anique.jp/cdn/shop/articles/SDdj__KV___813-01_57ba2ad6-1aef-4aa9-a85d-872cca93a9bc.png?v=1790671286",
+      "thumbnail_source": "https://shop.anique.jp/blogs/news/sakamoto-days-dj-groove-cafe",
+      "map_query": "東京都渋谷区神宮前6丁目31-21",
+      "evidence": [
+        {
+          "url": "https://shop.anique.jp/blogs/news/sakamoto-days-dj-groove-cafe",
+          "tier": "official",
+          "quote": "【東京】 開催店舗 洒落CAFE ハラカド店 期間 2026年11月3日(火・祝)〜11月15日(日) 11:00〜23:00(コラボメニュー L.O. 22:00) 場所 東京都渋谷区神宮前6丁目31-21原宿スクエア内 東急プラザ原宿ハ",
+          "checked": "2026-10-15"
+        },
+        {
+          "url": "https://charagoo.jp/collab/event/52daa83d12c9/",
+          "tier": "aggregator",
+          "quote": "SAKAMOTO DAYSのコラボ・イベントです。期間は2026年10月24日〜11月15日。場所は洒落CAFE ハラカド店(東京)/洒落CAFE 心斎橋BIGSTEP店(大阪)/洒落CAFE 名古屋セントラルパ",
+          "checked": "2026-10-15"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-15",
+      "lat": 35.6661,
+      "lon": 139.7041
+    },
+    {
+      "title_ko": "블리치 천년혈전편 콜라보 카페",
+      "title_ja": "BLEACH 千年血戦篇-禍進譚- THE COLLABORATION CAFE",
+      "category": "콜라보카페",
+      "area": "도쿄",
+      "venue": "시부야 PARCO",
+      "start": "2026-09-18",
+      "end": "2026-11-03",
+      "reservation": "",
+      "price": "",
+      "official_url": "https://cafe.parco.jp/event/BLEACH_cafe",
+      "source_url": "https://charagoo.jp/collab/event/f1d17d57f967/",
+      "notes": "",
+      "checked_date": "2026-10-15",
+      "thumbnail": "https://image.parco.jp/SCCWEB/image/cafe/store/storage/w1078xh604/event_bleach_kv_yoko.jpg",
+      "thumbnail_source": "https://cafe.parco.jp/event/BLEACH_cafe",
+      "map_query": "東京都渋谷区宇田川町15-1",
+      "evidence": [
+        {
+          "url": "https://cafe.parco.jp/event/BLEACH_cafe",
+          "tier": "official",
+          "quote": "東京都渋谷区宇田川町15-1 渋谷PARCO 6F 開催期間 2026.9.18(金) - 11.3(火・祝) SNS VIEW SHIBUYA SHINSAI",
+          "checked": "2026-10-15"
+        },
+        {
+          "url": "https://charagoo.jp/collab/event/f1d17d57f967/",
+          "tier": "aggregator",
+          "quote": "ON CAFEはBLEACHのコラボ・イベントです。期間は2026年9月18日〜12月22日。場所は渋谷PARCO、心斎橋PARCO、名古屋PARCO。 TVアニメ『BLEACH 千年血戦篇-禍進譚-』のコラボカ",
+          "checked": "2026-10-15"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-15",
+      "lat": 35.6622,
+      "lon": 139.6989
+    },
+    {
+      "title_ko": "나의 히어로 아카데미아 카페 WE ARE HERO HOLICS",
+      "title_ja": "僕のヒーローアカデミアカフェーWE ARE HERO HOLICSー",
+      "category": "콜라보카페",
+      "area": "도쿄",
+      "venue": "BOX cafe&space 큐플라자 하라주쿠점",
+      "start": "2026-10-16",
+      "end": "2026-12-20",
+      "reservation": "",
+      "price": "",
+      "official_url": "https://heroaca-cafe.ltr-online.com/",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000329.000086964.html",
+      "notes": "",
+      "checked_date": "2026-10-15",
+      "thumbnail": "https://seat-images.groobee.com/heroaca-cafe/XsOSHzqpCaeF4YFlYdloNBBWtDYf4M8oeFJFnvUL.jpg",
+      "thumbnail_source": "https://heroaca-cafe.ltr-online.com/",
+      "map_query": "東京都渋谷区神宮前6丁目28番6号",
+      "evidence": [
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000000329.000086964.html",
+          "tier": "official",
+          "quote": "東京/原宿:BOX cafe&space キュープラザ原宿店 2026年10月16日(金)〜12月20日(日) 東京都渋谷区神宮前6丁目28番6号 キュープラザ原宿3F ■愛知/名",
+          "note": "주최사(엘티알) 공식 보도자료",
+          "checked": "2026-10-15"
+        },
+        {
+          "url": "https://charagoo.jp/collab/event/1932c665da40/",
+          "tier": "aggregator",
+          "quote": "ーは僕のヒーローアカデミアのコラボ・イベントです。期間は2026年10月16日〜12月20日。場所は東京(BOX cafe&space キュープラザ原宿店)、愛知(BOX cafe&spaceグローバルゲート名古",
+          "checked": "2026-10-15"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-15",
+      "lat": 35.6661,
+      "lon": 139.7041
+    },
+    {
+      "title_ko": "진격의 거인 DJ 테마 팝업숍",
+      "title_ja": "進撃の巨人 DJテーマ POP UP SHOP",
+      "category": "팝업스토어",
+      "area": "도쿄",
+      "venue": "타워레코드 시부야점",
+      "start": "2026-10-11",
+      "end": "2026-10-25",
+      "reservation": "",
+      "price": "",
+      "official_url": "https://shingeki-dj.anique.jp/",
+      "source_url": "https://charagoo.jp/collab/event/febdfaff573c/",
+      "notes": "1회 구매 수량 제한 있어요.",
+      "checked_date": "2026-10-15",
+      "thumbnail": "https://shingeki-dj.anique.jp/OGP.png",
+      "thumbnail_source": "https://shingeki-dj.anique.jp/",
+      "map_query": "東京都渋谷区神南1-22-14",
+      "evidence": [
+        {
+          "url": "https://shingeki-dj.anique.jp/",
+          "tier": "official",
+          "quote": "【東京】タワーレコード渋谷店 2F 〜TOWER SPACE SHIBUYA〜 開催期間 2026.10.11(日)〜10.25(日) 営業時間 11:00〜20:00 *初日のみ 11:30〜 会 場 タワーレコード渋谷店 2F 〜TOW",
+          "checked": "2026-10-15"
+        },
+        {
+          "url": "https://charagoo.jp/collab/event/febdfaff573c/",
+          "tier": "aggregator",
+          "quote": "UP SHOPは進撃の巨人のコラボ・イベントです。期間は2026年10月11日〜11月29日。場所はタワーレコード渋谷店、タワーレコードあべのHoop店、タワーレコード福岡パルコ店。 TVアニメ『進撃の巨人』のキ",
+          "checked": "2026-10-15"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-15",
+      "lat": 35.6616,
+      "lon": 139.7005
+    },
+    {
+      "title_ko": "유유백서 팝업숍",
+      "title_ja": "幽☆遊☆白書 POP UP SHOP",
+      "category": "팝업스토어",
+      "area": "도쿄",
+      "venue": "eeo Store 이케부쿠로 본점",
+      "start": "2026-10-31",
+      "end": "2026-11-12",
+      "reservation": "",
+      "price": "",
+      "official_url": "https://www.kadokawa.co.jp/topics/17844/",
+      "source_url": "https://charagoo.jp/collab/event/c653b7063747/",
+      "notes": "2,200엔 구매마다 일러스트 카드 1장 증정",
+      "checked_date": "2026-10-15",
+      "thumbnail": "https://eeo.today/store/101/html/template/101/assets/img/common/ogp.png",
+      "thumbnail_source": "https://eeo.today/store/101/title/646",
+      "map_query": "東京都豊島区東池袋1-25-14",
+      "evidence": [
+        {
+          "url": "https://www.kadokawa.co.jp/topics/17844/",
+          "tier": "official",
+          "quote": "■開催期間 会場&同時通販(先行受注) 2026年10月31日(土)〜11月12日(木) ■販売商品 ■開催場所 eeo",
+          "checked": "2026-10-15"
+        },
+        {
+          "url": "https://charagoo.jp/collab/event/c653b7063747/",
+          "tier": "aggregator",
+          "quote": "P SHOPは幽☆遊☆白書のコラボ・イベントです。期間は2026年10月31日〜11月12日。場所はeeo Store 池袋本店(東京都豊島区東池袋1-25-14 アルファビルディング1階)。 TVアニメ『幽☆遊",
+          "checked": "2026-10-15"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-15",
+      "lat": 35.7299,
+      "lon": 139.7155
+    },
+    {
+      "title_ko": "동방 Project × 도쿄타워",
+      "title_ja": "東方Project×東京タワー",
+      "category": "팝업스토어",
+      "area": "도쿄",
+      "venue": "도쿄타워 풋타운·메인데크 (TokyoComix)",
+      "start": "2026-10-02",
+      "end": "2026-11-01",
+      "reservation": "",
+      "price": "",
+      "official_url": "https://tt.tokyocomix.com/touhou-project/",
+      "source_url": "https://charagoo.jp/collab/event/f7a509ad942a/",
+      "notes": "",
+      "checked_date": "2026-10-15",
+      "thumbnail": "https://tt.tokyocomix.com/wp-content/themes/tt-tcx/images/common/tcx-ogp_600x400.png",
+      "thumbnail_source": "https://tt.tokyocomix.com/touhou-project/",
+      "map_query": "東京都港区芝公園4-2-8",
+      "evidence": [
+        {
+          "url": "https://shop.hakurei-sukeikai.com/event/id/28141",
+          "tier": "official",
+          "quote": "2026年10月2日(金)〜11月1日(日)に東京タワーで開催の〈東方Project×東京タワー〉のフットタウン内・展望",
+          "checked": "2026-10-15"
+        },
+        {
+          "url": "https://charagoo.jp/collab/event/f7a509ad942a/",
+          "tier": "aggregator",
+          "quote": "oject×東京タワーは東方のコラボ・イベントです。期間は2026年10月2日〜11月1日。場所は東京タワー フットタウン内・展望台(メインデッキ) TokyoComix Tokyo Tower Collabo",
+          "checked": "2026-10-15"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-15",
+      "lat": 35.6586,
+      "lon": 139.7454
+    },
+    {
+      "title_ko": "제5인격 팝업숍 in 핸즈 (시부야)",
+      "title_ja": "第五人格 POP UP SHOP inハンズ",
+      "category": "팝업스토어",
+      "area": "도쿄",
+      "venue": "핸즈 시부야점",
+      "start": "2026-10-15",
+      "end": "2026-10-31",
+      "reservation": "",
+      "price": "",
+      "official_url": "https://prtimes.jp/main/html/rd/p/000008866.000016756.html",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000008866.000016756.html",
+      "notes": "2,200엔 구매마다 체키 풍 카드 1장 증정.",
+      "checked_date": "2026-10-15",
+      "map_query": "東京都渋谷区宇田川町12-18",
+      "evidence": [
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000008866.000016756.html",
+          "tier": "official",
+          "quote": "【第1弾】 開催期間: 2026年10月15日(木)〜10月31日(土) 開催店舗:渋谷店 【第2弾】 開催期間:2026年11月10日(火)〜11月24日(火) 開催店舗:新宿店 【第3弾】 開催期間: 2027年1月14日(木)〜1月27日(水) 開催店舗:横浜店、心斎橋店 ",
+          "note": "주최사 공식 보도자료",
+          "checked": "2026-10-15"
+        },
+        {
+          "url": "https://charagoo.jp/collab/event/48f2673babe0/",
+          "tier": "aggregator",
+          "quote": "OP inハンズは第五人格のコラボ・イベントです。期間は2026年10月15日〜2027年1月27日。場所は渋谷店、新宿店、横浜店、心斎橋店。 「ハロウィン」をテーマにした『第五人格』のPOP UP SHOP。新商品の先",
+          "checked": "2026-10-15"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-15",
+      "lat": 35.662,
+      "lon": 139.6979
+    },
+    {
+      "title_ko": "치이카와 ☆ 별 내리는 스카이트리와 비밀의 섬",
+      "title_ja": "ちいかわ☆星ふるスカイツリー(R)とひみつの島",
+      "category": "전시·행사",
+      "area": "도쿄",
+      "venue": "도쿄 스카이트리 덴보 데크·덴보 회랑",
+      "start": "2026-07-10",
+      "end": "2026-10-31",
+      "reservation": "",
+      "price": "",
+      "official_url": "https://www.tokyo-skytree.jp/event/special/chiikawa/",
+      "source_url": "https://charagoo.jp/collab/event/a7d9e207df44/",
+      "notes": "전망대 입장권 필요. 콜라보 카페는 식사권 포함 입장권 필요",
+      "checked_date": "2026-10-15",
+      "thumbnail": "",
+      "thumbnail_source": "",
+      "map_query": "東京都墨田区押上1丁目1−2",
+      "evidence": [
+        {
+          "url": "https://www.tokyo-skytree.jp/event/special/chiikawa/",
+          "tier": "official",
+          "quote": "日程 2026. 7.10 (金) 〜 10.31 (土) 場所 東京スカイツリ",
+          "checked": "2026-10-15"
+        },
+        {
+          "url": "https://charagoo.jp/collab/event/a7d9e207df44/",
+          "tier": "aggregator",
+          "quote": "(R)とひみつの島はちいかわのコラボ・イベントです。期間は2026年7月10日〜10月31日。場所は東京スカイツリー天望デッキ、天望回廊。 東京スカイツリーで「ちいかわ」との2度目のコラボイベント開催。限定グッズ",
+          "checked": "2026-10-15"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-15",
+      "lat": 35.7108,
+      "lon": 139.8138
+    },
+    {
+      "title_ko": "고질라 박람회 마이너스의 세계",
+      "title_ja": "ゴジラ博 マイナスの世界",
+      "category": "전시·행사",
+      "area": "도쿄",
+      "venue": "다이마루 도쿄점 11층 행사장",
+      "start": "2026-11-06",
+      "end": "2026-11-17",
+      "reservation": "",
+      "price": "",
+      "official_url": "https://www.godzilla-tokusatsu.com/special_exhibition/",
+      "source_url": "https://charagoo.jp/collab/event/dcfb3b6d3e79/",
+      "notes": "예매권은 e+ 판매, 혼잡 시 정리권 배부 가능.",
+      "checked_date": "2026-10-15",
+      "thumbnail": "https://www.godzilla-tokusatsu.com/wp-content/uploads/2026/09/Ghaku_KV.png",
+      "thumbnail_source": "https://www.godzilla-tokusatsu.com/special_exhibition/",
+      "map_query": "東京都千代田区丸の内1丁目9−1",
+      "evidence": [
+        {
+          "url": "https://www.godzilla-tokusatsu.com/special_exhibition/",
+          "tier": "official",
+          "quote": "開催情報(東京) 会期:2026年11月6日(金)〜11月17日(火) 会場:大丸東京店 11階催事場 10時〜19時30分(20時閉場) ※最終日は17時30",
+          "checked": "2026-10-15"
+        },
+        {
+          "url": "https://charagoo.jp/collab/event/dcfb3b6d3e79/",
+          "tier": "aggregator",
+          "quote": "ラ博 マイナスの世界はゴジラのコラボ・イベントです。期間は2026年11月6日〜12月9日。場所は東京:大丸東京店 11階催事場/大阪:大丸梅田店 7階特設会場。 映画『ゴジラ-1.0』と最新作『ゴジラ-0.0",
+          "checked": "2026-10-15"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-15",
+      "lat": 35.6816,
+      "lon": 139.7672
+    },
+    {
+      "title_ko": "다카하타 후도존 국화 축제",
+      "title_ja": "高幡不動尊菊まつり",
+      "category": "축제",
+      "area": "도쿄",
+      "venue": "다카하타 후도존 (히노시)",
+      "start": "2026-10-28",
+      "end": "2026-11-17",
+      "reservation": "불필요",
+      "price": "",
+      "official_url": "https://www.takahatafudoson.or.jp/",
+      "source_url": "https://www.takahatafudoson.or.jp/",
+      "notes": "",
+      "checked_date": "2026-10-15",
+      "thumbnail": "https://www.takahatafudoson.or.jp/wp-content/themes/takahatafudokonngoji/images/takahatafudo-thumb.jpg",
+      "thumbnail_source": "https://www.takahatafudoson.or.jp/",
+      "map_query": "東京都日野市高幡733",
+      "evidence": [
+        {
+          "url": "https://shinsenhino.com/%e3%83%8b%e3%83%a5%e3%83%bc%e3%82%b9/%e7%ac%ac55%e5%9b%9e%e9%ab%98%e5%b9%a1%e4%b8%8d%e5%8b%95%e5%b0%8a%e8%8f%8a%e3%81%be%e3%81%a4%e3%82%8a%e9%96%8b%e5%82%ac.php",
+          "tier": "official",
+          "quote": "開催期間 10月28日(水)〜11月17日(火) 主 管 東京多摩菊花連盟 (日",
+          "note": "주최(히노시 관광협회) 공지",
+          "checked": "2026-10-15"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-15",
+      "lat": 35.6624,
+      "lon": 139.4128
+    },
+    {
+      "title_ko": "다카하타 후도존 단풍 축제",
+      "title_ja": "高幡不動尊もみじまつり",
+      "category": "축제",
+      "area": "도쿄",
+      "venue": "다카하타 후도존 (히노시)",
+      "start": "2026-11-18",
+      "end": "2026-11-30",
+      "reservation": "불필요",
+      "price": "",
+      "official_url": "https://www.takahatafudoson.or.jp/",
+      "source_url": "https://www.takahatafudoson.or.jp/",
+      "notes": "11/22·23 만등회·다카하타 단풍 등불길",
+      "checked_date": "2026-10-15",
+      "thumbnail": "https://www.takahatafudoson.or.jp/wp-content/themes/takahatafudokonngoji/images/takahatafudo-thumb.jpg",
+      "thumbnail_source": "https://www.takahatafudoson.or.jp/",
+      "map_query": "東京都日野市高幡733",
+      "evidence": [
+        {
+          "url": "https://www.takahatafudoson.or.jp/keidai/",
+          "tier": "official",
+          "quote": "2026年11月の予定 1日〜30日 七五三祈願 7日〜14日 世界糖尿病デー五重塔ブルーライトアップ 8日(日) フリーマーケット 14日・15日 高幡写仏会 15日(日) ござれ市(がらくた市) 18日〜30日 高幡不動尊もみじまつり ",
+          "checked": "2026-10-15"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-15",
+      "lat": 35.6624,
+      "lon": 139.4128
+    },
+    {
+      "title_ko": "치이카와 캡슐 스틱 (가챠)",
+      "title_ja": "ちいかわ カプセルステッキ",
+      "category": "가챠",
+      "area": "전국",
+      "venue": "전국 판매처 (가챠 코너 등)",
+      "start": "2026-10-29",
+      "end": null,
+      "reservation": "불필요",
+      "price": "1회 400엔",
+      "official_url": "https://gashapon.jp/products/detail.php?jan_code=4570118187321000",
+      "source_url": "https://gashapon.jp/products/detail.php?jan_code=4570118187321000",
+      "notes": "발매 시기: 2026년 10월 5주차. 지역·매장마다 다를 수 있어요",
+      "checked_date": "2026-10-15",
+      "thumbnail": "https://bandai-a.akamaihd.net/bc/img/model/xl/1000256911_1.jpg",
+      "thumbnail_source": "https://gashapon.jp/products/detail.php?jan_code=4570118187321000",
+      "evidence": [
+        {
+          "url": "https://gashapon.jp/products/detail.php?jan_code=4570118187321000",
+          "tier": "official",
+          "quote": "発売時期 2026年10月 第5週 価格",
+          "checked": "2026-10-15"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-15",
+      "thumb_kind": "product",
+      "date_label": "10월 5째 주 발매 (지역·매장별 상이)"
+    },
+    {
+      "title_ko": "원피스 유라유라시타이 (가챠)",
+      "title_ja": "ONE PIECE ゆらゆらし隊",
+      "category": "가챠",
+      "area": "전국",
+      "venue": "전국 판매처 (가챠 코너 등)",
+      "start": "2026-10-29",
+      "end": null,
+      "reservation": "불필요",
+      "price": "1회 500엔",
+      "official_url": "https://gashapon.jp/products/detail.php?jan_code=4570118196545000",
+      "source_url": "https://gashapon.jp/products/detail.php?jan_code=4570118196545000",
+      "notes": "발매 시기: 2026년 10월 5주차. 지역·매장마다 다를 수 있어요",
+      "checked_date": "2026-10-15",
+      "thumbnail": "https://bandai-a.akamaihd.net/bc/img/model/xl/1000258612_1.jpg",
+      "thumbnail_source": "https://gashapon.jp/products/detail.php?jan_code=4570118196545000",
+      "evidence": [
+        {
+          "url": "https://gashapon.jp/products/detail.php?jan_code=4570118196545000",
+          "tier": "official",
+          "quote": "発売時期 2026年10月 第5週 価格",
+          "checked": "2026-10-15"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-15",
+      "thumb_kind": "product",
+      "date_label": "10월 5째 주 발매 (지역·매장별 상이)"
+    },
+    {
+      "title_ko": "장송의 프리렌 마치보우케 3 (가챠)",
+      "title_ja": "葬送のフリーレン まちぼうけ3",
+      "category": "가챠",
+      "area": "전국",
+      "venue": "전국 판매처 (가챠 코너 등)",
+      "start": "2026-10-29",
+      "end": null,
+      "reservation": "불필요",
+      "price": "1회 400엔",
+      "official_url": "https://gashapon.jp/products/detail.php?jan_code=4582770068955000",
+      "source_url": "https://gashapon.jp/products/detail.php?jan_code=4582770068955000",
+      "notes": "발매 시기: 2026년 10월 5주차. 지역·매장마다 다를 수 있어요",
+      "checked_date": "2026-10-15",
+      "thumbnail": "https://bandai-a.akamaihd.net/bc/img/model/xl/1000258552_1.jpg",
+      "thumbnail_source": "https://gashapon.jp/products/detail.php?jan_code=4582770068955000",
+      "evidence": [
+        {
+          "url": "https://gashapon.jp/products/detail.php?jan_code=4582770068955000",
+          "tier": "official",
+          "quote": "発売時期 2026年10月 第5週 価格",
+          "checked": "2026-10-15"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-15",
+      "thumb_kind": "product",
+      "date_label": "10월 5째 주 발매 (지역·매장별 상이)"
+    },
+    {
+      "title_ko": "죠죠의 기묘한 모험 황금의 바람 메지루시 액세서리 01 (가챠)",
+      "title_ja": "ジョジョの奇妙な冒険 黄金の風 めじるしアクセサリー01",
+      "category": "가챠",
+      "area": "전국",
+      "venue": "전국 판매처 (가챠 코너 등)",
+      "start": "2026-10-29",
+      "end": null,
+      "reservation": "불필요",
+      "price": "1회 300엔",
+      "official_url": "https://gashapon.jp/products/detail.php?jan_code=4582770055481000",
+      "source_url": "https://gashapon.jp/products/detail.php?jan_code=4582770055481000",
+      "notes": "발매 시기: 2026년 10월 5주차 (최강 가샤 스테이션 선행 판매 중). 지역·매장마다 다를 수 있어요",
+      "checked_date": "2026-10-15",
+      "thumbnail": "https://bandai-a.akamaihd.net/bc/img/model/xl/1000258561_1.jpg",
+      "thumbnail_source": "https://gashapon.jp/products/detail.php?jan_code=4582770055481000",
+      "evidence": [
+        {
+          "url": "https://gashapon.jp/products/detail.php?jan_code=4582770055481000",
+          "tier": "official",
+          "quote": "発売時期 2026年10月 第5週 価格",
+          "checked": "2026-10-15"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-15",
+      "thumb_kind": "product",
+      "date_label": "10월 5째 주 발매 (지역·매장별 상이)"
+    },
+    {
+      "title_ko": "다카하타 후도존 고자레이치 (잡동사니 시장)",
+      "title_ja": "高幡不動尊 ござれ市（がらくた市）",
+      "category": "플리마켓",
+      "area": "도쿄",
+      "venue": "다카하타 후도존 경내 (히노시)",
+      "start": "2026-10-18",
+      "end": "2026-10-18",
+      "reservation": "불필요",
+      "price": "무료",
+      "official_url": "https://www.takahatafudoson.or.jp/",
+      "source_url": "https://www.takahatafudoson.or.jp/",
+      "notes": "매월 셋째 일요일 무렵",
+      "checked_date": "2026-10-15",
+      "thumbnail": "https://www.takahatafudoson.or.jp/wp-content/themes/takahatafudokonngoji/images/takahatafudo-thumb.jpg",
+      "thumbnail_source": "https://www.takahatafudoson.or.jp/",
+      "map_query": "東京都日野市高幡733",
+      "evidence": [
+        {
+          "url": "https://www.takahatafudoson.or.jp/keidai/",
+          "tier": "official",
+          "quote": "2026年10月の予定 11日(日) フリーマーケット 18日(日) ござれ市(がらくた市) ",
+          "checked": "2026-10-15"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-15",
+      "lat": 35.6624,
+      "lon": 139.4128
+    },
+    {
+      "title_ko": "다카하타 후도존 고자레이치 (잡동사니 시장)",
+      "title_ja": "高幡不動尊 ござれ市（がらくた市）",
+      "category": "플리마켓",
+      "area": "도쿄",
+      "venue": "다카하타 후도존 경내 (히노시)",
+      "start": "2026-11-15",
+      "end": "2026-11-15",
+      "reservation": "불필요",
+      "price": "무료",
+      "official_url": "https://www.takahatafudoson.or.jp/",
+      "source_url": "https://www.takahatafudoson.or.jp/",
+      "notes": "",
+      "checked_date": "2026-10-15",
+      "thumbnail": "https://www.takahatafudoson.or.jp/wp-content/themes/takahatafudokonngoji/images/takahatafudo-thumb.jpg",
+      "thumbnail_source": "https://www.takahatafudoson.or.jp/",
+      "map_query": "東京都日野市高幡733",
+      "evidence": [
+        {
+          "url": "https://www.takahatafudoson.or.jp/keidai/",
+          "tier": "official",
+          "quote": "2026年11月の予定 1日〜30日 七五三祈願 7日〜14日 世界糖尿病デー五重塔ブルーライトアップ 8日(日) フリーマーケット 14日・15日 高幡写仏会 15日(日) ござれ市(がらくた市) ",
+          "checked": "2026-10-15"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-15",
+      "lat": 35.6624,
+      "lon": 139.4128
+    },
+    {
+      "title_ko": "제5인격 팝업숍 in 핸즈 (신주쿠)",
+      "title_ja": "第五人格 POP UP SHOP inハンズ",
+      "category": "팝업스토어",
+      "area": "도쿄",
+      "venue": "핸즈 신주쿠점",
+      "start": "2026-11-10",
+      "end": "2026-11-24",
+      "reservation": "",
+      "price": "",
+      "official_url": "https://prtimes.jp/main/html/rd/p/000008866.000016756.html",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000008866.000016756.html",
+      "notes": "2,200엔 구매마다 체키 풍 카드 1장 증정.",
+      "checked_date": "2026-10-15",
+      "map_query": "東京都渋谷区千駄ヶ谷5-24-2",
+      "evidence": [
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000008866.000016756.html",
+          "tier": "official",
+          "quote": "【第1弾】 開催期間: 2026年10月15日(木)〜10月31日(土) 開催店舗:渋谷店 【第2弾】 開催期間:2026年11月10日(火)〜11月24日(火) 開催店舗:新宿店 【第3弾】 開催期間: 2027年1月14日(木)〜1月27日(水) 開催店舗:横浜店、心斎橋店 ",
+          "note": "주최사 공식 보도자료",
+          "checked": "2026-10-15"
+        },
+        {
+          "url": "https://charagoo.jp/collab/event/48f2673babe0/",
+          "tier": "aggregator",
+          "quote": "OP inハンズは第五人格のコラボ・イベントです。期間は2026年10月15日〜2027年1月27日。場所は渋谷店、新宿店、横浜店、心斎橋店。 「ハロウィン」をテーマにした『第五人格』のPOP UP SHOP。新商品の先",
+          "checked": "2026-10-15"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-15",
+      "lat": 35.688,
+      "lon": 139.7027
+    },
+    {
+      "title_ko": "오이 경마장 플리마켓 (Tokyo City Flea Market)",
+      "title_ja": "大井競馬場フリーマーケット -Tokyo City Flea Market-",
+      "category": "플리마켓",
+      "area": "도쿄",
+      "venue": "오이 경마장 제1주차장",
+      "start": "2026-10-24",
+      "end": "2026-10-24",
+      "reservation": "불필요",
+      "price": "무료",
+      "official_url": "https://trx.jp/",
+      "source_url": "https://shinagawa-kanko.or.jp/event/tokyo-city-flea-market-202610/",
+      "notes": "주말 위주 개최: 10/24·25·31, 11/1·7·8·14·15·21·22·23·28·29, 12/5·6·12·13·19·20·26·27. 일부 날짜는 단축 운영, 비 오면 취소",
+      "checked_date": "2026-10-15",
+      "thumbnail": "https://trx.jp/wp-content/themes/trx2025/img/og.jpg",
+      "thumbnail_source": "https://trx.jp/",
+      "map_query": "東京都品川区勝島2-1-2",
+      "evidence": [
+        {
+          "url": "https://trx.jp/",
+          "tier": "official",
+          "quote": "10/24(土) 品川区 大井競馬場TokyoCityFleaMarket 10",
+          "checked": "2026-10-15"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-15",
+      "lat": 35.5934,
+      "lon": 139.7405
+    },
+    {
+      "title_ko": "오이 경마장 플리마켓 (Tokyo City Flea Market)",
+      "title_ja": "大井競馬場フリーマーケット -Tokyo City Flea Market-",
+      "category": "플리마켓",
+      "area": "도쿄",
+      "venue": "오이 경마장 제1주차장",
+      "start": "2026-10-25",
+      "end": "2026-10-25",
+      "reservation": "불필요",
+      "price": "무료",
+      "official_url": "https://trx.jp/",
+      "source_url": "https://shinagawa-kanko.or.jp/event/tokyo-city-flea-market-202610/",
+      "notes": "주말 위주 개최: 10/24·25·31, 11/1·7·8·14·15·21·22·23·28·29, 12/5·6·12·13·19·20·26·27. 일부 날짜는 단축 운영, 비 오면 취소",
+      "checked_date": "2026-10-15",
+      "thumbnail": "https://trx.jp/wp-content/themes/trx2025/img/og.jpg",
+      "thumbnail_source": "https://trx.jp/",
+      "map_query": "東京都品川区勝島2-1-2",
+      "evidence": [
+        {
+          "url": "https://trx.jp/",
+          "tier": "official",
+          "quote": "10/25(日) 品川区 大井競馬場TokyoCityFleaMarket 10",
+          "checked": "2026-10-15"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-15",
+      "lat": 35.5934,
+      "lon": 139.7405
+    },
+    {
+      "title_ko": "오이 경마장 플리마켓 (Tokyo City Flea Market)",
+      "title_ja": "大井競馬場フリーマーケット -Tokyo City Flea Market-",
+      "category": "플리마켓",
+      "area": "도쿄",
+      "venue": "오이 경마장 제1주차장",
+      "start": "2026-10-31",
+      "end": "2026-10-31",
+      "reservation": "불필요",
+      "price": "무료",
+      "official_url": "https://trx.jp/",
+      "source_url": "https://shinagawa-kanko.or.jp/event/tokyo-city-flea-market-202610/",
+      "notes": "주말 위주 개최: 10/24·25·31, 11/1·7·8·14·15·21·22·23·28·29, 12/5·6·12·13·19·20·26·27. 일부 날짜는 단축 운영, 비 오면 취소",
+      "checked_date": "2026-10-15",
+      "thumbnail": "https://trx.jp/wp-content/themes/trx2025/img/og.jpg",
+      "thumbnail_source": "https://trx.jp/",
+      "map_query": "東京都品川区勝島2-1-2",
+      "evidence": [
+        {
+          "url": "https://trx.jp/",
+          "tier": "official",
+          "quote": "10/31(土) 品川区 大井競馬場TokyoCityFleaMarket 10",
+          "checked": "2026-10-15"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-15",
+      "lat": 35.5934,
+      "lon": 139.7405
     }
   ]
 }
