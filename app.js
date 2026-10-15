@@ -7,7 +7,7 @@ const pd=s=>{if(!s)return null;const[y,m,d]=s.split("-").map(Number);return new 
 const fmt=s=>{const d=pd(s);if(!d)return"";return `${d.getMonth()+1}/${d.getDate()}(${"일월화수목금토"[d.getDay()]})`};
 function status(e){const s=pd(e.start),en=pd(e.end);
   const sk=STOCK.has(e.category);
-  if(en&&en<today)return{k:"end"};if(s&&s>today)return{k:"soon",t:sk?"입고 예정":"예정"};
+  if(en&&en<today)return{k:"end"};if(!s&&sk)return{k:"soon",t:"입고 예정"};if(s&&s>today)return{k:"soon",t:sk?"입고 예정":"예정"};
   const left=en?Math.round((en-today)/864e5):99;
   return left<=7?{k:"ending",t:left===0?"오늘 종료":`곧 종료 D-${left}`}:{k:"now",t:sk?"입고 중":"진행 중"}}
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
