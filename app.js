@@ -86,17 +86,22 @@ const host=u=>{try{return new URL(u).hostname.replace(/^www\./,"")}catch{return"
 const period=e=>e.date_label?e.date_label:`${e.start?fmt(e.start):""}${e.end&&e.end!==e.start?" ~ "+fmt(e.end):""}`;
 function detail(e){const g=e.gallery||[];const groups=[...new Set(g.map(x=>x.group||""))];
   return `<div class="dv" role="dialog" aria-modal="true" aria-label="${esc(e.title_ko)} 자세히 보기"><button class="dvx" aria-label="닫기">✕</button>
-  <div class="dcard">${e.thumbnail?`<img class="dbg" src="${esc(e.thumbnail)}" alt="" ${e.thumb_pos?`style="object-position:${esc(e.thumb_pos)}"`:""} referrerpolicy="no-referrer">`:""}
+  <div class="dcard${e.image_fit==="contain"?" dfit":""}">${(e.image_hd||e.thumbnail)?(e.image_fit==="contain"?`<img class="dblur" src="${esc(e.image_hd||e.thumbnail)}" alt="" aria-hidden="true" referrerpolicy="no-referrer">`:"")+`<img class="dbg" src="${esc(e.image_hd||e.thumbnail)}" alt="" ${e.thumb_pos&&e.image_fit!=="contain"?`style="object-position:${esc(e.thumb_pos)}"`:""} referrerpolicy="no-referrer" ${e.image_hd&&e.thumbnail&&e.image_hd!==e.thumbnail?`onerror="this.onerror=null;this.src='${esc(e.thumbnail)}'"`:""}>`:""}
    <div class="dpill">${esc(e.title_ko)}</div>
    <div class="dpanel">${e.title_ja?`<p class="dja">${esc(e.title_ja)}</p>`:""}${e.summary_ko?`<p class="dsum">${esc(e.summary_ko)}</p>`:""}
     <ul><li>📍 ${esc(e.venue)}</li><li>🗓️ ${esc(period(e))}</li>${e.price?`<li>🏷️ ${esc(e.price)}</li>`:""}</ul>
     <div class="dtag">#${esc(e.category)} · ${esc(e.area)}</div>
     ${e.thumbnail?`<div class="dsrc">이미지 출처: <a href="${esc(e.thumbnail_source||e.official_url)}" target="_blank" rel="noopener">${esc(host(e.thumbnail_source||e.official_url||e.thumbnail))}</a></div>`:""}</div></div>
-  ${g.length?groups.map(gr=>`<h3 class="dgh">${esc(gr||"갤러리")}</h3><div class="dgrid">${g.filter(x=>(x.group||"")===gr).map(x=>`<figure><img src="${esc(x.img)}" alt="${esc(x.caption_ko)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.remove()"><figcaption><b>${esc(x.caption_ko)}</b>${x.caption_ja?`<span>${esc(x.caption_ja)}</span>`:""}${x.price?`<em>${esc(x.price)}</em>`:""}</figcaption></figure>`).join("")}</div>`).join("")
+  ${g.length?groups.map(gr=>`<h3 class="dgh">${esc(gr||"갤러리")}</h3><div class="dgrid">${g.filter(x=>(x.group||"")===gr).map(x=>`<figure><a class="zoom" href="${esc(x.full||x.img)}" target="_blank" rel="noopener" data-cap="${esc(x.caption_ko)}"><img src="${esc(x.img)}" alt="${esc(x.caption_ko)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.closest('figure').remove()"></a><figcaption><b>${esc(x.caption_ko)}</b>${x.caption_ja?`<span>${esc(x.caption_ja)}</span>`:""}${x.price?`<em>${esc(x.price)}</em>`:""}</figcaption></figure>`).join("")}</div>`).join("")
    +`<p class="dnote">${e.gallery_note?esc(e.gallery_note)+" · ":""}출처: <a href="${esc(e.gallery_source||e.official_url)}" target="_blank" rel="noopener">${esc(host(e.gallery_source||e.official_url))}</a></p>`:""}
   ${e.official_url?`<a class="dlink" href="${esc(e.official_url)}" target="_blank" rel="noopener">공식 사이트에서 확인하기</a>`:""}</div>`}
 function openDetail(e){closeDetail();const o=document.createElement("div");o.className="dov";o.innerHTML=detail(e);document.body.appendChild(o);document.body.style.overflow="hidden";o.querySelector(".dvx").focus();
   o.addEventListener("click",ev=>{if(ev.target===o||ev.target.closest(".dvx"))closeDetail()})}
 function closeDetail(){const o=document.querySelector(".dov");if(o){o.remove();document.body.style.overflow=""}}
-document.addEventListener("keydown",ev=>{if(ev.key==="Escape")closeDetail()});
+function closeLB(){const l=document.querySelector(".lb");if(l){l.remove();return true}return false}
+document.addEventListener("keydown",ev=>{if(ev.key==="Escape"){if(!closeLB())closeDetail()}});
+document.addEventListener("click",ev=>{const a=ev.target.closest(".dgrid a.zoom");if(!a)return;ev.preventDefault();ev.stopPropagation();closeLB();
+  const l=document.createElement("div");l.className="lb";l.setAttribute("role","dialog");l.setAttribute("aria-label","사진 크게 보기");
+  l.innerHTML=`<button class="dvx" aria-label="닫기">✕</button><img src="${esc(a.getAttribute("href"))}" alt="" referrerpolicy="no-referrer"><p>${esc(a.dataset.cap||"")} · <a href="${esc(a.getAttribute("href"))}" target="_blank" rel="noopener">원본 열기</a></p>`;
+  l.addEventListener("click",e2=>{if(!e2.target.closest("p a"))l.remove()});document.body.appendChild(l)},true);
 document.addEventListener("click",ev=>{const t=ev.target.closest(".card .dt");if(!t)return;const c=t.closest(".card");const e=EV[+c.dataset.i];if(e)openDetail(e)});
