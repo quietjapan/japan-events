@@ -40,6 +40,31 @@
   <section id="list" class="list"></section>
 </main>
 <footer class="wrap ft"><a class="fb" href="https://blog.naver.com/rownsh00/224442817755" target="_blank" rel="noopener">💬 문의·개선점·제보 남기기 (블로그 댓글)</a><br>정보는 작성 시점 기준이며 변경될 수 있어요. 방문 전 공식 안내를 꼭 확인해 주세요.<br>© 조용한 관종의 일본</footer>
+
+<button type="button" id="fxbtn" class="fxbtn" aria-expanded="false" aria-controls="fxpanel">💱 환율계산기</button>
+<div id="fxov" class="fxov" hidden>
+<div id="fxpanel" class="fxpanel" role="dialog" aria-modal="true" aria-label="환율 계산기">
+  <div class="fxhd"><b>💱 환율 계산기</b><button type="button" id="fxx" class="fxx" aria-label="닫기">✕</button></div>
+  <p class="fxrate" id="fxrate">환율 불러오는 중…</p>
+  <div class="fxio">
+    <label class="fxlab"><span id="fxfromlbl">엔화 (JPY)</span>
+      <input id="fxin" type="number" inputmode="decimal" min="0" step="any" placeholder="0" aria-label="금액 입력">
+    </label>
+    <button type="button" id="fxswap" class="fxswap" aria-label="통화 바꾸기" title="바꾸기">⇄</button>
+    <div class="fxlab"><span id="fxtolbl">원화 (KRW)</span>
+      <output id="fxout" class="fxout" for="fxin">0</output>
+    </div>
+  </div>
+  <div class="fxquick" id="fxquick">
+    <button type="button" data-jpy="1000">1,000엔</button>
+    <button type="button" data-jpy="5000">5,000엔</button>
+    <button type="button" data-jpy="10000">10,000엔</button>
+  </div>
+  <p class="fxnote">참고용 환율이에요 (실제 카드·환전 환율과 다를 수 있어요)</p>
+</div>
+</div>
+
+<script src="fx.js"></script>
 <script src="app.js"></script>
 <script src="weather.js"></script>
 </body></html>

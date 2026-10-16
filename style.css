@@ -88,3 +88,27 @@ details.map{font-size:13px}details.map summary{cursor:pointer;color:var(--accent
 .dfit .dbg{position:relative;inset:auto;height:auto;aspect-ratio:1;order:1;margin-top:64px}
 .dfit .dpill{position:absolute;top:0;left:0;right:0;margin:12px auto 0;width:fit-content;max-width:calc(100% - 32px);z-index:2}
 .dfit .dpanel{order:2;margin-top:0}
+
+/* 환율 계산기 — fixed, above detail modal (z50) & lightbox (z60) */
+.fxbtn{position:fixed;right:14px;bottom:18px;z-index:70;padding:11px 14px;border:0;border-radius:999px;background:var(--ink);color:#fff;font:inherit;font-size:14px;font-weight:700;cursor:pointer;box-shadow:0 4px 16px rgba(0,0,0,.22);line-height:1.2}
+.fxbtn:hover,.fxbtn[aria-expanded="true"]{background:var(--accent)}
+.fxov{position:fixed;inset:0;z-index:71;background:rgba(20,16,12,.35);display:flex;align-items:flex-end;justify-content:flex-end;padding:12px 12px 68px}
+.fxov[hidden]{display:none!important}
+.fxpanel{width:100%;max-width:320px;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px;box-shadow:0 12px 40px rgba(0,0,0,.28);position:relative}
+.fxhd{display:flex;justify-content:space-between;align-items:center;margin:0 0 8px}
+.fxhd b{font-size:15px}
+.fxx{width:32px;height:32px;border:0;border-radius:50%;background:var(--soft);color:var(--ink);font-size:16px;cursor:pointer;line-height:1}
+.fxrate{margin:0 0 10px;font-size:13px;color:var(--mute);min-height:1.4em}
+.fxrate b{color:var(--ink)}
+.fxio{display:grid;grid-template-columns:1fr auto 1fr;gap:6px;align-items:end}
+.fxlab{display:flex;flex-direction:column;gap:4px;font-size:12px;color:var(--mute);min-width:0}
+.fxlab input,.fxout{font:inherit;font-size:18px;font-weight:700;padding:10px 8px;border:1px solid var(--line);border-radius:10px;background:#fff;color:var(--ink);width:100%;min-width:0}
+.fxout{display:block;background:var(--soft);line-height:1.25;min-height:44px;box-sizing:border-box}
+.fxswap{width:36px;height:36px;margin-bottom:4px;border:1px solid var(--line);border-radius:50%;background:var(--card);font-size:16px;cursor:pointer;color:var(--ink)}
+.fxquick{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
+.fxquick button{flex:1;min-width:0;font:inherit;font-size:12px;font-weight:600;padding:7px 6px;border:1px solid var(--line);border-radius:999px;background:var(--soft);color:var(--ink);cursor:pointer}
+.fxquick button:hover{border-color:var(--ink)}
+.fxnote{margin:10px 0 0;font-size:11px;color:var(--mute);line-height:1.45;word-break:keep-all}
+@media(max-width:390px){.fxbtn{right:10px;bottom:14px;padding:10px 12px;font-size:13px}.fxov{padding:10px 10px 62px}.fxpanel{max-width:100%}.fxio{grid-template-columns:1fr;gap:8px}.fxswap{justify-self:center;margin:0}}
+.fxkrw{font-weight:500;font-size:.9em;color:var(--mute);white-space:nowrap}
+.dgrid em .fxkrw{color:var(--mute);font-weight:500}

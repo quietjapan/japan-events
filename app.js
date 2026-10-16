@@ -19,6 +19,7 @@ const magEnd=e=>{const d=pd(e.start);d.setDate(d.getDate()+MAG_DAYS);return iso(
 const inRange=e=>{if(!st.from&&!st.to)return true;const s=e.start||"0000",en=e.end||(e.category===MAG&&e.start?magEnd(e):"9999");
   return(!st.to||s<=st.to)&&(!st.from||en>=st.from)};
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const pricet=s=>(window.FX&&FX.annotate)?FX.annotate(s):esc(s);
 const CITY={"도쿄":[35.6812,139.7671],"오사카":[34.6937,135.5023],"교토":[35.0116,135.7681],"나고야":[35.1709,136.8815],"후쿠오카":[33.5902,130.4017],"삿포로":[43.0618,141.3545],"요코하마":[35.4437,139.638]};
 const WX={0:["☀️","맑음"],1:["🌤️","대체로 맑음"],2:["⛅","구름 조금"],3:["☁️","흐림"],45:["🌫️","안개"],48:["🌫️","안개"],51:["🌦️","약한 이슬비"],53:["🌦️","이슬비"],55:["🌦️","강한 이슬비"],56:["🌧️","어는 이슬비"],57:["🌧️","어는 이슬비"],61:["🌧️","약한 비"],63:["🌧️","비"],65:["🌧️","강한 비"],66:["🌧️","어는 비"],67:["🌧️","어는 비"],71:["🌨️","약한 눈"],73:["🌨️","눈"],75:["🌨️","많은 눈"],77:["🌨️","싸락눈"],80:["🌦️","소나기"],81:["🌦️","소나기"],82:["⛈️","강한 소나기"],85:["🌨️","눈 소나기"],86:["🌨️","눈 소나기"],95:["⛈️","뇌우"],96:["⛈️","뇌우·우박"],99:["⛈️","뇌우·우박"]};
 const iso=d=>`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;
@@ -60,7 +61,7 @@ function render(){
   ${e.summary_ko?`<div class="sum"><span class="sumlbl"><a href="${esc(e.summary_source||e.official_url)}" target="_blank" rel="noopener">공식 페이지 요약</a></span><p>${esc(e.summary_ko)}</p></div>`:""}
   ${e.thumbnail?`<p class="credit"><a href="${esc(e.thumbnail_source||e.official_url)}" target="_blank" rel="noopener">이미지 출처</a></p>`:""}
   <dl><dt>${STOCK.has(e.category)||e.category===MAG?"발매":"기간"}</dt><dd>${e.date_label?esc(e.date_label):`${e.start?fmt(e.start):""}${e.end&&e.end!==e.start?" ~ "+fmt(e.end):(!e.end&&!STOCK.has(e.category)&&e.category!==MAG?" ~":"")}`}</dd><dt>장소</dt><dd>${esc(e.venue)}</dd>
-  ${e.reservation?`<dt>예약</dt><dd>${esc(e.reservation)}</dd>`:""}${e.price?`<dt>가격</dt><dd>${esc(e.price)}</dd>`:""}</dl>
+  ${e.reservation?`<dt>예약</dt><dd>${esc(e.reservation)}</dd>`:""}${e.price?`<dt>가격</dt><dd>${pricet(e.price)}</dd>`:""}</dl>
   ${e.notes?`<p class="note">📝 ${esc(e.notes)}</p>`:""}${e.verified_at?`<p class="note">✅ 공식 사이트 원문 대조 ${esc(e.verified_at)}</p>`:""}
   ${picker(e)}
   ${mapq(e)?`<details class="map" data-q="${esc(mapq(e))}"><summary>📍 지도 펼치기</summary><div class="mapbox"></div></details>`:""}
@@ -89,15 +90,16 @@ function detail(e){const g=e.gallery||[];const groups=[...new Set(g.map(x=>x.gro
   <div class="dcard${e.image_fit==="contain"?" dfit":""}">${(e.image_hd||e.thumbnail)?(e.image_fit==="contain"?`<img class="dblur" src="${esc(e.image_hd||e.thumbnail)}" alt="" aria-hidden="true" referrerpolicy="no-referrer">`:"")+`<img class="dbg" src="${esc(e.image_hd||e.thumbnail)}" alt="" ${e.thumb_pos&&e.image_fit!=="contain"?`style="object-position:${esc(e.thumb_pos)}"`:""} referrerpolicy="no-referrer" ${e.image_hd&&e.thumbnail&&e.image_hd!==e.thumbnail?`onerror="this.onerror=null;this.src='${esc(e.thumbnail)}'"`:""}>`:""}
    <div class="dpill">${esc(e.title_ko)}</div>
    <div class="dpanel">${e.title_ja?`<p class="dja">${esc(e.title_ja)}</p>`:""}${e.summary_ko?`<p class="dsum">${esc(e.summary_ko)}</p>`:""}
-    <ul><li>📍 ${esc(e.venue)}</li><li>🗓️ ${esc(period(e))}</li>${e.price?`<li>🏷️ ${esc(e.price)}</li>`:""}</ul>
+    <ul><li>📍 ${esc(e.venue)}</li><li>🗓️ ${esc(period(e))}</li>${e.price?`<li>🏷️ ${pricet(e.price)}</li>`:""}</ul>
     <div class="dtag">#${esc(e.category)} · ${esc(e.area)}</div>
     ${e.thumbnail?`<div class="dsrc">이미지 출처: <a href="${esc(e.thumbnail_source||e.official_url)}" target="_blank" rel="noopener">${esc(host(e.thumbnail_source||e.official_url||e.thumbnail))}</a></div>`:""}</div></div>
-  ${g.length?groups.map(gr=>`<h3 class="dgh">${esc(gr||"갤러리")}</h3><div class="dgrid">${g.filter(x=>(x.group||"")===gr).map(x=>`<figure><a class="zoom" href="${esc(x.full||x.img)}" target="_blank" rel="noopener" data-cap="${esc(x.caption_ko)}"><img src="${esc(x.img)}" alt="${esc(x.caption_ko)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.closest('figure').remove()"></a><figcaption><b>${esc(x.caption_ko)}</b>${x.caption_ja?`<span>${esc(x.caption_ja)}</span>`:""}${x.price?`<em>${esc(x.price)}</em>`:""}</figcaption></figure>`).join("")}</div>`).join("")
+  ${g.length?groups.map(gr=>`<h3 class="dgh">${esc(gr||"갤러리")}</h3><div class="dgrid">${g.filter(x=>(x.group||"")===gr).map(x=>`<figure><a class="zoom" href="${esc(x.full||x.img)}" target="_blank" rel="noopener" data-cap="${esc(x.caption_ko)}"><img src="${esc(x.img)}" alt="${esc(x.caption_ko)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.closest('figure').remove()"></a><figcaption><b>${esc(x.caption_ko)}</b>${x.caption_ja?`<span>${esc(x.caption_ja)}</span>`:""}${x.price?`<em>${pricet(x.price)}</em>`:""}</figcaption></figure>`).join("")}</div>`).join("")
    +`<p class="dnote">${e.gallery_note?esc(e.gallery_note)+" · ":""}출처: <a href="${esc(e.gallery_source||e.official_url)}" target="_blank" rel="noopener">${esc(host(e.gallery_source||e.official_url))}</a></p>`:""}
   ${e.official_url?`<a class="dlink" href="${esc(e.official_url)}" target="_blank" rel="noopener">공식 사이트에서 확인하기</a>`:""}</div>`}
-function openDetail(e){closeDetail();const o=document.createElement("div");o.className="dov";o.innerHTML=detail(e);document.body.appendChild(o);document.body.style.overflow="hidden";o.querySelector(".dvx").focus();
+let DETAIL_E=null;
+function openDetail(e){closeDetail();DETAIL_E=e;const o=document.createElement("div");o.className="dov";o.innerHTML=detail(e);document.body.appendChild(o);document.body.style.overflow="hidden";o.querySelector(".dvx").focus();
   o.addEventListener("click",ev=>{if(ev.target===o||ev.target.closest(".dvx"))closeDetail()})}
-function closeDetail(){const o=document.querySelector(".dov");if(o){o.remove();document.body.style.overflow=""}}
+function closeDetail(){const o=document.querySelector(".dov");if(o){o.remove();document.body.style.overflow="";DETAIL_E=null}}
 function closeLB(){const l=document.querySelector(".lb");if(l){l.remove();return true}return false}
 document.addEventListener("keydown",ev=>{if(ev.key==="Escape"){if(!closeLB())closeDetail()}});
 document.addEventListener("click",ev=>{const a=ev.target.closest(".dgrid a.zoom");if(!a)return;ev.preventDefault();ev.stopPropagation();closeLB();
@@ -105,3 +107,5 @@ document.addEventListener("click",ev=>{const a=ev.target.closest(".dgrid a.zoom"
   l.innerHTML=`<button class="dvx" aria-label="닫기">✕</button><img src="${esc(a.getAttribute("href"))}" alt="" referrerpolicy="no-referrer"><p>${esc(a.dataset.cap||"")} · <a href="${esc(a.getAttribute("href"))}" target="_blank" rel="noopener">원본 열기</a></p>`;
   l.addEventListener("click",e2=>{if(!e2.target.closest("p a"))l.remove()});document.body.appendChild(l)},true);
 document.addEventListener("click",ev=>{const t=ev.target.closest(".card .dt");if(!t)return;const c=t.closest(".card");const e=EV[+c.dataset.i];if(e)openDetail(e)});
+
+window.addEventListener("fxrate",()=>{if(typeof render==="function")render();if(DETAIL_E){const e=DETAIL_E;closeDetail();openDetail(e)}});
