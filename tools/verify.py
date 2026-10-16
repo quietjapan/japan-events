@@ -51,6 +51,8 @@ def main():
         end = e.get("end") or e.get("start")
         if not e.get("end") and e.get("start") and e.get("category") in ("가챠", "쿠지"):
             end = (dt.date.fromisoformat(e["start"]) + dt.timedelta(days=30)).isoformat()  # 발매 후 30일간 '입고 중'
+        if not e.get("end") and e.get("start") and e.get("category") == "잡지 부록":
+            end = (dt.date.fromisoformat(e["start"]) + dt.timedelta(days=35)).isoformat()  # 발매 후 약 5주(다음 호로 교체)
         if end and dt.date.fromisoformat(end) < today:
             removed.append(e); continue
         if "--backfill" in sys.argv and not e.get("evidence"): backfill.enrich(e)

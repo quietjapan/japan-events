@@ -77,3 +77,4 @@ details.map{font-size:13px}details.map summary{cursor:pointer;color:var(--accent
 .row select{flex:0 0 auto;max-width:40%}.range input{flex:1 1 120px;min-width:0}
 @media(max-width:480px){.range .rl{width:100%}.range input{flex:1 1 0}#q::placeholder{font-size:13px}}
 #q{width:0}.range input{width:0}@media(max-width:480px){.range button{margin-left:auto}}
+.c-mag{background:#0c8599!important}.magintro .sumlbl{font-size:15px;font-weight:700;color:inherit;display:block;margin-bottom:4px}.magintro{padding:12px 14px}.magintro{margin:0 0 12px}.magintro[hidden]{display:none}.magintro p{line-height:1.65;word-break:keep-all}.magintro .magsub{font-size:.85em;opacity:.75;margin-top:6px}

@@ -1,20 +1,22 @@
-const CATS=["팝업스토어","콜라보카페","전시·행사","축제","가챠","쿠지","플리마켓"];
-const STOCK=new Set(["가챠","쿠지"]);
-const CATCLS={"팝업스토어":"c-pop","콜라보카페":"c-cafe","전시·행사":"c-expo","축제":"c-fest","가챠":"c-gacha","쿠지":"c-kuji","플리마켓":"c-flea"};
+const CATS=["팝업스토어","콜라보카페","전시·행사","축제","가챠","쿠지","플리마켓","잡지 부록"];
+const STOCK=new Set(["가챠","쿠지"]);const MAG="잡지 부록";const MAG_DAYS=35;
+const CATCLS={"팝업스토어":"c-pop","콜라보카페":"c-cafe","전시·행사":"c-expo","축제":"c-fest","가챠":"c-gacha","쿠지":"c-kuji","플리마켓":"c-flea","잡지 부록":"c-mag"};
 const st={cat:"",area:"",q:"",s:"all",from:"",to:""};let EV=[];
 const today=(()=>{const d=new Date();d.setHours(0,0,0,0);return d})();
 const pd=s=>{if(!s)return null;const[y,m,d]=s.split("-").map(Number);return new Date(y,m-1,d)};
 const fmt=s=>{const d=pd(s);if(!d)return"";return `${d.getMonth()+1}/${d.getDate()}(${"일월화수목금토"[d.getDay()]})`};
 function status(e){const s=pd(e.start),en=pd(e.end);
+  if(e.category===MAG){if(!s)return{k:"end"};const age=Math.round((today-s)/864e5);if(age>MAG_DAYS)return{k:"end"};return age<0?{k:"soon",t:"발매 예정"}:{k:"now",t:"발매 중"}}
   const sk=STOCK.has(e.category);
   if(en&&en<today)return{k:"end"};if(!s&&sk)return{k:"soon",t:"입고 예정"};if(s&&s>today)return{k:"soon",t:sk?"입고 예정":"예정"};
   const left=en?Math.round((en-today)/864e5):99;
   return left<=14?{k:"ending",t:left===0?"오늘 종료":`곧 종료 D-${left}`}:{k:"now",t:sk?"입고 중":"진행 중"}}
 function urg(e,x){const s=pd(e.start),en=pd(e.end);
   if(x.k==="ending"){const l=Math.round((en-today)/864e5);return{c:l<=7?"u-hot":"u-warm",t:`🔥 ${l===0?"오늘 종료":"D-"+l}`}}
-  if(STOCK.has(e.category)&&s&&s>today){const l=Math.round((s-today)/864e5);if(l<=7)return{c:"u-new",t:`🆕 곧 발매 D-${l}`}}
+  if((STOCK.has(e.category)||e.category===MAG)&&s&&s>today){const l=Math.round((s-today)/864e5);if(l<=7)return{c:"u-new",t:`🆕 곧 발매 D-${l}`}}
   return null}
-const inRange=e=>{if(!st.from&&!st.to)return true;const s=e.start||"0000",en=e.end||"9999";
+const magEnd=e=>{const d=pd(e.start);d.setDate(d.getDate()+MAG_DAYS);return iso(d)};
+const inRange=e=>{if(!st.from&&!st.to)return true;const s=e.start||"0000",en=e.end||(e.category===MAG&&e.start?magEnd(e):"9999");
   return(!st.to||s<=st.to)&&(!st.from||en>=st.from)};
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const CITY={"도쿄":[35.6812,139.7671],"오사카":[34.6937,135.5023],"교토":[35.0116,135.7681],"나고야":[35.1709,136.8815],"후쿠오카":[33.5902,130.4017],"삿포로":[43.0618,141.3545],"요코하마":[35.4437,139.638]};
@@ -22,7 +24,7 @@ const WX={0:["☀️","맑음"],1:["🌤️","대체로 맑음"],2:["⛅","구�
 const iso=d=>`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;
 const FC_DAYS=16;const wxCache={};
 function coords(e){if(e.lat&&e.lon)return[e.lat,e.lon,true];const c=CITY[e.area];return c?[c[0],c[1],false]:null}
-function pickRange(e){if(e.area==="전국"||!coords(e)||!e.start)return null;const mn=[e.start,iso(today)].sort()[1];const mx=e.end||e.start;return mn<=mx?[mn,mx]:null}
+function pickRange(e){if(e.area==="전국"||e.category===MAG||!coords(e)||!e.start)return null;const mn=[e.start,iso(today)].sort()[1];const mx=e.end||e.start;return mn<=mx?[mn,mx]:null}
 function dayWx(lat,lon,date){const k=`${lat},${lon}`;
   wxCache[k]=wxCache[k]||fetch(`https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=Asia%2FTokyo&forecast_days=${FC_DAYS}`).then(r=>r.json());
   return wxCache[k].then(d=>{const i=d.daily.time.indexOf(date);return i<0?null:{c:d.daily.weather_code[i],hi:d.daily.temperature_2m_max[i],lo:d.daily.temperature_2m_min[i],p:d.daily.precipitation_probability_max[i]}})}
@@ -37,7 +39,7 @@ document.addEventListener("change",ev=>{const inp=ev.target;if(!inp.classList||!
   .catch(()=>{out.innerHTML='<span class="wx-msg">날씨를 불러오지 못했어요.</span>'})});
 function picker(e){const r=pickRange(e);if(!r)return"";const [la,lo,venue]=coords(e);
   return `<div class="pick"><label>📅 방문 날짜 <input type="date" class="visit" min="${r[0]}" max="${r[1]}" data-lat="${la}" data-lon="${lo}" data-src="${venue?"행사장 위치":e.area+" 시내"}"></label><div class="pickwx"><span class="wx-msg">날짜를 고르면 그날 날씨가 보여요</span></div></div>`}
-const mapq=e=>e.area!=="전국"&&e.map_query?e.map_query:"";
+const mapq=e=>e.area!=="전국"&&e.category!==MAG&&e.map_query?e.map_query:"";
 const thumb=e=>`<div class="th dt ${CATCLS[e.category]||""}"><span>${esc(e.category)}</span>${e.thumbnail?`<img src="${esc(e.thumbnail)}" alt="" ${e.thumb_pos?`style="object-position:${esc(e.thumb_pos)}"`:""} loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:""}</div>`;
 document.addEventListener("toggle",ev=>{const d=ev.target;if(!(d instanceof HTMLDetailsElement)||!d.open||!d.classList.contains("map"))return;
   const box=d.querySelector(".mapbox");if(!box.firstChild)box.innerHTML=`<iframe loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=${encodeURIComponent(d.dataset.q)}&output=embed" title="지도"></iframe>`},true);
@@ -48,15 +50,16 @@ function render(){
     &&(st.s==="all"||(st.s==="soon"?x.k==="soon":x.k!=="soon"))
     &&inRange(e)
     &&(!q||[e.title_ko,e.title_ja,e.venue,e.summary_ko].join(" ").normalize("NFKC").toLowerCase().includes(q)))
-   .sort((a,b)=>(a.e.end||"9").localeCompare(b.e.end||"9"));
+   .sort((a,b)=>{const ka=a.e.category===MAG?magEnd(a.e):(a.e.end||"9"),kb=b.e.category===MAG?magEnd(b.e):(b.e.end||"9");return ka.localeCompare(kb)});
   document.getElementById("count").textContent=`${rows.length}건`;
+  document.getElementById("magintro").hidden=st.cat!==MAG;
   document.getElementById("list").innerHTML=rows.length?rows.map(({e,x})=>{const u=urg(e,x);return `
   <article class="card${u?" "+u.c:""}" data-i="${EV.indexOf(e)}">${u?`<div class="ub">${u.t}</div>`:""}
   <div class="top">${thumb(e)}<div class="tx"><div class="badges"><span class="b cat ${CATCLS[e.category]||""}">${esc(e.category)}</span><span class="b ${x.k}">${x.t}</span><span class="b">${esc(e.area)}</span></div>
   <h2 class="dt">${esc(e.title_ko)}</h2><p class="ja">${esc(e.title_ja||"")}</p></div></div>
   ${e.summary_ko?`<div class="sum"><span class="sumlbl"><a href="${esc(e.summary_source||e.official_url)}" target="_blank" rel="noopener">공식 페이지 요약</a></span><p>${esc(e.summary_ko)}</p></div>`:""}
   ${e.thumbnail?`<p class="credit"><a href="${esc(e.thumbnail_source||e.official_url)}" target="_blank" rel="noopener">이미지 출처</a></p>`:""}
-  <dl><dt>${STOCK.has(e.category)?"발매":"기간"}</dt><dd>${e.date_label?esc(e.date_label):`${e.start?fmt(e.start):""}${e.end&&e.end!==e.start?" ~ "+fmt(e.end):(!e.end&&!STOCK.has(e.category)?" ~":"")}`}</dd><dt>장소</dt><dd>${esc(e.venue)}</dd>
+  <dl><dt>${STOCK.has(e.category)||e.category===MAG?"발매":"기간"}</dt><dd>${e.date_label?esc(e.date_label):`${e.start?fmt(e.start):""}${e.end&&e.end!==e.start?" ~ "+fmt(e.end):(!e.end&&!STOCK.has(e.category)&&e.category!==MAG?" ~":"")}`}</dd><dt>장소</dt><dd>${esc(e.venue)}</dd>
   ${e.reservation?`<dt>예약</dt><dd>${esc(e.reservation)}</dd>`:""}${e.price?`<dt>가격</dt><dd>${esc(e.price)}</dd>`:""}</dl>
   ${e.notes?`<p class="note">📝 ${esc(e.notes)}</p>`:""}${e.verified_at?`<p class="note">✅ 공식 사이트 원문 대조 ${esc(e.verified_at)}</p>`:""}
   ${picker(e)}
