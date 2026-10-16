@@ -39,7 +39,187 @@
       "lon": 139.7014,
       "translation_check": true,
       "summary_ko": "극장판 『체인소맨 레제편』에 나오는, 레제가 아르바이트하는 '깃사 니도'를 콘셉트로 한 테마 카페예요. 작품 이미지를 담은 메뉴와 새로 그린 일러스트 굿즈·특전이 있어요.",
-      "summary_source": "https://csm-cafe.ltr-online.com"
+      "summary_source": "https://csm-cafe.ltr-online.com",
+      "gallery": [
+        {
+          "group": "카페 메뉴",
+          "img": "https://csm-cafe.ltr-online.com/img/CSman-cafe_menu_2.jpg",
+          "caption_ko": "샌드위치 ~한 송이 꽃~",
+          "caption_ja": "サンドイッチ～一輪の花～",
+          "price": "1,890엔 (세금 포함)",
+          "source": "https://csm-cafe.ltr-online.com/lp/cafe-menu"
+        },
+        {
+          "group": "카페 메뉴",
+          "img": "https://csm-cafe.ltr-online.com/img/CSman-cafe_menu_1.jpg",
+          "caption_ko": "킷사 니도의 볶음밥",
+          "caption_ja": "喫茶二道のチャーハン",
+          "price": "1,190엔 (세금 포함)",
+          "source": "https://csm-cafe.ltr-online.com/lp/cafe-menu"
+        },
+        {
+          "group": "카페 메뉴",
+          "img": "https://csm-cafe.ltr-online.com/img/CSman-cafe_menu_3.jpg",
+          "caption_ko": "살시차와 치즈 파스타 ~해변의 발자국~",
+          "caption_ja": "サルシッチャとチーズのパスタ～海岸の足跡～",
+          "price": "1,890엔 (세금 포함)",
+          "source": "https://csm-cafe.ltr-online.com/lp/cafe-menu"
+        },
+        {
+          "group": "카페 메뉴",
+          "img": "https://csm-cafe.ltr-online.com/img/CSman-cafe_menu_5.jpg",
+          "caption_ko": "블루 파르페 ~밤의 수영장~",
+          "caption_ja": "ブルーパフェ〜夜のプール〜",
+          "price": "1,690엔 (세금 포함)",
+          "source": "https://csm-cafe.ltr-online.com/lp/cafe-menu"
+        },
+        {
+          "group": "카페 메뉴",
+          "img": "https://csm-cafe.ltr-online.com/img/%E8%8A%B1%E6%9D%9F%E3%82%B1%E3%83%BC%E3%82%AD_%E8%8A%B1%E3%81%AA%E3%81%97.jpg",
+          "caption_ko": "꽃다발 케이크",
+          "caption_ja": "花束ケーキ",
+          "price": "1,690엔 (세금 포함)",
+          "source": "https://csm-cafe.ltr-online.com/lp/cafe-menu"
+        },
+        {
+          "group": "카페 메뉴",
+          "img": "https://csm-cafe.ltr-online.com/img/%E3%83%AC%E3%82%BC%E3%81%AE%E3%83%81%E3%83%A7%E3%83%BC%E3%82%AB%E3%83%BC%E3%83%97%E3%83%AA%E3%83%B3.jpg",
+          "caption_ko": "레제의 초커 푸딩",
+          "caption_ja": "レゼのチョーカープリン",
+          "price": "1,290엔 (세금 포함)",
+          "source": "https://csm-cafe.ltr-online.com/lp/cafe-menu"
+        },
+        {
+          "group": "카페 메뉴",
+          "img": "https://csm-cafe.ltr-online.com/img/CSman-cafe_menu_6.jpg",
+          "caption_ko": "여름 축제 디저트 플레이트 ~불꽃놀이~",
+          "caption_ja": "夏祭りデザートプレート〜打ち上げ花火〜",
+          "price": "1,690엔 (세금 포함)",
+          "source": "https://csm-cafe.ltr-online.com/lp/cafe-menu"
+        },
+        {
+          "group": "카페 메뉴",
+          "img": "https://csm-cafe.ltr-online.com/img/CSman-cafe_menu_7.jpg",
+          "caption_ko": "포치타 파르페",
+          "caption_ja": "ポチタパフェ",
+          "price": "1,290엔 (세금 포함)",
+          "source": "https://csm-cafe.ltr-online.com/lp/cafe-menu"
+        },
+        {
+          "group": "카페 메뉴",
+          "img": "https://csm-cafe.ltr-online.com/img/CSman-cafe_menu_9.jpg",
+          "caption_ko": "킷사 니도의 커피",
+          "caption_ja": "喫茶二道のコーヒー",
+          "price": "990엔 (세금 포함)",
+          "source": "https://csm-cafe.ltr-online.com/lp/cafe-menu"
+        },
+        {
+          "group": "카페 메뉴",
+          "img": "https://csm-cafe.ltr-online.com/img/CSman-cafe_menu_10.jpg",
+          "caption_ko": "플라워 애플티",
+          "caption_ja": "フラワーアップルティー",
+          "price": "1,090엔 (세금 포함)",
+          "source": "https://csm-cafe.ltr-online.com/lp/cafe-menu"
+        },
+        {
+          "group": "카페 메뉴",
+          "img": "https://csm-cafe.ltr-online.com/img/CSman-cafe_menu_11.jpg",
+          "caption_ko": "매혹의 멜론소다",
+          "caption_ja": "魅惑のメロンソーダ",
+          "price": "1,090엔 (세금 포함)",
+          "source": "https://csm-cafe.ltr-online.com/lp/cafe-menu"
+        },
+        {
+          "group": "오리지널 굿즈",
+          "img": "https://csm-cafe.ltr-online.com/img/CSman-cafe_G1_can-badge_img.jpg",
+          "caption_ko": "캔배지 (랜덤 6종)",
+          "caption_ja": "缶バッジ（ランダム6種）",
+          "price": "605엔 (세금 포함)",
+          "source": "https://csm-cafe.ltr-online.com/lp/goods"
+        },
+        {
+          "group": "오리지널 굿즈",
+          "img": "https://csm-cafe.ltr-online.com/img/CSman-cafe_G2_ACkeychain_img.jpg",
+          "caption_ko": "아크릴 키홀더 (랜덤 6종)",
+          "caption_ja": "アクリルキーホルダー（ランダム6種）",
+          "price": "770엔 (세금 포함)",
+          "source": "https://csm-cafe.ltr-online.com/lp/goods"
+        },
+        {
+          "group": "오리지널 굿즈",
+          "img": "https://csm-cafe.ltr-online.com/img/CSman-cafe_G3_sticker_img.jpg",
+          "caption_ko": "스티커 (랜덤 6종)",
+          "caption_ja": "ステッカー（ランダム6種）",
+          "price": "550엔 (세금 포함)",
+          "source": "https://csm-cafe.ltr-online.com/lp/goods"
+        },
+        {
+          "group": "오리지널 굿즈",
+          "img": "https://csm-cafe.ltr-online.com/img/CSman-cafe_G4_ACstand_img1.jpg",
+          "caption_ko": "아크릴 스탠드 (덴지)",
+          "caption_ja": "アクリルスタンド（デンジ）",
+          "price": "1,430엔 (세금 포함)",
+          "source": "https://csm-cafe.ltr-online.com/lp/goods"
+        },
+        {
+          "group": "오리지널 굿즈",
+          "img": "https://csm-cafe.ltr-online.com/img/CSman-cafe_G4_ACstand_img2.jpg",
+          "caption_ko": "아크릴 스탠드 (레제)",
+          "caption_ja": "アクリルスタンド（レゼ）",
+          "price": "1,430엔 (세금 포함)",
+          "source": "https://csm-cafe.ltr-online.com/lp/goods"
+        },
+        {
+          "group": "오리지널 굿즈",
+          "img": "https://csm-cafe.ltr-online.com/img/CSman-cafe_G5_A4file_img.jpg",
+          "caption_ko": "클리어 파일",
+          "caption_ja": "クリアファイル",
+          "price": "550엔 (세금 포함)",
+          "source": "https://csm-cafe.ltr-online.com/lp/goods"
+        },
+        {
+          "group": "오리지널 굿즈",
+          "img": "https://csm-cafe.ltr-online.com/img/CSman-cafe_G6_kincyaku_img.jpg",
+          "caption_ko": "새틴 복주머니",
+          "caption_ja": "サテン巾着",
+          "price": "1,760엔 (세금 포함)",
+          "source": "https://csm-cafe.ltr-online.com/lp/goods"
+        },
+        {
+          "group": "오리지널 굿즈",
+          "img": "https://csm-cafe.ltr-online.com/img/CSman-cafe_G7_hakuun_coaster_img1.jpg",
+          "caption_ko": "백운석 코스터 (덴지)",
+          "caption_ja": "白雲石コースター（デンジ）",
+          "price": "1,430엔 (세금 포함)",
+          "source": "https://csm-cafe.ltr-online.com/lp/goods"
+        },
+        {
+          "group": "오리지널 굿즈",
+          "img": "https://csm-cafe.ltr-online.com/img/CSman-cafe_G7_hakuun_coaster_img2.jpg",
+          "caption_ko": "백운석 코스터 (레제)",
+          "caption_ja": "白雲石コースター（レゼ）",
+          "price": "1,430엔 (세금 포함)",
+          "source": "https://csm-cafe.ltr-online.com/lp/goods"
+        },
+        {
+          "group": "오리지널 굿즈",
+          "img": "https://csm-cafe.ltr-online.com/img/CSman-cafe_G8_glass_img.jpg",
+          "caption_ko": "유리컵 (포치타)",
+          "caption_ja": "グラス（ポチタ）",
+          "price": "1,980엔 (세금 포함)",
+          "source": "https://csm-cafe.ltr-online.com/lp/goods"
+        },
+        {
+          "group": "오리지널 굿즈",
+          "img": "https://csm-cafe.ltr-online.com/img/CSman-cafe_G9_canvas-art_img.jpg",
+          "caption_ko": "캔버스 아트",
+          "caption_ja": "キャンバスアート",
+          "price": "3,080엔 (세금 포함)",
+          "source": "https://csm-cafe.ltr-online.com/lp/goods"
+        }
+      ],
+      "gallery_source": "https://csm-cafe.ltr-online.com",
+      "gallery_note": "이미지는 공식 사이트 이미지(실제와 다를 수 있음). 가격은 공식 표기 그대로."
     },
     {
       "title_ko": "키타로 탄생: 게게게의 수수께끼 × and GALLERY 콜라보 카페",

@@ -32,7 +32,7 @@ document.addEventListener("change",ev=>{const inp=ev.target;if(!inp.classList||!
 function picker(e){const r=pickRange(e);if(!r)return"";const [la,lo,venue]=coords(e);
   return `<div class="pick"><label>📅 방문 날짜 <input type="date" class="visit" min="${r[0]}" max="${r[1]}" data-lat="${la}" data-lon="${lo}" data-src="${venue?"행사장 위치":e.area+" 시내"}"></label><div class="pickwx"><span class="wx-msg">날짜를 고르면 그날 날씨가 보여요</span></div></div>`}
 const mapq=e=>e.area!=="전국"&&e.map_query?e.map_query:"";
-const thumb=e=>`<div class="th ${CATCLS[e.category]||""}"><span>${esc(e.category)}</span>${e.thumbnail?`<img src="${esc(e.thumbnail)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:""}</div>`;
+const thumb=e=>`<div class="th dt ${CATCLS[e.category]||""}"><span>${esc(e.category)}</span>${e.thumbnail?`<img src="${esc(e.thumbnail)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:""}</div>`;
 document.addEventListener("toggle",ev=>{const d=ev.target;if(!(d instanceof HTMLDetailsElement)||!d.open||!d.classList.contains("map"))return;
   const box=d.querySelector(".mapbox");if(!box.firstChild)box.innerHTML=`<iframe loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=${encodeURIComponent(d.dataset.q)}&output=embed" title="지도"></iframe>`},true);
 function render(){
@@ -44,9 +44,9 @@ function render(){
    .sort((a,b)=>(a.e.end||"9").localeCompare(b.e.end||"9"));
   document.getElementById("count").textContent=`${rows.length}건`;
   document.getElementById("list").innerHTML=rows.length?rows.map(({e,x})=>`
-  <article class="card">
+  <article class="card" data-i="${EV.indexOf(e)}">
   <div class="top">${thumb(e)}<div class="tx"><div class="badges"><span class="b cat ${CATCLS[e.category]||""}">${esc(e.category)}</span><span class="b ${x.k}">${x.t}</span><span class="b">${esc(e.area)}</span></div>
-  <h2>${esc(e.title_ko)}</h2><p class="ja">${esc(e.title_ja||"")}</p></div></div>
+  <h2 class="dt">${esc(e.title_ko)}</h2><p class="ja">${esc(e.title_ja||"")}</p></div></div>
   ${e.summary_ko?`<div class="sum"><span class="sumlbl"><a href="${esc(e.summary_source||e.official_url)}" target="_blank" rel="noopener">공식 페이지 요약</a></span><p>${esc(e.summary_ko)}</p></div>`:""}
   ${e.thumbnail?`<p class="credit"><a href="${esc(e.thumbnail_source||e.official_url)}" target="_blank" rel="noopener">이미지 출처</a></p>`:""}
   <dl><dt>${STOCK.has(e.category)?"발매":"기간"}</dt><dd>${e.date_label?esc(e.date_label):`${e.start?fmt(e.start):""}${e.end&&e.end!==e.start?" ~ "+fmt(e.end):(!e.end&&!STOCK.has(e.category)?" ~":"")}`}</dd><dt>장소</dt><dd>${esc(e.venue)}</dd>
@@ -54,7 +54,7 @@ function render(){
   ${e.notes?`<p class="note">📝 ${esc(e.notes)}</p>`:""}${e.verified_at?`<p class="note">✅ 공식 사이트 원문 대조 ${esc(e.verified_at)}</p>`:""}
   ${picker(e)}
   ${mapq(e)?`<details class="map" data-q="${esc(mapq(e))}"><summary>📍 지도 펼치기</summary><div class="mapbox"></div></details>`:""}
-  <div class="btns">${e.official_url?`<a href="${esc(e.official_url)}" target="_blank" rel="noopener">공식 사이트</a>`:""}${mapq(e)?`<a class="sec" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(mapq(e))}" target="_blank" rel="noopener">지도 보기</a>`:""}${e.source_url&&e.source_url!==e.official_url?`<a class="sec" href="${esc(e.source_url)}" target="_blank" rel="noopener">출처</a>`:""}</div>
+  <div class="btns"><button type="button" class="dt more">자세히 보기</button>${e.official_url?`<a href="${esc(e.official_url)}" target="_blank" rel="noopener">공식 사이트</a>`:""}${mapq(e)?`<a class="sec" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(mapq(e))}" target="_blank" rel="noopener">지도 보기</a>`:""}${e.source_url&&e.source_url!==e.official_url?`<a class="sec" href="${esc(e.source_url)}" target="_blank" rel="noopener">출처</a>`:""}</div>
   </article>`).join(""):`<p class="empty">조건에 맞는 일정이 없어요.</p>`}
 fetch("events.json",{cache:"no-store"}).then(r=>r.json()).then(d=>{
   EV=d.events||[];document.getElementById("base").textContent=`기준일: ${d.base_date}`;
@@ -67,3 +67,22 @@ fetch("events.json",{cache:"no-store"}).then(r=>r.json()).then(d=>{
   document.getElementById("q").oninput=e=>{st.q=e.target.value;render()};
   const tg=document.getElementById("status");tg.onclick=ev=>{const b=ev.target.closest("button");if(!b)return;st.s=b.dataset.s;tg.querySelectorAll("button").forEach(x=>x.classList.toggle("on",x===b));render()};
   render()}).catch(()=>document.getElementById("list").innerHTML='<p class="empty">데이터를 불러오지 못했어요.</p>');
+
+const host=u=>{try{return new URL(u).hostname.replace(/^www\./,"")}catch{return""}};
+const period=e=>e.date_label?e.date_label:`${e.start?fmt(e.start):""}${e.end&&e.end!==e.start?" ~ "+fmt(e.end):""}`;
+function detail(e){const g=e.gallery||[];const groups=[...new Set(g.map(x=>x.group||""))];
+  return `<div class="dv" role="dialog" aria-modal="true" aria-label="${esc(e.title_ko)} 자세히 보기"><button class="dvx" aria-label="닫기">✕</button>
+  <div class="dcard">${e.thumbnail?`<img class="dbg" src="${esc(e.thumbnail)}" alt="" referrerpolicy="no-referrer">`:""}
+   <div class="dpill">${esc(e.title_ko)}</div>
+   <div class="dpanel">${e.title_ja?`<p class="dja">${esc(e.title_ja)}</p>`:""}${e.summary_ko?`<p class="dsum">${esc(e.summary_ko)}</p>`:""}
+    <ul><li>📍 ${esc(e.venue)}</li><li>🗓️ ${esc(period(e))}</li>${e.price?`<li>🏷️ ${esc(e.price)}</li>`:""}</ul>
+    <div class="dtag">#${esc(e.category)} · ${esc(e.area)}</div>
+    ${e.thumbnail?`<div class="dsrc">이미지 출처: <a href="${esc(e.thumbnail_source||e.official_url)}" target="_blank" rel="noopener">${esc(host(e.thumbnail_source||e.official_url||e.thumbnail))}</a></div>`:""}</div></div>
+  ${g.length?groups.map(gr=>`<h3 class="dgh">${esc(gr||"갤러리")}</h3><div class="dgrid">${g.filter(x=>(x.group||"")===gr).map(x=>`<figure><img src="${esc(x.img)}" alt="${esc(x.caption_ko)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.remove()"><figcaption><b>${esc(x.caption_ko)}</b>${x.caption_ja?`<span>${esc(x.caption_ja)}</span>`:""}${x.price?`<em>${esc(x.price)}</em>`:""}</figcaption></figure>`).join("")}</div>`).join("")
+   +`<p class="dnote">${e.gallery_note?esc(e.gallery_note)+" · ":""}출처: <a href="${esc(e.gallery_source||e.official_url)}" target="_blank" rel="noopener">${esc(host(e.gallery_source||e.official_url))}</a></p>`:""}
+  ${e.official_url?`<a class="dlink" href="${esc(e.official_url)}" target="_blank" rel="noopener">공식 사이트에서 확인하기</a>`:""}</div>`}
+function openDetail(e){closeDetail();const o=document.createElement("div");o.className="dov";o.innerHTML=detail(e);document.body.appendChild(o);document.body.style.overflow="hidden";o.querySelector(".dvx").focus();
+  o.addEventListener("click",ev=>{if(ev.target===o||ev.target.closest(".dvx"))closeDetail()})}
+function closeDetail(){const o=document.querySelector(".dov");if(o){o.remove();document.body.style.overflow=""}}
+document.addEventListener("keydown",ev=>{if(ev.key==="Escape")closeDetail()});
+document.addEventListener("click",ev=>{const t=ev.target.closest(".card .dt");if(!t)return;const c=t.closest(".card");const e=EV[+c.dataset.i];if(e)openDetail(e)});
