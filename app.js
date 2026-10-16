@@ -1,7 +1,7 @@
 const CATS=["팝업스토어","콜라보카페","전시·행사","축제","가챠","쿠지","플리마켓"];
 const STOCK=new Set(["가챠","쿠지"]);
 const CATCLS={"팝업스토어":"c-pop","콜라보카페":"c-cafe","전시·행사":"c-expo","축제":"c-fest","가챠":"c-gacha","쿠지":"c-kuji","플리마켓":"c-flea"};
-const st={cat:"",area:"",q:"",s:"all"};let EV=[];
+const st={cat:"",area:"",q:"",s:"all",from:"",to:""};let EV=[];
 const today=(()=>{const d=new Date();d.setHours(0,0,0,0);return d})();
 const pd=s=>{if(!s)return null;const[y,m,d]=s.split("-").map(Number);return new Date(y,m-1,d)};
 const fmt=s=>{const d=pd(s);if(!d)return"";return `${d.getMonth()+1}/${d.getDate()}(${"일월화수목금토"[d.getDay()]})`};
@@ -9,7 +9,13 @@ function status(e){const s=pd(e.start),en=pd(e.end);
   const sk=STOCK.has(e.category);
   if(en&&en<today)return{k:"end"};if(!s&&sk)return{k:"soon",t:"입고 예정"};if(s&&s>today)return{k:"soon",t:sk?"입고 예정":"예정"};
   const left=en?Math.round((en-today)/864e5):99;
-  return left<=7?{k:"ending",t:left===0?"오늘 종료":`곧 종료 D-${left}`}:{k:"now",t:sk?"입고 중":"진행 중"}}
+  return left<=14?{k:"ending",t:left===0?"오늘 종료":`곧 종료 D-${left}`}:{k:"now",t:sk?"입고 중":"진행 중"}}
+function urg(e,x){const s=pd(e.start),en=pd(e.end);
+  if(x.k==="ending"){const l=Math.round((en-today)/864e5);return{c:l<=7?"u-hot":"u-warm",t:`🔥 ${l===0?"오늘 종료":"D-"+l}`}}
+  if(STOCK.has(e.category)&&s&&s>today){const l=Math.round((s-today)/864e5);if(l<=7)return{c:"u-new",t:`🆕 곧 발매 D-${l}`}}
+  return null}
+const inRange=e=>{if(!st.from&&!st.to)return true;const s=e.start||"0000",en=e.end||"9999";
+  return(!st.to||s<=st.to)&&(!st.from||en>=st.from)};
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const CITY={"도쿄":[35.6812,139.7671],"오사카":[34.6937,135.5023],"교토":[35.0116,135.7681],"나고야":[35.1709,136.8815],"후쿠오카":[33.5902,130.4017],"삿포로":[43.0618,141.3545],"요코하마":[35.4437,139.638]};
 const WX={0:["☀️","맑음"],1:["🌤️","대체로 맑음"],2:["⛅","구름 조금"],3:["☁️","흐림"],45:["🌫️","안개"],48:["🌫️","안개"],51:["🌦️","약한 이슬비"],53:["🌦️","이슬비"],55:["🌦️","강한 이슬비"],56:["🌧️","어는 이슬비"],57:["🌧️","어는 이슬비"],61:["🌧️","약한 비"],63:["🌧️","비"],65:["🌧️","강한 비"],66:["🌧️","어는 비"],67:["🌧️","어는 비"],71:["🌨️","약한 눈"],73:["🌨️","눈"],75:["🌨️","많은 눈"],77:["🌨️","싸락눈"],80:["🌦️","소나기"],81:["🌦️","소나기"],82:["⛈️","강한 소나기"],85:["🌨️","눈 소나기"],86:["🌨️","눈 소나기"],95:["⛈️","뇌우"],96:["⛈️","뇌우·우박"],99:["⛈️","뇌우·우박"]};
@@ -36,15 +42,16 @@ const thumb=e=>`<div class="th dt ${CATCLS[e.category]||""}"><span>${esc(e.categ
 document.addEventListener("toggle",ev=>{const d=ev.target;if(!(d instanceof HTMLDetailsElement)||!d.open||!d.classList.contains("map"))return;
   const box=d.querySelector(".mapbox");if(!box.firstChild)box.innerHTML=`<iframe loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=${encodeURIComponent(d.dataset.q)}&output=embed" title="지도"></iframe>`},true);
 function render(){
-  const q=st.q.trim().toLowerCase();
+  const q=st.q.trim().normalize("NFKC").toLowerCase();
   const rows=EV.map(e=>({e,x:status(e)})).filter(({e,x})=>x.k!=="end"
     &&(!st.cat||e.category===st.cat)&&(!st.area||e.area===st.area)
     &&(st.s==="all"||(st.s==="soon"?x.k==="soon":x.k!=="soon"))
-    &&(!q||[e.title_ko,e.title_ja,e.venue].join(" ").toLowerCase().includes(q)))
+    &&inRange(e)
+    &&(!q||[e.title_ko,e.title_ja,e.venue,e.summary_ko].join(" ").normalize("NFKC").toLowerCase().includes(q)))
    .sort((a,b)=>(a.e.end||"9").localeCompare(b.e.end||"9"));
   document.getElementById("count").textContent=`${rows.length}건`;
-  document.getElementById("list").innerHTML=rows.length?rows.map(({e,x})=>`
-  <article class="card" data-i="${EV.indexOf(e)}">
+  document.getElementById("list").innerHTML=rows.length?rows.map(({e,x})=>{const u=urg(e,x);return `
+  <article class="card${u?" "+u.c:""}" data-i="${EV.indexOf(e)}">${u?`<div class="ub">${u.t}</div>`:""}
   <div class="top">${thumb(e)}<div class="tx"><div class="badges"><span class="b cat ${CATCLS[e.category]||""}">${esc(e.category)}</span><span class="b ${x.k}">${x.t}</span><span class="b">${esc(e.area)}</span></div>
   <h2 class="dt">${esc(e.title_ko)}</h2><p class="ja">${esc(e.title_ja||"")}</p></div></div>
   ${e.summary_ko?`<div class="sum"><span class="sumlbl"><a href="${esc(e.summary_source||e.official_url)}" target="_blank" rel="noopener">공식 페이지 요약</a></span><p>${esc(e.summary_ko)}</p></div>`:""}
@@ -55,7 +62,7 @@ function render(){
   ${picker(e)}
   ${mapq(e)?`<details class="map" data-q="${esc(mapq(e))}"><summary>📍 지도 펼치기</summary><div class="mapbox"></div></details>`:""}
   <div class="btns"><button type="button" class="dt more">자세히 보기</button>${e.official_url?`<a href="${esc(e.official_url)}" target="_blank" rel="noopener">공식 사이트</a>`:""}${mapq(e)?`<a class="sec" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(mapq(e))}" target="_blank" rel="noopener">지도 보기</a>`:""}${e.source_url&&e.source_url!==e.official_url?`<a class="sec" href="${esc(e.source_url)}" target="_blank" rel="noopener">출처</a>`:""}</div>
-  </article>`).join(""):`<p class="empty">조건에 맞는 일정이 없어요.</p>`}
+  </article>`}).join(""):`<p class="empty">조건에 맞는 일정이 없어요.</p>`}
 fetch("events.json",{cache:"no-store"}).then(r=>r.json()).then(d=>{
   EV=d.events||[];document.getElementById("base").textContent=`기준일: ${d.base_date}`;
   if(d.is_sample)document.getElementById("banner").hidden=false;
@@ -64,6 +71,10 @@ fetch("events.json",{cache:"no-store"}).then(r=>r.json()).then(d=>{
   chips.onclick=ev=>{const b=ev.target.closest("button");if(!b)return;st.cat=b.dataset.c;chips.querySelectorAll("button").forEach(x=>x.classList.toggle("on",x===b));render()};
   const sel=document.getElementById("area");[...new Set(EV.map(e=>e.area))].forEach(a=>sel.add(new Option(a,a)));
   sel.onchange=()=>{st.area=sel.value;render()};
+  const fr=document.getElementById("from"),to=document.getElementById("to");
+  const setR=()=>{st.from=fr.value;st.to=to.value;if(st.from&&st.to&&st.from>st.to){st.to=st.from;to.value=st.from}to.min=st.from||"";render()};
+  fr.onchange=setR;to.onchange=setR;
+  document.getElementById("rreset").onclick=()=>{fr.value=to.value="";setR()};
   document.getElementById("q").oninput=e=>{st.q=e.target.value;render()};
   const tg=document.getElementById("status");tg.onclick=ev=>{const b=ev.target.closest("button");if(!b)return;st.s=b.dataset.s;tg.querySelectorAll("button").forEach(x=>x.classList.toggle("on",x===b));render()};
   render()}).catch(()=>document.getElementById("list").innerHTML='<p class="empty">데이터를 불러오지 못했어요.</p>');

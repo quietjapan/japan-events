@@ -67,3 +67,13 @@ details.map{font-size:13px}details.map summary{cursor:pointer;color:var(--accent
 .dgrid figcaption{padding:6px 8px;font-size:12px;display:flex;flex-direction:column;gap:1px}.dgrid figcaption span{color:var(--mute);font-size:10px}.dgrid em{font-style:normal;color:#e8590c;font-weight:700}
 .dnote{font-size:11px;color:var(--mute);margin:10px 2px 0}
 .dlink{display:block;margin-top:12px;text-align:center;padding:10px;border-radius:10px;background:var(--ink);color:#fff;text-decoration:none;font-weight:600}
+
+#q{flex:1;min-width:0}
+.range{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:8px 0}.range .rl{font-size:14px;font-weight:700}.range input{padding:7px 8px}.range button{font:inherit;font-size:13px;padding:7px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);cursor:pointer}
+.card{position:relative}.ub{position:absolute;top:-10px;right:12px;z-index:2;font-size:12px;font-weight:800;padding:3px 10px;border-radius:999px;color:#fff;box-shadow:0 2px 6px rgba(0,0,0,.15)}
+.card.u-warm{border:2px solid #f59f00}.u-warm .ub{background:#f59f00}
+.card.u-hot{border:2px solid #e03131;box-shadow:0 0 0 3px rgba(224,49,49,.15)}.u-hot .ub{background:#e03131}
+.card.u-new{border:2px solid #1c7ed6}.u-new .ub{background:#1c7ed6}
+.row select{flex:0 0 auto;max-width:40%}.range input{flex:1 1 120px;min-width:0}
+@media(max-width:480px){.range .rl{width:100%}.range input{flex:1 1 0}#q::placeholder{font-size:13px}}
+#q{width:0}.range input{width:0}@media(max-width:480px){.range button{margin-left:auto}}
