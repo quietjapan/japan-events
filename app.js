@@ -32,7 +32,7 @@ document.addEventListener("change",ev=>{const inp=ev.target;if(!inp.classList||!
 function picker(e){const r=pickRange(e);if(!r)return"";const [la,lo,venue]=coords(e);
   return `<div class="pick"><label>📅 방문 날짜 <input type="date" class="visit" min="${r[0]}" max="${r[1]}" data-lat="${la}" data-lon="${lo}" data-src="${venue?"행사장 위치":e.area+" 시내"}"></label><div class="pickwx"><span class="wx-msg">날짜를 고르면 그날 날씨가 보여요</span></div></div>`}
 const mapq=e=>e.area!=="전국"&&e.map_query?e.map_query:"";
-const thumb=e=>`<div class="th dt ${CATCLS[e.category]||""}"><span>${esc(e.category)}</span>${e.thumbnail?`<img src="${esc(e.thumbnail)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:""}</div>`;
+const thumb=e=>`<div class="th dt ${CATCLS[e.category]||""}"><span>${esc(e.category)}</span>${e.thumbnail?`<img src="${esc(e.thumbnail)}" alt="" ${e.thumb_pos?`style="object-position:${esc(e.thumb_pos)}"`:""} loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:""}</div>`;
 document.addEventListener("toggle",ev=>{const d=ev.target;if(!(d instanceof HTMLDetailsElement)||!d.open||!d.classList.contains("map"))return;
   const box=d.querySelector(".mapbox");if(!box.firstChild)box.innerHTML=`<iframe loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=${encodeURIComponent(d.dataset.q)}&output=embed" title="지도"></iframe>`},true);
 function render(){
@@ -72,7 +72,7 @@ const host=u=>{try{return new URL(u).hostname.replace(/^www\./,"")}catch{return"
 const period=e=>e.date_label?e.date_label:`${e.start?fmt(e.start):""}${e.end&&e.end!==e.start?" ~ "+fmt(e.end):""}`;
 function detail(e){const g=e.gallery||[];const groups=[...new Set(g.map(x=>x.group||""))];
   return `<div class="dv" role="dialog" aria-modal="true" aria-label="${esc(e.title_ko)} 자세히 보기"><button class="dvx" aria-label="닫기">✕</button>
-  <div class="dcard">${e.thumbnail?`<img class="dbg" src="${esc(e.thumbnail)}" alt="" referrerpolicy="no-referrer">`:""}
+  <div class="dcard">${e.thumbnail?`<img class="dbg" src="${esc(e.thumbnail)}" alt="" ${e.thumb_pos?`style="object-position:${esc(e.thumb_pos)}"`:""} referrerpolicy="no-referrer">`:""}
    <div class="dpill">${esc(e.title_ko)}</div>
    <div class="dpanel">${e.title_ja?`<p class="dja">${esc(e.title_ja)}</p>`:""}${e.summary_ko?`<p class="dsum">${esc(e.summary_ko)}</p>`:""}
     <ul><li>📍 ${esc(e.venue)}</li><li>🗓️ ${esc(period(e))}</li>${e.price?`<li>🏷️ ${esc(e.price)}</li>`:""}</ul>
