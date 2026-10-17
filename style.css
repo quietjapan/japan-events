@@ -112,3 +112,8 @@ details.map{font-size:13px}details.map summary{cursor:pointer;color:var(--accent
 @media(max-width:390px){.fxbtn{right:10px;bottom:14px;padding:10px 12px;font-size:13px}.fxov{padding:10px 10px 62px}.fxpanel{max-width:100%}.fxio{grid-template-columns:1fr;gap:8px}.fxswap{justify-self:center;margin:0}}
 .fxkrw{font-weight:500;font-size:.9em;color:var(--mute);white-space:nowrap}
 .dgrid em .fxkrw{color:var(--mute);font-weight:500}
+
+/* owner self-exclusion toast (?me=1 / ?me=0) */
+.qj-toast{position:fixed;left:50%;bottom:72px;transform:translateX(-50%);z-index:80;background:var(--ink);color:#fff;padding:10px 16px;border-radius:999px;font-size:13px;font-weight:600;box-shadow:0 6px 20px rgba(0,0,0,.25);max-width:min(92vw,360px);text-align:center;word-break:keep-all;animation:qj-toast-in .25s ease;pointer-events:none}
+.qj-toast-out{opacity:0;transition:opacity .35s}
+@keyframes qj-toast-in{from{opacity:0;transform:translateX(-50%) translateY(8px)}to{opacity:1;transform:translateX(-50%) translateY(0)}}
