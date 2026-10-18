@@ -1,5 +1,5 @@
 {
-  "base_date": "2026-10-16",
+  "base_date": "2026-10-18",
   "last_updated": "2026-10-18",
   "is_sample": false,
   "events": [
@@ -3020,6 +3020,206 @@
       "summary_source": "https://nakayosi.kodansha.co.jp/",
       "image_hd": "https://nakayosi.kodansha.co.jp/content/images/_topics/slider202612_01.jpg",
       "image_fit": "contain"
+    },
+    {
+      "title_ko": "극장판 ひゃくえむ。 POP UP SHOP",
+      "title_ja": "劇場アニメ『ひゃくえむ。』POP UP SHOP",
+      "category": "팝업스토어",
+      "area": "도쿄",
+      "venue": "MEDICOS SHOP 신주쿠 (신주쿠 마루이 아넥스 2F)",
+      "start": "2026-11-06",
+      "end": "2026-11-23",
+      "reservation": "",
+      "price": "",
+      "official_url": "https://www.medicos-e.net/newsdetail/hyakuemu/",
+      "source_url": "https://www.medicos-e.net/newsdetail/hyakuemu/",
+      "notes": "특전: 1,000엔마다 클리어 책갈피(전 6종) 랜덤 1장. 오사카는 2027/1/29~2/7",
+      "checked_date": "2026-10-18",
+      "map_query": "東京都新宿区新宿3-1-26",
+      "evidence": [
+        {
+          "url": "https://www.medicos-e.net/newsdetail/hyakuemu/",
+          "tier": "official",
+          "quote": "【開催期間】 2026 年 11 月 6 日 ( 金 ) 〜 2026 年 11 月 23 日 ( 月・祝 )",
+          "checked": "2026-10-18"
+        }
+      ],
+      "source_tier": "official"
+    },
+    {
+      "title_ko": "샤인포스트 POP UP SHOP",
+      "title_ja": "TVアニメ『シャインポスト』POP UP SHOP",
+      "category": "팝업스토어",
+      "area": "도쿄",
+      "venue": "아미아미 아키하바라 피규어타워점",
+      "start": "2026-11-13",
+      "end": "2026-11-29",
+      "reservation": "",
+      "price": "",
+      "official_url": "https://www.medicos-e.net/newsdetail/shinepost/",
+      "source_url": "https://www.medicos-e.net/newsdetail/shinepost/",
+      "notes": "고양이귀 메이드 테마 신규 일러스트. 특전 일러스트 카드 전 5종",
+      "checked_date": "2026-10-18",
+      "map_query": "東京都千代田区外神田1-11-6",
+      "evidence": [
+        {
+          "url": "https://www.medicos-e.net/newsdetail/shinepost/",
+          "tier": "official",
+          "quote": "【開催期間】 2026 年 11 月 13 日(金)〜 2026 年 11 月 29 日(日)",
+          "checked": "2026-10-18"
+        }
+      ],
+      "source_tier": "official"
+    },
+    {
+      "title_ko": "おかえり、初恋。 POP UP SHOP",
+      "title_ja": "「おかえり、初恋。」POP UP SHOP",
+      "category": "팝업스토어",
+      "area": "도쿄",
+      "venue": "애니메이트 이케부쿠로 본점 2F",
+      "start": "2026-11-10",
+      "end": "2026-11-23",
+      "reservation": "",
+      "price": "",
+      "official_url": "https://www.the-chara.com/blog/?p=123501",
+      "source_url": "https://www.the-chara.com/blog/?p=123501",
+      "notes": "개점 전 대기 금지",
+      "checked_date": "2026-10-18",
+      "map_query": "東京都豊島区東池袋1-20-7",
+      "evidence": [
+        {
+          "url": "https://www.the-chara.com/blog/?p=123501",
+          "tier": "official",
+          "quote": "開催期間 2026年11月10日(火)〜11月23日(月)",
+          "checked": "2026-10-18"
+        }
+      ],
+      "source_tier": "official"
+    },
+    {
+      "title_ko": "쵸코야바 카페스탠드 (ちょこっとヤバシティ)",
+      "title_ja": "ちょこっとヤバシティ × animate cafe ちょこヤバカフェスタンド",
+      "category": "콜라보카페",
+      "area": "도쿄",
+      "venue": "애니메이트 카페스탠드 이케부쿠로 4호점",
+      "start": "2026-11-12",
+      "end": "2026-12-06",
+      "reservation": "",
+      "price": "",
+      "official_url": "https://chocoyaba.com/news/index00040000.html",
+      "source_url": "https://www.animatecafe.jp/event/ac000814",
+      "notes": "테이크아웃 스탠드. 상세: animatecafe.jp/event/ac000814",
+      "checked_date": "2026-10-18",
+      "map_query": "東京都豊島区東池袋1-21-12",
+      "evidence": [
+        {
+          "url": "https://chocoyaba.com/news/index00040000.html",
+          "tier": "official",
+          "quote": "日程:2026年 11/12(木)〜12/6(日)",
+          "checked": "2026-10-18"
+        }
+      ],
+      "source_tier": "official"
+    },
+    {
+      "title_ko": "요괴학교 선생님 시작했습니다! POP UP SHOP",
+      "title_ja": "TVアニメ「妖怪学校の先生はじめました！」POP UP SHOP",
+      "category": "팝업스토어",
+      "area": "도쿄",
+      "venue": "아미아미 이케부쿠로 mini 페어굿즈점",
+      "start": "2026-11-13",
+      "end": "2026-11-29",
+      "reservation": "",
+      "price": "",
+      "official_url": "https://www.medicos-e.net/newsdetail/yohaji_anime_3/",
+      "source_url": "https://www.medicos-e.net/newsdetail/yohaji_anime_3/",
+      "notes": "데코라 스타일 신규 일러스트. 특전 클리어 책갈피 전 5종",
+      "checked_date": "2026-10-18",
+      "map_query": "東京都豊島区東池袋1-14-1",
+      "evidence": [
+        {
+          "url": "https://www.medicos-e.net/newsdetail/yohaji_anime_3/",
+          "tier": "official",
+          "quote": "【開催期間】 2026 年 11 月 13 日(金)〜 2026 年 11 月 29 日(日)",
+          "checked": "2026-10-18"
+        }
+      ],
+      "source_tier": "official"
+    },
+    {
+      "title_ko": "BLACK LAGOON 25주년 원화전",
+      "title_ja": "BLACK LAGOON 25周年原画展",
+      "category": "전시·행사",
+      "area": "도쿄",
+      "venue": "선샤인시티 선샤인60 전망대 텐보파크 이벤트 스페이스",
+      "start": "2026-11-13",
+      "end": "2026-12-06",
+      "reservation": "선택",
+      "price": "일반 예매 1,900엔 / 현장 2,200엔",
+      "official_url": "https://s.mxtv.jp/event/blacklagoon25th/",
+      "source_url": "https://s.mxtv.jp/event/blacklagoon25th/",
+      "notes": "11:00~19:00 (최종 입장 30분 전). 이플러스 티켓",
+      "checked_date": "2026-10-18",
+      "map_query": "東京都豊島区東池袋3-1",
+      "evidence": [
+        {
+          "url": "https://s.mxtv.jp/event/blacklagoon25th/",
+          "tier": "official",
+          "quote": "会期 2026年11月13日(金)〜12月6日(日)",
+          "checked": "2026-10-18"
+        }
+      ],
+      "source_tier": "official"
+    },
+    {
+      "title_ko": "메이드 인 어비스전 (전기)",
+      "title_ja": "マンガ メイドインアビス展（前期）",
+      "category": "전시·행사",
+      "area": "도쿄",
+      "venue": "세이부 이케부쿠로 본점 서적관 1F·B1",
+      "start": "2026-10-24",
+      "end": "2026-11-11",
+      "reservation": "선택",
+      "price": "2,500엔",
+      "official_url": "https://www.kyodoprinting.co.jp/lp/event/madeinabyss/",
+      "source_url": "https://www.kyodoprinting.co.jp/lp/event/madeinabyss/",
+      "notes": "11/12 교체 휴관. 후기(11/13~29)는 별도 카드",
+      "checked_date": "2026-10-18",
+      "map_query": "東京都豊島区南池袋1-28-1",
+      "evidence": [
+        {
+          "url": "https://www.kyodoprinting.co.jp/lp/event/madeinabyss/",
+          "tier": "official",
+          "quote": "前期:2026年10月24日(土)〜11月11日(水)",
+          "checked": "2026-10-18"
+        }
+      ],
+      "source_tier": "official"
+    },
+    {
+      "title_ko": "메이드 인 어비스전 (후기)",
+      "title_ja": "マンガ メイドインアビス展（後期）",
+      "category": "전시·행사",
+      "area": "도쿄",
+      "venue": "세이부 이케부쿠로 본점 서적관 1F·B1",
+      "start": "2026-11-13",
+      "end": "2026-11-29",
+      "reservation": "선택",
+      "price": "2,500엔",
+      "official_url": "https://www.kyodoprinting.co.jp/lp/event/madeinabyss/",
+      "source_url": "https://www.kyodoprinting.co.jp/lp/event/madeinabyss/",
+      "notes": "후기부터 전시·굿즈 일부 변경",
+      "checked_date": "2026-10-18",
+      "map_query": "東京都豊島区南池袋1-28-1",
+      "evidence": [
+        {
+          "url": "https://www.kyodoprinting.co.jp/lp/event/madeinabyss/",
+          "tier": "official",
+          "quote": "後期:2026年11月13日(金)〜11月29日(日)",
+          "checked": "2026-10-18"
+        }
+      ],
+      "source_tier": "official"
     }
   ]
 }

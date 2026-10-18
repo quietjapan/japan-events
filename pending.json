@@ -50,7 +50,7 @@
           "url": "https://japan-event.info/ja/articles/hanazono-shrine-tori-no-ichi-2026",
           "tier": "aggregator",
           "quote": "を添えて掲載しています。 SUMMARY 開催概要 Official ✓ 日時 2026年11月6日(金) 15:00 JST – 2026/11/19 会場 花園神社(新宿) 東京都新宿区新宿5-17-3 料金 — 主催 H",
-          "checked": "2026-10-16"
+          "checked": "2026-10-17"
         }
       ],
       "source_tier": "aggregator",
@@ -106,7 +106,27 @@
       "translation_check": true,
       "thumbnail": "",
       "thumbnail_source": ""
+    },
+    {
+      "title_ko": "체인소맨 레제편 가샤폰 마치보우케",
+      "title_ja": "劇場版『チェンソーマン レゼ篇』 まちぼうけ",
+      "category": "가챠",
+      "area": "전국",
+      "venue": "전국 캡슐 자판기 (날짜 미확정)",
+      "start": null,
+      "end": null,
+      "reservation": "불필요",
+      "price": "1회 500엔",
+      "official_url": "https://parks2.bandainamco-am.co.jp/item/PRE_4582770056044.html",
+      "source_url": "https://parks2.bandainamco-am.co.jp/item/PRE_4582770056044.html",
+      "notes": "온라인 예약(8/4–8/17) 종료·배송 11월 하순. 자판기 선행 판매 가능하나 개시일 미확정.",
+      "checked_date": "2026-10-17",
+      "thumbnail": "https://parks2.bandainamco-am.co.jp/client_info/BNAM_LBC_EC/itemimage/PRE_4582770056044/chainsawreze_machiboke_main_2.jpg",
+      "thumbnail_source": "https://parks2.bandainamco-am.co.jp/item/PRE_4582770056044.html",
+      "evidence": [],
+      "pending_reason": "날짜(시작일) 미정 — 근거로 확정할 수 없음",
+      "translation_check": true
     }
   ],
-  "base_date": "2026-10-16"
+  "base_date": "2026-10-17"
 }
