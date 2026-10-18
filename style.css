@@ -5,6 +5,8 @@
 .kicker{margin:0;color:var(--accent);font-weight:600;font-size:13px;letter-spacing:.08em}
 h1{margin:4px 0;font-size:26px}.sub{margin:0;color:var(--mute);font-size:14px}
 .meta{display:flex;justify-content:space-between;align-items:center;margin-top:14px;font-size:13px;color:var(--mute)}
+.upd{margin:8px 0 0;font-size:12px;color:var(--mute);letter-spacing:.01em;word-break:keep-all}
+.upd[hidden]{display:none}
 .meta a{color:var(--accent);text-decoration:none;font-weight:600}
 .banner{margin:16px 0 0;padding:10px 14px;background:#fff4d6;border:1px solid #ecd28f;border-radius:10px;font-size:14px}
 .filters{margin:16px 0;display:grid;gap:10px}

@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # 한 번에 실행 (기본 정책: 공식 출처로 확인된 것만 게시, 나머지는 pending.json 에 보관만 — 사람 검수 대기열 없음)
 # 1) 근거 없는 항목 근거 채우기 → 2) 쿠지/가챠 상품 썸네일 → 3) 공식 원문 재검증·종료 삭제 → review.md
+# 업데이트 배포 전: events.json 의 last_updated 를 오늘(Asia/Seoul, YYYY-MM-DD)로 꼭 올려요. 상단 "다음 업데이트"가 이 값 기준으로 계산돼요.
 set -e
 cd "$(dirname "$0")/.."
 PY=/workspace/.pwvenv/bin/python

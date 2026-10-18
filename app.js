@@ -67,8 +67,30 @@ function render(){
   ${mapq(e)?`<details class="map" data-q="${esc(mapq(e))}"><summary>📍 지도 펼치기</summary><div class="mapbox"></div></details>`:""}
   <div class="btns"><button type="button" class="dt more">자세히 보기</button>${e.official_url?`<a href="${esc(e.official_url)}" target="_blank" rel="noopener">공식 사이트</a>`:""}${mapq(e)?`<a class="sec" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(mapq(e))}" target="_blank" rel="noopener">지도 보기</a>`:""}${e.source_url&&e.source_url!==e.official_url?`<a class="sec" href="${esc(e.source_url)}" target="_blank" rel="noopener">출처</a>`:""}</div>
   </article>`}).join(""):`<p class="empty">조건에 맞는 일정이 없어요.</p>`}
+
+const WD=["일","월","화","수","목","금","토"];
+const seoulYMD=()=>{const p=new Intl.DateTimeFormat("en-CA",{timeZone:"Asia/Seoul",year:"numeric",month:"2-digit",day:"2-digit"}).formatToParts(new Date());const g=t=>p.find(x=>x.type===t).value;return`${g("year")}-${g("month")}-${g("day")}`};
+const parseYMD=s=>{const[y,m,d]=s.split("-").map(Number);return new Date(y,m-1,d)};
+const fmtMDW=dt=>`${dt.getMonth()+1}/${dt.getDate()}(${WD[dt.getDay()]})`;
+function nextMonThuAfter(ymd,{inclusive=false}={}){
+  const d=parseYMD(ymd);d.setDate(d.getDate()+(inclusive?0:1));
+  for(let i=0;i<8;i++){const w=d.getDay();if(w===1||w===4)return d;d.setDate(d.getDate()+1)}
+  return d;
+}
+function setUpdateLabel(last){
+  const el=document.getElementById("upd");if(!el||!last)return;
+  const lastD=parseYMD(last);if(Number.isNaN(lastD.getTime()))return;
+  let next=nextMonThuAfter(last,{inclusive:false});
+  const today=seoulYMD();
+  const nextYMD=`${next.getFullYear()}-${String(next.getMonth()+1).padStart(2,"0")}-${String(next.getDate()).padStart(2,"0")}`;
+  if(nextYMD<today) next=nextMonThuAfter(today,{inclusive:true});
+  el.textContent=`🗓️ 마지막 업데이트 ${fmtMDW(lastD)} · 다음 업데이트 ${fmtMDW(next)}`;
+  el.hidden=false;
+}
+
 fetch("events.json",{cache:"no-store"}).then(r=>r.json()).then(d=>{
   EV=d.events||[];document.getElementById("base").textContent=`기준일: ${d.base_date}`;
+  setUpdateLabel(d.last_updated);
   if(d.is_sample)document.getElementById("banner").hidden=false;
   const chips=document.getElementById("chips");
   chips.innerHTML=["",...CATS].map(c=>`<button data-c="${c}" class="${c?"":"on"}">${c||"전체"}</button>`).join("");
