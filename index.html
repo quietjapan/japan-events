@@ -17,6 +17,18 @@
 <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
 <link rel="icon" type="image/png" sizes="512x512" href="icon-512.png">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#fffdf8">
+<script>
+(function(){
+  var t=null;
+  try{ t=localStorage.getItem('qj_theme'); }catch(e){}
+  if(t!=='dark'&&t!=='light'){ t=(window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches)?'dark':'light'; }
+  document.documentElement.setAttribute('data-theme',t);
+  var m=document.querySelector('meta[name="theme-color"]');
+  if(m) m.setAttribute('content',t==='dark'?'#211d18':'#fffdf8');
+})();
+</script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
 <link rel="stylesheet" href="style.css">
 <script>
@@ -89,7 +101,7 @@
 </main>
 <footer class="wrap ft"><a class="fb" href="https://blog.naver.com/rownsh00/224442817755" target="_blank" rel="noopener">💬 문의·개선점·제보 남기기 (블로그 댓글)</a><br>정보는 작성 시점 기준이며 변경될 수 있어요. 방문 전 공식 안내를 꼭 확인해 주세요.<br>© 조용한 관종의 일본</footer>
 
-<button type="button" id="fxbtn" class="fxbtn" aria-expanded="false" aria-controls="fxpanel">💱 환율계산기</button>
+<div class="fabs"><button type="button" id="themebtn" class="fxbtn themebtn" aria-label="다크모드로 바꾸기">🌙 다크모드</button><button type="button" id="fxbtn" class="fxbtn" aria-expanded="false" aria-controls="fxpanel">💱 환율계산기</button></div>
 <div id="fxov" class="fxov" hidden>
 <div id="fxpanel" class="fxpanel" role="dialog" aria-modal="true" aria-label="환율 계산기">
   <div class="fxhd"><b>💱 환율 계산기</b><button type="button" id="fxx" class="fxx" aria-label="닫기">✕</button></div>
@@ -124,4 +136,5 @@
 <script src="fx.js"></script>
 <script src="app.js"></script>
 <script src="weather.js"></script>
+<script src="theme.js"></script>
 </body></html>
