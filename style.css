@@ -115,6 +115,7 @@ details.map{font-size:13px}details.map summary{cursor:pointer;color:var(--accent
 .fxwhen{margin:0 0 10px;font-size:11px;color:var(--mute);min-height:1.2em}
 .fxexpr{margin:6px 0 0;font-size:13px;font-weight:700;color:var(--accent);text-align:left;word-break:break-all}
 .fxexpr[hidden]{display:none}
+.fxkeys[hidden]{display:none!important}
 .fxkeys{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:40px;gap:6px;margin-top:10px}
 .fxkeys button{font:inherit;font-size:17px;font-weight:700;border:1px solid var(--line);border-radius:10px;background:#fff;color:var(--ink);cursor:pointer;touch-action:manipulation;-webkit-tap-highlight-color:transparent;padding:0}
 .fxkeys button:active{transform:scale(.96);background:var(--soft)}

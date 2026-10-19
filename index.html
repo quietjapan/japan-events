@@ -96,7 +96,7 @@
   <p class="fxwhen" id="fxwhen"></p>
   <div class="fxio">
     <label class="fxlab"><span id="fxfromlbl">엔화 (JPY)</span>
-      <input id="fxin" type="text" inputmode="decimal" autocomplete="off" placeholder="0" aria-label="엔화 금액 또는 계산식">
+      <input id="fxin" type="text" inputmode="decimal" autocomplete="off" placeholder="0" aria-label="엔화 금액">
     </label>
     <button type="button" id="fxswap" class="fxswap" aria-label="통화 바꾸기" title="바꾸기">⇄</button>
     <div class="fxlab"><span id="fxtolbl">원화 (KRW)</span>
@@ -109,14 +109,14 @@
     <button type="button" data-jpy="5000">5,000엔</button>
     <button type="button" data-jpy="10000">10,000엔</button>
   </div>
-  <div class="fxkeys" id="fxkeys" aria-label="계산기 키패드">
+  <div class="fxkeys" id="fxkeys" aria-label="계산기 키패드" hidden>
     <button type="button" data-k="C" class="fk-fn">C</button><button type="button" data-k="⌫" class="fk-fn" aria-label="한 글자 지우기">⌫</button><button type="button" data-k="÷" class="fk-op" aria-label="나누기">÷</button><button type="button" data-k="×" class="fk-op" aria-label="곱하기">×</button>
     <button type="button" data-k="7">7</button><button type="button" data-k="8">8</button><button type="button" data-k="9">9</button><button type="button" data-k="−" class="fk-op" aria-label="빼기">−</button>
     <button type="button" data-k="4">4</button><button type="button" data-k="5">5</button><button type="button" data-k="6">6</button><button type="button" data-k="+" class="fk-op" aria-label="더하기">+</button>
     <button type="button" data-k="1">1</button><button type="button" data-k="2">2</button><button type="button" data-k="3">3</button><button type="button" data-k="=" class="fk-eq" aria-label="계산하기">=</button>
     <button type="button" data-k="0" class="fk-0">0</button><button type="button" data-k=".">.</button>
   </div>
-  <p class="fxnote">예: 850 × 5 = 처럼 합계를 계산하면 원화로 바로 바꿔 보여드려요. 참고용 환율이에요 (실제 카드·환전 환율과 다를 수 있어요)</p>
+  <p class="fxnote">기준 환율(참고용)이에요. 카드·환전 환율은 수수료 때문에 더 높을 수 있어요.</p>
 </div>
 </div>
 
