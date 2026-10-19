@@ -94,7 +94,7 @@ fetch("events.json",{cache:"no-store"}).then(r=>r.json()).then(d=>{
   if(d.is_sample)document.getElementById("banner").hidden=false;
   const chips=document.getElementById("chips");
   chips.innerHTML=["",...CATS].map(c=>`<button data-c="${c}" class="${c?"":"on"}">${c||"전체"}</button>`).join("");
-  chips.onclick=ev=>{const b=ev.target.closest("button");if(!b)return;st.cat=b.dataset.c;chips.querySelectorAll("button").forEach(x=>x.classList.toggle("on",x===b));render()};
+  chips.onclick=ev=>{const b=ev.target.closest("button");if(!b)return;st.cat=b.dataset.c;chips.querySelectorAll("button").forEach(x=>x.classList.toggle("on",x===b));render();window.gtag&&gtag("event","select_tab",{tab:b.dataset.c||"전체"})};
   const sel=document.getElementById("area");[...new Set(EV.map(e=>e.area))].forEach(a=>sel.add(new Option(a,a)));
   sel.onchange=()=>{st.area=sel.value;render()};
   const fr=document.getElementById("from"),to=document.getElementById("to");
@@ -119,7 +119,7 @@ function detail(e){const g=e.gallery||[];const groups=[...new Set(g.map(x=>x.gro
    +`<p class="dnote">${e.gallery_note?esc(e.gallery_note)+" · ":""}출처: <a href="${esc(e.gallery_source||e.official_url)}" target="_blank" rel="noopener">${esc(host(e.gallery_source||e.official_url))}</a></p>`:""}
   ${e.official_url?`<a class="dlink" href="${esc(e.official_url)}" target="_blank" rel="noopener">공식 사이트에서 확인하기</a>`:""}</div>`}
 let DETAIL_E=null;
-function openDetail(e){closeDetail();DETAIL_E=e;const o=document.createElement("div");o.className="dov";o.innerHTML=detail(e);document.body.appendChild(o);document.body.style.overflow="hidden";o.querySelector(".dvx").focus();
+function openDetail(e){window.gtag&&gtag("event","open_detail",{item:e.title_ko,category:e.category});closeDetail();DETAIL_E=e;const o=document.createElement("div");o.className="dov";o.innerHTML=detail(e);document.body.appendChild(o);document.body.style.overflow="hidden";o.querySelector(".dvx").focus();
   o.addEventListener("click",ev=>{if(ev.target===o||ev.target.closest(".dvx"))closeDetail()})}
 function closeDetail(){const o=document.querySelector(".dov");if(o){o.remove();document.body.style.overflow="";DETAIL_E=null}}
 function closeLB(){const l=document.querySelector(".lb");if(l){l.remove();return true}return false}
