@@ -309,11 +309,11 @@
       "venue": "and GALLERY 이케부쿠로점·유라쿠초점",
       "start": "2026-11-03",
       "end": "2026-12-06",
-      "reservation": "",
-      "price": "",
+      "reservation": "선택 (예약 권장)",
+      "price": "예약 330엔/인 (세금 포함), 푸드 1,200~1,600엔, 드링크 850엔~",
       "official_url": "https://collabocafe.and-gallery.com/haikyu",
       "source_url": "https://charagoo.jp/collab/event/7292ae5f704f/",
-      "notes": "전국 6개 매장 동시 개최",
+      "notes": "전국 6개 매장 동시 개최. 70분제. 사전 예약 시 엽서 특전(랜덤 1장). 굿즈는 카페 이용객만 구매 가능, 종료 후 사후 통판(12/19~1/24)",
       "checked_date": "2026-10-15",
       "thumbnail": "https://storage.googleapis.com/production-os-assets/assets/f8b85326-9d48-4bd9-b1e8-c3debd25433e",
       "thumbnail_source": "https://collabocafe.and-gallery.com/haikyu",
@@ -338,7 +338,224 @@
       "lon": 139.7149,
       "translation_check": true,
       "summary_ko": "애니메이션 「하이큐!!」 콜라보 카페예요. 캐릭터를 이미지한 메뉴와 새로 그린 비주얼 굿즈를 판매하고, 사전 예약하면 엽서 특전(랜덤 1장)을 줘요.",
-      "summary_source": "https://collabocafe.and-gallery.com/haikyu"
+      "summary_source": "https://collabocafe.and-gallery.com/haikyu",
+      "gallery": [
+        {
+          "group": "푸드 메뉴",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a7NDKnqR/s-3936x2624_v-frms_f87b954d-c987-4482-861a-8e256971370b.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a7NDKnqR/s-3936x2624_v-frms_f87b954d-c987-4482-861a-8e256971370b.webp",
+          "caption_ko": "히나타의 달걀밥(TKG) 스타일 파르페",
+          "caption_ja": "日向のたまごかけごはん風パフェ",
+          "price": "1,200엔 (세금 포함)",
+          "source": "https://collabocafe.and-gallery.com/haikyu"
+        },
+        {
+          "group": "푸드 메뉴",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a7NDKnqR/s-3936x2624_v-frms_2e2a6d52-14d9-4652-bf8f-3ed2f2d9d740.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a7NDKnqR/s-3936x2624_v-frms_2e2a6d52-14d9-4652-bf8f-3ed2f2d9d740.webp",
+          "caption_ko": "카게야마의 흑돼지 카레 온천달걀 토핑",
+          "caption_ja": "影山の黒ポークカレー温卵のせ",
+          "price": "1,600엔 (세금 포함)",
+          "source": "https://collabocafe.and-gallery.com/haikyu"
+        },
+        {
+          "group": "푸드 메뉴",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a7NDKnqR/s-3936x2624_v-frms_c25e9822-5510-4e17-a19f-abb86ad6cba0.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a7NDKnqR/s-3936x2624_v-frms_c25e9822-5510-4e17-a19f-abb86ad6cba0.webp",
+          "caption_ko": "츠키시마의 쇼트케이크 스타일 달걀말이",
+          "caption_ja": "月島のショートケーキ風たまご焼き",
+          "price": "1,200엔 (세금 포함)",
+          "source": "https://collabocafe.and-gallery.com/haikyu"
+        },
+        {
+          "group": "푸드 메뉴",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a7NDKnqR/s-3936x2624_v-frms_e4ee0f92-cc78-4d0c-850c-d8f6d3ecefa7.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a7NDKnqR/s-3936x2624_v-frms_e4ee0f92-cc78-4d0c-850c-d8f6d3ecefa7.webp",
+          "caption_ko": "사와무라의 간장 라멘",
+          "caption_ja": "澤村の醤油ラーメン",
+          "price": "1,500엔 (세금 포함)",
+          "source": "https://collabocafe.and-gallery.com/haikyu"
+        },
+        {
+          "group": "푸드 메뉴",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a7NDKnqR/s-3936x2624_v-frms_1b72f9ff-9ef0-44f9-a8ee-201aa3bd3c6c.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a7NDKnqR/s-3936x2624_v-frms_1b72f9ff-9ef0-44f9-a8ee-201aa3bd3c6c.webp",
+          "caption_ko": "스가와라의 아주 매운 마파두부",
+          "caption_ja": "菅原の激辛麻婆豆腐",
+          "price": "1,500엔 (세금 포함)",
+          "source": "https://collabocafe.and-gallery.com/haikyu"
+        },
+        {
+          "group": "푸드 메뉴",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a7NDKnqR/s-3936x2624_v-frms_1c2986f2-1a31-419d-8630-f31d8166c961.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a7NDKnqR/s-3936x2624_v-frms_1c2986f2-1a31-419d-8630-f31d8166c961.webp",
+          "caption_ko": "아즈마네의 돈코츠 라멘",
+          "caption_ja": "東峰のとんこつラーメン",
+          "price": "1,500엔 (세금 포함)",
+          "source": "https://collabocafe.and-gallery.com/haikyu"
+        },
+        {
+          "group": "드링크 메뉴",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a7NDKnqR/s-3024x3024_v-frms_d0db1547-130b-4de4-9555-e275c608e2d7.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a7NDKnqR/s-3024x3024_v-frms_d0db1547-130b-4de4-9555-e275c608e2d7.webp",
+          "caption_ko": "히나타의 오렌지 믹스 주스",
+          "caption_ja": "日向のオレンジミックスジュース",
+          "price": "850엔 / 드링크 참 포함 1,500엔 (세금 포함)",
+          "source": "https://collabocafe.and-gallery.com/haikyu"
+        },
+        {
+          "group": "드링크 메뉴",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a7NDKnqR/s-3024x3024_v-frms_330866d9-0064-4e9e-915a-a1efa481025b.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a7NDKnqR/s-3024x3024_v-frms_330866d9-0064-4e9e-915a-a1efa481025b.webp",
+          "caption_ko": "카게야마의 요구르트 플로트",
+          "caption_ja": "影山のヨーグルトフロート",
+          "price": "850엔 / 드링크 참 포함 1,500엔 (세금 포함)",
+          "source": "https://collabocafe.and-gallery.com/haikyu"
+        },
+        {
+          "group": "드링크 메뉴",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a7NDKnqR/s-3024x3024_v-frms_a03753f7-1f48-476d-a323-b8a5211d3f41.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a7NDKnqR/s-3024x3024_v-frms_a03753f7-1f48-476d-a323-b8a5211d3f41.webp",
+          "caption_ko": "츠키시마의 레몬 젤리 드링크",
+          "caption_ja": "月島のレモンゼリードリンク",
+          "price": "850엔 / 드링크 참 포함 1,500엔 (세금 포함)",
+          "source": "https://collabocafe.and-gallery.com/haikyu"
+        },
+        {
+          "group": "드링크 메뉴",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a7NDKnqR/s-3024x3024_v-frms_9c63a12d-90c7-4e18-a93c-1acd36cfb740.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a7NDKnqR/s-3024x3024_v-frms_9c63a12d-90c7-4e18-a93c-1acd36cfb740.webp",
+          "caption_ko": "사와무라의 키위 드링크",
+          "caption_ja": "澤村のキウイドリンク",
+          "price": "850엔 / 드링크 참 포함 1,500엔 (세금 포함)",
+          "source": "https://collabocafe.and-gallery.com/haikyu"
+        },
+        {
+          "group": "드링크 메뉴",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a7NDKnqR/s-3024x3024_v-frms_9b62cee2-d973-4716-a02a-06aaf71e1f1b.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a7NDKnqR/s-3024x3024_v-frms_9b62cee2-d973-4716-a02a-06aaf71e1f1b.webp",
+          "caption_ko": "스가와라의 터쿼이즈 블루 밀크셰이크",
+          "caption_ja": "菅原のターコイズブルーミルクセーキ",
+          "price": "850엔 / 드링크 참 포함 1,500엔 (세금 포함)",
+          "source": "https://collabocafe.and-gallery.com/haikyu"
+        },
+        {
+          "group": "드링크 메뉴",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a7NDKnqR/s-3024x3024_v-frms_6fbf914c-f8dd-48fa-a264-252f7c24f8b9.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a7NDKnqR/s-3024x3024_v-frms_6fbf914c-f8dd-48fa-a264-252f7c24f8b9.webp",
+          "caption_ko": "아즈마네의 아사이 플로트",
+          "caption_ja": "東峰のアサイーフロート",
+          "price": "850엔 / 드링크 참 포함 1,500엔 (세금 포함)",
+          "source": "https://collabocafe.and-gallery.com/haikyu"
+        },
+        {
+          "group": "특전",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a7NDKnqR/s-960x720_v-fs_5296d9fc-3319-4ccf-a876-2da5066bfea0.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a7NDKnqR/s-960x720_v-fs_5296d9fc-3319-4ccf-a876-2da5066bfea0.webp",
+          "caption_ko": "드링크 참 (수베니어)",
+          "caption_ja": "スーベニア ドリンクチャーム（全6種）",
+          "kinds": "전 6종 · 참 포함 드링크 1잔당 랜덤 1개",
+          "source": "https://collabocafe.and-gallery.com/haikyu"
+        },
+        {
+          "group": "특전",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a7NDKnqR/s-960x720_v-fs_d53d73f8-0b4f-48e5-8ec0-df147d11aa61.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a7NDKnqR/s-960x720_v-fs_d53d73f8-0b4f-48e5-8ec0-df147d11aa61.webp",
+          "caption_ko": "종이 코스터",
+          "caption_ja": "メニュー注文特典 ペーパーコースター(全6種)",
+          "kinds": "전 6종 · 콜라보 메뉴·드링크 1개 주문당 랜덤 1장",
+          "source": "https://collabocafe.and-gallery.com/haikyu"
+        },
+        {
+          "group": "특전",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a7NDKnqR/s-960x720_v-fs_6cab6e85-8ed3-42c8-a593-a4b1780071ab.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a7NDKnqR/s-960x720_v-fs_6cab6e85-8ed3-42c8-a593-a4b1780071ab.webp",
+          "caption_ko": "스티커",
+          "caption_ja": "グッズ購入特典 ステッカー(全6種)",
+          "kinds": "전 6종 · 굿즈 3,000엔(세금 포함)마다 랜덤 1장",
+          "source": "https://collabocafe.and-gallery.com/haikyu"
+        },
+        {
+          "group": "특전",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a7NDKnqR/s-960x720_v-fs_2c23c994-c30f-45cc-a7e4-4aa600123a84.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a7NDKnqR/s-960x720_v-fs_2c23c994-c30f-45cc-a7e4-4aa600123a84.webp",
+          "caption_ko": "엽서 (사전 예약 특전)",
+          "caption_ja": "事前予約特典 ポストカード(全6種)",
+          "kinds": "전 6종 · 사전 예약(330엔) 이용 시 전원 랜덤 1장",
+          "source": "https://collabocafe.and-gallery.com/haikyu"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a7NDKnqR/s-960x720_v-fs_53ec4f76-3d55-458a-93b4-852be4bb5d0a.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a7NDKnqR/s-960x720_v-fs_53ec4f76-3d55-458a-93b4-852be4bb5d0a.webp",
+          "caption_ko": "트레이딩 캔뱃지",
+          "caption_ja": "トレーディング缶バッジ(全6種)",
+          "price": "550엔 (세금 포함)",
+          "kinds": "전 6종 · 랜덤",
+          "source": "https://collabocafe.and-gallery.com/haikyu"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a7NDKnqR/s-960x720_v-fs_5821f099-8f1e-48c8-96c2-3431765173b4.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a7NDKnqR/s-960x720_v-fs_5821f099-8f1e-48c8-96c2-3431765173b4.webp",
+          "caption_ko": "BIG 아크릴 스탠드",
+          "caption_ja": "BIGアクリルスタンド(全6種)",
+          "price": "각 3,300엔 (세금 포함)",
+          "kinds": "전 6종",
+          "source": "https://collabocafe.and-gallery.com/haikyu"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a7NDKnqR/s-960x720_v-fs_1178c14a-25a5-480b-8fc1-d869ee6f30e5.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a7NDKnqR/s-960x720_v-fs_1178c14a-25a5-480b-8fc1-d869ee6f30e5.webp",
+          "caption_ko": "트레이딩 미니 아크릴 스탠드",
+          "caption_ja": "トレーディングミニアクリルスタンド(全6種)",
+          "price": "850엔 (세금 포함)",
+          "kinds": "전 6종 · 랜덤",
+          "source": "https://collabocafe.and-gallery.com/haikyu"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a7NDKnqR/s-960x720_v-fs_3a730f43-8a20-4328-8bbf-c8e8969e348a.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a7NDKnqR/s-960x720_v-fs_3a730f43-8a20-4328-8bbf-c8e8969e348a.webp",
+          "caption_ko": "네임 스타일 아크릴 키홀더",
+          "caption_ja": "ネーム風アクリルキーホルダー(全6種)",
+          "price": "750엔 (세금 포함)",
+          "kinds": "전 6종",
+          "source": "https://collabocafe.and-gallery.com/haikyu"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a7NDKnqR/s-960x720_v-fs_6cbe7a5b-96ff-4f0a-9232-ca39808953cd.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a7NDKnqR/s-960x720_v-fs_6cbe7a5b-96ff-4f0a-9232-ca39808953cd.webp",
+          "caption_ko": "클리어 파일",
+          "caption_ja": "クリアファイル(全1種)",
+          "price": "770엔 (세금 포함)",
+          "kinds": "전 1종",
+          "source": "https://collabocafe.and-gallery.com/haikyu"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a7NDKnqR/s-960x720_v-fs_d5c47dd9-1c01-44fa-8960-c24d47acddb3.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a7NDKnqR/s-960x720_v-fs_d5c47dd9-1c01-44fa-8960-c24d47acddb3.webp",
+          "caption_ko": "페이스 핸드 롱 타월",
+          "caption_ja": "フェイスハンドロングタオル(全1種)",
+          "price": "1,320엔 (세금 포함)",
+          "kinds": "전 1종",
+          "source": "https://collabocafe.and-gallery.com/haikyu"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a7NDKnqR/s-960x720_v-fs_670a6aab-5071-460b-8f80-8bfd32f5cea7.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/V5a7NDKnqR/s-960x720_v-fs_670a6aab-5071-460b-8f80-8bfd32f5cea7.webp",
+          "caption_ko": "트레이딩 클리어 카드",
+          "caption_ja": "トレーディングクリアカード(全7種)",
+          "price": "660엔 (세금 포함)",
+          "kinds": "전 7종 · 랜덤",
+          "source": "https://collabocafe.and-gallery.com/haikyu"
+        }
+      ],
+      "gallery_note": "메뉴·굿즈 사진은 공식 사이트 이미지예요"
     },
     {
       "title_ko": "은혼 팝업숍 in 타워레코드",
@@ -4520,7 +4737,7 @@
       "start": "2026-10-24",
       "end": "2026-11-08",
       "reservation": "선택",
-      "price": "",
+      "price": "굿즈 400~3,500엔 (세금 포함)",
       "official_url": "https://www.animate.co.jp/onlyshop/51731/",
       "source_url": "https://www.animate.co.jp/onlyshop/51731/",
       "notes": "10/24·25 입장은 선착순 입장정리권(공식 페이지 안내 참고). 우메다점은 11/1까지",
@@ -4542,7 +4759,30 @@
       "lon": 139.7152,
       "verified_at": "2026-10-19",
       "summary_ko": "애니플렉스 작품들을 한데 모은 팝업숍이에요. 여러 작품 전시와 함께 애니플렉스 공식 이벤트에서 팔았던 상품을 많이 판매해요.",
-      "summary_source": "https://www.animate.co.jp/onlyshop/51731/"
+      "summary_source": "https://www.animate.co.jp/onlyshop/51731/",
+      "gallery": [
+        {
+          "group": "상품",
+          "img": "https://www.animate.co.jp/assets/uploads/2026/10/1791527164-a155a77c541d1c8750db5a3def88d55b-1920x2195.jpg",
+          "caption_ko": "트위스테드 원더랜드 상품 라인업 (랜덤 샤카샤카 참·비즈 참·오로라 아크릴 헤어클립·박 클리어 카드·일러스트 카드북)",
+          "caption_ja": "ツイステッドワンダーランド：ランダムシャカシャカチャーム／ビーズチャーム／オーロラアクリルヘアクリップ／箔押しビッグクリアカードコレクション／イラストカードブック",
+          "price": "400~3,500엔 (세금 포함)",
+          "kinds": "5종 상품",
+          "source": "https://www.animate.co.jp/onlyshop/51731/",
+          "full": "https://www.animate.co.jp/assets/uploads/2026/10/1791527164-a155a77c541d1c8750db5a3def88d55b-1920x2195.jpg"
+        },
+        {
+          "group": "상품",
+          "img": "https://www.animate.co.jp/assets/uploads/2026/10/1791972314-35613c07ddf5089f3d9941a0cb6ec947-1920x2195.jpg",
+          "caption_ko": "귀멸의 칼날 상품 라인업 (랜덤 카드·아크릴 스탠드·클리어 파일·아크릴 참·엽서&카드 스탠드·아크릴 디오라마)",
+          "caption_ja": "鬼滅の刃：ランダムカード／アクリルスタンド／クリアファイル／アクリルチャーム／ポストカード＆カードスタンド／アクリルジオラマ",
+          "price": "400~3,500엔 (세금 포함)",
+          "kinds": "6종 상품",
+          "source": "https://www.animate.co.jp/onlyshop/51731/",
+          "full": "https://www.animate.co.jp/assets/uploads/2026/10/1791972314-35613c07ddf5089f3d9941a0cb6ec947-1920x2195.jpg"
+        }
+      ],
+      "gallery_note": "작품별 공식 상품 라인업 이미지예요"
     },
     {
       "title_ko": "이치방쿠지 우마무스메 프리티 더비 14탄",
