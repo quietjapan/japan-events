@@ -7358,6 +7358,38 @@
       ]
     },
     {
+      "reservation": "",
+      "price": "",
+      "checked_date": "2026-10-19",
+      "source_tier": "official",
+      "translation_check": true,
+      "verified_at": "2026-10-19",
+      "title_ko": "주술회전 PLAZA 긴자 로프트",
+      "title_ja": "呪術廻戦PLAZA 銀座ロフト会場",
+      "category": "팝업스토어",
+      "area": "도쿄",
+      "venue": "긴자 로프트",
+      "start": "2026-11-07",
+      "end": "2026-11-29",
+      "official_url": "https://x.com/jujutsu_plaza/status/2111368884276044073",
+      "thumbnail": "https://pbs.twimg.com/media/HU0WzWMa8AEzIhi.jpg",
+      "thumb_pos": "0% center",
+      "map_query": "銀座ロフト",
+      "notes": "가격·상품 라인업은 아직 공식 미공개. 신상품 발매 예정",
+      "summary_ko": "『주술회전』 굿즈 물판 행사 'PLAZA'의 새 회장으로 긴자 로프트가 결정됐어요. 신상품도 발매될 예정이에요.",
+      "source_url": "https://x.com/jujutsu_plaza/status/2111368884276044073",
+      "summary_source": "https://x.com/jujutsu_plaza/status/2111368884276044073",
+      "thumbnail_source": "https://x.com/jujutsu_plaza/status/2111368884276044073",
+      "evidence": [
+        {
+          "url": "https://x.com/jujutsu_plaza/status/2111368884276044073",
+          "tier": "official",
+          "quote": "■ 銀座ロフト会場　日程　:2026年11月7日(土)～11月29日(日)",
+          "checked": "2026-10-19"
+        }
+      ]
+    },
+    {
       "reservation": "11/7·8은 LINE 선착 정리권",
       "price": "",
       "checked_date": "2026-10-19",
