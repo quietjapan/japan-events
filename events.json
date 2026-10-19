@@ -7294,6 +7294,790 @@
           "checked": "2026-10-19"
         }
       ]
+    },
+    {
+      "reservation": "불필요",
+      "price": "입장 무료, 즉석 프린트 티셔츠 각 5,500엔 (세금 포함)",
+      "checked_date": "2026-10-19",
+      "source_tier": "official",
+      "translation_check": true,
+      "verified_at": "2026-10-19",
+      "title_ko": "지구방위군 POP UP SHOP",
+      "title_ja": "『地球防衛軍 POP UP SHOP』",
+      "category": "팝업스토어",
+      "area": "도쿄",
+      "venue": "반다이남코 Cross Store 도쿄 (이케부쿠로 선샤인시티 월드임포트마트 3층)",
+      "start": "2026-10-24",
+      "end": "2026-11-23",
+      "official_url": "https://bandainamco-am.co.jp/crossstore/store/crossstore_tokyo/news/20261015.html",
+      "thumbnail": "https://bandainamco-am.co.jp/images/crossstore/store/news/crossstore_tokyo/20261015/KV_edf_popupshop.jpg",
+      "map_query": "東京都豊島区東池袋3-1-3 ワールドインポートマートビル",
+      "notes": "10:00~20:00 (티셔츠 주문은 19시까지, 완성까지 약 1시간). 2,000엔마다 EDF HISTORY 홀로 스티커 랜덤 1장(10/24~11/6 1탄, 11/7~ 2탄). 10/24 『지구방위군 6.2』 시연회, 11/7 게임 대회",
+      "summary_ko": "게임 『지구방위군』 팝업숍이에요. 최신 공식 굿즈와 콜라보 굿즈를 팔고, 디스리 퍼블리셔 역대 타이틀 23종 그림으로 그 자리에서 티셔츠를 프린트해 줘요.",
+      "source_url": "https://bandainamco-am.co.jp/crossstore/store/crossstore_tokyo/news/20261015.html",
+      "summary_source": "https://bandainamco-am.co.jp/crossstore/store/crossstore_tokyo/news/20261015.html",
+      "thumbnail_source": "https://bandainamco-am.co.jp/crossstore/store/crossstore_tokyo/news/20261015.html",
+      "evidence": [
+        {
+          "url": "https://bandainamco-am.co.jp/crossstore/store/crossstore_tokyo/news/20261015.html",
+          "tier": "official",
+          "quote": "開催日時：2026年10月24日(土)～11月23日(月・祝)",
+          "checked": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "reservation": "",
+      "price": "",
+      "checked_date": "2026-10-19",
+      "source_tier": "official",
+      "translation_check": true,
+      "verified_at": "2026-10-19",
+      "title_ko": "주술회전 PLAZA 시부야 로프트",
+      "title_ja": "呪術廻戦PLAZA 渋谷ロフト会場",
+      "category": "팝업스토어",
+      "area": "도쿄",
+      "venue": "시부야 로프트",
+      "start": "2026-10-23",
+      "end": "2026-11-10",
+      "official_url": "https://www.ntvs.co.jp/news/jujutsu-plaza/",
+      "thumbnail": "https://www.ntvs.co.jp/wp-content/uploads/2026/10/news-launch-jujutsu-plaza.jpg",
+      "map_query": "渋谷ロフト",
+      "notes": "가격은 아직 공식 미공개. 회기 중 신상품·한정 상품 발매 예정",
+      "summary_ko": "『주술회전』 굿즈 물판 행사 'PLAZA'의 시부야 로프트 회장이에요. 회기 중에 신상품과 한정 상품도 나올 예정이에요.",
+      "source_url": "https://www.ntvs.co.jp/news/jujutsu-plaza/",
+      "summary_source": "https://www.ntvs.co.jp/news/jujutsu-plaza/",
+      "thumbnail_source": "https://www.ntvs.co.jp/news/jujutsu-plaza/",
+      "evidence": [
+        {
+          "url": "https://www.ntvs.co.jp/news/jujutsu-plaza/",
+          "tier": "official",
+          "quote": "■渋谷ロフト会場 日程: 2026年10月23日(金)～11月10日(火)",
+          "checked": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "reservation": "11/7·8은 LINE 선착 정리권",
+      "price": "",
+      "checked_date": "2026-10-19",
+      "source_tier": "official",
+      "translation_check": true,
+      "verified_at": "2026-10-19",
+      "title_ko": "문호 스트레이독스 AGF2026 × 애니메이트 이케부쿠로 본점 POPUP SHOP",
+      "title_ja": "「文豪ストレイドッグス」AGF2026×アニメイト池袋本店 POPUP SHOP",
+      "category": "팝업스토어",
+      "area": "도쿄",
+      "venue": "애니메이트 이케부쿠로 본점 3층 와쿠와쿠 스페이스",
+      "start": "2026-11-07",
+      "end": "2026-11-29",
+      "official_url": "https://www.animate.co.jp/onlyshop/49939/",
+      "thumbnail": "https://www.animate.co.jp/assets/uploads/2026/10/1791879338-f1a987dd524c62b3faeccea3a18e7cbb.jpg",
+      "map_query": "アニメイト池袋本店",
+      "notes": "11/7·8 입장은 당일 8:30부터 LINE 선착 정리권, 11/9부터 자유 입장 예정. AGF2026 문호스독 부스 영수증을 가져가면 연동 특전",
+      "summary_ko": "『문호 스트레이독스』 AGF2026 연동 팝업숍이에요. 애니메이트 이케부쿠로 본점에서 굿즈를 팔고, AGF 부스 영수증이 있으면 연동 특전을 받을 수 있어요.",
+      "source_url": "https://www.animate.co.jp/onlyshop/49939/",
+      "summary_source": "https://www.animate.co.jp/onlyshop/49939/",
+      "thumbnail_source": "https://www.animate.co.jp/onlyshop/49939/",
+      "evidence": [
+        {
+          "url": "https://www.animate.co.jp/onlyshop/49939/",
+          "tier": "official",
+          "quote": "開催期間：2026年11月7日(土)～2026年11月29日(日) 開催店舗：池袋本店3Fわくわくスペース",
+          "checked": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "reservation": "",
+      "price": "아크릴 스탠드 각 1,760엔, 트레이딩 캔배지 550엔, 아크릴 카드 스탠드 각 2,750엔 (세금 포함)",
+      "checked_date": "2026-10-19",
+      "source_tier": "official",
+      "translation_check": true,
+      "verified_at": "2026-10-19",
+      "title_ko": "카드파이트!! 뱅가드 Divinez 시리즈 완결 기념 POP UP STORE",
+      "title_ja": "カードファイト!! ヴァンガード Divinez シリーズ完結記念POP UP STORE",
+      "category": "팝업스토어",
+      "area": "도쿄",
+      "venue": "뱅가드 스토어 (AKIHABARA 게이머즈 4층), 애니메이트 이케부쿠로 본점·아키하바라·시부야·신주쿠 외",
+      "start": "2026-11-06",
+      "end": "2026-11-23",
+      "official_url": "https://bushiroad-creative.com/topics/104744/",
+      "thumbnail": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/15195218/Animate_VG_banner_1920%C3%971080_MAIN-1-1024x576.jpg",
+      "map_query": "AKIHABARAゲーマーズ本店",
+      "notes": "3,300엔마다 새로 그린 뱅가드 PR 카드(전 8종) 랜덤 1장. 애니메이트 통판도 같이 해요",
+      "summary_ko": "『카드파이트!! 뱅가드 Divinez』 완결 기념 팝업이에요. 'After Party ver.' 새 일러스트 굿즈를 팔고, 구매 특전으로 PR 카드를 줘요.",
+      "source_url": "https://bushiroad-creative.com/topics/104744/",
+      "summary_source": "https://bushiroad-creative.com/topics/104744/",
+      "thumbnail_source": "https://bushiroad-creative.com/topics/104744/",
+      "evidence": [
+        {
+          "url": "https://bushiroad-creative.com/topics/104744/",
+          "tier": "official",
+          "quote": "｜POP UP STORE 2026年11月6日(金) ～ 11月23日(月・祝)",
+          "checked": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "reservation": "",
+      "price": "",
+      "checked_date": "2026-10-19",
+      "source_tier": "official",
+      "translation_check": true,
+      "verified_at": "2026-10-19",
+      "title_ko": "내 마음의 위험한 녀석 완결 & 러브코미디가 시작되지 않아 POP UP SHOP",
+      "title_ja": "「僕の心のヤバイやつ」完結＆「ラブコメディが始まらない」POP UP SHOP",
+      "category": "팝업스토어",
+      "area": "도쿄",
+      "venue": "신주쿠 마루이 멘 8층 이벤트 스페이스",
+      "start": "2026-11-06",
+      "end": "2026-11-23",
+      "official_url": "https://www.medicos-e.net/newsdetail/boku_yaba/",
+      "thumbnail": "https://www.medicos-e.net/wp-content/uploads/2026/10/6fcbb9e115f68cebf1c39cb2570b1497-1024x724.jpg",
+      "map_query": "新宿マルイ メン",
+      "notes": "1,000엔마다 특전 미니 카드 랜덤 1장(전반 11/6~13·후반 11/14~ 그림 다름), 3,000엔마다 회장 한정 일러스트 카드. 오사카는 12/18~12/27",
+      "summary_ko": "『내 마음의 위험한 녀석』 완결과 스핀오프 『러브코미디가 시작되지 않아』 기념 팝업숍이에요. 새로 그린 일러스트 굿즈와 복제 원화를 팔아요.",
+      "gallery": [
+        {
+          "group": "상품",
+          "img": "https://www.medicos-e.net/wp-content/uploads/2026/10/006344213650bf98d5436bad12418467-724x1024.jpg",
+          "full": "https://www.medicos-e.net/wp-content/uploads/2026/10/006344213650bf98d5436bad12418467-scaled.jpg",
+          "caption_ko": "상품 라인업 1",
+          "caption_ja": "商品ラインナップ",
+          "source": "https://www.medicos-e.net/newsdetail/boku_yaba/"
+        },
+        {
+          "group": "상품",
+          "img": "https://www.medicos-e.net/wp-content/uploads/2026/10/5fd96457a4926ea227690bd5a932b628-724x1024.jpg",
+          "full": "https://www.medicos-e.net/wp-content/uploads/2026/10/5fd96457a4926ea227690bd5a932b628-scaled.jpg",
+          "caption_ko": "상품 라인업 2",
+          "caption_ja": "商品ラインナップ",
+          "source": "https://www.medicos-e.net/newsdetail/boku_yaba/"
+        },
+        {
+          "group": "상품",
+          "img": "https://www.medicos-e.net/wp-content/uploads/2026/10/90be77df54cdb3cdfbe5afdf5c448816-1-724x1024.jpg",
+          "full": "https://www.medicos-e.net/wp-content/uploads/2026/10/90be77df54cdb3cdfbe5afdf5c448816-1-scaled.jpg",
+          "caption_ko": "상품 라인업 3",
+          "caption_ja": "商品ラインナップ",
+          "source": "https://www.medicos-e.net/newsdetail/boku_yaba/"
+        },
+        {
+          "group": "상품",
+          "img": "https://www.medicos-e.net/wp-content/uploads/2026/10/d19997a438e5c42b9b822b05ef6463ff-724x1024.jpg",
+          "full": "https://www.medicos-e.net/wp-content/uploads/2026/10/d19997a438e5c42b9b822b05ef6463ff-scaled.jpg",
+          "caption_ko": "상품 라인업 4",
+          "caption_ja": "商品ラインナップ",
+          "source": "https://www.medicos-e.net/newsdetail/boku_yaba/"
+        },
+        {
+          "group": "상품",
+          "img": "https://www.medicos-e.net/wp-content/uploads/2026/10/3c8f2a9e0216aa5a01cee169153deef1-724x1024.jpg",
+          "full": "https://www.medicos-e.net/wp-content/uploads/2026/10/3c8f2a9e0216aa5a01cee169153deef1-scaled.jpg",
+          "caption_ko": "상품 라인업 5",
+          "caption_ja": "商品ラインナップ",
+          "source": "https://www.medicos-e.net/newsdetail/boku_yaba/"
+        },
+        {
+          "group": "상품",
+          "img": "https://www.medicos-e.net/wp-content/uploads/2026/10/c1c251874a7c1f28a610e617600cd1d4-724x1024.jpg",
+          "full": "https://www.medicos-e.net/wp-content/uploads/2026/10/c1c251874a7c1f28a610e617600cd1d4-scaled.jpg",
+          "caption_ko": "상품 라인업 6",
+          "caption_ja": "商品ラインナップ",
+          "source": "https://www.medicos-e.net/newsdetail/boku_yaba/"
+        },
+        {
+          "group": "특전",
+          "img": "https://www.medicos-e.net/wp-content/uploads/2026/10/d7f3d00a5dabdb4a2094895472d2fdd2-1-1024x724.jpg",
+          "full": "https://www.medicos-e.net/wp-content/uploads/2026/10/d7f3d00a5dabdb4a2094895472d2fdd2-1-scaled.jpg",
+          "caption_ko": "특전 미니 카드",
+          "caption_ja": "特典ミニカード",
+          "source": "https://www.medicos-e.net/newsdetail/boku_yaba/",
+          "kinds": "1,000엔(세금 포함)마다 랜덤 1장"
+        },
+        {
+          "group": "특전",
+          "img": "https://www.medicos-e.net/wp-content/uploads/2026/10/f024235b536d490bb62310d32dcff004-1024x724.jpg",
+          "full": "https://www.medicos-e.net/wp-content/uploads/2026/10/f024235b536d490bb62310d32dcff004-scaled.jpg",
+          "caption_ko": "회장 한정 특전 일러스트 카드",
+          "caption_ja": "【会場限定】特典イラストカード",
+          "source": "https://www.medicos-e.net/newsdetail/boku_yaba/",
+          "kinds": "3,000엔(세금 포함)마다 1장"
+        }
+      ],
+      "gallery_note": "가격은 상품 라인업 이미지에서 확인할 수 있어요",
+      "source_url": "https://www.medicos-e.net/newsdetail/boku_yaba/",
+      "summary_source": "https://www.medicos-e.net/newsdetail/boku_yaba/",
+      "thumbnail_source": "https://www.medicos-e.net/newsdetail/boku_yaba/",
+      "evidence": [
+        {
+          "url": "https://www.medicos-e.net/newsdetail/boku_yaba/",
+          "tier": "official",
+          "quote": "【開催期間】 2026 年 11 月 6 日 ( 金 ) ～ 2026 年 11 月 23 日（月・祝） 【開催場所】新宿マルイメン 8 階イベントスペース",
+          "checked": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "reservation": "불필요 (11/6은 셔플 추첨 입장)",
+      "price": "입장 무료, 캔배지 605엔, BIG 아크릴 키홀더 각 1,100엔 (세금 포함)",
+      "checked_date": "2026-10-19",
+      "source_tier": "official",
+      "translation_check": true,
+      "verified_at": "2026-10-19",
+      "title_ko": "D・N・ANGEL POP UP SHOP in AMNIBUS STORE -blue-",
+      "title_ja": "D・N・ANGEL POP UP SHOP in AMNIBUS STORE -blue-",
+      "category": "팝업스토어",
+      "area": "도쿄",
+      "venue": "AMNIBUS STORE -blue- (MAGNET by SHIBUYA109 5층)",
+      "start": "2026-11-06",
+      "end": "2026-11-22",
+      "official_url": "https://store.amnibus.com/dn-angel-storeblue/",
+      "thumbnail": "https://amnibus-store.s3.amazonaws.com/wp-content/uploads/b02352b838bc6c241ac77eced4d77966.jpg",
+      "map_query": "MAGNET by SHIBUYA109",
+      "notes": "10:00~21:00. 11/6은 셔플 추첨 입장(정리권 9:20~). 2,000엔마다 특전 포스트카드(전 7종) 랜덤 1장",
+      "summary_ko": "『D・N・ANGEL』 팝업숍이에요. '별하늘 메이드 & 별하늘 집사' 콘셉트로 새로 그린 일러스트 굿즈를 먼저 팔아요.",
+      "source_url": "https://store.amnibus.com/dn-angel-storeblue/",
+      "summary_source": "https://store.amnibus.com/dn-angel-storeblue/",
+      "thumbnail_source": "https://store.amnibus.com/dn-angel-storeblue/",
+      "evidence": [
+        {
+          "url": "https://store.amnibus.com/dn-angel-storeblue/",
+          "tier": "official",
+          "quote": "開催期間 2026年11月6日(金)～2026年11月22日(日) 開催場所 MAGNET by SHIBUYA109 5F／AMNIBUS STORE -blue-",
+          "checked": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "reservation": "",
+      "price": "",
+      "checked_date": "2026-10-19",
+      "source_tier": "official",
+      "translation_check": true,
+      "verified_at": "2026-10-19",
+      "title_ko": "케로로 중사☆ 캐릭터 팝 스토어",
+      "title_ja": "ケロロ軍曹☆キャラポップストア",
+      "category": "팝업스토어",
+      "area": "도쿄",
+      "venue": "반다이남코 Cross Store 아트레 아키하바라점",
+      "start": "2026-10-31",
+      "end": "2026-11-23",
+      "official_url": "https://bandainamco-am.co.jp/chara_shop/keroro/NEWS/all/20261016.html",
+      "thumbnail": "https://bandainamco-am.co.jp/images/chara_shop/keroro/news/krrCPS2_kvbanner.jpg",
+      "map_query": "アトレ秋葉原1",
+      "notes": "오리지널 굿즈와 미니게임. 상세는 10/21 공식 사이트 업데이트 예정. 이후 우메다·하카타·센다이 순회",
+      "summary_ko": "애니메이션 『케로로 중사☆』 방송 기념 캐릭터 팝 스토어예요. 오리지널 굿즈와 미니게임이 있고, 극장판 캐릭터 팝 스토어 굿즈도 들어와요.",
+      "source_url": "https://bandainamco-am.co.jp/chara_shop/keroro/NEWS/all/20261016.html",
+      "summary_source": "https://bandainamco-am.co.jp/chara_shop/keroro/NEWS/all/20261016.html",
+      "thumbnail_source": "https://bandainamco-am.co.jp/chara_shop/keroro/NEWS/all/20261016.html",
+      "evidence": [
+        {
+          "url": "https://bandainamco-am.co.jp/chara_shop/keroro/NEWS/all/20261016.html",
+          "tier": "official",
+          "quote": "バンダイナムコCross Store アトレ秋葉原店： 2026年10月31日(土) ～ 2026年11月23日(月祝)",
+          "checked": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "reservation": "",
+      "price": "",
+      "checked_date": "2026-10-19",
+      "source_tier": "official",
+      "translation_check": true,
+      "verified_at": "2026-10-19",
+      "title_ko": "낙원추방 마음의 레조넌스 POP UP SHOP",
+      "title_ja": "『楽園追放 心のレゾナンス』POP UP SHOP",
+      "category": "팝업스토어",
+      "area": "도쿄",
+      "venue": "MEDICOS SHOP 신주쿠 (신주쿠 마루이 아넥스 2층)",
+      "start": "2026-11-13",
+      "end": "2026-11-25",
+      "official_url": "https://www.medicos-e.net/newsdetail/rakuen-tsuiho/",
+      "thumbnail": "https://www.medicos-e.net/wp-content/uploads/2026/10/581fccc71b3c91a9e718818490bd8e7c-1024x724.jpg",
+      "map_query": "新宿マルイ アネックス",
+      "notes": "1,000엔마다 미니 포토카드(전 4종) 랜덤 1장. 5,000엔마다 특대 패널 추첨 응모권",
+      "summary_ko": "극장판 『낙원추방 마음의 레조넌스』 팝업숍이에요. 새로 그린 일러스트 굿즈를 팔고, 전시된 특대 패널(전 4종)이 당첨되는 응모 캠페인도 있어요.",
+      "gallery": [
+        {
+          "group": "상품",
+          "img": "https://www.medicos-e.net/wp-content/uploads/2026/10/79f35a02b2d3495d615bbcca05c87232-724x1024.jpg",
+          "full": "https://www.medicos-e.net/wp-content/uploads/2026/10/79f35a02b2d3495d615bbcca05c87232-scaled.jpg",
+          "caption_ko": "상품 라인업 1",
+          "caption_ja": "商品ラインナップ",
+          "source": "https://www.medicos-e.net/newsdetail/rakuen-tsuiho/"
+        },
+        {
+          "group": "상품",
+          "img": "https://www.medicos-e.net/wp-content/uploads/2026/10/7ad9109dae1d036ad477e46f6f7da171-724x1024.jpg",
+          "full": "https://www.medicos-e.net/wp-content/uploads/2026/10/7ad9109dae1d036ad477e46f6f7da171-scaled.jpg",
+          "caption_ko": "상품 라인업 2",
+          "caption_ja": "商品ラインナップ",
+          "source": "https://www.medicos-e.net/newsdetail/rakuen-tsuiho/"
+        },
+        {
+          "group": "특전",
+          "img": "https://www.medicos-e.net/wp-content/uploads/2026/10/a78ef1b5551b1b6f61a1195471706eca-1024x724.jpg",
+          "full": "https://www.medicos-e.net/wp-content/uploads/2026/10/a78ef1b5551b1b6f61a1195471706eca-scaled.jpg",
+          "caption_ko": "특전 미니 포토카드",
+          "caption_ja": "特典ミニフォトカード",
+          "source": "https://www.medicos-e.net/newsdetail/rakuen-tsuiho/",
+          "kinds": "전 4종 · 1,000엔(세금 포함)마다 랜덤 1장"
+        }
+      ],
+      "gallery_note": "가격은 상품 라인업 이미지에서 확인할 수 있어요",
+      "source_url": "https://www.medicos-e.net/newsdetail/rakuen-tsuiho/",
+      "summary_source": "https://www.medicos-e.net/newsdetail/rakuen-tsuiho/",
+      "thumbnail_source": "https://www.medicos-e.net/newsdetail/rakuen-tsuiho/",
+      "evidence": [
+        {
+          "url": "https://www.medicos-e.net/newsdetail/rakuen-tsuiho/",
+          "tier": "official",
+          "quote": "【開催期間】 2026 年 11 月 13 日 ( 金 ) ～ 2026 年 11 月 25 日 ( 水 ) 【開催場所】 MEDICOS SHOP 新宿（新宿マルイ アネックス 2F ）",
+          "checked": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "reservation": "",
+      "price": "",
+      "checked_date": "2026-10-19",
+      "source_tier": "official",
+      "translation_check": true,
+      "verified_at": "2026-10-19",
+      "title_ko": "생큐피치·하이퍼인플레이션 POP UP SHOP",
+      "title_ja": "『サンキューピッチ』『ハイパーインフレーション』POP UP SHOP",
+      "category": "팝업스토어",
+      "area": "도쿄",
+      "venue": "MEDICOS SHOP 신주쿠 (신주쿠 마루이 아넥스 2층)",
+      "start": "2026-11-14",
+      "end": "2026-11-29",
+      "official_url": "https://www.medicos-e.net/newsdetail/sankyu-hyper/",
+      "thumbnail": "https://www.medicos-e.net/wp-content/uploads/2026/10/1fe45deb9ec48cc42eb19f09fd78a17e-1024x724.jpg",
+      "map_query": "新宿マルイ アネックス",
+      "notes": "1,000엔마다 특전 카드(전 13종) 랜덤 1장, 3,000엔마다 회장 한정 일러스트 카드(전 2종). 첫날 셔플 추첨 입장. 오사카는 2027/1/16~1/24",
+      "summary_ko": "소년점프+ 연재작 『생큐피치』와 『하이퍼인플레이션』 합동 팝업숍이에요. 새 굿즈를 팔고 구매 금액에 따라 특전 카드를 줘요.",
+      "gallery": [
+        {
+          "group": "상품",
+          "img": "https://www.medicos-e.net/wp-content/uploads/2026/10/387644327861592c1bb99fc78097414f-724x1024.jpg",
+          "full": "https://www.medicos-e.net/wp-content/uploads/2026/10/387644327861592c1bb99fc78097414f-scaled.jpg",
+          "caption_ko": "상품 라인업 1",
+          "caption_ja": "商品ラインナップ",
+          "source": "https://www.medicos-e.net/newsdetail/sankyu-hyper/"
+        },
+        {
+          "group": "상품",
+          "img": "https://www.medicos-e.net/wp-content/uploads/2026/10/7d5c414ff24814b185e8a297f8906209-724x1024.jpg",
+          "full": "https://www.medicos-e.net/wp-content/uploads/2026/10/7d5c414ff24814b185e8a297f8906209-scaled.jpg",
+          "caption_ko": "상품 라인업 2",
+          "caption_ja": "商品ラインナップ",
+          "source": "https://www.medicos-e.net/newsdetail/sankyu-hyper/"
+        },
+        {
+          "group": "특전",
+          "img": "https://www.medicos-e.net/wp-content/uploads/2026/10/1fe45deb9ec48cc42eb19f09fd78a17e-1024x724.jpg",
+          "full": "https://www.medicos-e.net/wp-content/uploads/2026/10/1fe45deb9ec48cc42eb19f09fd78a17e-scaled.jpg",
+          "caption_ko": "특전 카드",
+          "caption_ja": "特典カード",
+          "source": "https://www.medicos-e.net/newsdetail/sankyu-hyper/",
+          "kinds": "전 13종 · 1,000엔(세금 포함)마다 랜덤 1장"
+        },
+        {
+          "group": "특전",
+          "img": "https://www.medicos-e.net/wp-content/uploads/2026/10/49bfdc86516dae5614b1a40136c6ea8d-1024x724.jpg",
+          "full": "https://www.medicos-e.net/wp-content/uploads/2026/10/49bfdc86516dae5614b1a40136c6ea8d-scaled.jpg",
+          "caption_ko": "회장 한정 특전 일러스트 카드",
+          "caption_ja": "【会場限定】特典イラストカード",
+          "source": "https://www.medicos-e.net/newsdetail/sankyu-hyper/",
+          "kinds": "전 2종 · 3,000엔(세금 포함)마다 랜덤 1장"
+        }
+      ],
+      "gallery_note": "가격은 상품 라인업 이미지에서 확인할 수 있어요",
+      "source_url": "https://www.medicos-e.net/newsdetail/sankyu-hyper/",
+      "summary_source": "https://www.medicos-e.net/newsdetail/sankyu-hyper/",
+      "thumbnail_source": "https://www.medicos-e.net/newsdetail/sankyu-hyper/",
+      "evidence": [
+        {
+          "url": "https://www.medicos-e.net/newsdetail/sankyu-hyper/",
+          "tier": "official",
+          "quote": "【開催期間】 2026 年 11 月 14 日 ( 土 ) ～ 2026 年 11 月 29 日 ( 日 ) 【開催場所】 MEDICOS SHOP 新宿（新宿マルイ アネックス 2F ）",
+          "checked": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "reservation": "",
+      "price": "",
+      "checked_date": "2026-10-19",
+      "source_tier": "official",
+      "translation_check": true,
+      "verified_at": "2026-10-19",
+      "title_ko": "PASH! 12월호 ― 표지 A3!, 종이판 A1 포스터",
+      "title_ja": "PASH! 2026年12月号",
+      "category": "잡지 부록",
+      "area": "전국",
+      "venue": "서점·편의점",
+      "start": "2026-11-10",
+      "end": null,
+      "official_url": "https://pash-up.jp/reserve/60000143",
+      "thumbnail": "https://cdn.pash-up.jp/thum/60000/60000143/60000143-p.jpg",
+      "image_fit": "contain",
+      "notes": "종이판에만 A1 포스터와 클리어 파일이 들어가요(전자판 미포함). 포스터 그림은 아직 공식 미공개",
+      "summary_ko": "애니메이션 잡지 PASH! 12월호예요. 표지는 『A3!』 효도 쿠몬·효도 주자이고, 종이판에 A1 포스터와 클리어 파일이 붙어요.",
+      "source_url": "https://pash-up.jp/reserve/60000143",
+      "summary_source": "https://pash-up.jp/reserve/60000143",
+      "thumbnail_source": "https://pash-up.jp/reserve/60000143",
+      "evidence": [
+        {
+          "url": "https://pash-up.jp/reserve/60000143",
+          "tier": "official",
+          "quote": "2026年11月10日発売 表紙：【A3!】",
+          "checked": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "title_ko": "오이 경마장 플리마켓 (Tokyo City Flea Market)",
+      "title_ja": "大井競馬場フリーマーケット -Tokyo City Flea Market-",
+      "category": "플리마켓",
+      "area": "도쿄",
+      "venue": "오이 경마장 제1주차장",
+      "start": "2026-11-01",
+      "end": "2026-11-01",
+      "reservation": "불필요",
+      "price": "무료",
+      "official_url": "https://trx.jp/",
+      "source_url": "https://ooi20261101.peatix.com/",
+      "notes": "8:45~12:00 (단축). 비 오면 취소(소우천 결행). 주최: 도쿄 리사이클 운동 시민의 모임",
+      "checked_date": "2026-10-19",
+      "thumbnail": "https://trx.jp/wp-content/themes/trx2025/img/og.jpg",
+      "thumbnail_source": "https://trx.jp/",
+      "map_query": "東京都品川区勝島2-1-2",
+      "evidence": [
+        {
+          "url": "https://ooi20261101.peatix.com/",
+          "tier": "official",
+          "quote": "Date and time Sun, Nov 1, 2026 8:45 AM - 12:00 PM GMT+09:00",
+          "checked": "2026-10-19"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-19",
+      "lat": 35.5934,
+      "lon": 139.7405,
+      "translation_check": true,
+      "summary_ko": "오이 경마장에서 열리는 플리마켓 'Tokyo City Flea Market'이에요.",
+      "summary_source": "https://trx.jp/",
+      "blog_url": "https://blog.naver.com/rownsh00/224431293407"
+    },
+    {
+      "title_ko": "오이 경마장 플리마켓 (Tokyo City Flea Market)",
+      "title_ja": "大井競馬場フリーマーケット -Tokyo City Flea Market-",
+      "category": "플리마켓",
+      "area": "도쿄",
+      "venue": "오이 경마장 제1주차장",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "reservation": "불필요",
+      "price": "무료",
+      "official_url": "https://trx.jp/",
+      "source_url": "https://ooi20261107.peatix.com/",
+      "notes": "8:45~14:15 (도쿄 메가 일루미 기간 변칙 운영). 비 오면 취소(소우천 결행). 주최: 도쿄 리사이클 운동 시민의 모임",
+      "checked_date": "2026-10-19",
+      "thumbnail": "https://trx.jp/wp-content/themes/trx2025/img/og.jpg",
+      "thumbnail_source": "https://trx.jp/",
+      "map_query": "東京都品川区勝島2-1-2",
+      "evidence": [
+        {
+          "url": "https://ooi20261107.peatix.com/",
+          "tier": "official",
+          "quote": "Date and time Sat, Nov 7, 2026 8:45 AM - 2:15 PM GMT+09:00",
+          "checked": "2026-10-19"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-19",
+      "lat": 35.5934,
+      "lon": 139.7405,
+      "translation_check": true,
+      "summary_ko": "오이 경마장에서 열리는 플리마켓 'Tokyo City Flea Market'이에요.",
+      "summary_source": "https://trx.jp/",
+      "blog_url": "https://blog.naver.com/rownsh00/224431293407"
+    },
+    {
+      "title_ko": "오이 경마장 플리마켓 (Tokyo City Flea Market)",
+      "title_ja": "大井競馬場フリーマーケット -Tokyo City Flea Market-",
+      "category": "플리마켓",
+      "area": "도쿄",
+      "venue": "오이 경마장 제1주차장",
+      "start": "2026-11-08",
+      "end": "2026-11-08",
+      "reservation": "불필요",
+      "price": "무료",
+      "official_url": "https://trx.jp/",
+      "source_url": "https://ooi20261108.peatix.com/",
+      "notes": "8:45~14:15 (도쿄 메가 일루미 기간 변칙 운영). 비 오면 취소(소우천 결행). 주최: 도쿄 리사이클 운동 시민의 모임",
+      "checked_date": "2026-10-19",
+      "thumbnail": "https://trx.jp/wp-content/themes/trx2025/img/og.jpg",
+      "thumbnail_source": "https://trx.jp/",
+      "map_query": "東京都品川区勝島2-1-2",
+      "evidence": [
+        {
+          "url": "https://ooi20261108.peatix.com/",
+          "tier": "official",
+          "quote": "Date and time Sun, Nov 8, 2026 8:45 AM - 2:15 PM GMT+09:00",
+          "checked": "2026-10-19"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-19",
+      "lat": 35.5934,
+      "lon": 139.7405,
+      "translation_check": true,
+      "summary_ko": "오이 경마장에서 열리는 플리마켓 'Tokyo City Flea Market'이에요.",
+      "summary_source": "https://trx.jp/",
+      "blog_url": "https://blog.naver.com/rownsh00/224431293407"
+    },
+    {
+      "title_ko": "오이 경마장 플리마켓 (Tokyo City Flea Market)",
+      "title_ja": "大井競馬場フリーマーケット -Tokyo City Flea Market-",
+      "category": "플리마켓",
+      "area": "도쿄",
+      "venue": "오이 경마장 제1주차장",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "reservation": "불필요",
+      "price": "무료",
+      "official_url": "https://trx.jp/",
+      "source_url": "https://ooi20261114.peatix.com/",
+      "notes": "8:45~14:15 (도쿄 메가 일루미 기간 변칙 운영). 비 오면 취소(소우천 결행). 주최: 도쿄 리사이클 운동 시민의 모임",
+      "checked_date": "2026-10-19",
+      "thumbnail": "https://trx.jp/wp-content/themes/trx2025/img/og.jpg",
+      "thumbnail_source": "https://trx.jp/",
+      "map_query": "東京都品川区勝島2-1-2",
+      "evidence": [
+        {
+          "url": "https://ooi20261114.peatix.com/",
+          "tier": "official",
+          "quote": "Date and time Sat, Nov 14, 2026 8:45 AM - 2:15 PM GMT+09:00",
+          "checked": "2026-10-19"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-19",
+      "lat": 35.5934,
+      "lon": 139.7405,
+      "translation_check": true,
+      "summary_ko": "오이 경마장에서 열리는 플리마켓 'Tokyo City Flea Market'이에요.",
+      "summary_source": "https://trx.jp/",
+      "blog_url": "https://blog.naver.com/rownsh00/224431293407"
+    },
+    {
+      "title_ko": "오이 경마장 플리마켓 (Tokyo City Flea Market)",
+      "title_ja": "大井競馬場フリーマーケット -Tokyo City Flea Market-",
+      "category": "플리마켓",
+      "area": "도쿄",
+      "venue": "오이 경마장 제1주차장",
+      "start": "2026-11-15",
+      "end": "2026-11-15",
+      "reservation": "불필요",
+      "price": "무료",
+      "official_url": "https://trx.jp/",
+      "source_url": "https://ooi20261115.peatix.com/",
+      "notes": "8:45~14:15 (도쿄 메가 일루미 기간 변칙 운영). 비 오면 취소(소우천 결행). 주최: 도쿄 리사이클 운동 시민의 모임",
+      "checked_date": "2026-10-19",
+      "thumbnail": "https://trx.jp/wp-content/themes/trx2025/img/og.jpg",
+      "thumbnail_source": "https://trx.jp/",
+      "map_query": "東京都品川区勝島2-1-2",
+      "evidence": [
+        {
+          "url": "https://ooi20261115.peatix.com/",
+          "tier": "official",
+          "quote": "Date and time Sun, Nov 15, 2026 8:45 AM - 2:15 PM GMT+09:00",
+          "checked": "2026-10-19"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-19",
+      "lat": 35.5934,
+      "lon": 139.7405,
+      "translation_check": true,
+      "summary_ko": "오이 경마장에서 열리는 플리마켓 'Tokyo City Flea Market'이에요.",
+      "summary_source": "https://trx.jp/",
+      "blog_url": "https://blog.naver.com/rownsh00/224431293407"
+    },
+    {
+      "title_ko": "오이 경마장 플리마켓 (Tokyo City Flea Market)",
+      "title_ja": "大井競馬場フリーマーケット -Tokyo City Flea Market-",
+      "category": "플리마켓",
+      "area": "도쿄",
+      "venue": "오이 경마장 제1주차장",
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "reservation": "불필요",
+      "price": "무료",
+      "official_url": "https://trx.jp/",
+      "source_url": "https://ooi20261121.peatix.com/",
+      "notes": "8:45~14:15 (도쿄 메가 일루미 기간 변칙 운영). 비 오면 취소(소우천 결행). 주최: 도쿄 리사이클 운동 시민의 모임",
+      "checked_date": "2026-10-19",
+      "thumbnail": "https://trx.jp/wp-content/themes/trx2025/img/og.jpg",
+      "thumbnail_source": "https://trx.jp/",
+      "map_query": "東京都品川区勝島2-1-2",
+      "evidence": [
+        {
+          "url": "https://ooi20261121.peatix.com/",
+          "tier": "official",
+          "quote": "Date and time Sat, Nov 21, 2026 8:45 AM - 2:15 PM GMT+09:00",
+          "checked": "2026-10-19"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-19",
+      "lat": 35.5934,
+      "lon": 139.7405,
+      "translation_check": true,
+      "summary_ko": "오이 경마장에서 열리는 플리마켓 'Tokyo City Flea Market'이에요.",
+      "summary_source": "https://trx.jp/",
+      "blog_url": "https://blog.naver.com/rownsh00/224431293407"
+    },
+    {
+      "title_ko": "오이 경마장 플리마켓 (Tokyo City Flea Market)",
+      "title_ja": "大井競馬場フリーマーケット -Tokyo City Flea Market-",
+      "category": "플리마켓",
+      "area": "도쿄",
+      "venue": "오이 경마장 제1주차장",
+      "start": "2026-11-22",
+      "end": "2026-11-22",
+      "reservation": "불필요",
+      "price": "무료",
+      "official_url": "https://trx.jp/",
+      "source_url": "https://ooi20261122.peatix.com/",
+      "notes": "8:45~14:15 (도쿄 메가 일루미 기간 변칙 운영). 비 오면 취소(소우천 결행). 주최: 도쿄 리사이클 운동 시민의 모임",
+      "checked_date": "2026-10-19",
+      "thumbnail": "https://trx.jp/wp-content/themes/trx2025/img/og.jpg",
+      "thumbnail_source": "https://trx.jp/",
+      "map_query": "東京都品川区勝島2-1-2",
+      "evidence": [
+        {
+          "url": "https://ooi20261122.peatix.com/",
+          "tier": "official",
+          "quote": "Date and time Sun, Nov 22, 2026 8:45 AM - 2:15 PM GMT+09:00",
+          "checked": "2026-10-19"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-19",
+      "lat": 35.5934,
+      "lon": 139.7405,
+      "translation_check": true,
+      "summary_ko": "오이 경마장에서 열리는 플리마켓 'Tokyo City Flea Market'이에요.",
+      "summary_source": "https://trx.jp/",
+      "blog_url": "https://blog.naver.com/rownsh00/224431293407"
+    },
+    {
+      "title_ko": "오이 경마장 플리마켓 (Tokyo City Flea Market)",
+      "title_ja": "大井競馬場フリーマーケット -Tokyo City Flea Market-",
+      "category": "플리마켓",
+      "area": "도쿄",
+      "venue": "오이 경마장 제1주차장",
+      "start": "2026-11-23",
+      "end": "2026-11-23",
+      "reservation": "불필요",
+      "price": "무료",
+      "official_url": "https://trx.jp/",
+      "source_url": "https://ooi20261123.peatix.com/",
+      "notes": "8:45~13:30 (도쿄 메가 일루미 개최로 단축). 비 오면 취소(소우천 결행). 주최: 도쿄 리사이클 운동 시민의 모임",
+      "checked_date": "2026-10-19",
+      "thumbnail": "https://trx.jp/wp-content/themes/trx2025/img/og.jpg",
+      "thumbnail_source": "https://trx.jp/",
+      "map_query": "東京都品川区勝島2-1-2",
+      "evidence": [
+        {
+          "url": "https://ooi20261123.peatix.com/",
+          "tier": "official",
+          "quote": "Date and time Mon, Nov 23, 2026 8:45 AM - 1:30 PM GMT+09:00",
+          "checked": "2026-10-19"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-19",
+      "lat": 35.5934,
+      "lon": 139.7405,
+      "translation_check": true,
+      "summary_ko": "오이 경마장에서 열리는 플리마켓 'Tokyo City Flea Market'이에요.",
+      "summary_source": "https://trx.jp/",
+      "blog_url": "https://blog.naver.com/rownsh00/224431293407"
+    },
+    {
+      "title_ko": "오이 경마장 플리마켓 (Tokyo City Flea Market)",
+      "title_ja": "大井競馬場フリーマーケット -Tokyo City Flea Market-",
+      "category": "플리마켓",
+      "area": "도쿄",
+      "venue": "오이 경마장 제1주차장",
+      "start": "2026-11-28",
+      "end": "2026-11-28",
+      "reservation": "불필요",
+      "price": "무료",
+      "official_url": "https://trx.jp/",
+      "source_url": "https://ooi20261128.peatix.com/",
+      "notes": "8:45~14:15 (도쿄 메가 일루미 기간 변칙 운영). 비 오면 취소(소우천 결행). 주최: 도쿄 리사이클 운동 시민의 모임",
+      "checked_date": "2026-10-19",
+      "thumbnail": "https://trx.jp/wp-content/themes/trx2025/img/og.jpg",
+      "thumbnail_source": "https://trx.jp/",
+      "map_query": "東京都品川区勝島2-1-2",
+      "evidence": [
+        {
+          "url": "https://ooi20261128.peatix.com/",
+          "tier": "official",
+          "quote": "Date and time Sat, Nov 28, 2026 8:45 AM - 2:15 PM GMT+09:00",
+          "checked": "2026-10-19"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-19",
+      "lat": 35.5934,
+      "lon": 139.7405,
+      "translation_check": true,
+      "summary_ko": "오이 경마장에서 열리는 플리마켓 'Tokyo City Flea Market'이에요.",
+      "summary_source": "https://trx.jp/",
+      "blog_url": "https://blog.naver.com/rownsh00/224431293407"
+    },
+    {
+      "title_ko": "오이 경마장 플리마켓 (Tokyo City Flea Market)",
+      "title_ja": "大井競馬場フリーマーケット -Tokyo City Flea Market-",
+      "category": "플리마켓",
+      "area": "도쿄",
+      "venue": "오이 경마장 제1주차장",
+      "start": "2026-11-29",
+      "end": "2026-11-29",
+      "reservation": "불필요",
+      "price": "무료",
+      "official_url": "https://trx.jp/",
+      "source_url": "https://ooi20261129.peatix.com/",
+      "notes": "8:45~13:30 (도쿄 메가 일루미 개최로 단축). 비 오면 취소(소우천 결행). 주최: 도쿄 리사이클 운동 시민의 모임",
+      "checked_date": "2026-10-19",
+      "thumbnail": "https://trx.jp/wp-content/themes/trx2025/img/og.jpg",
+      "thumbnail_source": "https://trx.jp/",
+      "map_query": "東京都品川区勝島2-1-2",
+      "evidence": [
+        {
+          "url": "https://ooi20261129.peatix.com/",
+          "tier": "official",
+          "quote": "Date and time Sun, Nov 29, 2026 8:45 AM - 1:30 PM GMT+09:00",
+          "checked": "2026-10-19"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-19",
+      "lat": 35.5934,
+      "lon": 139.7405,
+      "translation_check": true,
+      "summary_ko": "오이 경마장에서 열리는 플리마켓 'Tokyo City Flea Market'이에요.",
+      "summary_source": "https://trx.jp/",
+      "blog_url": "https://blog.naver.com/rownsh00/224431293407"
     }
   ]
 }

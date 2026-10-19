@@ -97,7 +97,15 @@ def date_tokens(text, default_year=2026):
             out.append((m.start("d2"), m.end(), mk(mo, int(m.group("d2")))))
         else:
             out.append((m.start(), m.end(), mk(mo, int(m.group("d")))))
+    # Peatix 등 영문 표기: "Nov 7, 2026"
+    for m in EN_DATE_RE.finditer(t):
+        try: out.append((m.start(), m.end(), {dt.date(int(m.group(3)), EN_MON[m.group(1)[:3].lower()], int(m.group(2))).isoformat()}))
+        except ValueError: pass
+    out.sort(key=lambda x: x[0])
     return out
+
+EN_MON = {k: i + 1 for i, k in enumerate("jan feb mar apr may jun jul aug sep oct nov dec".split())}
+EN_DATE_RE = re.compile(r"\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.? (\d{1,2}), (20\d\d)\b")
 
 def parse_dates(text, default_year=2026):
     return set().union(*[s for _, _, s in date_tokens(text, default_year)]) if text else set()
