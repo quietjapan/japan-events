@@ -221,7 +221,8 @@
       ],
       "gallery_source": "https://csm-cafe.ltr-online.com",
       "gallery_note": "이미지는 공식 사이트 이미지(실제와 다를 수 있음). 가격은 공식 표기 그대로.",
-      "thumb_pos": "72% 30%"
+      "thumb_pos": "72% 30%",
+      "blog_url": "https://blog.naver.com/rownsh00/224441699963"
     },
     {
       "title_ko": "키타로 탄생: 게게게의 수수께끼 × and GALLERY 콜라보 카페",
@@ -1437,7 +1438,8 @@
       "lon": 139.7635,
       "translation_check": true,
       "summary_ko": "애니메이션 스튜디오 MAPPA 창립 15주년 기념 전시예요. 『체인소맨 레제편』, 『진격의 거인』, 『주술회전』 등 MAPPA 작품의 세계관을 다양한 연출로 체험할 수 있어요.",
-      "summary_source": "https://expo.mappa.co.jp"
+      "summary_source": "https://expo.mappa.co.jp",
+      "blog_url": "https://blog.naver.com/rownsh00/224440627007"
     },
     {
       "title_ko": "헤타리아 20주년 원화전 WorldFesta",
@@ -3295,7 +3297,8 @@
       "lon": 139.7166,
       "translation_check": true,
       "summary_ko": "조시가야 기시보진에서 열리는 수공예 시장이에요. 10시~16시에 열리고, 비가 오면 중지돼요(개최 여부는 당일 아침 7시까지 X·블로그 공지).",
-      "summary_source": "https://tezukuriichi.com/home.html"
+      "summary_source": "https://tezukuriichi.com/home.html",
+      "blog_url": "https://blog.naver.com/rownsh00/224431293407"
     },
     {
       "title_ko": "조시가야 데즈쿠리이치 (수공예 시장)",
@@ -3326,7 +3329,8 @@
       "lon": 139.7166,
       "translation_check": true,
       "summary_ko": "조시가야 기시보진에서 열리는 수공예 시장이에요. 10시~16시에 열리고, 비가 오면 중지돼요(개최 여부는 당일 아침 7시까지 X·블로그 공지).",
-      "summary_source": "https://tezukuriichi.com/home.html"
+      "summary_source": "https://tezukuriichi.com/home.html",
+      "blog_url": "https://blog.naver.com/rownsh00/224431293407"
     },
     {
       "title_ko": "사카모토 데이즈 DJ 그루브 카페",
@@ -3779,7 +3783,8 @@
       "lon": 139.4128,
       "translation_check": true,
       "summary_ko": "다카하타 후도존 곤고지 경내에서 열리는 '고자레이치(잡동사니 시장)'예요.",
-      "summary_source": "https://www.takahatafudoson.or.jp/"
+      "summary_source": "https://www.takahatafudoson.or.jp/",
+      "blog_url": "https://blog.naver.com/rownsh00/224431293407"
     },
     {
       "title_ko": "제5인격 팝업숍 in 핸즈 (신주쿠)",
@@ -3852,7 +3857,8 @@
       "lon": 139.7405,
       "translation_check": true,
       "summary_ko": "오이 경마장에서 열리는 플리마켓 'Tokyo City Flea Market'이에요.",
-      "summary_source": "https://trx.jp/"
+      "summary_source": "https://trx.jp/",
+      "blog_url": "https://blog.naver.com/rownsh00/224431293407"
     },
     {
       "title_ko": "오이 경마장 플리마켓 (Tokyo City Flea Market)",
@@ -3885,7 +3891,8 @@
       "lon": 139.7405,
       "translation_check": true,
       "summary_ko": "오이 경마장에서 열리는 플리마켓 'Tokyo City Flea Market'이에요.",
-      "summary_source": "https://trx.jp/"
+      "summary_source": "https://trx.jp/",
+      "blog_url": "https://blog.naver.com/rownsh00/224431293407"
     },
     {
       "title_ko": "오이 경마장 플리마켓 (Tokyo City Flea Market)",
@@ -3918,7 +3925,8 @@
       "lon": 139.7405,
       "translation_check": true,
       "summary_ko": "오이 경마장에서 열리는 플리마켓 'Tokyo City Flea Market'이에요.",
-      "summary_source": "https://trx.jp/"
+      "summary_source": "https://trx.jp/",
+      "blog_url": "https://blog.naver.com/rownsh00/224431293407"
     },
     {
       "title_ko": "크록스×체인소맨 콜라보 + atmos 이케부쿠로 팝업",
@@ -7080,6 +7088,212 @@
       "translation_check": true,
       "summary_ko": "GA문고 20주년 기념 팝업숍 후반이에요. 『던전에서 만남을 추구하면 안 되는 걸까』『기어와라! 냐루코 양』『마녀의 여행』 신규 굿즈를 팔고 특전 미니 포토카드를 나눠 줘요.",
       "summary_source": "https://www.kotobukiya.co.jp/event/detail/1397/"
+    },
+    {
+      "reservation": "필요 (당분간 예약제만)",
+      "price": "예약금 770엔 (세금 포함), 프리미엄 특전 포함 5,500엔. 1인 1메뉴 이상 주문",
+      "notes": "프리오픈 11/19~11/25(11/24 휴업, 단축 영업), 그랜드 오픈 11/26. 예약: 공식 앱 프리미엄 회원 선착 10/21 18:00~10/25, 일반 추첨 10/27 18:00~11/1(발표 11/5), 일반 선착 11/6 18:00~",
+      "checked_date": "2026-10-19",
+      "source_tier": "official",
+      "translation_check": true,
+      "verified_at": "2026-10-19",
+      "title_ko": "명탐정 코난 다이너 (상설 콜라보 레스토랑)",
+      "title_ja": "名探偵コナンダイナー",
+      "category": "콜라보카페",
+      "area": "도쿄",
+      "venue": "시부야 스트림 4층",
+      "start": "2026-11-19",
+      "end": null,
+      "official_url": "https://conan-diner.com/information/",
+      "thumbnail": "https://conan-diner.com/wp-content/themes/conan1016/images/other/og_reveal.jpg",
+      "thumbnail_source": "https://conan-diner.com/",
+      "map_query": "東京都渋谷区渋谷3丁目21番3号 渋谷ストリーム",
+      "summary_ko": "『명탐정 코난』 상설 콜라보 다이너가 시부야에 생겨요. 75분 교체제 예약 전용이고, 프리오픈 때도 정식 오픈과 같은 메뉴와 굿즈를 살 수 있어요.",
+      "source_url": "https://conan-diner.com/information/",
+      "summary_source": "https://conan-diner.com/information/",
+      "evidence": [
+        {
+          "url": "https://conan-diner.com/information/",
+          "tier": "official",
+          "quote": "プレオープン期間 11月19日(木)～11月25日(水)",
+          "checked": "2026-10-19"
+        },
+        {
+          "url": "https://conan-diner.com/information/",
+          "tier": "official",
+          "quote": "グランドオープン日 11月26日(木)",
+          "checked": "2026-10-19"
+        },
+        {
+          "url": "https://conan-diner.com/information/",
+          "tier": "official",
+          "quote": "通常特典付き予約：770円(税込) プレミアム特典付き予約：5,500円(税込)",
+          "checked": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "reservation": "",
+      "price": "",
+      "notes": "10/31은 셔플 추첨 입장(정리권 10:00~10:10 배부). 특전: 1,000엔마다 클리어 책갈피(전 10종) 랜덤 1장, 3,000엔마다 회장 한정 일러스트 카드. 109 본관이 아니라 MAGNET 5층이에요. 오사카는 12/4~12/13",
+      "checked_date": "2026-10-19",
+      "source_tier": "official",
+      "translation_check": true,
+      "verified_at": "2026-10-19",
+      "title_ko": "헤타리아 World★Stars POP UP SHOP 「오텀 퍼레이드」",
+      "title_ja": "アニメ「ヘタリア World★Stars」POP UP SHOP",
+      "category": "팝업스토어",
+      "area": "도쿄",
+      "venue": "MEDICOS SHOP 시부야 (MAGNET by SHIBUYA109 5층)",
+      "start": "2026-10-31",
+      "end": "2026-11-15",
+      "official_url": "https://www.medicos-e.net/newsdetail/hetalia_-autumnparade/",
+      "thumbnail": "https://www.medicos-e.net/wp-content/uploads/2026/09/heta_KV_01-1024x724.jpg",
+      "map_query": "MAGNET by SHIBUYA109",
+      "summary_ko": "애니메이션 『헤타리아 World★Stars』 팝업숍이에요. 가을 의상 '오텀 퍼레이드' 테마로 새로 그린 일러스트 굿즈를 팔고 같은 그림 패널도 전시해요.",
+      "gallery": [
+        {
+          "group": "상품",
+          "img": "https://www.medicos-e.net/wp-content/uploads/2026/10/heta_menu_01-scaled.jpg",
+          "full": "https://www.medicos-e.net/wp-content/uploads/2026/10/heta_menu_01-scaled.jpg",
+          "caption_ko": "상품 라인업 1",
+          "caption_ja": "商品ラインナップ",
+          "source": "https://www.medicos-e.net/newsdetail/hetalia_-autumnparade/"
+        },
+        {
+          "group": "상품",
+          "img": "https://www.medicos-e.net/wp-content/uploads/2026/10/heta_menu_02-scaled.jpg",
+          "full": "https://www.medicos-e.net/wp-content/uploads/2026/10/heta_menu_02-scaled.jpg",
+          "caption_ko": "상품 라인업 2",
+          "caption_ja": "商品ラインナップ",
+          "source": "https://www.medicos-e.net/newsdetail/hetalia_-autumnparade/"
+        }
+      ],
+      "gallery_note": "가격은 상품 라인업 이미지에서 확인할 수 있어요",
+      "source_url": "https://www.medicos-e.net/newsdetail/hetalia_-autumnparade/",
+      "summary_source": "https://www.medicos-e.net/newsdetail/hetalia_-autumnparade/",
+      "thumbnail_source": "https://www.medicos-e.net/newsdetail/hetalia_-autumnparade/",
+      "evidence": [
+        {
+          "url": "https://www.medicos-e.net/newsdetail/hetalia_-autumnparade/",
+          "tier": "official",
+          "quote": "【開催期間】2026年10月31日(土)～11月15日(日) 【開催場所】MEDICOS SHOP渋谷（MAGNET by SHIBUYA109 5階）",
+          "checked": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "reservation": "콜라보룸만 예약제",
+      "price": "",
+      "notes": "10/30 9:00 ~ 12/15 21:00. 메뉴 1개마다 오리지널 코스터(전 16종) 랜덤 1장. 굿즈만 사러 가도 돼요. 첫 이용 시 무료 앱 회원 가입과 신분증이 필요해요",
+      "checked_date": "2026-10-19",
+      "source_tier": "official",
+      "translation_check": true,
+      "verified_at": "2026-10-19",
+      "title_ko": "데드 바이 데이라이트 × DiCE 콜라보 카페",
+      "title_ja": "『Dead by Daylight』コラボカフェ in DiCE",
+      "category": "콜라보카페",
+      "area": "도쿄",
+      "venue": "넷카페 DiCE 이케부쿠로점 (히가시이케부쿠로) 외 (삿포로·센다이·오미야·지유가오카·난바)",
+      "start": "2026-10-30",
+      "end": "2026-12-15",
+      "official_url": "https://www.diskcity.co.jp/topics/detail.php?nid=3308",
+      "thumbnail": "https://www.diskcity.co.jp/common/public/image/system/dice_261013161624_fT9Je.jpg",
+      "map_query": "東京都豊島区東池袋1-11-11 ホワイトシティビル",
+      "summary_ko": "『데드 바이 데이라이트』 콜라보 카페예요. 일러스트레이터 키만이 새로 그린 귀여운 킬러들 굿즈와 콜라보 메뉴가 나오고, 게임 맵 콘셉트의 콜라보룸도 있어요.",
+      "source_url": "https://www.diskcity.co.jp/topics/detail.php?nid=3308",
+      "summary_source": "https://www.diskcity.co.jp/topics/detail.php?nid=3308",
+      "thumbnail_source": "https://www.diskcity.co.jp/topics/detail.php?nid=3308",
+      "evidence": [
+        {
+          "url": "https://www.diskcity.co.jp/topics/detail.php?nid=3308",
+          "tier": "official",
+          "quote": "2026年10⽉30⽇(金)9:00〜12月15⽇(火)21:00 ネットカフェ&カラオケDiCE 札幌狸小路本店 、 仙台店 、 大宮店 、 池袋店 、 自由が丘店 、 なんば道頓堀本店",
+          "checked": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "reservation": "",
+      "price": "굿즈 275~3,960엔 (세금 포함)",
+      "notes": "주최사 아르마비앙카(arma bianca) PR TIMES 보도자료 기준. 대상 상품을 BOX로 사면 선착순 특전. 특설 사이트 https://event.amnibus.com/kamitsubaki-animate-gawako/",
+      "checked_date": "2026-10-19",
+      "source_tier": "official",
+      "translation_check": true,
+      "verified_at": "2026-10-19",
+      "title_ko": "TV 애니메이션 『카미츠바키시 건설 중。』 × 가와코 애니메이트 페어",
+      "title_ja": "「TVアニメ『神椿市建設中。』×がわこ アニメイトフェア」",
+      "category": "팝업스토어",
+      "area": "도쿄",
+      "venue": "애니메이트 이케부쿠로 본점·아키하바라점 외 (삿포로·나고야·후쿠오카·오사카 닛폰바시, 통판)",
+      "start": "2026-11-14",
+      "end": "2026-11-29",
+      "official_url": "https://prtimes.jp/main/html/rd/p/000009446.000016064.html",
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/16064/9446/16064-9446-d29881f90cc6dd64b782a0cc6dfe820a-1140x640.jpg?format=jpeg&auto=webp&fit=bounds&width=1200",
+      "map_query": "アニメイト池袋本店",
+      "summary_ko": "『카미츠바키시 건설 중。』 애니메이트 페어예요. 가와코가 '블랙 코디' 콘셉트로 새로 그린 일러스트 굿즈를 먼저 팔고 구매 특전도 있어요.",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000009446.000016064.html",
+      "summary_source": "https://prtimes.jp/main/html/rd/p/000009446.000016064.html",
+      "thumbnail_source": "https://prtimes.jp/main/html/rd/p/000009446.000016064.html",
+      "evidence": [
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000009446.000016064.html",
+          "tier": "official",
+          "quote": "開催期間：2026年11月14日（土）～2026年11月29日（日） 開催場所：アニメイト（池袋本店・札幌店・名古屋店・秋葉原店・ラシック福岡天神店・大阪日本橋店・通販）",
+          "checked": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "reservation": "",
+      "price": "",
+      "notes": "11:00~20:00 (마지막 날 18:00까지). 2,200엔마다 포스트카드(전 7종) 랜덤 1장. 혼잡 시 정리권 배부. 통판도 같이 해요",
+      "checked_date": "2026-10-19",
+      "source_tier": "official",
+      "translation_check": true,
+      "verified_at": "2026-10-19",
+      "title_ko": "피아프로 캐릭터즈 POP UP SHOP in 이케부쿠로 스키마 스토어",
+      "title_ja": "『ピアプロキャラクターズ』POP UP SHOP in 池袋スキマストア by eeo",
+      "category": "팝업스토어",
+      "area": "도쿄",
+      "venue": "JR 이케부쿠로역 지하 중앙통로 중앙 개찰구 앞 (스키마 스토어)",
+      "start": "2026-11-11",
+      "end": "2026-11-24",
+      "official_url": "https://eeo.today/pr/piapro2611-ikebukuro/",
+      "thumbnail": "https://eeo.today/pr/piapro2611-ikebukuro/assets/images/mv_kv_sp.webp?v1",
+      "map_query": "JR池袋駅 中央改札",
+      "summary_ko": "하쓰네 미쿠 등 피아프로 캐릭터즈 팝업숍이에요. 새로 그린 일러스트와 미니 캐릭터 굿즈를 이케부쿠로역 개찰구 앞 매대에서 팔아요.",
+      "gallery": [
+        {
+          "group": "상품",
+          "img": "https://eeo.today/pr/piapro2611-ikebukuro/assets/images/item.webp",
+          "full": "https://eeo.today/pr/piapro2611-ikebukuro/assets/images/item.webp",
+          "caption_ko": "상품 라인업",
+          "caption_ja": "ITEM",
+          "source": "https://eeo.today/pr/piapro2611-ikebukuro/"
+        },
+        {
+          "group": "특전",
+          "img": "https://eeo.today/pr/piapro2611-ikebukuro/assets/images/special.webp",
+          "full": "https://eeo.today/pr/piapro2611-ikebukuro/assets/images/special.webp",
+          "caption_ko": "구매 특전 포스트카드",
+          "caption_ja": "購入特典ポストカード",
+          "kinds": "전 7종 · 2,200엔(세금 포함)마다 랜덤 1장",
+          "source": "https://eeo.today/pr/piapro2611-ikebukuro/"
+        }
+      ],
+      "gallery_note": "가격은 공식 사이트·통판에서 확인해 주세요",
+      "source_url": "https://eeo.today/pr/piapro2611-ikebukuro/",
+      "summary_source": "https://eeo.today/pr/piapro2611-ikebukuro/",
+      "thumbnail_source": "https://eeo.today/pr/piapro2611-ikebukuro/",
+      "evidence": [
+        {
+          "url": "https://eeo.today/pr/piapro2611-ikebukuro/",
+          "tier": "official",
+          "quote": "ワゴン＆同時通販 2026年11月11日(水)～11月24日(火) 営業時間 11:00～20:00(最終日のみ18:00まで) 開催場所 JR池袋駅 地下中央通路 中央改札前 池袋スキマストア",
+          "checked": "2026-10-19"
+        }
+      ]
     }
   ]
 }

@@ -65,7 +65,7 @@ function render(){
   ${e.notes?`<p class="note">📝 ${esc(e.notes)}</p>`:""}${e.verified_at?`<p class="note">✅ 공식 사이트 원문 대조 ${esc(e.verified_at)}</p>`:""}
   ${picker(e)}
   ${mapq(e)?`<details class="map" data-q="${esc(mapq(e))}"><summary>📍 지도 펼치기</summary><div class="mapbox"></div></details>`:""}
-  <div class="btns">${(e.gallery&&e.gallery.length)?`<button type="button" class="dt more">자세히 보기</button>`:""}${e.official_url?`<a href="${esc(e.official_url)}" target="_blank" rel="noopener">공식 사이트</a>`:""}${mapq(e)?`<a class="sec" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(mapq(e))}" target="_blank" rel="noopener">지도 보기</a>`:""}${e.source_url&&e.source_url!==e.official_url?`<a class="sec" href="${esc(e.source_url)}" target="_blank" rel="noopener">출처</a>`:""}</div>
+  <div class="btns">${(e.gallery&&e.gallery.length)?`<button type="button" class="dt more">자세히 보기</button>`:""}${e.official_url?`<a href="${esc(e.official_url)}" target="_blank" rel="noopener">공식 사이트</a>`:""}${mapq(e)?`<a class="sec" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(mapq(e))}" target="_blank" rel="noopener">지도 보기</a>`:""}${e.source_url&&e.source_url!==e.official_url?`<a class="sec" href="${esc(e.source_url)}" target="_blank" rel="noopener">출처</a>`:""}${e.blog_url?`<a class="sec blog" href="${esc(e.blog_url)}" target="_blank" rel="noopener">블로그 글</a>`:""}</div>
   </article>`}).join(""):`<p class="empty">조건에 맞는 일정이 없어요.</p>`}
 
 const WD=["일","월","화","수","목","금","토"];
@@ -117,7 +117,7 @@ function detail(e){const g=e.gallery||[];const groups=[...new Set(g.map(x=>x.gro
     ${e.thumbnail?`<div class="dsrc">이미지 출처: <a href="${esc(e.thumbnail_source||e.official_url)}" target="_blank" rel="noopener">${esc(host(e.thumbnail_source||e.official_url||e.thumbnail))}</a></div>`:""}</div></div>
   ${g.length?groups.map(gr=>`<h3 class="dgh">${esc(gr||"갤러리")}</h3><div class="dgrid">${g.filter(x=>(x.group||"")===gr).map(x=>`<figure><a class="zoom" href="${esc(x.full||x.img)}" target="_blank" rel="noopener" data-cap="${esc(x.caption_ko)}"><img src="${esc(x.img)}" alt="${esc(x.caption_ko)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.closest('figure').remove()"></a><figcaption><b>${esc(x.caption_ko)}</b>${x.caption_ja?`<span>${esc(x.caption_ja)}</span>`:""}${x.kinds||x.size?`<i>${esc([x.kinds,x.size].filter(Boolean).join(" · "))}</i>`:""}${x.price?`<em>${pricet(x.price)}</em>`:""}</figcaption></figure>`).join("")}</div>`).join("")
    +`<p class="dnote">${e.gallery_note?esc(e.gallery_note)+" · ":""}출처: <a href="${esc(e.gallery_source||e.official_url)}" target="_blank" rel="noopener">${esc(host(e.gallery_source||e.official_url))}</a></p>`:""}
-  ${e.official_url?`<a class="dlink" href="${esc(e.official_url)}" target="_blank" rel="noopener">공식 사이트에서 확인하기</a>`:""}</div>`}
+  ${e.official_url?`<a class="dlink" href="${esc(e.official_url)}" target="_blank" rel="noopener">공식 사이트에서 확인하기</a>`:""}${e.blog_url?`<a class="dblog" href="${esc(e.blog_url)}" target="_blank" rel="noopener">블로그 글 보기</a>`:""}</div>`}
 let DETAIL_E=null;
 function openDetail(e){window.gtag&&gtag("event","open_detail",{item:e.title_ko,category:e.category});closeDetail();DETAIL_E=e;const o=document.createElement("div");o.className="dov";o.innerHTML=detail(e);document.body.appendChild(o);document.body.style.overflow="hidden";o.querySelector(".dvx").focus();
   o.addEventListener("click",ev=>{if(ev.target===o||ev.target.closest(".dvx"))closeDetail()})}

@@ -134,3 +134,6 @@ details.map{font-size:13px}details.map summary{cursor:pointer;color:var(--accent
 .qj-toast{position:fixed;left:50%;bottom:72px;transform:translateX(-50%);z-index:80;background:var(--ink);color:#fff;padding:10px 16px;border-radius:999px;font-size:13px;font-weight:600;box-shadow:0 6px 20px rgba(0,0,0,.25);max-width:min(92vw,360px);text-align:center;word-break:keep-all;animation:qj-toast-in .25s ease;pointer-events:none}
 .qj-toast-out{opacity:0;transition:opacity .35s}
 @keyframes qj-toast-in{from{opacity:0;transform:translateX(-50%) translateY(8px)}to{opacity:1;transform:translateX(-50%) translateY(0)}}
+.btns a.sec.blog{flex:0 0 auto;white-space:nowrap;padding:8px 10px;font-size:13px;font-weight:500;background:transparent;color:var(--mute);border:1px solid var(--soft)}
+.dblog{display:block;margin-top:8px;text-align:center;font-size:13px;color:var(--mute);text-decoration:underline}
+.btns{flex-wrap:wrap}.btns a,.btns button.more{white-space:nowrap}
