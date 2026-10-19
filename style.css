@@ -172,3 +172,13 @@ details.map{font-size:13px}details.map summary{cursor:pointer;color:var(--accent
 .themeicon{display:none;position:absolute;top:-14px;right:12px;width:40px;height:40px;border:1px solid var(--line);border-radius:50%;background:var(--soft);color:var(--ink);font-size:19px;line-height:1;cursor:pointer;padding:0;align-items:center;justify-content:center;-webkit-tap-highlight-color:transparent}
 .themeicon:hover{border-color:var(--accent)}
 @media(max-width:640px){.themeicon{display:flex}.fabs .themebtn{display:none}.ft{padding-bottom:96px}}
+
+/* 자세히 보기: 공식 이미지 대기 안내 */
+.dcard.dnoimg{aspect-ratio:auto;background:var(--soft);border-color:var(--line);justify-content:flex-start}
+.dnoimg .dpill{margin-top:16px}.dnoimg .dpanel{background:var(--card);box-shadow:none;border:1px solid var(--line)}
+.dwait{margin:16px 2px 0;padding:20px 16px;text-align:center;border:1.5px dashed var(--line);border-radius:14px;background:var(--soft);color:var(--ink)}
+.dwait-i{font-size:30px;line-height:1;margin-bottom:8px}
+.dwait-t{margin:0;font-weight:700;font-size:15px;word-break:keep-all}
+.dwait-s{margin:6px 0 0;font-size:13px;color:var(--mute);line-height:1.55;word-break:keep-all}
+[data-theme="dark"] .dwait{border-color:#4a4137;background:#28231d}
+[data-theme="dark"] .dnoimg .dpanel{background:var(--card)}
