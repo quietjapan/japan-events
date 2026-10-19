@@ -111,7 +111,21 @@ details.map{font-size:13px}details.map summary{cursor:pointer;color:var(--accent
 .fxquick button{flex:1;min-width:0;font:inherit;font-size:12px;font-weight:600;padding:7px 6px;border:1px solid var(--line);border-radius:999px;background:var(--soft);color:var(--ink);cursor:pointer}
 .fxquick button:hover{border-color:var(--ink)}
 .fxnote{margin:10px 0 0;font-size:11px;color:var(--mute);line-height:1.45;word-break:keep-all}
-@media(max-width:390px){.fxbtn{right:10px;bottom:14px;padding:10px 12px;font-size:13px}.fxov{padding:10px 10px 62px}.fxpanel{max-width:100%}.fxio{grid-template-columns:1fr;gap:8px}.fxswap{justify-self:center;margin:0}}
+.fxrate{margin-bottom:2px}
+.fxwhen{margin:0 0 10px;font-size:11px;color:var(--mute);min-height:1.2em}
+.fxexpr{margin:6px 0 0;font-size:13px;font-weight:700;color:var(--accent);text-align:left;word-break:break-all}
+.fxexpr[hidden]{display:none}
+.fxkeys{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:40px;gap:6px;margin-top:10px}
+.fxkeys button{font:inherit;font-size:17px;font-weight:700;border:1px solid var(--line);border-radius:10px;background:#fff;color:var(--ink);cursor:pointer;touch-action:manipulation;-webkit-tap-highlight-color:transparent;padding:0}
+.fxkeys button:active{transform:scale(.96);background:var(--soft)}
+.fxkeys .fk-op{background:var(--soft);color:var(--accent);font-size:19px}
+.fxkeys .fk-fn{background:var(--soft);font-size:15px}
+.fxkeys .fk-eq{grid-row:span 2;background:var(--accent);border-color:var(--accent);color:#fff;font-size:20px}
+.fxkeys .fk-0{grid-column:span 2}
+.fxpanel{max-height:calc(100vh - 80px);overflow-y:auto}
+@media(max-width:390px){.fxbtn{right:10px;bottom:14px;padding:10px 12px;font-size:13px}.fxov{padding:10px 10px 62px}.fxpanel{max-width:100%;padding:12px}.fxlab input,.fxout{font-size:17px}.fxkeys{grid-auto-rows:42px}}
+@media(max-width:330px){.fxio{grid-template-columns:1fr;gap:8px}.fxswap{justify-self:center;margin:0}}
+.dgrid figcaption i{font-style:normal;color:var(--mute);font-size:10px}
 .fxkrw{font-weight:500;font-size:.9em;color:var(--mute);white-space:nowrap}
 .dgrid em .fxkrw{color:var(--mute);font-weight:500}
 
