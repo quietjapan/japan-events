@@ -45,25 +45,64 @@ const mapq=e=>e.area!=="전국"&&e.category!==MAG&&e.map_query?e.map_query:"";
 const thumb=e=>`<div class="th dt ${CATCLS[e.category]||""}"><span>${esc(e.category)}</span>${e.thumbnail?`<img src="${esc(e.thumbnail)}" alt="" ${e.thumb_pos?`style="object-position:${esc(e.thumb_pos)}"`:""} loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:""}</div>`;
 document.addEventListener("toggle",ev=>{const d=ev.target;if(!(d instanceof HTMLDetailsElement)||!d.open||!d.classList.contains("map"))return;
   const box=d.querySelector(".mapbox");if(!box.firstChild)box.innerHTML=`<iframe loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=${encodeURIComponent(d.dataset.q)}&output=embed" title="지도"></iframe>`},true);
+// 같은 행사가 날짜만 다른 경우(오이 경마장 플리마켓 등) 한 카드로 묶기. events.json은 날짜별 항목 그대로 유지.
+// 키: 명시적 `series` 필드가 있으면 그것, 없으면 카테고리+한국어 제목+공식 URL이 모두 같을 때.
+const seriesKey=e=>e.series?`s:${e.series}`:`a:${e.category}|${e.title_ko}|${e.official_url||""}`;
+let GROUPS=[],CARDS=[];
+function buildGroups(){const m=new Map();EV.forEach(e=>{const k=seriesKey(e);if(!m.has(k))m.set(k,[]);m.get(k).push(e)});
+  GROUPS=[...m.values()].map(a=>a.slice().sort((x,y)=>(x.start||"").localeCompare(y.start||"")))}
+const HRS=/^\s*(\d{1,2}:\d{2}\s*[~〜-]\s*\d{1,2}:\d{2}(?:\s*\([^)]*\))?)\s*[.,]?\s*/;
+const DATELIST=/\d{1,2}\/\d{1,2}\s*·/;
+const md=s=>{const d=pd(s);return `${d.getMonth()+1}/${d.getDate()}`};
+const mdList=a=>{let pm=null;return a.map(s=>{const d=pd(s),m=d.getMonth()+1;const t=pm===m?`${d.getDate()}`:`${m}/${d.getDate()}`;pm=m;return t}).join("·")};
+function seriesUnit(rem){const nx=rem[0],last=rem[rem.length-1];
+  const any=f=>(rem.find(e=>e[f]&&(!Array.isArray(e[f])||e[f].length))||{})[f];
+  const v=Object.assign({},nx,{_dates:rem,start:nx.start,end:last.end||last.start,date_label:null,blog_url:nx.blog_url||any("blog_url"),gallery:hasGal(nx)?nx.gallery:(any("gallery")||nx.gallery),thumbnail:nx.thumbnail||any("thumbnail")});
+  if(v.thumbnail&&!nx.thumbnail){const t=rem.find(e=>e.thumbnail);v.thumbnail_source=t.thumbnail_source;v.thumb_pos=t.thumb_pos}
+  const s=pd(nx.start),en=pd(nx.end||nx.start);let x;
+  if(s<=today&&today<=en)x={k:"now",t:"오늘 개최"};else{const n=Math.round((s-today)/864e5);x={k:"soon",t:n===1?"다음 개최 내일":`다음 개최 D-${n}`}}
+  return{e:v,x,series:true}}
+function seriesInfo(e){const rem=e._dates;
+  const parts=rem.map(d=>{const n=d.notes||"";const m=n.match(HRS);return{d,h:m?m[1].trim():"",rest:(m?n.slice(m[0].length):n).trim()}});
+  // 시간: 다르면 시간별로 묶어서, 모두 같으면 한 줄
+  const hs=[...new Set(parts.map(p=>p.h))];let hours="";
+  if(hs.some(Boolean)){if(hs.length===1)hours=esc(hs[0]);
+    else hours=hs.map(h=>`<div class="hrow"><b class="hdt">${mdList(parts.filter(p=>p.h===h).map(p=>p.d.start))}</b> <span class="hh${h?"":" hnone"}">${h?esc(h):"공식 안내 확인"}</span></div>`).join("")}
+  // 공통 메모: 가장 많이 나온 메모(날짜 나열 메모는 날짜 목록으로 대체되므로 제외), 다른 날짜만의 추가 메모는 날짜와 함께
+  const rests=parts.map(p=>p.rest).filter(r=>r&&!DATELIST.test(r));const cnt={};rests.forEach(r=>cnt[r]=(cnt[r]||0)+1);
+  const common=Object.keys(cnt).sort((a,b)=>cnt[b]-cnt[a]||a.length-b.length)[0]||"";
+  const extra=parts.filter(p=>p.rest&&p.rest!==common&&!DATELIST.test(p.rest)).map(p=>{let r=p.rest;if(common&&r.startsWith(common.replace(/[.\s]+$/,"")))r=r.slice(common.replace(/[.\s]+$/,"").length).replace(/^[.\s,]+/,"");return r?`${md(p.d.start)}: ${esc(r)}`:""}).filter(Boolean);
+  const inR=d=>(st.from||st.to)&&inRange(d);const SHOW=6;
+  const chip=d=>`<span class="sd${inR(d)?" inr":""}">${fmt(d.start)}</span>`;
+  const list=rem.length>SHOW&&!rem.slice(SHOW).some(inR)?`${rem.slice(0,SHOW).map(chip).join("")}<button type="button" class="moredates">+${rem.length-SHOW}개 더 보기</button><span class="sdx" hidden>${rem.slice(SHOW).map(chip).join("")}</span>`:rem.map(chip).join("");
+  return{list,hours,note:[common&&esc(common),...extra].filter(Boolean).join(" · ")}}
+function dlDates(e){if(e._dates){const i=seriesInfo(e);
+    return `<dt>다음</dt><dd><b class="nextd">${fmt(e._dates[0].start)}</b> <span class="cntd">외 ${e._dates.length-1}회</span></dd><dt>일정</dt><dd class="sdates">${i.list}</dd>${i.hours?`<dt>시간</dt><dd class="hours">${i.hours}</dd>`:""}`}
+  return `<dt>${STOCK.has(e.category)||e.category===MAG?"발매":"기간"}</dt><dd>${e.date_label?esc(e.date_label):`${e.start?fmt(e.start):""}${e.end&&e.end!==e.start?" ~ "+fmt(e.end):(!e.end&&!STOCK.has(e.category)&&e.category!==MAG?" ~":"")}`}</dd>`}
+const noteOf=e=>e._dates?seriesInfo(e).note:(e.notes?esc(e.notes):"");
+const sortKey=e=>e._dates?(e._dates[0].end||e._dates[0].start):(e.category===MAG?magEnd(e):(e.end||"9"));
+function units(){return GROUPS.map(g=>{if(g.length===1)return{e:g[0],x:status(g[0])};
+  const rem=g.filter(e=>status(e).k!=="end");if(!rem.length)return null;if(rem.length===1)return{e:rem[0],x:status(rem[0])};return seriesUnit(rem)}).filter(Boolean)}
 function render(){
   const q=st.q.trim().normalize("NFKC").toLowerCase();
-  const rows=EV.map(e=>({e,x:status(e)})).filter(({e,x})=>x.k!=="end"
+  const rows=units().filter(({e,x})=>x.k!=="end"
     &&(!st.cat||e.category===st.cat)&&(!st.area||e.area===st.area)
     &&(st.s==="all"||(st.s==="soon"?x.k==="soon":x.k!=="soon"))
-    &&inRange(e)
+    &&(e._dates?e._dates.some(inRange):inRange(e))
     &&(!q||[e.title_ko,e.title_ja,e.venue,e.summary_ko].join(" ").normalize("NFKC").toLowerCase().includes(q)))
-   .sort((a,b)=>{const ka=a.e.category===MAG?magEnd(a.e):(a.e.end||"9"),kb=b.e.category===MAG?magEnd(b.e):(b.e.end||"9");return ka.localeCompare(kb)});
+   .sort((a,b)=>sortKey(a.e).localeCompare(sortKey(b.e)));
+  CARDS=rows.map(r=>r.e);
   document.getElementById("count").textContent=`${rows.length}건`;
   document.getElementById("magintro").hidden=st.cat!==MAG;
-  document.getElementById("list").innerHTML=rows.length?rows.map(({e,x})=>{const u=urg(e,x);return `
-  <article class="card${u?" "+u.c:""}" data-i="${EV.indexOf(e)}">${u?`<div class="ub">${u.t}</div>`:""}
+  document.getElementById("list").innerHTML=rows.length?rows.map(({e,x},ci)=>{const u=e._dates?null:urg(e,x);return `
+  <article class="card${u?" "+u.c:""}${e._dates?" series":""}" data-i="${ci}">${u?`<div class="ub">${u.t}</div>`:""}
   <div class="top">${thumb(e)}<div class="tx"><div class="badges"><span class="b cat ${CATCLS[e.category]||""}">${esc(e.category)}</span><span class="b ${x.k}">${x.t}</span><span class="b">${esc(e.area)}</span></div>
   <h2${hasDetail(e)?` class="dt"`:""}>${esc(e.title_ko)}</h2><p class="ja">${esc(e.title_ja||"")}</p></div></div>
   ${e.summary_ko?`<div class="sum"><span class="sumlbl"><a href="${esc(e.summary_source||e.official_url)}" target="_blank" rel="noopener">공식 페이지 요약</a></span><p>${esc(e.summary_ko)}</p></div>`:""}
   ${e.thumbnail?`<p class="credit"><a href="${esc(e.thumbnail_source||e.official_url)}" target="_blank" rel="noopener">이미지 출처</a></p>`:""}
-  <dl><dt>${STOCK.has(e.category)||e.category===MAG?"발매":"기간"}</dt><dd>${e.date_label?esc(e.date_label):`${e.start?fmt(e.start):""}${e.end&&e.end!==e.start?" ~ "+fmt(e.end):(!e.end&&!STOCK.has(e.category)&&e.category!==MAG?" ~":"")}`}</dd><dt>장소</dt><dd>${esc(e.venue)}</dd>
+  <dl>${dlDates(e)}<dt>장소</dt><dd>${esc(e.venue)}</dd>
   ${e.reservation?`<dt>예약</dt><dd>${esc(e.reservation)}</dd>`:""}${e.price?`<dt>가격</dt><dd>${pricet(e.price)}</dd>`:""}</dl>
-  ${e.notes?`<p class="note">📝 ${esc(e.notes)}</p>`:""}${e.verified_at?`<p class="note">✅ 공식 사이트 원문 대조 ${esc(e.verified_at)}</p>`:""}
+  ${noteOf(e)?`<p class="note">📝 ${noteOf(e)}</p>`:""}${e.verified_at?`<p class="note">✅ 공식 사이트 원문 대조 ${esc(e.verified_at)}</p>`:""}
   ${picker(e)}
   ${mapq(e)?`<details class="map" data-q="${esc(mapq(e))}"><summary>📍 지도 펼치기</summary><div class="mapbox"></div></details>`:""}
   <div class="btns">${hasDetail(e)?`<button type="button" class="dt more">자세히 보기</button>`:""}${e.official_url?`<a href="${esc(e.official_url)}" target="_blank" rel="noopener">공식 사이트</a>`:""}${mapq(e)?`<a class="sec" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(mapq(e))}" target="_blank" rel="noopener">지도 보기</a>`:""}${e.source_url&&e.source_url!==e.official_url?`<a class="sec" href="${esc(e.source_url)}" target="_blank" rel="noopener">출처</a>`:""}${e.blog_url?`<a class="sec blog" href="${esc(e.blog_url)}" target="_blank" rel="noopener">블로그 글</a>`:""}</div>
@@ -90,7 +129,7 @@ function setUpdateLabel(last){
 }
 
 fetch("events.json",{cache:"no-store"}).then(r=>r.json()).then(d=>{
-  EV=d.events||[];document.getElementById("base").textContent=`기준일: ${d.base_date}`;
+  EV=d.events||[];buildGroups();document.getElementById("base").textContent=`기준일: ${d.base_date}`;
   setUpdateLabel(d.last_updated);
   if(d.is_sample)document.getElementById("banner").hidden=false;
   const chips=document.getElementById("chips");
@@ -107,7 +146,7 @@ fetch("events.json",{cache:"no-store"}).then(r=>r.json()).then(d=>{
   render()}).catch(()=>document.getElementById("list").innerHTML='<p class="empty">데이터를 불러오지 못했어요.</p>');
 
 const host=u=>{try{return new URL(u).hostname.replace(/^www\./,"")}catch{return""}};
-const period=e=>e.date_label?e.date_label:`${e.start?fmt(e.start):""}${e.end&&e.end!==e.start?" ~ "+fmt(e.end):""}`;
+const period=e=>e._dates?`${fmt(e._dates[0].start)} 외 ${e._dates.length-1}회 (${e._dates.map(x=>md(x.start)).join(" · ")})`:e.date_label?e.date_label:`${e.start?fmt(e.start):""}${e.end&&e.end!==e.start?" ~ "+fmt(e.end):""}`;
 function detail(e){const g=e.gallery||[];const groups=[...new Set(g.map(x=>x.group||""))];
   return `<div class="dv" role="dialog" aria-modal="true" aria-label="${esc(e.title_ko)} 자세히 보기"><button class="dvx" aria-label="닫기">✕</button>
   <div class="dcard${e.image_fit==="contain"?" dfit":""}${(e.image_hd||e.thumbnail)?"":" dnoimg"}">${(e.image_hd||e.thumbnail)?(e.image_fit==="contain"?`<img class="dblur" src="${esc(e.image_hd||e.thumbnail)}" alt="" aria-hidden="true" referrerpolicy="no-referrer">`:"")+`<img class="dbg" src="${esc(e.image_hd||e.thumbnail)}" alt="" ${e.thumb_pos&&e.image_fit!=="contain"?`style="object-position:${esc(e.thumb_pos)}"`:""} referrerpolicy="no-referrer" ${e.image_hd&&e.thumbnail&&e.image_hd!==e.thumbnail?`onerror="this.onerror=null;this.src='${esc(e.thumbnail)}'"`:""}>`:""}
@@ -120,15 +159,25 @@ function detail(e){const g=e.gallery||[];const groups=[...new Set(g.map(x=>x.gro
    +`<p class="dnote">${e.gallery_note?esc(e.gallery_note)+" · ":""}출처: <a href="${esc(e.gallery_source||e.official_url)}" target="_blank" rel="noopener">${esc(host(e.gallery_source||e.official_url))}</a></p>`:`<div class="dwait" role="note"><div class="dwait-i" aria-hidden="true">⏳</div><p class="dwait-t">아직 공식 이미지·상품 정보가 공개되지 않았어요</p><p class="dwait-s">공개되는 대로 업데이트할게요. 그동안은 공식 사이트에서 소식을 확인해 주세요.</p></div>`}
   ${e.official_url?`<a class="dlink" href="${esc(e.official_url)}" target="_blank" rel="noopener">공식 사이트에서 확인하기</a>`:""}${e.blog_url?`<a class="dblog" href="${esc(e.blog_url)}" target="_blank" rel="noopener">블로그 글 보기</a>`:""}</div>`}
 let DETAIL_E=null;
-function openDetail(e){window.gtag&&gtag("event","open_detail",{item:e.title_ko,category:e.category,has_gallery:hasGal(e)});closeDetail();DETAIL_E=e;const o=document.createElement("div");o.className="dov";o.innerHTML=detail(e);document.body.appendChild(o);document.body.style.overflow="hidden";o.querySelector(".dvx").focus();
+// 뒤로가기: 모달·라이트박스를 열 때 history 항목을 하나씩 쌓고, 뒤로가기는 맨 위 층만 닫아요.
+// ✕·바깥·Esc로 닫으면 쌓았던 항목을 history.back()으로 걷어내요(그때 생기는 popstate는 무시).
+let POP_SKIP=0;
+const pushLayer=k=>{try{history.pushState({qj:k},"")}catch(e){}};
+const popLayer=k=>{if(history.state&&history.state.qj===k){POP_SKIP++;history.back()}};
+try{if(history.state&&history.state.qj)history.replaceState(null,"")}catch(e){}
+window.addEventListener("popstate",()=>{if(POP_SKIP>0){POP_SKIP--;return}
+  if(document.querySelector(".lb"))closeLB(true);else if(document.querySelector(".dov"))closeDetail(true)});
+function openDetail(e){window.gtag&&gtag("event","open_detail",{item:e.title_ko,category:e.category,has_gallery:hasGal(e)});if(document.querySelector(".dov"))return;DETAIL_E=e;const o=document.createElement("div");o.className="dov";o.innerHTML=detail(e);document.body.appendChild(o);document.body.style.overflow="hidden";pushLayer("detail");o.querySelector(".dvx").focus();
   o.addEventListener("click",ev=>{if(ev.target===o||ev.target.closest(".dvx"))closeDetail()})}
-function closeDetail(){const o=document.querySelector(".dov");if(o){o.remove();document.body.style.overflow="";DETAIL_E=null}}
-function closeLB(){const l=document.querySelector(".lb");if(l){l.remove();return true}return false}
+function closeDetail(fromPop){const o=document.querySelector(".dov");if(!o)return;const l=document.querySelector(".lb");if(l)l.remove();o.remove();document.body.style.overflow="";DETAIL_E=null;
+  if(!fromPop){const st=history.state&&history.state.qj;const n=st==="lb"?2:st==="detail"?1:0;if(n){POP_SKIP++;history.go(-n)}}}
+function closeLB(fromPop){const l=document.querySelector(".lb");if(!l)return false;l.remove();if(!fromPop)popLayer("lb");return true}
 document.addEventListener("keydown",ev=>{if(ev.key==="Escape"){if(!closeLB())closeDetail()}});
-document.addEventListener("click",ev=>{const a=ev.target.closest(".dgrid a.zoom");if(!a)return;ev.preventDefault();ev.stopPropagation();closeLB();
+document.addEventListener("click",ev=>{const a=ev.target.closest(".dgrid a.zoom");if(!a)return;ev.preventDefault();ev.stopPropagation();if(document.querySelector(".lb"))return;
   const l=document.createElement("div");l.className="lb";l.setAttribute("role","dialog");l.setAttribute("aria-label","사진 크게 보기");
   l.innerHTML=`<button class="dvx" aria-label="닫기">✕</button><img src="${esc(a.getAttribute("href"))}" alt="" referrerpolicy="no-referrer"><p>${esc(a.dataset.cap||"")} · <a href="${esc(a.getAttribute("href"))}" target="_blank" rel="noopener">원본 열기</a></p>`;
-  l.addEventListener("click",e2=>{if(!e2.target.closest("p a"))l.remove()});document.body.appendChild(l)},true);
-document.addEventListener("click",ev=>{const t=ev.target.closest(".card .dt");if(!t)return;const c=t.closest(".card");const e=EV[+c.dataset.i];if(e)openDetail(e)});
+  l.addEventListener("click",e2=>{if(!e2.target.closest("p a"))closeLB()});document.body.appendChild(l);pushLayer("lb")},true);
+document.addEventListener("click",ev=>{const t=ev.target.closest(".card .dt");if(!t)return;const c=t.closest(".card");const e=CARDS[+c.dataset.i];if(e)openDetail(e)});
 
-window.addEventListener("fxrate",()=>{if(typeof render==="function")render();if(DETAIL_E){const e=DETAIL_E;closeDetail();openDetail(e)}});
+window.addEventListener("fxrate",()=>{if(typeof render==="function")render();const o=document.querySelector(".dov");if(o&&DETAIL_E){const sc=o.scrollTop;o.innerHTML=detail(DETAIL_E);o.scrollTop=sc}});
+document.addEventListener("click",ev=>{const b=ev.target.closest(".moredates");if(!b)return;const x=b.nextElementSibling;if(x){x.hidden=false;b.remove()}});

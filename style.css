@@ -182,3 +182,12 @@ details.map{font-size:13px}details.map summary{cursor:pointer;color:var(--accent
 .dwait-s{margin:6px 0 0;font-size:13px;color:var(--mute);line-height:1.55;word-break:keep-all}
 [data-theme="dark"] .dwait{border-color:#4a4137;background:#28231d}
 [data-theme="dark"] .dnoimg .dpanel{background:var(--card)}
+
+/* 날짜만 다른 행사 묶음 카드 */
+.nextd{font-size:15px}.cntd{font-size:12px;color:var(--mute)}
+.sdates{display:flex;flex-wrap:wrap;gap:4px;align-items:center}
+.sd{font-size:12px;padding:2px 7px;border-radius:999px;background:var(--soft);color:var(--ink);white-space:nowrap}
+.sd.inr{background:var(--solid);color:var(--on-solid);font-weight:700}
+.moredates{font:inherit;font-size:12px;color:var(--accent);font-weight:700;background:none;border:0;cursor:pointer;padding:4px 6px}
+.sdx{display:contents}.sdx[hidden]{display:none}
+.hours .hrow{font-size:13px;line-height:1.5;margin:0 0 3px}.hours .hdt{font-weight:700}.hours .hh{color:var(--ink)}.hours .hnone{color:var(--mute)}
