@@ -263,21 +263,21 @@
       "summary_source": "https://collabocafe.and-gallery.com/kitaro-tanjo-2026"
     },
     {
-      "title_ko": "페이트/그랜드 오더 콜라보 레스토랑 「영령들의 만찬」",
-      "title_ja": "Fate/Grand Order コラボレーションレストラン「英霊たちの晩餐」",
+      "title_ko": "페이트/그랜드 오더 콜라보 레스토랑 「영령들의 만찬회」",
+      "title_ja": "Fate/Grand Order コラボレーションレストラン「英霊たちの晩餐会」",
       "category": "콜라보카페",
       "area": "도쿄",
       "venue": "선샤인시티 프린스호텔 B1 「IKEPRI CANVAS」",
       "start": "2026-10-31",
       "end": "2026-12-20",
       "reservation": "필요",
-      "price": "",
-      "official_url": "https://www.princehotels.co.jp/sunshine/plan/contents/fate-go/",
+      "price": "애프터눈 티 10,000엔, 푸드 2,200~4,800엔, 스위츠 2,500~3,800엔, 드링크 1,600엔, 라테 1,700엔 (서비스료·세금 포함)",
+      "official_url": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/",
       "source_url": "https://charagoo.jp/collab/event/81ce109c2a20/",
       "notes": "호텔 공식 사이트 예약(9/28부터), 120분제. 굿즈는 식사 주문자만 구매 가능",
       "checked_date": "2026-10-15",
-      "thumbnail": "https://charagoo.jp/wp-content/uploads/2026/09/fate-news-20261031.jpg",
-      "thumbnail_source": "https://charagoo.jp/collab/event/81ce109c2a20/",
+      "thumbnail": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/img_kv_pc.webp",
+      "thumbnail_source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/",
       "map_query": "東京都豊島区東池袋3‐1‐5",
       "evidence": [
         {
@@ -299,7 +299,772 @@
       "lon": 139.7193,
       "translation_check": true,
       "summary_ko": "선샤인시티 프린스호텔에서 「영령들의 만찬」을 테마로 여는 FGO 콜라보 레스토랑이에요. 애프터눈 티를 포함해 전·후반 메뉴가 바뀌는 총 62가지 메뉴와 오리지널 굿즈, 특전이 있어요.",
-      "summary_source": "https://www.princehotels.co.jp/sunshine/plan/contents/fate-go/"
+      "summary_source": "https://www.princehotels.co.jp/sunshine/plan/contents/fate-go/",
+      "gallery": [
+        {
+          "group": "애프터눈 티",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/afternoontea_zenhan.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/afternoontea_zenhan.webp",
+          "caption_ko": "제1향 영령들의 축연 (전반)",
+          "caption_ja": "Royal Banquet Afternoon Tea 第一饗 英霊たちの祝宴",
+          "price": "1인 10,000엔 (서비스료·세금 포함)",
+          "kinds": "사진은 2인분 · 음료·애프터눈 티 특전 포함",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "애프터눈 티",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/afternoontea_kohan.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/afternoontea_kohan.webp",
+          "caption_ko": "제2향 황금빛 영령들의 축연 (후반)",
+          "caption_ja": "Royal Banquet Afternoon Tea ～第二饗 黄金に輝く英霊たちの祝宴",
+          "price": "1인 10,000엔 (서비스료·세금 포함)",
+          "kinds": "사진은 2인분 · 음료·애프터눈 티 특전 포함",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "푸드 (전반)",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/food_zenhan_01_Indra.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/food_zenhan_01_Indra.webp",
+          "caption_ko": "인드라 축연의 탄두리풍 치킨",
+          "caption_ja": "インドラの祝宴のタンドリー風チキン",
+          "price": "3,000엔 (서비스료·세금 포함)",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "푸드 (전반)",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/food_zenhan_02_Karna.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/food_zenhan_02_Karna.webp",
+          "caption_ko": "태양신의 로스트비프와 카레 풀라오",
+          "caption_ja": "太陽神のローストビーフとカレープラオ",
+          "price": "2,800엔 (서비스료·세금 포함)",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "푸드 (전반)",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/food_zenhan_03_Gilgamesh.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/food_zenhan_03_Gilgamesh.webp",
+          "caption_ko": "우루크 왕의 양고기 케밥",
+          "caption_ja": "ウルクの王のラムケバブ",
+          "price": "2,500엔 (서비스료·세금 포함)",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "푸드 (전반)",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/food_zenhan_04_Ishtar.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/food_zenhan_04_Ishtar.webp",
+          "caption_ko": "여신 이슈타르의 새우와 흰살생선 ~황금 스파이스 사프란 크림~",
+          "caption_ja": "女神イシュタルの海老と白身魚～黄金のスパイスサフランクリーム～",
+          "price": "4,500엔 (서비스료·세금 포함)",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "푸드 (전반)",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/food_zenhan_05_Arthur.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/food_zenhan_05_Arthur.webp",
+          "caption_ko": "아서의 피시 앤 칩스 ~약속된 승리의 검의 광채~",
+          "caption_ja": "アーサーのフィッシュ＆チップス～約束された勝利の剣の輝き～",
+          "price": "2,500엔 (서비스료·세금 포함)",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "푸드 (전반)",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/food_zenhan_06_Avalon.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/food_zenhan_06_Avalon.webp",
+          "caption_ko": "아발론 정원 채소와 연어 테린",
+          "caption_ja": "アヴァロンの庭園野菜とサーモンのテリーヌ",
+          "price": "3,000엔 (서비스료·세금 포함)",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "푸드 (전반)",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/food_zenhan_07_Tezcatlipoca.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/food_zenhan_07_Tezcatlipoca.webp",
+          "caption_ko": "흑요석 신의 치킨 몰레 플레이트",
+          "caption_ja": "黒曜石の神のチキンモレプレート",
+          "price": "2,500엔 (서비스료·세금 포함)",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "푸드 (전반)",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/food_zenhan_08_Tenochtitlan.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/food_zenhan_08_Tenochtitlan.webp",
+          "caption_ko": "호수 도시의 축복 테노치티틀란 해산물 세비체",
+          "caption_ja": "湖都の祝福 テノチティトランのシーフードセビーチェ",
+          "price": "2,800엔 (서비스료·세금 포함)",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "푸드 (전반)",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/food_zenhan_09_Tutankhamun.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/food_zenhan_09_Tutankhamun.webp",
+          "caption_ko": "젊은 왕 투탕카멘의 치킨 로스트 ~두카 향 축연~",
+          "caption_ja": "若き王ツタンカーメンのチキンロースト～デュカ香る祝宴～",
+          "price": "2,500엔 (서비스료·세금 포함)",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "푸드 (전반)",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/food_zenhan_10_Ozymandias.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/food_zenhan_10_Ozymandias.webp",
+          "caption_ko": "신전의 왕 오지만디아스의 비프스테이크",
+          "caption_ja": "神殿の王 オジマンディアスのビーフステーキ",
+          "price": "3,800엔 (서비스료·세금 포함)",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "푸드 (전반)",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/food_zenhan_11_Takeru.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/food_zenhan_11_Takeru.webp",
+          "caption_ko": "야마토타케루의 와규 스키야키",
+          "caption_ja": "ヤマトタケルの和牛すき焼き",
+          "price": "4,800엔 (서비스료·세금 포함)",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "푸드 (전반)",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/food_zenhan_12_Iori.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/food_zenhan_12_Iori.webp",
+          "caption_ko": "검사 미야모토 이오리의 한 그릇 ~도미 오차즈케~",
+          "caption_ja": "剣士 宮本伊織の一椀～鯛茶漬け～",
+          "price": "3,200엔 (서비스료·세금 포함)",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "푸드 (후반)",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/food_kohan_01_Indra.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/food_kohan_01_Indra.webp",
+          "caption_ko": "인드라의 뇌정 카레",
+          "caption_ja": "インドラの雷霆カレー",
+          "price": "2,500엔 (서비스료·세금 포함)",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "푸드 (후반)",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/food_kohan_02_Karna.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/food_kohan_02_Karna.webp",
+          "caption_ko": "일륜의 사모사 & 스파이스 프라이",
+          "caption_ja": "日輪のサモサ＆スパイスフライ",
+          "price": "2,500엔 (서비스료·세금 포함)",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "푸드 (후반)",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/food_kohan_03_Gilgamesh.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/food_kohan_03_Gilgamesh.webp",
+          "caption_ko": "우루크 임금님 미트파이",
+          "caption_ja": "ウルクの王様ミートパイ",
+          "price": "2,500엔 (서비스료·세금 포함)",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "푸드 (후반)",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/food_kohan_04_Ishtar.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/food_kohan_04_Ishtar.webp",
+          "caption_ko": "여신 이슈타르의 황금 샥슈카",
+          "caption_ja": "女神イシュタルの黄金シャクシュカ",
+          "price": "2,500엔 (서비스료·세금 포함)",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "푸드 (후반)",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/food_kohan_05_Arthur.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/food_kohan_05_Arthur.webp",
+          "caption_ko": "엑스칼리버 로스트비프 샌드",
+          "caption_ja": "エクスカリバー・ローストビーフサンド",
+          "price": "3,500엔 (서비스료·세금 포함)",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "푸드 (후반)",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/food_kohan_06_Avalon.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/food_kohan_06_Avalon.webp",
+          "caption_ko": "아발론 연어 허브 크림 파스타",
+          "caption_ja": "アヴァロン・サーモンハーブクリームパスタ",
+          "price": "3,000엔 (서비스료·세금 포함)",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "푸드 (후반)",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/food_kohan_07_Tezcatlipoca.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/food_kohan_07_Tezcatlipoca.webp",
+          "caption_ko": "흑요석 거울 테스카틀리포카의 멕시칸 샐러드",
+          "caption_ja": "黒曜石の鏡 テスカトリポカのメキシカンサラダ",
+          "price": "2,200엔 (서비스료·세금 포함)",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "푸드 (후반)",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/food_kohan_08_Tenochtitlan.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/food_kohan_08_Tenochtitlan.webp",
+          "caption_ko": "테노치티틀란의 타코라이스",
+          "caption_ja": "テノチティトランのタコライス",
+          "price": "2,500엔 (서비스료·세금 포함)",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "푸드 (후반)",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/food_kohan_09_Tutankhamun.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/food_kohan_09_Tutankhamun.webp",
+          "caption_ko": "파라오의 광채 팔라펠 플레이트",
+          "caption_ja": "ファラオの輝き ファラフェルプレート",
+          "price": "2,500엔 (서비스료·세금 포함)",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "푸드 (후반)",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/food_kohan_10_Ozymandias.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/food_kohan_10_Ozymandias.webp",
+          "caption_ko": "태양왕 오지만디아스의 새우와 가리비 황금 쿠스쿠스",
+          "caption_ja": "太陽王オジマンディアスの海老と帆立の黄金クスクス",
+          "price": "3,500엔 (서비스료·세금 포함)",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "푸드 (후반)",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/food_kohan_11_Takeru.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/food_kohan_11_Takeru.webp",
+          "caption_ko": "야마토타케루의 축연 대나무 껍질 찰밥",
+          "caption_ja": "ヤマトタケルの祝宴竹皮包み",
+          "price": "2,200엔 (서비스료·세금 포함)",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "푸드 (후반)",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/food_kohan_12_Iori.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/food_kohan_12_Iori.webp",
+          "caption_ko": "미야모토 이오리의 붕장어 덮밥",
+          "caption_ja": "宮本伊織の穴子重",
+          "price": "4,800엔 (서비스료·세금 포함)",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "스위츠 (전반)",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/sweets_zenhan_01_Indra.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/sweets_zenhan_01_Indra.webp",
+          "caption_ko": "인드라의 망고 라씨 파르페 천제의 광채",
+          "caption_ja": "インドラのマンゴーラッシーパフェ 天帝の輝き",
+          "price": "3,500엔 (서비스료·세금 포함)",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "스위츠 (전반)",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/sweets_zenhan_02_Gilgamesh.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/sweets_zenhan_02_Gilgamesh.webp",
+          "caption_ko": "왕의 재보 허니 너트 치즈케이크",
+          "caption_ja": "王の財宝 ハニーナッツチーズケーキ",
+          "price": "2,800엔 (서비스료·세금 포함)",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "스위츠 (전반)",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/sweets_zenhan_03_Arthur.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/sweets_zenhan_03_Arthur.webp",
+          "caption_ko": "아서의 레몬 빅토리아 케이크",
+          "caption_ja": "アーサーのレモンヴィクトリアケーキ",
+          "price": "2,800엔 (서비스료·세금 포함)",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "스위츠 (전반)",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/sweets_zenhan_04_Tezcatlipoca.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/sweets_zenhan_04_Tezcatlipoca.webp",
+          "caption_ko": "흑요석 신 테스카틀리포카의 쇼콜라 무스",
+          "caption_ja": "黒曜石の神 テスカトリポカのショコラムース",
+          "price": "2,800엔 (서비스료·세금 포함)",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "스위츠 (전반)",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/sweets_zenhan_05_Tutankhamun.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/sweets_zenhan_05_Tutankhamun.webp",
+          "caption_ko": "투탕카멘의 사막 보석 파르페",
+          "caption_ja": "ツタンカーメンの砂漠の宝石パフェ",
+          "price": "3,500엔 (서비스료·세금 포함)",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "스위츠 (전반)",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/sweets_zenhan_06_Takeru.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/sweets_zenhan_06_Takeru.webp",
+          "caption_ko": "야마토타케루의 휴식 말차 시라타마 단팥죽",
+          "caption_ja": "ヤマトタケルの休息 抹茶白玉善哉",
+          "price": "2,500엔 (서비스료·세금 포함)",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "스위츠 (후반)",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/sweets_kohan_01_Indra.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/sweets_kohan_01_Indra.webp",
+          "caption_ko": "인드라의 뇌광 허니 팬케이크",
+          "caption_ja": "インドラの雷光ハニーパンケーキ",
+          "price": "2,800엔 (서비스료·세금 포함)",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "스위츠 (후반)",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/sweets_kohan_02_Gilgamesh.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/sweets_kohan_02_Gilgamesh.webp",
+          "caption_ko": "영웅왕의 옥좌 대추야자 왕궁 케이크",
+          "caption_ja": "英雄王の玉座 デーツの王宮ケーキ",
+          "price": "2,800엔 (서비스료·세금 포함)",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "스위츠 (후반)",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/sweets_kohan_03_Arthur.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/sweets_kohan_03_Arthur.webp",
+          "caption_ko": "카멜롯의 로열 스콘",
+          "caption_ja": "キャメロットのロイヤルスコーン",
+          "price": "2,500엔 (서비스료·세금 포함)",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "스위츠 (후반)",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/sweets_kohan_04_Tezcatlipoca.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/sweets_kohan_04_Tezcatlipoca.webp",
+          "caption_ko": "연기 나는 거울의 흑요석 파르페 (드라이아이스 연출)",
+          "caption_ja": "煙る鏡の黒曜石パフェ",
+          "price": "3,800엔 (서비스료·세금 포함)",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "스위츠 (후반)",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/sweets_kohan_05_Tutankhamun.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/sweets_kohan_05_Tutankhamun.webp",
+          "caption_ko": "투탕카멘의 만찬 대추야자 캐러멜 슈크림",
+          "caption_ja": "ツタンカーメンの晩餐 デーツ入りキャラメルシュークリーム",
+          "price": "2,500엔 (서비스료·세금 포함)",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "스위츠 (후반)",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/sweets_kohan_06_Takeru.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/sweets_kohan_06_Takeru.webp",
+          "caption_ko": "야마토타케루의 일본 밤 몽블랑",
+          "caption_ja": "ヤマトタケルの和栗モンブラン",
+          "price": "2,800엔 (서비스료·세금 포함)",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "소프트드링크 (전반)",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/driink_zenhan_01_Indra.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/driink_zenhan_01_Indra.webp",
+          "caption_ko": "인드라 드링크",
+          "caption_ja": "インドラ",
+          "price": "1,600엔 (서비스료·세금 포함)",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "소프트드링크 (전반)",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/driink_zenhan_02_Gilgamesh.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/driink_zenhan_02_Gilgamesh.webp",
+          "caption_ko": "길가메시 (캐스터) 드링크",
+          "caption_ja": "ギルガメッシュ〔キャスター〕",
+          "price": "1,600엔 (서비스료·세금 포함)",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "소프트드링크 (전반)",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/driink_zenhan_03_Arthur.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/driink_zenhan_03_Arthur.webp",
+          "caption_ko": "아서 펜드래건 드링크",
+          "caption_ja": "アーサー・ペンドラゴン",
+          "price": "1,600엔 (서비스료·세금 포함)",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "소프트드링크 (전반)",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/driink_zenhan_04_Tezcatlipoca.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/driink_zenhan_04_Tezcatlipoca.webp",
+          "caption_ko": "테스카틀리포카 드링크",
+          "caption_ja": "テスカトリポカ",
+          "price": "1,600엔 (서비스료·세금 포함)",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "소프트드링크 (전반)",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/driink_zenhan_05_Tutankhamun.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/driink_zenhan_05_Tutankhamun.webp",
+          "caption_ko": "투탕카멘 드링크",
+          "caption_ja": "ツタンカーメン",
+          "price": "1,600엔 (서비스료·세금 포함)",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "소프트드링크 (전반)",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/driink_zenhan_06_Takeru.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/driink_zenhan_06_Takeru.webp",
+          "caption_ko": "야마토타케루 드링크",
+          "caption_ja": "ヤマトタケル",
+          "price": "1,600엔 (서비스료·세금 포함)",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "소프트드링크 (후반)",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/driink_kohan_01_Indra.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/driink_kohan_01_Indra.webp",
+          "caption_ko": "인드라 드링크",
+          "caption_ja": "インドラ",
+          "price": "1,600엔 (서비스료·세금 포함)",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "소프트드링크 (후반)",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/driink_kohan_02_Gilgamesh.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/driink_kohan_02_Gilgamesh.webp",
+          "caption_ko": "길가메시 (캐스터) 드링크",
+          "caption_ja": "ギルガメッシュ〔キャスター〕",
+          "price": "1,600엔 (서비스료·세금 포함)",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "소프트드링크 (후반)",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/driink_kohan_03_Arthur.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/driink_kohan_03_Arthur.webp",
+          "caption_ko": "아서 펜드래건 드링크",
+          "caption_ja": "アーサー・ペンドラゴン",
+          "price": "1,600엔 (서비스료·세금 포함)",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "소프트드링크 (후반)",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/driink_kohan_04_Tezcatlipoca.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/driink_kohan_04_Tezcatlipoca.webp",
+          "caption_ko": "테스카틀리포카 드링크",
+          "caption_ja": "テスカトリポカ",
+          "price": "1,600엔 (서비스료·세금 포함)",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "소프트드링크 (후반)",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/driink_kohan_05_Tutankhamun.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/driink_kohan_05_Tutankhamun.webp",
+          "caption_ko": "투탕카멘 드링크",
+          "caption_ja": "ツタンカーメン",
+          "price": "1,600엔 (서비스료·세금 포함)",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "소프트드링크 (후반)",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/driink_kohan_06_Takeru.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/driink_kohan_06_Takeru.webp",
+          "caption_ko": "야마토타케루 드링크",
+          "caption_ja": "ヤマトタケル",
+          "price": "1,600엔 (서비스료·세금 포함)",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "라테아트 / 티라테",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/latteart_01_Indra.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/latteart_01_Indra.webp",
+          "caption_ko": "인드라 라테아트",
+          "caption_ja": "インドラ",
+          "price": "1,700엔 (서비스료·세금 포함)",
+          "kinds": "커피 라테 / 홍차 티라테 선택",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "라테아트 / 티라테",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/latteart_02_Gilgamesh.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/latteart_02_Gilgamesh.webp",
+          "caption_ko": "길가메시 (캐스터) 라테아트",
+          "caption_ja": "ギルガメッシュ〔キャスター〕",
+          "price": "1,700엔 (서비스료·세금 포함)",
+          "kinds": "커피 라테 / 홍차 티라테 선택",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "라테아트 / 티라테",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/latteart_03_Arthur.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/latteart_03_Arthur.webp",
+          "caption_ko": "아서 펜드래건 라테아트",
+          "caption_ja": "アーサー・ペンドラゴン",
+          "price": "1,700엔 (서비스료·세금 포함)",
+          "kinds": "커피 라테 / 홍차 티라테 선택",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "라테아트 / 티라테",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/latteart_04_Tezcatlipoca.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/latteart_04_Tezcatlipoca.webp",
+          "caption_ko": "테스카틀리포카 라테아트",
+          "caption_ja": "テスカトリポカ",
+          "price": "1,700엔 (서비스료·세금 포함)",
+          "kinds": "커피 라테 / 홍차 티라테 선택",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "라테아트 / 티라테",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/latteart_05_Tutankhamun.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/latteart_05_Tutankhamun.webp",
+          "caption_ko": "투탕카멘 라테아트",
+          "caption_ja": "ツタンカーメン",
+          "price": "1,700엔 (서비스료·세금 포함)",
+          "kinds": "커피 라테 / 홍차 티라테 선택",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "라테아트 / 티라테",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/latteart_06_Takeru.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/latteart_06_Takeru.webp",
+          "caption_ko": "야마토타케루 라테아트",
+          "caption_ja": "ヤマトタケル",
+          "price": "1,700엔 (서비스료·세금 포함)",
+          "kinds": "커피 라테 / 홍차 티라테 선택",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "특전",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/tokuten_zenhan_raijo.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/tokuten_zenhan_raijo.webp",
+          "caption_ko": "방문 특전 초대장 (전반)",
+          "caption_ja": "来場特典 招待状（全1種）",
+          "kinds": "콜라보 메뉴 이용 시 1인 1장",
+          "size": "크기 A5",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "특전",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/tokuten_kohan_raijo.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/tokuten_kohan_raijo.webp",
+          "caption_ko": "방문 특전 런천 매트 (후반)",
+          "caption_ja": "来場特典 ランチョンマット（全1種）",
+          "kinds": "콜라보 메뉴 이용 시 1인 1장",
+          "size": "크기 A3",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "특전",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/tokuten_stamp_zenhan.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/tokuten_stamp_zenhan.webp",
+          "caption_ko": "스탬프 랠리 A3 클리어 포스터 (전반)",
+          "caption_ja": "アフタヌーンティースタンプラリー A3クリアポスター（全1種）",
+          "kinds": "애프터눈 티 2회 이용 시",
+          "size": "크기 A3",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "특전",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/tokuten_stamp_kohan.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/tokuten_stamp_kohan.webp",
+          "caption_ko": "스탬프 랠리 A3 클리어 포스터 (후반)",
+          "caption_ja": "アフタヌーンティースタンプラリー A3クリアポスター（全1種）",
+          "kinds": "애프터눈 티 2회 이용 시",
+          "size": "크기 A3",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "특전",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/tokuten_tea_zenhan.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/tokuten_tea_zenhan.webp",
+          "caption_ko": "애프터눈 티 특전 테두리 없는 색지 (전반)",
+          "caption_ja": "アフタヌーンティー特典 枠なし色紙（全1種）",
+          "kinds": "애프터눈 티 주문 시 1장",
+          "size": "크기 W210×140mm",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "특전",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/tokuten_tea_kohan.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/tokuten_tea_kohan.webp",
+          "caption_ko": "애프터눈 티 특전 펄 아크릴 색지 (후반)",
+          "caption_ja": "アフタヌーンティー特典 ラメ入りアクリル色紙（全1種）",
+          "kinds": "애프터눈 티 주문 시 1장",
+          "size": "크기 W210×140mm",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "특전",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/tokuten_food_zenhan.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/tokuten_food_zenhan.webp",
+          "caption_ko": "푸드·스위츠 특전 클리어 파일 (전반)",
+          "caption_ja": "フード&スイーツ特典 クリアファイル（全6種）",
+          "kinds": "전 6종 · 1품 주문당 랜덤 1장",
+          "size": "크기 A4",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "특전",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/tokuten_food_kohan.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/tokuten_food_kohan.webp",
+          "caption_ko": "푸드·스위츠 특전 미니 아크릴 스탠드 (후반)",
+          "caption_ja": "フード&スイーツ特典 ミニアクリルスタンド（全6種）",
+          "kinds": "전 6종 · 1품 주문당 랜덤 1개",
+          "size": "크기 W50mm",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "특전",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/tokuten_drink_zenhan.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/tokuten_drink_zenhan.webp",
+          "caption_ko": "드링크 특전 코스터 (전반)",
+          "caption_ja": "ドリンク特典 コースター（全6種）",
+          "kinds": "전 6종 · 드링크·라테 1잔당 랜덤 1장",
+          "size": "크기 90mm",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "특전",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/tokuten_drink_kohan.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/tokuten_drink_kohan.webp",
+          "caption_ko": "드링크 특전 박 가공 엽서 (후반)",
+          "caption_ja": "ドリンク特典 箔押しポストカード（全6種）",
+          "kinds": "전 6종 · 드링크·라테 1잔당 랜덤 1장",
+          "size": "크기 W150×H100mm",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "특전",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/tokuten_over7700_zenhan.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/tokuten_over7700_zenhan.webp",
+          "caption_ko": "식사 특전 PVC 책갈피 (전반)",
+          "caption_ja": "ご飲食特典 PVCしおり（全6種）",
+          "kinds": "전 6종 · 1회 계산 7,700엔(세금 포함)마다 랜덤 1장 (애프터눈 티 제외)",
+          "size": "크기 W40×H120mm",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "특전",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/tokuten_over7700_kohan.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/tokuten_over7700_kohan.webp",
+          "caption_ko": "식사 특전 박 가공 책갈피 (후반)",
+          "caption_ja": "ご飲食特典 箔押ししおり（全6種）",
+          "kinds": "전 6종 · 1회 계산 7,700엔(세금 포함)마다 랜덤 1장 (애프터눈 티 제외)",
+          "size": "크기 W40×H120mm",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "특전",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/tokuten_over3300_zenhan.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/tokuten_over3300_zenhan.webp",
+          "caption_ko": "굿즈 구매 특전 스티커 (전반)",
+          "caption_ja": "グッズ購入特典 ステッカー（全6種）",
+          "kinds": "전 6종 · 굿즈 3,300엔(세금 포함)마다 랜덤 1장",
+          "size": "크기 50mm",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "특전",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/tokuten_over3300_kohan.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/tokuten_over3300_kohan.webp",
+          "caption_ko": "굿즈 구매 특전 클리어 카드 (후반)",
+          "caption_ja": "グッズ購入特典 クリアカード（全6種）",
+          "kinds": "전 6종 · 굿즈 3,300엔(세금 포함)마다 랜덤 1장",
+          "size": "크기 H55×90mm",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "특전",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/tokuten_over5500_shopper.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/tokuten_over5500_shopper.webp",
+          "caption_ko": "굿즈 구매 특전 쇼퍼백",
+          "caption_ja": "グッズ購入特典 ショッパー（全1種）",
+          "kinds": "굿즈 5,500엔(세금 포함) 이상 구매 시 1개",
+          "size": "크기 B4",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/goods_kinpaku_badge.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/goods_kinpaku_badge.webp",
+          "caption_ko": "캔뱃지 컬렉션",
+          "caption_ja": "缶バッジコレクション（全6種・ランダム）",
+          "price": "880엔 (세금 포함)",
+          "kinds": "전 6종 · 랜덤",
+          "size": "크기 φ76mm",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/goods_holo_badge.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/goods_holo_badge.webp",
+          "caption_ko": "타원 홀로 캔뱃지 컬렉션",
+          "caption_ja": "楕円ホロ入り缶バッジコレクション（全6種・ランダム）",
+          "price": "660엔 (세금 포함)",
+          "kinds": "전 6종 · 랜덤",
+          "size": "크기 W45×H65mm",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/goods_acsta.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/goods_acsta.webp",
+          "caption_ko": "이어지는 등신 아크릴 스탠드",
+          "caption_ja": "つながる等身アクリルスタンド（全6種）",
+          "price": "1,760엔 (세금 포함)",
+          "kinds": "전 6종",
+          "size": "크기 H150mm",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/goods_acryl_block.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/goods_acryl_block.webp",
+          "caption_ko": "미니 아크릴 블록",
+          "caption_ja": "ミニアクリルブロック（全6種）",
+          "price": "1,320엔 (세금 포함)",
+          "kinds": "전 6종",
+          "size": "크기 W60×H80mm",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/goods_ackey.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/goods_ackey.webp",
+          "caption_ko": "아크릴 키홀더",
+          "caption_ja": "アクリルキーホルダー（全6種・ランダム）",
+          "price": "880엔 (세금 포함)",
+          "kinds": "전 6종 · 랜덤",
+          "size": "크기 W70mm",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/goods_cheki.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/goods_cheki.webp",
+          "caption_ko": "떼어 쓰는 체키 카드",
+          "caption_ja": "剥がせるチェキカード（全6種・ランダム）",
+          "price": "550엔 (세금 포함)",
+          "kinds": "전 6종 · 랜덤",
+          "size": "크기 W70×H192mm (펼친 크기)",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/goods_tapestry.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/goods_tapestry.webp",
+          "caption_ko": "태피스트리",
+          "caption_ja": "タペストリー（全6種）",
+          "price": "9,900엔 (세금 포함)",
+          "kinds": "전 6종",
+          "size": "크기 H1800×600mm",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/goods_cushioncover.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/goods_cushioncover.webp",
+          "caption_ko": "쿠션 커버",
+          "caption_ja": "クッションカバー（全6種）",
+          "price": "3,800엔 (세금 포함)",
+          "kinds": "전 6종",
+          "size": "크기 W450mm",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/goods_blanket.webp",
+          "full": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/img/goods_blanket.webp",
+          "caption_ko": "담요",
+          "caption_ja": "ブランケット（全1種）",
+          "price": "4,400엔 (세금 포함)",
+          "kinds": "전 1종",
+          "size": "크기 W1000×700mm",
+          "source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/"
+        }
+      ],
+      "gallery_source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/",
+      "gallery_note": "전반·후반에 메뉴와 특전이 바뀌어요. 이미지는 모두 공식 이미지(이미지 컷)예요"
     },
     {
       "title_ko": "하이큐!! × and GALLERY 콜라보 카페",
@@ -3164,10 +3929,10 @@
       "start": "2026-10-27",
       "end": null,
       "reservation": "불필요",
-      "price": "클로그 ¥11,550~13,750, 지비츠 ¥770",
-      "official_url": "https://prtimes.jp/main/html/rd/p/000000258.000023595.html",
+      "price": "클로그 11,550~13,750엔, 지비츠 각 770엔·5팩 2,620엔 (세금 포함)",
+      "official_url": "https://www.crocs.co.jp/c/collections/chainsaw-man",
       "source_url": "https://prtimes.jp/main/html/rd/p/000000258.000023595.html",
-      "notes": "10/27 발매. atmos 한정 모델 포함. 종료일 미공개. 온라인·직영·파트너 매장에서도 판매",
+      "notes": "10/27 발매. 멀티컬러·포치타 라인드는 atmos 한정. 종료일 미공개. 크록스 온라인스토어·직영점(시부야 파르코, 신주쿠 마루이 본관, 이케부쿠로 선샤인시티 알타 등)·ABC-MART·atmos·제비오·무라사키 스포츠 일부 매장에서도 판매 (상품별로 취급 매장 다름)",
       "checked_date": "2026-10-16",
       "thumbnail": "https://prcdn.freetls.fastly.net/release_image/23595/258/23595-258-092925c6945ec68171fb2e53a39ff800-3840x2160.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
       "thumbnail_source": "https://prtimes.jp/main/html/rd/p/000000258.000023595.html",
@@ -3186,7 +3951,88 @@
       "lon": 139.7124,
       "summary_ko": "크록스와 『체인소맨』의 첫 콜라보 컬렉션이 10월 27일 발매돼요. 같은 날부터 atmos 이케부쿠로점에서 팝업을 열어 상품을 직접 보고 만져볼 수 있어요.",
       "summary_source": "https://prtimes.jp/main/html/rd/p/000000258.000023595.html",
-      "translation_check": true
+      "translation_check": true,
+      "gallery": [
+        {
+          "group": "클로그",
+          "img": "https://prcdn.freetls.fastly.net/release_image/23595/258/23595-258-3b347a38cd22896a944c17894903d3ec-1000x801.png?format=jpeg&auto=webp&fit=bounds&width=1000",
+          "full": "https://prcdn.freetls.fastly.net/release_image/23595/258/23595-258-3b347a38cd22896a944c17894903d3ec-1000x801.png?format=jpeg&auto=webp&fit=bounds&width=1000",
+          "caption_ko": "체인소맨 클래식 클로그 (포치타 지비츠 포함)",
+          "caption_ja": "『チェンソーマン』× クロックス 『チェンソーマン』 クラシック クロッグ",
+          "price": "11,550엔 (세금 포함)",
+          "size": "20~31cm",
+          "source": "https://prtimes.jp/main/html/rd/p/000000258.000023595.html"
+        },
+        {
+          "group": "클로그",
+          "img": "https://prcdn.freetls.fastly.net/release_image/23595/258/23595-258-ba698c9b377ddd3915d56f4789df8e34-1000x811.png?format=jpeg&auto=webp&fit=bounds&width=1000",
+          "full": "https://prcdn.freetls.fastly.net/release_image/23595/258/23595-258-ba698c9b377ddd3915d56f4789df8e34-1000x811.png?format=jpeg&auto=webp&fit=bounds&width=1000",
+          "caption_ko": "파워 클래식 클로그 (냐코 지비츠 포함)",
+          "caption_ja": "『チェンソーマン』× クロックス 『パワー』 クラシック クロッグ",
+          "price": "11,550엔 (세금 포함)",
+          "size": "20~31cm",
+          "source": "https://prtimes.jp/main/html/rd/p/000000258.000023595.html"
+        },
+        {
+          "group": "클로그 · atmos 한정",
+          "img": "https://prcdn.freetls.fastly.net/release_image/23595/258/23595-258-86fa7f4a324ebcacd6e1d31e905389e0-1000x742.png?format=jpeg&auto=webp&fit=bounds&width=1000",
+          "full": "https://prcdn.freetls.fastly.net/release_image/23595/258/23595-258-86fa7f4a324ebcacd6e1d31e905389e0-1000x742.png?format=jpeg&auto=webp&fit=bounds&width=1000",
+          "caption_ko": "멀티컬러 클래식 클로그 (atmos 한정)",
+          "caption_ja": "『チェンソーマン』× クロックス マルチカラー クラシック クロッグ",
+          "price": "12,100엔 (세금 포함)",
+          "size": "20~31cm",
+          "source": "https://prtimes.jp/main/html/rd/p/000000258.000023595.html"
+        },
+        {
+          "group": "클로그 · atmos 한정",
+          "img": "https://prcdn.freetls.fastly.net/release_image/23595/258/23595-258-d805f9b5f12ac97ad733191e94492b85-1000x742.png?format=jpeg&auto=webp&fit=bounds&width=1000",
+          "full": "https://prcdn.freetls.fastly.net/release_image/23595/258/23595-258-d805f9b5f12ac97ad733191e94492b85-1000x742.png?format=jpeg&auto=webp&fit=bounds&width=1000",
+          "caption_ko": "포치타 라인드 클로그 (안감 퍼, atmos 한정)",
+          "caption_ja": "『チェンソーマン』× クロックス 『ポチタ』 ラインド クロッグ",
+          "price": "13,750엔 (세금 포함)",
+          "size": "20~31cm",
+          "source": "https://prtimes.jp/main/html/rd/p/000000258.000023595.html"
+        },
+        {
+          "group": "지비츠 참",
+          "img": "https://prcdn.freetls.fastly.net/release_image/23595/258/23595-258-ade93ef89cb885b36f16ae590fcfbd4f-2500x2431.png?format=jpeg&auto=webp&fit=bounds&width=1200",
+          "full": "https://prcdn.freetls.fastly.net/release_image/23595/258/23595-258-ade93ef89cb885b36f16ae590fcfbd4f-2500x2431.png?format=jpeg&auto=webp&fit=bounds&width=2500",
+          "caption_ko": "엘리베이티드 5팩",
+          "caption_ja": "『チェンソーマン』× クロックス エレベーテッド 5パック",
+          "price": "2,620엔 (세금 포함)",
+          "kinds": "5개 세트",
+          "source": "https://prtimes.jp/main/html/rd/p/000000258.000023595.html"
+        },
+        {
+          "group": "지비츠 참",
+          "img": "https://prcdn.freetls.fastly.net/release_image/23595/258/23595-258-3398a880e568d65a4732413325eda66b-2500x2569.png?format=jpeg&auto=webp&fit=bounds&width=1200",
+          "full": "https://prcdn.freetls.fastly.net/release_image/23595/258/23595-258-3398a880e568d65a4732413325eda66b-2500x2569.png?format=jpeg&auto=webp&fit=bounds&width=2500",
+          "caption_ko": "엘리베이티드 체인소맨",
+          "caption_ja": "『チェンソーマン』× クロックス エレベーテッド 『チェンソーマン』",
+          "price": "770엔 (세금 포함)",
+          "source": "https://prtimes.jp/main/html/rd/p/000000258.000023595.html"
+        },
+        {
+          "group": "지비츠 참",
+          "img": "https://prcdn.freetls.fastly.net/release_image/23595/258/23595-258-534b5c70bde07c530b6110429fe1abdc-2500x2560.png?format=jpeg&auto=webp&fit=bounds&width=1200",
+          "full": "https://prcdn.freetls.fastly.net/release_image/23595/258/23595-258-534b5c70bde07c530b6110429fe1abdc-2500x2560.png?format=jpeg&auto=webp&fit=bounds&width=2500",
+          "caption_ko": "엘리베이티드 포치타",
+          "caption_ja": "『チェンソーマン』× クロックス エレベーテッド 『ポチタ』",
+          "price": "770엔 (세금 포함)",
+          "source": "https://prtimes.jp/main/html/rd/p/000000258.000023595.html"
+        },
+        {
+          "group": "지비츠 참",
+          "img": "https://prcdn.freetls.fastly.net/release_image/23595/258/23595-258-20697cbee22706e1c2a4f031699451f5-2500x2555.png?format=jpeg&auto=webp&fit=bounds&width=1200",
+          "full": "https://prcdn.freetls.fastly.net/release_image/23595/258/23595-258-20697cbee22706e1c2a4f031699451f5-2500x2555.png?format=jpeg&auto=webp&fit=bounds&width=2500",
+          "caption_ko": "엘리베이티드 파워",
+          "caption_ja": "『チェンソーマン』× クロックス エレベーテッド 『パワー』",
+          "price": "770엔 (세금 포함)",
+          "source": "https://prtimes.jp/main/html/rd/p/000000258.000023595.html"
+        }
+      ],
+      "gallery_source": "https://prtimes.jp/main/html/rd/p/000000258.000023595.html",
+      "gallery_note": "크록스 공식 보도자료(PR TIMES) 이미지예요"
     },
     {
       "title_ko": "나카이케부쿠로공원 플리마켓",
@@ -4452,7 +5298,7 @@
       "translation_check": true
     },
     {
-      "title_ko": "극장판 ひゃくえむ。 POP UP SHOP",
+      "title_ko": "극장판 『100미터.』 POP UP SHOP",
       "title_ja": "劇場アニメ『ひゃくえむ。』POP UP SHOP",
       "category": "팝업스토어",
       "area": "도쿄",
@@ -4463,7 +5309,7 @@
       "price": "",
       "official_url": "https://www.medicos-e.net/newsdetail/hyakuemu/",
       "source_url": "https://www.medicos-e.net/newsdetail/hyakuemu/",
-      "notes": "특전: 1,000엔마다 클리어 책갈피(전 6종) 랜덤 1장. 오사카는 2027/1/29~2/7",
+      "notes": "특전: 1,000엔마다 클리어 책갈피(전 6종) 랜덤 1장, 3,000엔마다 회장 한정 일러스트 카드(전 3종) 랜덤 1장. 오사카는 2027/1/29~2/7",
       "checked_date": "2026-10-18",
       "map_query": "東京都新宿区新宿3-1-26",
       "evidence": [
@@ -4479,8 +5325,47 @@
       "lat": 35.69,
       "lon": 139.7058,
       "verified_at": "2026-10-19",
-      "summary_ko": "극장 애니메이션 『ひゃくえむ。』 팝업숍이에요. 사회인·초등학생 시절의 토가시와 코미야가 꽃다발을 든 신규 일러스트 굿즈를 팔고, 특전 클리어 책갈피(전 6종)와 대형 패널 전시도 있어요.",
-      "summary_source": "https://www.medicos-e.net/newsdetail/hyakuemu/"
+      "summary_ko": "극장 애니메이션 『100미터.』(원제 ひゃくえむ。) 팝업숍이에요. 사회인·초등학생 시절의 토가시와 코미야가 꽃다발을 든 신규 일러스트 굿즈를 팔고, 특전 클리어 책갈피(전 6종)와 대형 패널 전시도 있어요.",
+      "summary_source": "https://www.medicos-e.net/newsdetail/hyakuemu/",
+      "thumbnail": "https://www.medicos-e.net/wp-content/uploads/2026/10/KV-1-1024x724.jpg",
+      "thumbnail_source": "https://www.medicos-e.net/newsdetail/hyakuemu/",
+      "gallery": [
+        {
+          "group": "상품",
+          "img": "https://www.medicos-e.net/wp-content/uploads/2026/10/79a475cc36105fe466fbc19f5eb23ab7-724x1024.jpg",
+          "full": "https://www.medicos-e.net/wp-content/uploads/2026/10/79a475cc36105fe466fbc19f5eb23ab7-scaled.jpg",
+          "caption_ko": "상품 라인업 1",
+          "caption_ja": "商品ラインナップ",
+          "source": "https://www.medicos-e.net/newsdetail/hyakuemu/"
+        },
+        {
+          "group": "상품",
+          "img": "https://www.medicos-e.net/wp-content/uploads/2026/10/56004fc9a22932309c3300e85534cfdd-724x1024.jpg",
+          "full": "https://www.medicos-e.net/wp-content/uploads/2026/10/56004fc9a22932309c3300e85534cfdd-scaled.jpg",
+          "caption_ko": "상품 라인업 2",
+          "caption_ja": "商品ラインナップ",
+          "source": "https://www.medicos-e.net/newsdetail/hyakuemu/"
+        },
+        {
+          "group": "특전",
+          "img": "https://www.medicos-e.net/wp-content/uploads/2026/10/5b88be2370dfdb96cce72ab8d7619af3-1024x724.jpg",
+          "full": "https://www.medicos-e.net/wp-content/uploads/2026/10/5b88be2370dfdb96cce72ab8d7619af3-scaled.jpg",
+          "caption_ko": "특전 클리어 책갈피",
+          "caption_ja": "特典クリアしおり（全6種）",
+          "kinds": "전 6종 · 1,000엔(세금 포함)마다 랜덤 1장",
+          "source": "https://www.medicos-e.net/newsdetail/hyakuemu/"
+        },
+        {
+          "group": "특전",
+          "img": "https://www.medicos-e.net/wp-content/uploads/2026/10/578f8bfb114657a5dd553e3efd561793-1024x724.jpg",
+          "full": "https://www.medicos-e.net/wp-content/uploads/2026/10/578f8bfb114657a5dd553e3efd561793-scaled.jpg",
+          "caption_ko": "회장 한정 특전 일러스트 카드",
+          "caption_ja": "【会場限定】特典イラストカード（全3種）",
+          "kinds": "전 3종 · 3,000엔(세금 포함)마다 랜덤 1장",
+          "source": "https://www.medicos-e.net/newsdetail/hyakuemu/"
+        }
+      ],
+      "gallery_note": "가격은 상품 라인업 이미지에서 확인할 수 있어요"
     },
     {
       "title_ko": "샤인포스트 POP UP SHOP",
@@ -4494,7 +5379,7 @@
       "price": "",
       "official_url": "https://www.medicos-e.net/newsdetail/shinepost/",
       "source_url": "https://www.medicos-e.net/newsdetail/shinepost/",
-      "notes": "고양이귀 메이드 테마 신규 일러스트. 특전 일러스트 카드 전 5종",
+      "notes": "고양이귀 메이드 테마 신규 일러스트. 특전: 1,000엔마다 일러스트 카드(전 5종) 랜덤 1장, 3,000엔마다 회장 한정 일러스트 카드 1장",
       "checked_date": "2026-10-18",
       "map_query": "東京都千代田区外神田1-11-6",
       "evidence": [
@@ -4509,10 +5394,49 @@
       "translation_check": true,
       "verified_at": "2026-10-19",
       "summary_ko": "TV 애니메이션 『샤인포스트』 팝업숍이에요. '고양이귀 메이드' 테마 신규 일러스트 굿즈를 팔고, 특전 일러스트 카드(전 5종)와 등신대 패널 전시가 있어요.",
-      "summary_source": "https://www.medicos-e.net/newsdetail/shinepost/"
+      "summary_source": "https://www.medicos-e.net/newsdetail/shinepost/",
+      "thumbnail": "https://www.medicos-e.net/wp-content/uploads/2026/10/78cc5b008328f5c38ac8ec99527f9f43-1024x724.jpg",
+      "thumbnail_source": "https://www.medicos-e.net/newsdetail/shinepost/",
+      "gallery": [
+        {
+          "group": "상품",
+          "img": "https://www.medicos-e.net/wp-content/uploads/2026/10/7fd997e7fed83e872fb366b8c3fa6edb-724x1024.jpg",
+          "full": "https://www.medicos-e.net/wp-content/uploads/2026/10/7fd997e7fed83e872fb366b8c3fa6edb-scaled.jpg",
+          "caption_ko": "상품 라인업 1",
+          "caption_ja": "商品ラインナップ",
+          "source": "https://www.medicos-e.net/newsdetail/shinepost/"
+        },
+        {
+          "group": "상품",
+          "img": "https://www.medicos-e.net/wp-content/uploads/2026/10/13acad8bb29d933fac5823ce314acadd-724x1024.jpg",
+          "full": "https://www.medicos-e.net/wp-content/uploads/2026/10/13acad8bb29d933fac5823ce314acadd-scaled.jpg",
+          "caption_ko": "상품 라인업 2",
+          "caption_ja": "商品ラインナップ",
+          "source": "https://www.medicos-e.net/newsdetail/shinepost/"
+        },
+        {
+          "group": "특전",
+          "img": "https://www.medicos-e.net/wp-content/uploads/2026/10/d4af43e283d0428ee2fb73310e5b06ab-1024x724.jpg",
+          "full": "https://www.medicos-e.net/wp-content/uploads/2026/10/d4af43e283d0428ee2fb73310e5b06ab-scaled.jpg",
+          "caption_ko": "특전 일러스트 카드",
+          "caption_ja": "特典イラストカード(全5種)",
+          "kinds": "전 5종 · 1,000엔(세금 포함)마다 랜덤 1장",
+          "source": "https://www.medicos-e.net/newsdetail/shinepost/"
+        },
+        {
+          "group": "특전",
+          "img": "https://www.medicos-e.net/wp-content/uploads/2026/10/1b1a00315f12f15ad43254934a6bb643-1024x724.jpg",
+          "full": "https://www.medicos-e.net/wp-content/uploads/2026/10/1b1a00315f12f15ad43254934a6bb643-scaled.jpg",
+          "caption_ko": "회장 한정 특전 일러스트 카드",
+          "caption_ja": "会場限定特典イラストカード（全1種）",
+          "kinds": "전 1종 · 3,000엔(세금 포함)마다 1장",
+          "source": "https://www.medicos-e.net/newsdetail/shinepost/"
+        }
+      ],
+      "gallery_note": "가격은 상품 라인업 이미지에서 확인할 수 있어요"
     },
     {
-      "title_ko": "おかえり、初恋。 POP UP SHOP",
+      "title_ko": "『어서 와, 첫사랑』 POP UP SHOP",
       "title_ja": "「おかえり、初恋。」POP UP SHOP",
       "category": "팝업스토어",
       "area": "도쿄",
@@ -4523,7 +5447,7 @@
       "price": "",
       "official_url": "https://www.the-chara.com/blog/?p=123501",
       "source_url": "https://www.the-chara.com/blog/?p=123501",
-      "notes": "개점 전 대기 금지",
+      "notes": "개점 전 대기 금지. 판매 상품·구매 특전은 아직 공개 전 (coming soon)",
       "checked_date": "2026-10-18",
       "map_query": "東京都豊島区東池袋1-20-7",
       "evidence": [
@@ -4537,8 +5461,11 @@
       "source_tier": "official",
       "translation_check": true,
       "verified_at": "2026-10-19",
-      "summary_ko": "카메미즈 토라 작가의 『おかえり、初恋。』 팝업숍이 애니메이트 이케부쿠로 본점 2F에서 열려요. 구매 특전이 있고, 개점 전 대기는 금지예요.",
-      "summary_source": "https://www.the-chara.com/blog/?p=123501"
+      "summary_ko": "카메미즈 토라 작가의 『어서 와, 첫사랑』(원제 おかえり、初恋。) 팝업숍이 애니메이트 이케부쿠로 본점 2F에서 열려요. 구매 특전이 있고, 개점 전 대기는 금지예요.",
+      "summary_source": "https://www.the-chara.com/blog/?p=123501",
+      "thumbnail": "https://thechara.xsrv.jp/wp-content/uploads/2026/10/202610_okerhtki_kv221.jpg",
+      "thumbnail_source": "https://www.the-chara.com/blog/?p=123501",
+      "thumb_pos": "50% 15%"
     },
     {
       "title_ko": "쵸코야바 카페스탠드 (ちょこっとヤバシティ)",
@@ -4583,7 +5510,7 @@
       "price": "",
       "official_url": "https://www.medicos-e.net/newsdetail/yohaji_anime_3/",
       "source_url": "https://www.medicos-e.net/newsdetail/yohaji_anime_3/",
-      "notes": "데코라 스타일 신규 일러스트. 특전 클리어 책갈피 전 5종",
+      "notes": "데코라 스타일 신규 일러스트. 특전: 2,000엔마다 클리어 책갈피(전 5종) 랜덤 1장",
       "checked_date": "2026-10-18",
       "map_query": "東京都豊島区東池袋1-14-1",
       "evidence": [
@@ -4598,7 +5525,29 @@
       "translation_check": true,
       "verified_at": "2026-10-19",
       "summary_ko": "TV 애니메이션 『요괴학교 선생님 시작했습니다!』 팝업숍이에요. '데코라 스타일' 테마 신규 일러스트 굿즈를 팔고, 특전 클리어 책갈피(전 5종)와 등신대 패널 전시가 있어요.",
-      "summary_source": "https://www.medicos-e.net/newsdetail/yohaji_anime_3/"
+      "summary_source": "https://www.medicos-e.net/newsdetail/yohaji_anime_3/",
+      "thumbnail": "https://www.medicos-e.net/wp-content/uploads/2026/10/f9ad49f83d5e8ae669ed78a9712d704c-1024x724.jpg",
+      "thumbnail_source": "https://www.medicos-e.net/newsdetail/yohaji_anime_3/",
+      "gallery": [
+        {
+          "group": "상품",
+          "img": "https://www.medicos-e.net/wp-content/uploads/2026/10/e06849933910cbc00f63a14325e8f363-724x1024.jpg",
+          "full": "https://www.medicos-e.net/wp-content/uploads/2026/10/e06849933910cbc00f63a14325e8f363-scaled.jpg",
+          "caption_ko": "상품 라인업",
+          "caption_ja": "商品ラインナップ",
+          "source": "https://www.medicos-e.net/newsdetail/yohaji_anime_3/"
+        },
+        {
+          "group": "특전",
+          "img": "https://www.medicos-e.net/wp-content/uploads/2026/10/bb81307a423ab4b1744ed82844769f54-1024x724.jpg",
+          "full": "https://www.medicos-e.net/wp-content/uploads/2026/10/bb81307a423ab4b1744ed82844769f54-scaled.jpg",
+          "caption_ko": "특전 클리어 책갈피",
+          "caption_ja": "特典クリアしおり（全5種）",
+          "kinds": "전 5종 · 2,000엔(세금 포함)마다 랜덤 1장",
+          "source": "https://www.medicos-e.net/newsdetail/yohaji_anime_3/"
+        }
+      ],
+      "gallery_note": "가격은 상품 라인업 이미지에서 확인할 수 있어요"
     },
     {
       "title_ko": "BLACK LAGOON 25주년 원화전",
@@ -6101,7 +7050,7 @@
         }
       ],
       "translation_check": true,
-      "summary_ko": "GA문고 20주년 기념 팝업숍 전반이에요. 『お隣の天使様にいつの間にか駄目人間にされていた件』『のうりん』『ひきこまり吸血姫の悶々』 신규 굿즈를 팔고 특전 미니 포토카드를 나눠 줘요.",
+      "summary_ko": "GA문고 20주년 기념 팝업숍 전반이에요. 『옆집 천사님 때문에 어느새 인간적으로 타락한 사연』『노우린』『히키코마리 흡혈공주의 번민』 신규 굿즈를 팔고 특전 미니 포토카드를 나눠 줘요.",
       "summary_source": "https://www.kotobukiya.co.jp/event/detail/1397/"
     },
     {
@@ -6129,7 +7078,7 @@
         }
       ],
       "translation_check": true,
-      "summary_ko": "GA문고 20주년 기념 팝업숍 후반이에요. 『던전에서 만남을 추구하면 안 되는 걸까』『這いよれ!ニャル子さん』『魔女の旅々』 신규 굿즈를 팔고 특전 미니 포토카드를 나눠 줘요.",
+      "summary_ko": "GA문고 20주년 기념 팝업숍 후반이에요. 『던전에서 만남을 추구하면 안 되는 걸까』『기어와라! 냐루코 양』『마녀의 여행』 신규 굿즈를 팔고 특전 미니 포토카드를 나눠 줘요.",
       "summary_source": "https://www.kotobukiya.co.jp/event/detail/1397/"
     }
   ]
