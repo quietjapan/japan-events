@@ -182,6 +182,20 @@
       "notes": "「2026年11月発売予定」(이로하 제보)",
       "pending_reason": "날짜(시작일) 미정 — 2026년 11월 발매 예정으로만 표기",
       "source_url": "https://1kuji.com/"
+    },
+    {
+      "title_ko": "후츠츠카나 악녀 POP UP (기노쿠니야 이케부쿠로)",
+      "title_ja": "ふつつかな悪女ではございますが POP UP",
+      "category": "팝업스토어",
+      "area": "도쿄",
+      "venue": "기노쿠니야 서점 이케부쿠로",
+      "start": "2026-10-26",
+      "end": "2026-11-08",
+      "official_url": "",
+      "source_url": "",
+      "notes": "이로하 제보(10/19 19:34). 공식 기간 문구 미확인 → 공식 페이지 확인 후 등록",
+      "checked_date": "2026-10-20",
+      "source_tier": "unverified"
     }
   ],
   "base_date": "2026-10-19"

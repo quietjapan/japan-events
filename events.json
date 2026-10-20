@@ -1,6 +1,6 @@
 {
-  "base_date": "2026-10-19",
-  "last_updated": "2026-10-19",
+  "base_date": "2026-10-20",
+  "last_updated": "2026-10-20",
   "is_sample": false,
   "events": [
     {
@@ -8110,6 +8110,527 @@
       "summary_ko": "오이 경마장에서 열리는 플리마켓 'Tokyo City Flea Market'이에요.",
       "summary_source": "https://trx.jp/",
       "blog_url": "https://blog.naver.com/rownsh00/224431293407"
+    },
+    {
+      "area": "도쿄",
+      "reservation": "불필요",
+      "checked_date": "2026-10-20",
+      "evidence": [
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000000351.000092133.html",
+          "tier": "official",
+          "quote": "開催期間 ： 2026年10月22日(木)～11月３日(火) 開催場所 ： INFOLENS GEEK SHOP池袋パルコ店 営業時間 ： 11:00～21:00",
+          "checked": "2026-10-20"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-20",
+      "translation_check": true,
+      "summary_source": "https://prtimes.jp/main/html/rd/p/000000351.000092133.html",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000351.000092133.html",
+      "thumbnail_source": "https://prtimes.jp/main/html/rd/p/000000351.000092133.html",
+      "gallery_source": "https://prtimes.jp/main/html/rd/p/000000351.000092133.html",
+      "title_ko": "Fallout mini Collection 팝업 (이케부쿠로 파르코)",
+      "title_ja": "Fallout mini Collection",
+      "category": "팝업스토어",
+      "venue": "INFOLENS GEEK SHOP 이케부쿠로 파르코점 (본관 6층)",
+      "start": "2026-10-22",
+      "end": "2026-11-03",
+      "price": "굿즈 770엔~14,300엔 · 입장 무료",
+      "official_url": "https://prtimes.jp/main/html/rd/p/000000351.000092133.html",
+      "notes": "11:00~21:00. Fallout 상품 3,300엔 구매마다 미니 포스터(전 5종) 랜덤 1장",
+      "map_query": "東京都豊島区南池袋1-28-2 池袋パルコ",
+      "lat": 35.7302,
+      "lon": 139.7119,
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/92133/351/92133-351-987814f92ade7738c1ed88434977be92-1500x843.png",
+      "summary_ko": "게임 「Fallout」 시리즈 굿즈를 모아 파는 기간 한정 미니 팝업이에요. 메탈 사인·볼트보이 보블헤드·누카콜라 기프트 세트 등을 팔고, 구매 특전으로 미니 포스터를 줘요.",
+      "gallery": [
+        {
+          "group": "판매 굿즈 (일부)",
+          "img": "https://prcdn.freetls.fastly.net/release_image/92133/351/92133-351-ed196ce187c1a0ca2d0b064a24bb4823-1440x1440.jpg?width=600",
+          "full": "https://prcdn.freetls.fastly.net/release_image/92133/351/92133-351-ed196ce187c1a0ca2d0b064a24bb4823-1440x1440.jpg",
+          "caption_ko": "펜 스탠드 2,970엔",
+          "source": "https://prtimes.jp/main/html/rd/p/000000351.000092133.html"
+        },
+        {
+          "group": "판매 굿즈 (일부)",
+          "img": "https://prcdn.freetls.fastly.net/release_image/92133/351/92133-351-dd6cd6a03ded6b7319e09c7e5eaf4079-1206x1206.jpg?width=600",
+          "full": "https://prcdn.freetls.fastly.net/release_image/92133/351/92133-351-dd6cd6a03ded6b7319e09c7e5eaf4079-1206x1206.jpg",
+          "caption_ko": "S.P.E.C.I.A.L. 퍼크 카드 인곳 컬렉터 앨범 14,300엔",
+          "source": "https://prtimes.jp/main/html/rd/p/000000351.000092133.html"
+        },
+        {
+          "group": "판매 굿즈 (일부)",
+          "img": "https://prcdn.freetls.fastly.net/release_image/92133/351/92133-351-c328610f5c7a5c82b76114181791cd27-1440x1440.jpg?width=600",
+          "full": "https://prcdn.freetls.fastly.net/release_image/92133/351/92133-351-c328610f5c7a5c82b76114181791cd27-1440x1440.jpg",
+          "caption_ko": "누카콜라 기프트 세트 4,950엔",
+          "source": "https://prtimes.jp/main/html/rd/p/000000351.000092133.html"
+        },
+        {
+          "group": "판매 굿즈 (일부)",
+          "img": "https://prcdn.freetls.fastly.net/release_image/92133/351/92133-351-b0fb44e6bbf849c9c2c2d743b6fdb295-2000x2000.jpg?width=600",
+          "full": "https://prcdn.freetls.fastly.net/release_image/92133/351/92133-351-b0fb44e6bbf849c9c2c2d743b6fdb295-2000x2000.jpg",
+          "caption_ko": "슈거밤 메탈 사인 5,940엔",
+          "source": "https://prtimes.jp/main/html/rd/p/000000351.000092133.html"
+        },
+        {
+          "group": "판매 굿즈 (일부)",
+          "img": "https://prcdn.freetls.fastly.net/release_image/92133/351/92133-351-c03d36a09b1cd637cc8fa43a15609249-2000x2000.jpg?width=600",
+          "full": "https://prcdn.freetls.fastly.net/release_image/92133/351/92133-351-c03d36a09b1cd637cc8fa43a15609249-2000x2000.jpg",
+          "caption_ko": "「재건의 날」 메탈 사인 5,940엔",
+          "source": "https://prtimes.jp/main/html/rd/p/000000351.000092133.html"
+        },
+        {
+          "group": "판매 굿즈 (일부)",
+          "img": "https://prcdn.freetls.fastly.net/release_image/92133/351/92133-351-f2437ae7e25c4f0a4205c5d58525f13a-2000x2000.jpg?width=600",
+          "full": "https://prcdn.freetls.fastly.net/release_image/92133/351/92133-351-f2437ae7e25c4f0a4205c5d58525f13a-2000x2000.jpg",
+          "caption_ko": "프로시저 메탈 사인 5,940엔",
+          "source": "https://prtimes.jp/main/html/rd/p/000000351.000092133.html"
+        },
+        {
+          "group": "판매 굿즈 (일부)",
+          "img": "https://prcdn.freetls.fastly.net/release_image/92133/351/92133-351-1f3054a636076d8358a03f845c99f232-2084x2084.jpg?width=600",
+          "full": "https://prcdn.freetls.fastly.net/release_image/92133/351/92133-351-1f3054a636076d8358a03f845c99f232-2084x2084.jpg",
+          "caption_ko": "나무 키홀더 각 770엔",
+          "source": "https://prtimes.jp/main/html/rd/p/000000351.000092133.html"
+        },
+        {
+          "group": "판매 굿즈 (일부)",
+          "img": "https://prcdn.freetls.fastly.net/release_image/92133/351/92133-351-25433315e63e4ef3ee25720d933c1491-1000x1000.jpg?width=600",
+          "full": "https://prcdn.freetls.fastly.net/release_image/92133/351/92133-351-25433315e63e4ef3ee25720d933c1491-1000x1000.jpg",
+          "caption_ko": "LED 아크릴 스탠드 라이트 3,850엔",
+          "source": "https://prtimes.jp/main/html/rd/p/000000351.000092133.html"
+        },
+        {
+          "group": "판매 굿즈 (일부)",
+          "img": "https://prcdn.freetls.fastly.net/release_image/92133/351/92133-351-1588f94b0ece4420989c7b292f9908fd-600x810.jpg?width=600",
+          "full": "https://prcdn.freetls.fastly.net/release_image/92133/351/92133-351-1588f94b0ece4420989c7b292f9908fd-600x810.jpg",
+          "caption_ko": "Charisma 보블헤드 (볼트보이) 4,950엔",
+          "source": "https://prtimes.jp/main/html/rd/p/000000351.000092133.html"
+        },
+        {
+          "group": "구매 특전",
+          "img": "https://prcdn.freetls.fastly.net/release_image/92133/351/92133-351-f88a1b9f9bce8c55a3ce97c71fb504de-2400x2080.jpg?width=600",
+          "full": "https://prcdn.freetls.fastly.net/release_image/92133/351/92133-351-f88a1b9f9bce8c55a3ce97c71fb504de-2400x2080.jpg",
+          "caption_ko": "미니 포스터 (전 5종, 3,300엔 구매마다 랜덤 1장)",
+          "source": "https://prtimes.jp/main/html/rd/p/000000351.000092133.html"
+        }
+      ]
+    },
+    {
+      "area": "도쿄",
+      "reservation": "선택",
+      "checked_date": "2026-10-20",
+      "evidence": [
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000000343.000092133.html",
+          "tier": "official",
+          "quote": "開催期間：2026年10月22日（木）～11月8日（日） ・前期：10月22日（木）～10月30日（金） ・後期：10月31日（土）～11月8日（日） 開催会場：TOWER RECORDS CAFE 表参道店",
+          "checked": "2026-10-20"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-20",
+      "translation_check": true,
+      "summary_source": "https://prtimes.jp/main/html/rd/p/000000343.000092133.html",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000343.000092133.html",
+      "thumbnail_source": "https://prtimes.jp/main/html/rd/p/000000343.000092133.html",
+      "gallery_source": "https://prtimes.jp/main/html/rd/p/000000343.000092133.html",
+      "title_ko": "Fallout × TOWER RECORDS CAFE 콜라보카페 (오모테산도)",
+      "title_ja": "Fallout Collaboration Cafe ～Takahashi's Power Noodles～ in Tower Records Cafe",
+      "category": "콜라보카페",
+      "venue": "TOWER RECORDS CAFE 오모테산도점 (진구마에 6-3-9 2층)",
+      "start": "2026-10-22",
+      "end": "2026-11-08",
+      "price": "푸드 1,990엔 · 스위츠 1,790엔 · 드링크 990엔",
+      "official_url": "https://prtimes.jp/main/html/rd/p/000000343.000092133.html",
+      "notes": "전기 10/22~10/30, 후기 10/31~11/8. 카페 선행 판매 굿즈 있음",
+      "map_query": "東京都渋谷区神宮前6-3-9 井門原宿ビル",
+      "lat": 35.6681,
+      "lon": 139.7058,
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/92133/343/92133-343-46b234df2e5f3fc2f1f9424d8a6fcde9-3900x2539.jpg",
+      "summary_ko": "게임 「Fallout」 콜라보카페예요. 작중 음식인 타카하시의 누들·데스클로 오믈렛, 누카콜라 드링크 등을 카페식으로 내고, 카페 한정 특전과 선행 판매 굿즈가 있어요.",
+      "gallery": [
+        {
+          "group": "메뉴",
+          "img": "https://prcdn.freetls.fastly.net/release_image/92133/343/92133-343-670584f362b70a8ce8172ef537026cb6-3900x2600.jpg?width=600",
+          "full": "https://prcdn.freetls.fastly.net/release_image/92133/343/92133-343-670584f362b70a8ce8172ef537026cb6-3900x2600.jpg",
+          "caption_ko": "데스클로 오믈렛 & 브라민 버그 플레이트 1,990엔",
+          "source": "https://prtimes.jp/main/html/rd/p/000000343.000092133.html"
+        },
+        {
+          "group": "메뉴",
+          "img": "https://prcdn.freetls.fastly.net/release_image/92133/343/92133-343-2cee5bbc0777873ac28af7e5c8220ecd-3900x2600.jpg?width=600",
+          "full": "https://prcdn.freetls.fastly.net/release_image/92133/343/92133-343-2cee5bbc0777873ac28af7e5c8220ecd-3900x2600.jpg",
+          "caption_ko": "타카하시의 누들 1,990엔",
+          "source": "https://prtimes.jp/main/html/rd/p/000000343.000092133.html"
+        },
+        {
+          "group": "메뉴",
+          "img": "https://prcdn.freetls.fastly.net/release_image/92133/343/92133-343-229432c6fba499f6486bb8ea143af5df-3900x2600.jpg?width=600",
+          "full": "https://prcdn.freetls.fastly.net/release_image/92133/343/92133-343-229432c6fba499f6486bb8ea143af5df-3900x2600.jpg",
+          "caption_ko": "래드스태그 스튜 1,990엔",
+          "source": "https://prtimes.jp/main/html/rd/p/000000343.000092133.html"
+        },
+        {
+          "group": "메뉴",
+          "img": "https://prcdn.freetls.fastly.net/release_image/92133/343/92133-343-c5884981d6e0eee4355c8e3489454318-3900x2600.jpg?width=600",
+          "full": "https://prcdn.freetls.fastly.net/release_image/92133/343/92133-343-c5884981d6e0eee4355c8e3489454318-3900x2600.jpg",
+          "caption_ko": "슬로컴스 조의 도넛 세트 1,790엔",
+          "source": "https://prtimes.jp/main/html/rd/p/000000343.000092133.html"
+        },
+        {
+          "group": "메뉴",
+          "img": "https://prcdn.freetls.fastly.net/release_image/92133/343/92133-343-9d74fdf921634f7c4caec35ac1c4bcc5-3900x2600.jpg?width=600",
+          "full": "https://prcdn.freetls.fastly.net/release_image/92133/343/92133-343-9d74fdf921634f7c4caec35ac1c4bcc5-3900x2600.jpg",
+          "caption_ko": "팬시 래드 케이크 1,790엔",
+          "source": "https://prtimes.jp/main/html/rd/p/000000343.000092133.html"
+        },
+        {
+          "group": "메뉴",
+          "img": "https://prcdn.freetls.fastly.net/release_image/92133/343/92133-343-31231d50b91a81df3e941c14d9f76cd7-3900x2600.jpg?width=600",
+          "full": "https://prcdn.freetls.fastly.net/release_image/92133/343/92133-343-31231d50b91a81df3e941c14d9f76cd7-3900x2600.jpg",
+          "caption_ko": "선셋 사르사파릴라 990엔",
+          "source": "https://prtimes.jp/main/html/rd/p/000000343.000092133.html"
+        },
+        {
+          "group": "메뉴",
+          "img": "https://prcdn.freetls.fastly.net/release_image/92133/343/92133-343-7838ff411e6ef8948b7178b8eaf6b3d0-3900x2600.jpg?width=600",
+          "full": "https://prcdn.freetls.fastly.net/release_image/92133/343/92133-343-7838ff411e6ef8948b7178b8eaf6b3d0-3900x2600.jpg",
+          "caption_ko": "누카 체리 990엔",
+          "source": "https://prtimes.jp/main/html/rd/p/000000343.000092133.html"
+        },
+        {
+          "group": "메뉴",
+          "img": "https://prcdn.freetls.fastly.net/release_image/92133/343/92133-343-27f4f1c13cd942dbdc0b3079e996e0d9-3900x2600.jpg?width=600",
+          "full": "https://prcdn.freetls.fastly.net/release_image/92133/343/92133-343-27f4f1c13cd942dbdc0b3079e996e0d9-3900x2600.jpg",
+          "caption_ko": "누카 오렌지 990엔",
+          "source": "https://prtimes.jp/main/html/rd/p/000000343.000092133.html"
+        },
+        {
+          "group": "메뉴",
+          "img": "https://prcdn.freetls.fastly.net/release_image/92133/343/92133-343-197a6d38f13e9ec8f66ea8a4920f7b03-3900x2600.jpg?width=600",
+          "full": "https://prcdn.freetls.fastly.net/release_image/92133/343/92133-343-197a6d38f13e9ec8f66ea8a4920f7b03-3900x2600.jpg",
+          "caption_ko": "누카콜라 퀀텀 990엔",
+          "source": "https://prtimes.jp/main/html/rd/p/000000343.000092133.html"
+        },
+        {
+          "group": "메뉴",
+          "img": "https://prcdn.freetls.fastly.net/release_image/92133/343/92133-343-525092ce71c2d746e695ef698858b3c6-3900x2600.jpg?width=600",
+          "full": "https://prcdn.freetls.fastly.net/release_image/92133/343/92133-343-525092ce71c2d746e695ef698858b3c6-3900x2600.jpg",
+          "caption_ko": "깨끗한 물 (테이크아웃) 990엔",
+          "source": "https://prtimes.jp/main/html/rd/p/000000343.000092133.html"
+        },
+        {
+          "group": "카페 선행 판매 굿즈",
+          "img": "https://prcdn.freetls.fastly.net/release_image/92133/343/92133-343-9c504200ad6608e3fa886bf51fc0d44f-2084x2084.jpg?width=600",
+          "full": "https://prcdn.freetls.fastly.net/release_image/92133/343/92133-343-9c504200ad6608e3fa886bf51fc0d44f-2084x2084.jpg",
+          "caption_ko": "나무 스탠드 (Vault-Tec)",
+          "source": "https://prtimes.jp/main/html/rd/p/000000343.000092133.html"
+        },
+        {
+          "group": "카페 선행 판매 굿즈",
+          "img": "https://prcdn.freetls.fastly.net/release_image/92133/343/92133-343-eb8c2e97c9252532dbfab4bc93e7dc4f-2084x2084.jpg?width=600",
+          "full": "https://prcdn.freetls.fastly.net/release_image/92133/343/92133-343-eb8c2e97c9252532dbfab4bc93e7dc4f-2084x2084.jpg",
+          "caption_ko": "나무 스탠드 (Sunset Sarsaparilla)",
+          "source": "https://prtimes.jp/main/html/rd/p/000000343.000092133.html"
+        },
+        {
+          "group": "카페 선행 판매 굿즈",
+          "img": "https://prcdn.freetls.fastly.net/release_image/92133/343/92133-343-ef79dc1fd5e8eee341c08da752026968-2084x2084.jpg?width=600",
+          "full": "https://prcdn.freetls.fastly.net/release_image/92133/343/92133-343-ef79dc1fd5e8eee341c08da752026968-2084x2084.jpg",
+          "caption_ko": "나무 스탠드 (Red Rocket)",
+          "source": "https://prtimes.jp/main/html/rd/p/000000343.000092133.html"
+        },
+        {
+          "group": "카페 선행 판매 굿즈",
+          "img": "https://prcdn.freetls.fastly.net/release_image/92133/343/92133-343-d0e78aba45f5e9e154556b85ac383998-2084x2084.jpg?width=600",
+          "full": "https://prcdn.freetls.fastly.net/release_image/92133/343/92133-343-d0e78aba45f5e9e154556b85ac383998-2084x2084.jpg",
+          "caption_ko": "스티커 (기업 포스터 무늬) B",
+          "source": "https://prtimes.jp/main/html/rd/p/000000343.000092133.html"
+        },
+        {
+          "group": "카페 선행 판매 굿즈",
+          "img": "https://prcdn.freetls.fastly.net/release_image/92133/343/92133-343-0bdd567bd8f66e1db4b93ee750238cb0-2084x2084.jpg?width=600",
+          "full": "https://prcdn.freetls.fastly.net/release_image/92133/343/92133-343-0bdd567bd8f66e1db4b93ee750238cb0-2084x2084.jpg",
+          "caption_ko": "스티커 (스킬 잡지 무늬)",
+          "source": "https://prtimes.jp/main/html/rd/p/000000343.000092133.html"
+        }
+      ]
+    },
+    {
+      "area": "도쿄",
+      "reservation": "불필요",
+      "checked_date": "2026-10-20",
+      "evidence": [
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000000354.000092133.html",
+          "tier": "official",
+          "quote": "店舗所在地：〒170-8630 東京都豊島区東池袋3-1-3 サンシャインシティアルタ 1F イベントスペース 営業時間 ：11:00～20:00 開催日程 ：2026年10月22日(木)～2026年11月3日（火・祝）",
+          "checked": "2026-10-20"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-20",
+      "translation_check": true,
+      "summary_source": "https://prtimes.jp/main/html/rd/p/000000354.000092133.html",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000354.000092133.html",
+      "thumbnail_source": "https://prtimes.jp/main/html/rd/p/000000354.000092133.html",
+      "gallery_source": "https://prtimes.jp/main/html/rd/p/000000354.000092133.html",
+      "title_ko": "Helluva Boss POP UP STORE (선샤인시티 알타)",
+      "title_ja": "Helluva Boss POP UP STORE",
+      "category": "팝업스토어",
+      "venue": "선샤인시티 알타 1층 이벤트 스페이스 (이케부쿠로)",
+      "start": "2026-10-22",
+      "end": "2026-11-03",
+      "price": "블라인드 인형 1,760엔 · 핀배지 각 2,200엔 등",
+      "official_url": "https://prtimes.jp/main/html/rd/p/000000354.000092133.html",
+      "notes": "11:00~20:00. 3,300엔 구매마다 클리어카드(전 4종) 랜덤 1장, 1회 계산 4장까지",
+      "map_query": "東京都豊島区東池袋3-1-3 サンシャインシティアルタ",
+      "lat": 35.7292,
+      "lon": 139.7186,
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/92133/354/92133-354-bc6b2abe590416f48688ff7f4a49de53-1500x883.png",
+      "summary_ko": "미국 애니메이션 「Helluva Boss(헬루바 보스)」 시즌 3 공개 기념 공식 팝업이에요. 인기 굿즈를 골라 팔고, 할로윈 디자인 구매 특전을 줘요.",
+      "gallery": [
+        {
+          "group": "구매 특전",
+          "img": "https://prcdn.freetls.fastly.net/release_image/92133/354/92133-354-71c089cfdb1153abd203a24fc7a3ba3c-1500x760.jpg?width=600",
+          "full": "https://prcdn.freetls.fastly.net/release_image/92133/354/92133-354-71c089cfdb1153abd203a24fc7a3ba3c-1500x760.jpg",
+          "caption_ko": "오리지널 클리어카드 (전 4종)",
+          "source": "https://prtimes.jp/main/html/rd/p/000000354.000092133.html"
+        },
+        {
+          "group": "판매 굿즈 (일부)",
+          "img": "https://prcdn.freetls.fastly.net/release_image/92133/354/92133-354-ee3a7aa586fd832b31624006babb8d5f-1512x1512.jpg?width=600",
+          "full": "https://prcdn.freetls.fastly.net/release_image/92133/354/92133-354-ee3a7aa586fd832b31624006babb8d5f-1512x1512.jpg",
+          "caption_ko": "블라인드 인형 1,760엔",
+          "source": "https://prtimes.jp/main/html/rd/p/000000354.000092133.html"
+        },
+        {
+          "group": "판매 굿즈 (일부)",
+          "img": "https://prcdn.freetls.fastly.net/release_image/92133/354/92133-354-73a028264a6da7ad0e22e73dc04c5c3c-1512x1512.jpg?width=600",
+          "full": "https://prcdn.freetls.fastly.net/release_image/92133/354/92133-354-73a028264a6da7ad0e22e73dc04c5c3c-1512x1512.jpg",
+          "caption_ko": "블라인드 인형 시리즈 2 1,760엔",
+          "source": "https://prtimes.jp/main/html/rd/p/000000354.000092133.html"
+        },
+        {
+          "group": "판매 굿즈 (일부)",
+          "img": "https://prcdn.freetls.fastly.net/release_image/92133/354/92133-354-2760513b85f7254fbc0d1c959d334033-2084x2084.jpg?width=600",
+          "full": "https://prcdn.freetls.fastly.net/release_image/92133/354/92133-354-2760513b85f7254fbc0d1c959d334033-2084x2084.jpg",
+          "caption_ko": "토트백 (Black Friday) 3,850엔",
+          "source": "https://prtimes.jp/main/html/rd/p/000000354.000092133.html"
+        },
+        {
+          "group": "판매 굿즈 (일부)",
+          "img": "https://prcdn.freetls.fastly.net/release_image/92133/354/92133-354-3c423b3acf8c6618372ffd952c84865a-1000x1000.jpg?width=600",
+          "full": "https://prcdn.freetls.fastly.net/release_image/92133/354/92133-354-3c423b3acf8c6618372ffd952c84865a-1000x1000.jpg",
+          "caption_ko": "백 참 (룰루) 2,640엔",
+          "source": "https://prtimes.jp/main/html/rd/p/000000354.000092133.html"
+        },
+        {
+          "group": "판매 굿즈 (일부)",
+          "img": "https://prcdn.freetls.fastly.net/release_image/92133/354/92133-354-38975e2a267ecdd96e4bdcfc1ea1f2ea-1200x1200.jpg?width=600",
+          "full": "https://prcdn.freetls.fastly.net/release_image/92133/354/92133-354-38975e2a267ecdd96e4bdcfc1ea1f2ea-1200x1200.jpg",
+          "caption_ko": "Youtooz 마그넷 인형 (블리츠) 6,050엔",
+          "source": "https://prtimes.jp/main/html/rd/p/000000354.000092133.html"
+        },
+        {
+          "group": "판매 굿즈 (일부)",
+          "img": "https://prcdn.freetls.fastly.net/release_image/92133/354/92133-354-3ffe61a62db153bfc1660f3e72c07dd7-1500x1500.jpg?width=600",
+          "full": "https://prcdn.freetls.fastly.net/release_image/92133/354/92133-354-3ffe61a62db153bfc1660f3e72c07dd7-1500x1500.jpg",
+          "caption_ko": "Youtooz 인형 (크리스마스 스톨라스) 6,050엔",
+          "source": "https://prtimes.jp/main/html/rd/p/000000354.000092133.html"
+        },
+        {
+          "group": "판매 굿즈 (일부)",
+          "img": "https://prcdn.freetls.fastly.net/release_image/92133/354/92133-354-56cbe46769d61a2a9bb713f122354da8-1500x844.jpg?width=600",
+          "full": "https://prcdn.freetls.fastly.net/release_image/92133/354/92133-354-56cbe46769d61a2a9bb713f122354da8-1500x844.jpg",
+          "caption_ko": "축광 핀배지 (전 3종) 각 2,200엔",
+          "source": "https://prtimes.jp/main/html/rd/p/000000354.000092133.html"
+        }
+      ]
+    },
+    {
+      "area": "도쿄",
+      "reservation": "불필요",
+      "checked_date": "2026-10-20",
+      "evidence": [
+        {
+          "url": "https://eeo.today/pr/gintama2610-tokyo/",
+          "tier": "official",
+          "quote": "開催期間 2026年10月23日(金)～11月5日(木) 営業時間 10:00〜20:30(最終日のみ18:00まで) 開催場所 東京駅一番街 地下1階 東京キャラクターストリートF階段下ワゴン",
+          "checked": "2026-10-20"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-20",
+      "translation_check": true,
+      "summary_source": "https://eeo.today/pr/gintama2610-tokyo/",
+      "source_url": "https://eeo.today/pr/gintama2610-tokyo/",
+      "thumbnail_source": "https://eeo.today/pr/gintama2610-tokyo/",
+      "gallery_source": "https://eeo.today/pr/gintama2610-tokyo/",
+      "title_ko": "은혼 POP UP SHOP in 도쿄 캐릭터 스트리트 (eeo · 도쿄역)",
+      "title_ja": "『銀魂』POP UP SHOP in 東京キャラクターストリート by eeo",
+      "category": "팝업스토어",
+      "venue": "도쿄역 이치방가이 지하 1층 도쿄 캐릭터 스트리트 F계단 아래 왜건",
+      "start": "2026-10-23",
+      "end": "2026-11-05",
+      "official_url": "https://eeo.today/pr/gintama2610-tokyo/",
+      "notes": "10:00~20:30 (마지막 날 18:00까지). 새 상품 2,200엔 구매마다 포스트카드(전 7종) 랜덤 1장. 혼잡 시 입장 정리권",
+      "map_query": "東京駅一番街 東京キャラクターストリート",
+      "lat": 35.68,
+      "lon": 139.7679,
+      "thumbnail": "https://eeo.today/pr/gintama2610-tokyo/assets/images/ogp.jpg",
+      "summary_ko": "「은혼」 새 일러스트 그래프아트 굿즈를 파는 eeo 팝업이에요. 도쿄역 지하 캐릭터 스트리트 왜건 매장이라 짧게 들르기 좋아요. 다른 은혼 팝업과는 별개 행사예요.",
+      "gallery": [
+        {
+          "group": "굿즈·특전",
+          "img": "https://eeo.today/pr/gintama2610-tokyo/assets/images/img_items01.webp",
+          "caption_ko": "그래프아트 굿즈",
+          "source": "https://eeo.today/pr/gintama2610-tokyo/"
+        },
+        {
+          "group": "굿즈·특전",
+          "img": "https://eeo.today/pr/gintama2610-tokyo/assets/images/img_special01.webp",
+          "caption_ko": "구매 특전 포스트카드 (전 7종)",
+          "source": "https://eeo.today/pr/gintama2610-tokyo/"
+        }
+      ],
+      "gallery_note": "eeo 공식 페이지 이미지"
+    },
+    {
+      "area": "도쿄",
+      "reservation": "선택",
+      "checked_date": "2026-10-20",
+      "evidence": [
+        {
+          "url": "https://eeo.today/graffartcafe/title/diaace/",
+          "tier": "official",
+          "quote": "TVアニメ『ダイヤのA actⅡ -Second Season-』 2026年10月24日(土)～11月5日(木) / 住所 〒171-0022 東京都豊島区南池袋1-9-21 JK7 1階",
+          "checked": "2026-10-20"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-20",
+      "translation_check": true,
+      "summary_source": "https://eeo.today/graffartcafe/title/diaace/",
+      "source_url": "https://eeo.today/graffartcafe/title/diaace/",
+      "thumbnail_source": "https://eeo.today/graffartcafe/title/diaace/",
+      "gallery_source": "https://eeo.today/graffartcafe/title/diaace/",
+      "title_ko": "다이아의 에이스 act II Second Season eeo Cafe (이케부쿠로)",
+      "title_ja": "TVアニメ『ダイヤのA actⅡ -Second Season-』eeo Cafe",
+      "category": "콜라보카페",
+      "venue": "eeo Cafe (도시마구 미나미이케부쿠로 1-9-21 JK7 1층)",
+      "start": "2026-10-24",
+      "end": "2026-11-05",
+      "official_url": "https://eeo.today/graffartcafe/title/diaace/",
+      "notes": "평일 11:30~19:00, 주말·공휴일 10:00~19:00 (L.O. 18:00). 시간대별 완전 교대제",
+      "map_query": "東京都豊島区南池袋1-9-21 JK7",
+      "lat": 35.7283,
+      "lon": 139.7127,
+      "thumbnail": "https://eeo.today/graffartcafe/title/diaace/assets/images/ogp_diaace.jpg",
+      "summary_ko": "애니메이션 「다이아의 에이스 actⅡ Second Season」 콜라보카페예요. eeo Cafe 레귤러 세트 메뉴에 작품 그래프아트 특전·굿즈가 붙고, 통판·매장 수령 예약도 돼요.",
+      "gallery": [
+        {
+          "group": "카페·굿즈",
+          "img": "https://eeo.today/graffartcafe/title/diaace/assets/images/diaace_01.webp",
+          "caption_ko": "공식 이미지 1",
+          "source": "https://eeo.today/graffartcafe/title/diaace/"
+        },
+        {
+          "group": "카페·굿즈",
+          "img": "https://eeo.today/graffartcafe/title/diaace/assets/images/diaace_02.webp",
+          "caption_ko": "공식 이미지 2",
+          "source": "https://eeo.today/graffartcafe/title/diaace/"
+        },
+        {
+          "group": "카페·굿즈",
+          "img": "https://eeo.today/graffartcafe/title/diaace/assets/images/diaace_03.webp",
+          "caption_ko": "공식 이미지 3",
+          "source": "https://eeo.today/graffartcafe/title/diaace/"
+        },
+        {
+          "group": "카페·굿즈",
+          "img": "https://eeo.today/graffartcafe/title/diaace/assets/images/diaace_04.webp",
+          "caption_ko": "공식 이미지 4",
+          "source": "https://eeo.today/graffartcafe/title/diaace/"
+        },
+        {
+          "group": "카페·굿즈",
+          "img": "https://eeo.today/graffartcafe/title/diaace/assets/images/diaace_05.webp",
+          "caption_ko": "공식 이미지 5",
+          "source": "https://eeo.today/graffartcafe/title/diaace/"
+        },
+        {
+          "group": "카페·굿즈",
+          "img": "https://eeo.today/graffartcafe/title/diaace/assets/images/diaace_06.webp",
+          "caption_ko": "공식 이미지 6",
+          "source": "https://eeo.today/graffartcafe/title/diaace/"
+        }
+      ]
+    },
+    {
+      "area": "도쿄",
+      "reservation": "선택",
+      "checked_date": "2026-10-20",
+      "evidence": [
+        {
+          "url": "https://www.sweets-paradise.jp/collaboration/kamen-rider",
+          "tier": "official",
+          "quote": "〇2026年10月16日(金)～2026年11月15日(日) DISH UP（東京） / DISH UP 住所 東京都新宿区新宿3丁目1-26 新宿マルイ アネックス8階",
+          "checked": "2026-10-20"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-20",
+      "translation_check": true,
+      "summary_source": "https://www.sweets-paradise.jp/collaboration/kamen-rider",
+      "source_url": "https://www.sweets-paradise.jp/collaboration/kamen-rider",
+      "thumbnail_source": "https://www.sweets-paradise.jp/collaboration/kamen-rider",
+      "gallery_source": "https://www.sweets-paradise.jp/collaboration/kamen-rider",
+      "title_ko": "가면라이더 55th ANNIVERSARY CAFE in SWEETS PARADISE (신주쿠)",
+      "title_ja": "仮面ライダー55th ANNIVERSARY CAFE in SWEETS PARADISE",
+      "category": "콜라보카페",
+      "venue": "DISH UP (신주쿠 마루이 아넥스 8층)",
+      "start": "2026-10-16",
+      "end": "2026-11-15",
+      "official_url": "https://www.sweets-paradise.jp/collaboration/kamen-rider",
+      "notes": "DISH UP 11:00~21:00 (최종 입장 19:30). 오사카·나고야·히로시마 매장은 기간이 달라요",
+      "map_query": "東京都新宿区新宿3-1-26 新宿マルイアネックス",
+      "lat": 35.6919,
+      "lon": 139.7058,
+      "thumbnail": "https://www.sweets-paradise.jp/wp-content/uploads/2026/09/2607_仮面ライダー_KV_統合後_0730_実写-1024x724.jpg",
+      "summary_ko": "「가면라이더」 방송 55주년 기념 스위파라 콜라보카페예요. 역대 라이더 테마 메뉴와 미니 캐릭터 특전이 있고, 도쿄는 신주쿠 DISH UP에서 열려요.",
+      "gallery": [
+        {
+          "group": "메뉴·특전",
+          "img": "https://www.sweets-paradise.jp/wp-content/uploads/2026/09/2609_仮面ライダー_メニュー表_0914_2-724x1024.jpg",
+          "full": "https://www.sweets-paradise.jp/wp-content/uploads/2026/09/2609_仮面ライダー_メニュー表_0914_2.jpg",
+          "caption_ko": "메뉴표 1",
+          "source": "https://www.sweets-paradise.jp/collaboration/kamen-rider"
+        },
+        {
+          "group": "메뉴·특전",
+          "img": "https://www.sweets-paradise.jp/wp-content/uploads/2026/09/2609_仮面ライダー_メニュー表_0914_3-724x1024.jpg",
+          "full": "https://www.sweets-paradise.jp/wp-content/uploads/2026/09/2609_仮面ライダー_メニュー表_0914_3.jpg",
+          "caption_ko": "메뉴표 2",
+          "source": "https://www.sweets-paradise.jp/collaboration/kamen-rider"
+        },
+        {
+          "group": "메뉴·특전",
+          "img": "https://www.sweets-paradise.jp/wp-content/uploads/2026/09/2609_仮面ライダー_メニュー表_0914_4-724x1024.jpg",
+          "full": "https://www.sweets-paradise.jp/wp-content/uploads/2026/09/2609_仮面ライダー_メニュー表_0914_4.jpg",
+          "caption_ko": "메뉴표 3",
+          "source": "https://www.sweets-paradise.jp/collaboration/kamen-rider"
+        },
+        {
+          "group": "메뉴·특전",
+          "img": "https://www.sweets-paradise.jp/wp-content/uploads/2026/09/2609_仮面ライダー_スーベニアPOP-724x1024.jpg",
+          "full": "https://www.sweets-paradise.jp/wp-content/uploads/2026/09/2609_仮面ライダー_スーベニアPOP.jpg",
+          "caption_ko": "기념품 안내",
+          "source": "https://www.sweets-paradise.jp/collaboration/kamen-rider"
+        }
+      ]
     }
   ]
 }
