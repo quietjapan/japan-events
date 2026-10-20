@@ -81,3 +81,8 @@ python -m http.server 8000
   - 시간은 각 항목 `notes` 맨 앞의 `8:45~14:15 (설명)` 형식에서 읽어요. 시간을 모르면 넣지 않아요("공식 안내 확인"으로 표시).
   - 날짜 나열 메모(예: "주말 위주 개최: 10/24·25…")는 날짜 목록으로 대체돼서 숨겨져요.
 - 지난 날짜는 자동으로 빠지고, 마지막 날짜가 지나면 카드가 사라져요. 여행 기간 필터는 남은 날짜 중 하루라도 겹치면 표시하고 그 날짜를 강조해요.
+
+## 10/20 추가
+- 카드 썸네일은 `thumbs/*.webp`(가로 480px, `python3 tools/mkthumbs.py`로 생성)을 쓰고, 원본 `thumbnail`은 자세히 보기·실패 시 대체용으로 그대로 둬요. 새 항목을 넣으면 mkthumbs.py를 다시 돌려 주세요.
+- ⭐ 북마크: 카드의 ☆ 버튼, localStorage `qj_bm`(seriesKey 목록), "⭐ 북마크" 탭은 시작일순. GA 이벤트 `toggle_bookmark`(item, category, on).
+- `gallery_more: {url, label}` 이 있으면 갤러리 끝에 "전체 보기" 링크를 보여줘요 (MAPPA EXPO).

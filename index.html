@@ -6,7 +6,7 @@
 <link rel="canonical" href="https://quietjapan.github.io/japan-events/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="조용한 관종의 일본 · 일본 행사 캘린더">
-<meta property="og:description" content="일본 팝업스토어·콜라보카페·전시·축제·가챠·쿠지·플리마켓 일정을 한국어로. 공식 출처만, 매주 월·목 업데이트.">
+<meta property="og:description" content="일본 팝업스토어·콜라보카페·전시·축제·가챠·쿠지·플리마켓·잡지 부록 일정을 한국어로. 공식 출처만, 매주 월·목 업데이트.">
 <meta property="og:url" content="https://quietjapan.github.io/japan-events/">
 <meta property="og:image" content="https://quietjapan.github.io/japan-events/og.png">
 <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
@@ -29,6 +29,7 @@
   if(m) m.setAttribute('content',t==='dark'?'#211d18':'#fffdf8');
 })();
 </script>
+<link rel="preconnect" href="https://www.google.com"><link rel="preconnect" href="https://maps.gstatic.com" crossorigin><link rel="preconnect" href="https://maps.googleapis.com" crossorigin><link rel="dns-prefetch" href="https://api.open-meteo.com">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
 <link rel="stylesheet" href="style.css">
 <script>
@@ -84,23 +85,24 @@
 </div></header>
 <main class="wrap">
   <div id="banner" class="banner" hidden>⚠️ 현재 예시 데이터입니다. 실제 일정은 공식 사이트에서 확인해 주세요.</div>
-  <section id="wx" class="wx" aria-label="도쿄 날씨"><div class="wx-hd"><b>도쿄 7일 날씨</b><span>날씨 정보: <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a> · 행사 정보와 별개</span></div><div id="wxrow" class="wxrow"><span class="wx-msg">날씨 불러오는 중…</span></div></section>
+  <section id="wx" class="wx" aria-label="도쿄 날씨"><div class="wx-hd"><b>도쿄 7일 날씨</b><span>날씨 정보: <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a> · 행사 정보와 별개</span></div><div id="wxrow" class="wxrow wxload" aria-busy="true"><div class="wxd sk" aria-hidden="true"></div><div class="wxd sk" aria-hidden="true"></div><div class="wxd sk" aria-hidden="true"></div><div class="wxd sk" aria-hidden="true"></div><div class="wxd sk" aria-hidden="true"></div><div class="wxd sk" aria-hidden="true"></div><div class="wxd sk" aria-hidden="true"></div><span class="wx-msg sr">날씨 불러오는 중…</span></div></section>
   <section class="filters">
     <div id="chips" class="chips"></div>
     <div class="row">
-      <select id="area"><option value="">전체 지역</option></select>
       <input id="q" type="search" placeholder="🔍 작품명·장소 검색 (예: 체인소맨)" aria-label="검색">
     </div>
+    <details class="fmore" id="fmore"><summary>⚙️ 필터 <span class="fsub">지역 · 여행 기간 · 진행 상태</span><span class="fcnt" id="fcnt" hidden></span></summary><div class="fbody">
+    <div class="row"><select id="area" aria-label="지역"><option value="">전체 지역</option></select></div>
     <div class="range"><span class="rl">✈️ 여행 기간</span><input id="from" type="date" aria-label="시작일"><span>~</span><input id="to" type="date" aria-label="종료일"><button type="button" id="rreset">초기화</button></div>
     <div class="toggle" id="status">
       <button data-s="all" class="on">전체</button><button data-s="now">진행 중·입고 중</button><button data-s="soon">예정·입고 예정</button>
-    </div>
+    </div></div></details>
   </section>
   <aside id="magintro" class="sum magintro" hidden><span class="sumlbl">📚 잡지 부록, 알고 보면 꿀템이에요</span><p>일본 잡지는 매달 부록이 바뀌어요. 파우치, 에코백, 캐릭터 굿즈처럼 잡지보다 부록이 주인공인 경우가 많고, 그달에만 구할 수 있는 한정판이라 레어템이 되기도 해요. 그런데 가격은 잡지 값이라 굿즈를 따로 사는 것보다 훨씬 저렴한 편이에요. 준쿠도·키노쿠니야 같은 대형 서점의 잡지 코너나 편의점에서 살 수 있고, 인기 부록은 발매 직후 품절되기도 하니 발매일을 꼭 확인하세요.</p><p class="magsub">발매일 기준 약 5주 동안 보여요(다음 호가 나오면 바뀌어요). 가격은 잡지 가격(세금 포함)이에요.</p><p class="magsub">💡 5주는 이 사이트에 올려두는 기간일 뿐이에요. 다음 호가 나와도 지난 호가 모든 서점에서 바로 사라지진 않아서 실제로는 더 오래 살 수 있어요. 반대로 인기 부록은 더 일찍 품절되기도 해요.</p></aside>
   <p id="count" class="count"></p>
   <section id="list" class="list"></section>
 </main>
-<footer class="wrap ft"><a class="fb" href="https://blog.naver.com/rownsh00/224442817755" target="_blank" rel="noopener">💬 문의·개선점·제보 남기기 (블로그 댓글)</a><br>정보는 작성 시점 기준이며 변경될 수 있어요. 방문 전 공식 안내를 꼭 확인해 주세요.<br>© 조용한 관종의 일본</footer>
+<footer class="wrap ft"><a class="fb" href="https://blog.naver.com/rownsh00/224442817755" target="_blank" rel="noopener">💬 문의·개선점·제보 남기기 (블로그 댓글)</a><p class="ftl">정보는 바뀔 수 있으니 방문 전 공식 안내를 확인해 주세요 · © 조용한 관종의 일본</p></footer>
 
 <div class="fabs"><button type="button" id="themebtn" class="fxbtn themebtn theme-toggle" aria-label="다크모드로 바꾸기">🌙 다크모드</button><button type="button" id="fxbtn" class="fxbtn" aria-expanded="false" aria-controls="fxpanel">💱 환율계산기</button></div>
 <div id="fxov" class="fxov" hidden>
@@ -138,4 +140,5 @@
 <script src="app.js"></script>
 <script src="weather.js"></script>
 <script src="theme.js"></script>
+<script>(function(){var d=document.getElementById("fmore");if(d&&matchMedia("(min-width:720px)").matches)d.open=true})();</script>
 </body></html>

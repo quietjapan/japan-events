@@ -2,7 +2,10 @@ const CATS=["팝업스토어","콜라보카페","전시·행사","축제","가�
 const STOCK=new Set(["가챠","쿠지"]);const SHOP=new Set(["팝업스토어","콜라보카페","쿠지","가챠","잡지 부록"]);
 const hasGal=e=>!!(e.gallery&&e.gallery.length);const hasDetail=e=>SHOP.has(e.category)||hasGal(e);const MAG="잡지 부록";const MAG_DAYS=35;
 const CATCLS={"팝업스토어":"c-pop","콜라보카페":"c-cafe","전시·행사":"c-expo","축제":"c-fest","가챠":"c-gacha","쿠지":"c-kuji","플리마켓":"c-flea","잡지 부록":"c-mag"};
-const st={cat:"",area:"",q:"",s:"all",from:"",to:""};let EV=[];
+const st={cat:"",area:"",q:"",s:"all",from:"",to:"",bm:false};
+// ⭐ 북마크: 이 기기 브라우저(localStorage)에만 저장. 묶인 카드도 같은 키(seriesKey)로 저장돼요.
+const BMK="qj_bm";let BM=new Set();try{BM=new Set(JSON.parse(localStorage.getItem(BMK)||"[]"))}catch(e){}
+const saveBM=()=>{try{localStorage.setItem(BMK,JSON.stringify([...BM]))}catch(e){}};let EV=[];
 const today=(()=>{const d=new Date();d.setHours(0,0,0,0);return d})();
 const pd=s=>{if(!s)return null;const[y,m,d]=s.split("-").map(Number);return new Date(y,m-1,d)};
 const fmt=s=>{const d=pd(s);if(!d)return"";return `${d.getMonth()+1}/${d.getDate()}(${"일월화수목금토"[d.getDay()]})`};
@@ -42,9 +45,14 @@ document.addEventListener("change",ev=>{const inp=ev.target;if(!inp.classList||!
 function picker(e){const r=pickRange(e);if(!r)return"";const [la,lo,venue]=coords(e);
   return `<div class="pick"><label>📅 방문 날짜 <input type="date" class="visit" min="${r[0]}" max="${r[1]}" data-lat="${la}" data-lon="${lo}" data-src="${venue?"행사장 위치":e.area+" 시내"}"></label><div class="pickwx"><span class="wx-msg">날짜를 고르면 그날 날씨가 보여요</span></div></div>`}
 const mapq=e=>e.area!=="전국"&&e.category!==MAG&&e.map_query?e.map_query:"";
-const thumb=e=>`<div class="th dt ${CATCLS[e.category]||""}"><span>${esc(e.category)}</span>${e.thumbnail?`<img src="${esc(e.thumbnail)}" alt="" ${e.thumb_pos?`style="object-position:${esc(e.thumb_pos)}"`:""} loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:""}</div>`;
+const thumb=e=>`<div class="th dt ${CATCLS[e.category]||""}"><span>${esc(e.category)}</span>${e.thumbnail?`<img src="${esc(e.thumb_small||e.thumbnail)}" ${e.thumb_small?`data-orig="${esc(e.thumbnail)}"`:""} alt="" ${e.thumb_pos?`style="object-position:${esc(e.thumb_pos)}"`:""} loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="if(this.dataset.orig){this.src=this.dataset.orig;delete this.dataset.orig}else this.remove()">`:""}</div>`;
 document.addEventListener("toggle",ev=>{const d=ev.target;if(!(d instanceof HTMLDetailsElement)||!d.open||!d.classList.contains("map"))return;
-  const box=d.querySelector(".mapbox");if(!box.firstChild)box.innerHTML=`<iframe loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=${encodeURIComponent(d.dataset.q)}&output=embed" title="지도"></iframe>`},true);
+  mapLoad(d)},true);
+function mapLoad(d){const box=d.querySelector(".mapbox");if(box.querySelector("iframe"))return;
+  box.innerHTML=`<div class="mapwait" aria-live="polite">📍 지도 불러오는 중…</div><iframe referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=${encodeURIComponent(d.dataset.q)}&output=embed" title="지도"></iframe>`;
+  const f=box.querySelector("iframe");f.addEventListener("load",()=>{const w=box.querySelector(".mapwait");if(w)w.remove();f.classList.add("ok")},{once:true})}
+// PC: 마우스를 올리면 미리 불러와서 펼칠 때 바로 보이게
+document.addEventListener("pointerenter",ev=>{if(ev.pointerType!=="mouse")return;const s=ev.target;if(!(s instanceof Element)||s.tagName!=="SUMMARY")return;const d=s.closest("details.map");if(d)mapLoad(d)},true);
 // 같은 행사가 날짜만 다른 경우(오이 경마장 플리마켓 등) 한 카드로 묶기. events.json은 날짜별 항목 그대로 유지.
 // 키: 명시적 `series` 필드가 있으면 그것, 없으면 카테고리+한국어 제목+공식 URL이 모두 같을 때.
 const seriesKey=e=>e.series?`s:${e.series}`:`a:${e.category}|${e.title_ko}|${e.official_url||""}`;
@@ -86,17 +94,19 @@ function units(){return GROUPS.map(g=>{if(g.length===1)return{e:g[0],x:status(g[
 function render(){
   const q=st.q.trim().normalize("NFKC").toLowerCase();
   const rows=units().filter(({e,x})=>x.k!=="end"
-    &&(!st.cat||e.category===st.cat)&&(!st.area||e.area===st.area)
+    &&(!st.bm||BM.has(seriesKey(e)))
+    &&(st.bm||!st.cat||e.category===st.cat)&&(!st.area||e.area===st.area)
     &&(st.s==="all"||(st.s==="soon"?x.k==="soon":x.k!=="soon"))
     &&(e._dates?e._dates.some(inRange):inRange(e))
     &&(!q||[e.title_ko,e.title_ja,e.venue,e.summary_ko].join(" ").normalize("NFKC").toLowerCase().includes(q)))
-   .sort((a,b)=>sortKey(a.e).localeCompare(sortKey(b.e)));
+   .sort((a,b)=>st.bm?((a.e.start||"9").localeCompare(b.e.start||"9")||sortKey(a.e).localeCompare(sortKey(b.e))):sortKey(a.e).localeCompare(sortKey(b.e)));
   CARDS=rows.map(r=>r.e);
   document.getElementById("count").textContent=`${rows.length}건`;
-  document.getElementById("magintro").hidden=st.cat!==MAG;
+  const fc=document.getElementById("fcnt");if(fc){const n=(st.area?1:0)+((st.from||st.to)?1:0)+(st.s!=="all"?1:0);fc.hidden=!n;fc.textContent=n?`${n}개 적용 중`:""}
+  document.getElementById("magintro").hidden=st.bm||st.cat!==MAG;
   document.getElementById("list").innerHTML=rows.length?rows.map(({e,x},ci)=>{const u=e._dates?null:urg(e,x);return `
-  <article class="card${u?" "+u.c:""}${e._dates?" series":""}" data-i="${ci}">${u?`<div class="ub">${u.t}</div>`:""}
-  <div class="top">${thumb(e)}<div class="tx"><div class="badges"><span class="b cat ${CATCLS[e.category]||""}">${esc(e.category)}</span><span class="b ${x.k}">${x.t}</span><span class="b">${esc(e.area)}</span></div>
+  <article class="card${u?" "+u.c:""}${e._dates?" series":""}" data-i="${ci}">${u?`<div class="ub">${u.t}</div>`:""}${(()=>{const on=BM.has(seriesKey(e));return `<button type="button" class="bm${on?" on":""}" aria-pressed="${on}" aria-label="${on?"북마크 해제":"북마크"}" title="${on?"북마크 해제":"북마크"}">${on?"★":"☆"}</button>`})()}
+  <div class="top">${thumb(e)}<div class="tx"><div class="badges"><span class="b cat ${CATCLS[e.category]||""}">${esc(e.category)}</span><span class="b ${x.k}">${u&&x.k==="ending"?"곧 종료":x.t}</span><span class="b">${esc(e.area)}</span></div>
   <h2${hasDetail(e)?` class="dt"`:""}>${esc(e.title_ko)}</h2><p class="ja">${esc(e.title_ja||"")}</p></div></div>
   ${e.summary_ko?`<div class="sum"><span class="sumlbl"><a href="${esc(e.summary_source||e.official_url)}" target="_blank" rel="noopener">공식 페이지 요약</a></span><p>${esc(e.summary_ko)}</p></div>`:""}
   ${e.thumbnail?`<p class="credit"><a href="${esc(e.thumbnail_source||e.official_url)}" target="_blank" rel="noopener">이미지 출처</a></p>`:""}
@@ -106,7 +116,7 @@ function render(){
   ${picker(e)}
   ${mapq(e)?`<details class="map" data-q="${esc(mapq(e))}"><summary>📍 지도 펼치기</summary><div class="mapbox"></div></details>`:""}
   <div class="btns">${hasDetail(e)?`<button type="button" class="dt more">자세히 보기</button>`:""}${e.official_url?`<a href="${esc(e.official_url)}" target="_blank" rel="noopener">공식 사이트</a>`:""}${mapq(e)?`<a class="sec" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(mapq(e))}" target="_blank" rel="noopener">지도 보기</a>`:""}${e.source_url&&e.source_url!==e.official_url?`<a class="sec" href="${esc(e.source_url)}" target="_blank" rel="noopener">출처</a>`:""}${e.blog_url?`<a class="sec blog" href="${esc(e.blog_url)}" target="_blank" rel="noopener">블로그 글</a>`:""}</div>
-  </article>`}).join(""):`<p class="empty">조건에 맞는 일정이 없어요.</p>`}
+  </article>`}).join(""):(st.bm?`<div class="empty"><p>⭐ 아직 북마크한 일정이 없어요.</p><p class="esub">가고 싶은 일정의 ☆를 누르면 여기에 날짜순으로 모여요. (이 기기·브라우저에만 저장돼요)</p></div>`:`<div class="empty"><p>조건에 맞는 일정이 없어요.</p><button type="button" id="freset" class="freset">🔄 필터 초기화</button></div>`)}
 
 const WD=["일","월","화","수","목","금","토"];
 const seoulYMD=()=>{const p=new Intl.DateTimeFormat("en-CA",{timeZone:"Asia/Seoul",year:"numeric",month:"2-digit",day:"2-digit"}).formatToParts(new Date());const g=t=>p.find(x=>x.type===t).value;return`${g("year")}-${g("month")}-${g("day")}`};
@@ -133,14 +143,16 @@ fetch("events.json",{cache:"no-store"}).then(r=>r.json()).then(d=>{
   setUpdateLabel(d.last_updated);
   if(d.is_sample)document.getElementById("banner").hidden=false;
   const chips=document.getElementById("chips");
-  chips.innerHTML=["",...CATS].map(c=>`<button data-c="${c}" class="${c?"":"on"}">${c||"전체"}</button>`).join("");
-  chips.onclick=ev=>{const b=ev.target.closest("button");if(!b)return;st.cat=b.dataset.c;chips.querySelectorAll("button").forEach(x=>x.classList.toggle("on",x===b));render();window.gtag&&gtag("event","select_tab",{tab:b.dataset.c||"전체"})};
+  chips.innerHTML=["",...CATS].map(c=>`<button data-c="${c}" class="${c?"":"on"}">${c||"전체"}</button>`).join("")+`<button data-bm="1" class="bmtab">⭐ 북마크</button>`;
+  chips.onclick=ev=>{const b=ev.target.closest("button");if(!b)return;st.bm=!!b.dataset.bm;st.cat=st.bm?"":b.dataset.c;chips.querySelectorAll("button").forEach(x=>x.classList.toggle("on",x===b));render();window.gtag&&gtag("event","select_tab",{tab:st.bm?"북마크":(b.dataset.c||"전체")})};
   const sel=document.getElementById("area");[...new Set(EV.map(e=>e.area))].forEach(a=>sel.add(new Option(a,a)));
   sel.onchange=()=>{st.area=sel.value;render()};
   const fr=document.getElementById("from"),to=document.getElementById("to");
   const setR=()=>{st.from=fr.value;st.to=to.value;if(st.from&&st.to&&st.from>st.to){st.to=st.from;to.value=st.from}to.min=st.from||"";render()};
   fr.onchange=setR;to.onchange=setR;
   document.getElementById("rreset").onclick=()=>{fr.value=to.value="";setR()};
+  window.resetFilters=()=>{fr.value=to.value="";st.from=st.to="";to.min="";sel.value="";st.area="";const qi=document.getElementById("q");qi.value="";st.q="";st.s="all";st.cat="";st.bm=false;
+    document.querySelectorAll("#status button").forEach(x=>x.classList.toggle("on",x.dataset.s==="all"));chips.querySelectorAll("button").forEach((x,i)=>x.classList.toggle("on",i===0));render()};
   document.getElementById("q").oninput=e=>{st.q=e.target.value;render()};
   const tg=document.getElementById("status");tg.onclick=ev=>{const b=ev.target.closest("button");if(!b)return;st.s=b.dataset.s;tg.querySelectorAll("button").forEach(x=>x.classList.toggle("on",x===b));render()};
   render()}).catch(()=>document.getElementById("list").innerHTML='<p class="empty">데이터를 불러오지 못했어요.</p>');
@@ -156,7 +168,7 @@ function detail(e){const g=e.gallery||[];const groups=[...new Set(g.map(x=>x.gro
     <div class="dtag">#${esc(e.category)} · ${esc(e.area)}</div>
     ${e.thumbnail?`<div class="dsrc">이미지 출처: <a href="${esc(e.thumbnail_source||e.official_url)}" target="_blank" rel="noopener">${esc(host(e.thumbnail_source||e.official_url||e.thumbnail))}</a></div>`:""}</div></div>
   ${g.length?groups.map(gr=>`<h3 class="dgh">${esc(gr||"갤러리")}</h3><div class="dgrid">${g.filter(x=>(x.group||"")===gr).map(x=>`<figure><a class="zoom" href="${esc(x.full||x.img)}" target="_blank" rel="noopener" data-cap="${esc(x.caption_ko)}"><img src="${esc(x.img)}" alt="${esc(x.caption_ko)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.closest('figure').remove()"></a><figcaption><b>${esc(x.caption_ko)}</b>${x.caption_ja?`<span>${esc(x.caption_ja)}</span>`:""}${x.kinds||x.size?`<i>${esc([x.kinds,x.size].filter(Boolean).join(" · "))}</i>`:""}${x.price?`<em>${pricet(x.price)}</em>`:""}</figcaption></figure>`).join("")}</div>`).join("")
-   +`<p class="dnote">${e.gallery_note?esc(e.gallery_note)+" · ":""}출처: <a href="${esc(e.gallery_source||e.official_url)}" target="_blank" rel="noopener">${esc(host(e.gallery_source||e.official_url))}</a></p>`:`<div class="dwait" role="note"><div class="dwait-i" aria-hidden="true">⏳</div><p class="dwait-t">아직 공식 이미지·상품 정보가 공개되지 않았어요</p><p class="dwait-s">공개되는 대로 업데이트할게요. 그동안은 공식 사이트에서 소식을 확인해 주세요.</p></div>`}
+   +(e.gallery_more?`<a class="dmore" href="${esc(e.gallery_more.url)}" target="_blank" rel="noopener">${esc(e.gallery_more.label||"전체 보기")} →</a>`:"")+`<p class="dnote">${e.gallery_note?esc(e.gallery_note)+" · ":""}출처: <a href="${esc(e.gallery_source||e.official_url)}" target="_blank" rel="noopener">${esc(host(e.gallery_source||e.official_url))}</a></p>`:`<div class="dwait" role="note"><div class="dwait-i" aria-hidden="true">⏳</div><p class="dwait-t">아직 공식 이미지·상품 정보가 공개되지 않았어요</p><p class="dwait-s">공개되는 대로 업데이트할게요. 그동안은 공식 사이트에서 소식을 확인해 주세요.</p></div>`}
   ${e.official_url?`<a class="dlink" href="${esc(e.official_url)}" target="_blank" rel="noopener">공식 사이트에서 확인하기</a>`:""}${e.blog_url?`<a class="dblog" href="${esc(e.blog_url)}" target="_blank" rel="noopener">블로그 글 보기</a>`:""}</div>`}
 let DETAIL_E=null;
 // 뒤로가기: 모달·라이트박스를 열 때 history 항목을 하나씩 쌓고, 뒤로가기는 맨 위 층만 닫아요.
@@ -167,17 +179,33 @@ const popLayer=k=>{if(history.state&&history.state.qj===k){POP_SKIP++;history.ba
 try{if(history.state&&history.state.qj)history.replaceState(null,"")}catch(e){}
 window.addEventListener("popstate",()=>{if(POP_SKIP>0){POP_SKIP--;return}
   if(document.querySelector(".lb"))closeLB(true);else if(document.querySelector(".dov"))closeDetail(true)});
-function openDetail(e){window.gtag&&gtag("event","open_detail",{item:e.title_ko,category:e.category,has_gallery:hasGal(e)});if(document.querySelector(".dov"))return;DETAIL_E=e;const o=document.createElement("div");o.className="dov";o.innerHTML=detail(e);document.body.appendChild(o);document.body.style.overflow="hidden";pushLayer("detail");o.querySelector(".dvx").focus();
+function openDetail(e){window.gtag&&gtag("event","open_detail",{item:e.title_ko,category:e.category,has_gallery:hasGal(e)});if(document.querySelector(".dov"))return;DETAIL_E=e;const o=document.createElement("div");o.className="dov";o.innerHTML=detail(e);document.body.appendChild(o);document.body.style.overflow="hidden";document.body.classList.add("modal-open");pushLayer("detail");o.querySelector(".dvx").focus();
   o.addEventListener("click",ev=>{if(ev.target===o||ev.target.closest(".dvx"))closeDetail()})}
-function closeDetail(fromPop){const o=document.querySelector(".dov");if(!o)return;const l=document.querySelector(".lb");if(l)l.remove();o.remove();document.body.style.overflow="";DETAIL_E=null;
+function closeDetail(fromPop){const o=document.querySelector(".dov");if(!o)return;const l=document.querySelector(".lb");if(l)l.remove();o.remove();document.body.style.overflow="";document.body.classList.remove("modal-open");DETAIL_E=null;
   if(!fromPop){const st=history.state&&history.state.qj;const n=st==="lb"?2:st==="detail"?1:0;if(n){POP_SKIP++;history.go(-n)}}}
 function closeLB(fromPop){const l=document.querySelector(".lb");if(!l)return false;l.remove();if(!fromPop)popLayer("lb");return true}
 document.addEventListener("keydown",ev=>{if(ev.key==="Escape"){if(!closeLB())closeDetail()}});
+// 사진 크게 보기: ◀▶ 버튼·좌우 화살표 키·스와이프로 같은 행사 사진 넘기기
+let LB={list:[],i:0};
+function lbShow(){const l=document.querySelector(".lb");if(!l)return;const a=LB.list[LB.i];const href=a.getAttribute("href");
+  l.querySelector("img").src=href;l.querySelector(".lbcap").innerHTML=`${esc(a.dataset.cap||"")} <span class="lbn">${LB.i+1} / ${LB.list.length}</span> · <a href="${esc(href)}" target="_blank" rel="noopener">원본 열기</a>`;
+  l.querySelectorAll(".lbnav").forEach(b=>b.hidden=LB.list.length<2)}
+const lbStep=n=>{if(!LB.list.length)return;LB.i=(LB.i+n+LB.list.length)%LB.list.length;lbShow()};
 document.addEventListener("click",ev=>{const a=ev.target.closest(".dgrid a.zoom");if(!a)return;ev.preventDefault();ev.stopPropagation();if(document.querySelector(".lb"))return;
+  LB.list=[...document.querySelectorAll(".dov .dgrid a.zoom")];LB.i=Math.max(0,LB.list.indexOf(a));
   const l=document.createElement("div");l.className="lb";l.setAttribute("role","dialog");l.setAttribute("aria-label","사진 크게 보기");
-  l.innerHTML=`<button class="dvx" aria-label="닫기">✕</button><img src="${esc(a.getAttribute("href"))}" alt="" referrerpolicy="no-referrer"><p>${esc(a.dataset.cap||"")} · <a href="${esc(a.getAttribute("href"))}" target="_blank" rel="noopener">원본 열기</a></p>`;
-  l.addEventListener("click",e2=>{if(!e2.target.closest("p a"))closeLB()});document.body.appendChild(l);pushLayer("lb")},true);
+  l.innerHTML=`<button class="dvx" aria-label="닫기">✕</button><button type="button" class="lbnav lbprev" aria-label="이전 사진">◀</button><img src="" alt="" referrerpolicy="no-referrer"><button type="button" class="lbnav lbnext" aria-label="다음 사진">▶</button><p class="lbcap"></p>`;
+  l.addEventListener("click",e2=>{if(e2.target.closest(".lbcap a"))return;const nv=e2.target.closest(".lbnav");if(nv){e2.stopPropagation();lbStep(nv.classList.contains("lbprev")?-1:1);return}if(e2.target.tagName==="IMG")return;closeLB()});
+  let sx=null,sy=null;l.addEventListener("touchstart",t=>{sx=t.touches[0].clientX;sy=t.touches[0].clientY},{passive:true});
+  l.addEventListener("touchend",t=>{if(sx===null)return;const dx=t.changedTouches[0].clientX-sx,dy=t.changedTouches[0].clientY-sy;sx=null;if(Math.abs(dx)>45&&Math.abs(dx)>Math.abs(dy)*1.3)lbStep(dx<0?1:-1)});
+  document.body.appendChild(l);lbShow();pushLayer("lb")},true);
+document.addEventListener("keydown",ev=>{if(!document.querySelector(".lb"))return;if(ev.key==="ArrowLeft")lbStep(-1);else if(ev.key==="ArrowRight")lbStep(1)});
 document.addEventListener("click",ev=>{const t=ev.target.closest(".card .dt");if(!t)return;const c=t.closest(".card");const e=CARDS[+c.dataset.i];if(e)openDetail(e)});
 
 window.addEventListener("fxrate",()=>{if(typeof render==="function")render();const o=document.querySelector(".dov");if(o&&DETAIL_E){const sc=o.scrollTop;o.innerHTML=detail(DETAIL_E);o.scrollTop=sc}});
 document.addEventListener("click",ev=>{const b=ev.target.closest(".moredates");if(!b)return;const x=b.nextElementSibling;if(x){x.hidden=false;b.remove()}});
+
+document.addEventListener("click",ev=>{const b=ev.target.closest(".card .bm");if(!b)return;ev.stopPropagation();const e=CARDS[+b.closest(".card").dataset.i];if(!e)return;
+  const k=seriesKey(e),on=!BM.has(k);on?BM.add(k):BM.delete(k);saveBM();window.gtag&&gtag("event","toggle_bookmark",{item:e.title_ko,category:e.category,on});
+  if(st.bm&&!on){render();return}b.classList.toggle("on",on);b.textContent=on?"★":"☆";b.setAttribute("aria-pressed",on);b.setAttribute("aria-label",on?"북마크 해제":"북마크");b.title=on?"북마크 해제":"북마크"});
+document.addEventListener("click",ev=>{if(ev.target.closest("#freset")&&window.resetFilters)resetFilters()});

@@ -191,3 +191,37 @@ details.map{font-size:13px}details.map summary{cursor:pointer;color:var(--accent
 .moredates{font:inherit;font-size:12px;color:var(--accent);font-weight:700;background:none;border:0;cursor:pointer;padding:4px 6px}
 .sdx{display:contents}.sdx[hidden]{display:none}
 .hours .hrow{font-size:13px;line-height:1.5;margin:0 0 3px}.hours .hdt{font-weight:700}.hours .hh{color:var(--ink)}.hours .hnone{color:var(--mute)}
+/* 10/20: 북마크·필터 접기·탭 영역·라이트박스·지도 로딩 */
+.card .bm{position:absolute;top:8px;right:8px;z-index:3;width:40px;height:40px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:#f59f00;font-size:20px;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0}
+.card .bm.on{background:#fff4d6;border-color:#f59f00}
+[data-theme="dark"] .card .bm.on{background:#3a2f12}
+.card .top .tx{padding-right:40px}
+.card.u-hot .ub,.card.u-warm .ub,.card.u-new .ub{right:56px}
+.chips button.bmtab{border-color:#f59f00}
+.chips button,.toggle button{min-height:40px;padding:8px 14px}
+.btns a,.btns button.more{min-height:42px;display:inline-flex;align-items:center;justify-content:center}
+details.map summary{min-height:40px;display:flex;align-items:center}
+.range button,#rreset,select,#q,.range input{min-height:40px}
+.fmore{border:1px solid var(--line);border-radius:12px;background:var(--card)}
+.fmore>summary{cursor:pointer;min-height:44px;display:flex;align-items:center;gap:8px;padding:0 12px;font-weight:700;font-size:14px;list-style:none}
+.fmore>summary::-webkit-details-marker{display:none}
+.fmore>summary::after{content:"▾";margin-left:auto;color:var(--mute)}.fmore[open]>summary::after{content:"▴"}
+.fsub{font-weight:400;font-size:12px;color:var(--mute)}
+.fcnt{font-size:11px;font-weight:700;background:var(--solid);color:var(--on-solid);border-radius:999px;padding:2px 8px}
+.fbody{display:grid;gap:10px;padding:0 12px 12px}
+.fbody select{width:100%}
+.empty .esub{font-size:13px}
+.freset{margin-top:6px;min-height:42px;padding:8px 18px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--ink);font:inherit;font-weight:600;cursor:pointer}
+.ft .ftl{margin:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.wxrow{min-height:86px}.wxd.sk{min-height:80px;background:linear-gradient(90deg,var(--soft),var(--line),var(--soft));background-size:200% 100%;animation:wxsk 1.2s linear infinite}
+@keyframes wxsk{to{background-position:-200% 0}}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.mapbox{position:relative}.mapwait{display:flex;align-items:center;justify-content:center;height:220px;border-radius:10px;background:var(--soft);color:var(--mute);font-weight:600}
+.mapbox iframe:not(.ok){position:absolute;inset:0;opacity:0}.mapbox iframe.ok{opacity:1}
+body.modal-open .fabs,body.modal-open .fxov{display:none!important}
+.lb .lbnav{position:absolute;top:50%;transform:translateY(-50%);width:48px;height:64px;border:0;border-radius:12px;background:rgba(255,255,255,.14);color:#fff;font-size:22px;cursor:pointer;z-index:2}
+.lb .lbprev{left:8px}.lb .lbnext{right:8px}.lb .lbnav:hover{background:rgba(255,255,255,.28)}
+.lb .lbn{opacity:.75;font-size:12px}
+.lb img{cursor:default;touch-action:pan-y}
+.dmore{display:block;margin:12px 0 4px;text-align:center;padding:12px;border-radius:10px;background:var(--soft);color:var(--ink);font-weight:700;text-decoration:none}
+@media(max-width:640px){.hd .sub{display:none}.wx{padding:8px 10px}.wxd .p{font-size:11px}}
