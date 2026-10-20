@@ -7731,10 +7731,10 @@
       "reservation": "필요 (당분간 예약제만)",
       "price": "예약금 770엔 (세금 포함), 프리미엄 특전 포함 5,500엔. 1인 1메뉴 이상 주문",
       "notes": "프리오픈 11/19~11/25(11/24 휴업, 단축 영업), 그랜드 오픈 11/26. 예약: 공식 앱 프리미엄 회원 선착 10/21 18:00~10/25, 일반 추첨 10/27 18:00~11/1(발표 11/5), 일반 선착 11/6 18:00~",
-      "checked_date": "2026-10-19",
+      "checked_date": "2026-10-20",
       "source_tier": "official",
       "translation_check": true,
-      "verified_at": "2026-10-19",
+      "verified_at": "2026-10-20",
       "title_ko": "명탐정 코난 다이너 (상설 콜라보 레스토랑)",
       "title_ja": "名探偵コナンダイナー",
       "category": "콜라보카페",
@@ -7773,97 +7773,650 @@
         {
           "group": "메인 메뉴",
           "img": "https://conan-diner.com/wp-content/uploads/2026/08/0728_DC_gousei_3-1.jpg",
-          "caption_ko": "에도가와 코난 · 데미 햄버그 라이스",
+          "caption_ko": "에도가와 코난 · 잇케~! 데미 햄버그 라이스",
+          "caption_ja": "【江戸川コナン】 いっけぇぇぇぇ！デミバーグライス",
+          "price": "1,890엔 (세금 포함)",
           "source": "https://conan-diner.com/menu/"
         },
         {
           "group": "메인 메뉴",
           "img": "https://conan-diner.com/wp-content/uploads/2026/08/0817_DC_gousei_4.jpg",
-          "caption_ko": "모리 란 · 교토풍 크림 햄버그",
+          "caption_ko": "모리 란 · 붉은 수학여행 교토풍 크림 햄버그",
+          "caption_ja": "【毛利蘭】 ～紅の修学旅行～京風クリームハンバーグ",
+          "price": "1,790엔 (세금 포함)",
           "source": "https://conan-diner.com/menu/"
         },
         {
           "group": "메인 메뉴",
           "img": "https://conan-diner.com/wp-content/uploads/2026/08/0817_DC_gousei_5.jpg",
-          "caption_ko": "쿠도 신이치 · 멘치카츠",
+          "caption_ko": "쿠도 신이치 · 골치 아픈 난사건 멘치카츠",
+          "caption_ja": "【工藤新一】 ～厄介な難事件～メンチカツ",
+          "price": "1,890엔 (세금 포함)",
           "source": "https://conan-diner.com/menu/"
         },
         {
           "group": "메인 메뉴",
           "img": "https://conan-diner.com/wp-content/uploads/2026/09/R_0925_DC_gousei_7.jpg",
           "caption_ko": "하이바라 아이 · 크림 파스타 실험",
+          "caption_ja": "【灰原哀】 クリームパスタの実験",
+          "price": "1,790엔 (세금 포함)",
           "source": "https://conan-diner.com/menu/"
         },
         {
           "group": "메인 메뉴",
           "img": "https://conan-diner.com/wp-content/uploads/2026/09/0817_DC_gousei_6-1.jpg",
           "caption_ko": "아카이 슈이치 · 빨간 스나이퍼 카츠카레",
+          "caption_ja": "【赤井秀一】 赤いスナイパーカツカレー",
+          "price": "1,890엔 (세금 포함)",
           "source": "https://conan-diner.com/menu/"
         },
         {
           "group": "메인 메뉴",
           "img": "https://conan-diner.com/wp-content/uploads/2026/09/0914_DC_gousei_24_2.jpg",
           "caption_ko": "아무로 토오루 · 트리플 페이스 샌드",
+          "caption_ja": "【安室透】 トリプルフェイスサンド",
+          "price": "2,090엔 (세금 포함)",
           "source": "https://conan-diner.com/menu/"
         },
         {
           "group": "메인 메뉴",
           "img": "https://conan-diner.com/wp-content/uploads/2026/09/0910_DC_gousei_8.jpg",
-          "caption_ko": "괴도 키드 · 해시드 비프",
+          "caption_ko": "괴도 키드 · 키드 더 해시드 비프",
+          "caption_ja": "【怪盗キッド】 キッド・ザ・ハッシュドビーフ",
+          "price": "1,890엔 (세금 포함)",
           "source": "https://conan-diner.com/menu/"
         },
         {
-          "group": "디저트·드링크",
+          "group": "키즈·사이드",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/0U5A0054.jpg",
+          "caption_ko": "키즈 · 사커볼 플레이트 (초등학생까지)",
+          "caption_ja": "きみも名探偵！サッカーボールプレート",
+          "price": "1,390엔 (세금 포함)",
+          "source": "https://conan-diner.com/menu/"
+        },
+        {
+          "group": "키즈·사이드",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/0817_DC_gousei_10.jpg",
+          "caption_ko": "키즈 · 아포톡신 카레 (저알레르겐)",
+          "caption_ja": "きみも名探偵！アポトキシンカレー （低アレルゲンメニュー）",
+          "price": "1,090엔 (세금 포함)",
+          "source": "https://conan-diner.com/menu/"
+        },
+        {
+          "group": "키즈·사이드",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/0817_DC_gousei_11.jpg",
+          "caption_ko": "감자튀김",
+          "caption_ja": "フライドポテト",
+          "price": "890엔 (세금 포함)",
+          "source": "https://conan-diner.com/menu/"
+        },
+        {
+          "group": "디저트",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/0817_DC_gousei_20-1024x683.jpg",
+          "caption_ko": "30주년 한정 · 1화 오마주 말차 티라미수",
+          "caption_ja": "～取引を見るのに夢中になっていた俺は…～ティラミス",
+          "price": "1,590엔 (세금 포함)",
+          "source": "https://conan-diner.com/menu/",
+          "kinds": "제공 기간 추후 공개"
+        },
+        {
+          "group": "디저트",
           "img": "https://conan-diner.com/wp-content/uploads/2026/10/1005_DC_gousei_22-1024x683.jpg",
-          "caption_ko": "TV 애니 30주년 부케 파르페",
+          "caption_ko": "30주년 한정 · 애니버서리 부케 파르페",
+          "caption_ja": "30thアニバーサリーブーケパフェ",
+          "price": "1,890엔 (세금 포함)",
+          "source": "https://conan-diner.com/menu/",
+          "kinds": "제공 기간 추후 공개"
+        },
+        {
+          "group": "디저트",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/10/0U5A9848--1024x683.jpg",
+          "caption_ko": "다이너 머핀 케이크",
+          "caption_ja": "名探偵コナンダイナーマフィンケーキ",
+          "price": "1,190엔 (세금 포함)",
           "source": "https://conan-diner.com/menu/"
         },
         {
-          "group": "디저트·드링크",
+          "group": "디저트",
           "img": "https://conan-diner.com/wp-content/uploads/2026/09/0U5A0081-1.jpg",
           "caption_ko": "코난 다이너 파르페",
+          "caption_ja": "名探偵コナンダイナーパフェ",
+          "price": "1,690엔 (세금 포함)",
           "source": "https://conan-diner.com/menu/"
         },
         {
-          "group": "디저트·드링크",
+          "group": "디저트",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/0U5A0120.jpg",
+          "caption_ko": "핫토리 헤이지 · 나니와 커피 젤리",
+          "caption_ja": "服部平次の白黒つけたろやないか!!ナニワの冷コーゼリー",
+          "price": "1,190엔 (세금 포함)",
+          "source": "https://conan-diner.com/menu/"
+        },
+        {
+          "group": "디저트",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/パフェ集合.jpg",
+          "caption_ko": "탐정 아이템 미니 파르페 (랜덤 3종)",
+          "caption_ja": "探偵アイテムミニパフェ",
+          "price": "990엔 (세금 포함)",
+          "source": "https://conan-diner.com/menu/"
+        },
+        {
+          "group": "드링크",
           "img": "https://conan-diner.com/wp-content/uploads/2026/09/0728_DC_gousei_2.jpg",
-          "caption_ko": "다이너 드링크 (에도가와 코난)",
+          "caption_ko": "다이너 드링크 · 에도가와 코난",
+          "caption_ja": "ダイナードリンク（江戸川コナン）",
+          "price": "1,090엔 (세금 포함)",
+          "source": "https://conan-diner.com/menu/",
+          "kinds": "에스푸마 크림 없이 990엔"
+        },
+        {
+          "group": "드링크",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/0817_DC_gousei_12.jpg",
+          "caption_ko": "다이너 드링크 · 모리 란",
+          "caption_ja": "ダイナードリンク（毛利蘭）",
+          "price": "1,090엔 (세금 포함)",
+          "source": "https://conan-diner.com/menu/",
+          "kinds": "에스푸마 크림 없이 990엔"
+        },
+        {
+          "group": "드링크",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/0817_DC_gousei_13.jpg",
+          "caption_ko": "다이너 드링크 · 쿠도 신이치",
+          "caption_ja": "ダイナードリンク（工藤新一）",
+          "price": "1,090엔 (세금 포함)",
+          "source": "https://conan-diner.com/menu/",
+          "kinds": "에스푸마 크림 없이 990엔"
+        },
+        {
+          "group": "드링크",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/0817_DC_gousei_14.jpg",
+          "caption_ko": "다이너 드링크 · 하이바라 아이",
+          "caption_ja": "ダイナードリンク（灰原哀）",
+          "price": "1,090엔 (세금 포함)",
+          "source": "https://conan-diner.com/menu/",
+          "kinds": "에스푸마 크림 없이 990엔"
+        },
+        {
+          "group": "드링크",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/0817_DC_gousei_15.jpg",
+          "caption_ko": "다이너 드링크 · 아카이 슈이치",
+          "caption_ja": "ダイナードリンク（赤井秀一）",
+          "price": "1,090엔 (세금 포함)",
+          "source": "https://conan-diner.com/menu/",
+          "kinds": "에스푸마 크림 없이 990엔"
+        },
+        {
+          "group": "드링크",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/0817_DC_gousei_16.jpg",
+          "caption_ko": "다이너 드링크 · 아무로 토오루",
+          "caption_ja": "ダイナードリンク（安室透）",
+          "price": "1,090엔 (세금 포함)",
+          "source": "https://conan-diner.com/menu/",
+          "kinds": "에스푸마 크림 없이 990엔"
+        },
+        {
+          "group": "드링크",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/0817_DC_gousei_17.jpg",
+          "caption_ko": "다이너 드링크 · 괴도 키드",
+          "caption_ja": "ダイナードリンク（怪盗キッド）",
+          "price": "1,090엔 (세금 포함)",
+          "source": "https://conan-diner.com/menu/",
+          "kinds": "에스푸마 크림 없이 990엔"
+        },
+        {
+          "group": "드링크",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/10/ラテアート文字ありR-1024x683.jpg",
+          "caption_ko": "핫 카페라테 (라테아트 8종 중 선택)",
+          "caption_ja": "ホットカフェラテ（全8種）",
+          "price": "890엔 (세금 포함)",
           "source": "https://conan-diner.com/menu/"
         },
         {
-          "group": "굿즈",
-          "img": "https://conan-diner.com/wp-content/uploads/2026/09/conan_nui-1.jpg",
-          "caption_ko": "인형 마스코트 (코난) 2,420엔",
-          "source": "https://conan-diner.com/goods/"
+          "group": "드링크",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/10/1005_DC_gousei_29-1024x683.jpg",
+          "caption_ko": "셰이크 보틀 드링크 (망고커피/베리티) · 보틀 포장",
+          "caption_ja": "シェイクボトルドリンク （マンゴーコーヒー/ベリーティー）",
+          "price": "1,790엔 (세금 포함)",
+          "source": "https://conan-diner.com/menu/"
+        },
+        {
+          "group": "메뉴 주문 고객 한정 굿즈",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/0U5A9879.png",
+          "caption_ko": "스트로 참 (랜덤 7종)",
+          "caption_ja": "＜DINER UNIFORM vol.1＞ ストローチャーム(ランダム7種)",
+          "price": "605엔 (세금 포함)",
+          "source": "https://conan-diner.com/menu/",
+          "kinds": "대상 메뉴 주문 시 구매 가능"
+        },
+        {
+          "group": "메뉴 주문 고객 한정 굿즈",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/10/mug_1-1024x683.jpg",
+          "caption_ko": "머그컵",
+          "caption_ja": "＜BREAD vol.1＞ マグカップ",
+          "price": "2,420엔 (세금 포함)",
+          "source": "https://conan-diner.com/menu/",
+          "kinds": "대상 메뉴 주문 시 구매 가능"
+        },
+        {
+          "group": "메뉴 주문 고객 한정 굿즈",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/keyplate_conanA-1.jpg",
+          "caption_ko": "열쇠구멍 플레이트 (코난)",
+          "caption_ja": "＜DINER UNIFORM vol.1＞ 鍵穴プレート(江戸川コナン)",
+          "price": "2,970엔 (세금 포함)",
+          "source": "https://conan-diner.com/menu/",
+          "kinds": "대상 메뉴 주문 시 구매 가능"
+        },
+        {
+          "group": "메뉴 주문 고객 한정 굿즈",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/keyplate_logoA-1.jpg",
+          "caption_ko": "열쇠구멍 플레이트 (로고)",
+          "caption_ja": "＜DETECTIVE CONAN DINER＞ 鍵穴プレート(ロゴ)",
+          "price": "2,970엔 (세금 포함)",
+          "source": "https://conan-diner.com/menu/",
+          "kinds": "대상 메뉴 주문 시 구매 가능"
+        },
+        {
+          "group": "메뉴 주문 고객 한정 굿즈",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/plate_big2-1024x683.jpg",
+          "caption_ko": "플레이트 (대)",
+          "caption_ja": "＜DETECTIVE CONAN DINER＞ プレート",
+          "price": "4,950엔 (세금 포함)",
+          "source": "https://conan-diner.com/menu/",
+          "kinds": "대상 메뉴 주문 시 구매 가능"
         },
         {
           "group": "굿즈",
           "img": "https://conan-diner.com/wp-content/uploads/2026/10/0U5A0505_w.jpg",
-          "caption_ko": "러버 스트랩 (랜덤 7종) 880엔",
+          "caption_ko": "러버 스트랩 (랜덤 7종)",
+          "caption_ja": "＜BREAD vol.1＞ ラバーストラップ(ランダム7種)",
+          "price": "880엔 (세금 포함)",
           "source": "https://conan-diner.com/goods/"
         },
         {
           "group": "굿즈",
-          "img": "https://conan-diner.com/wp-content/uploads/2026/09/kanbadge_image.jpg",
-          "caption_ko": "캔배지 (랜덤 7종) 605엔",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/seal-1.jpg",
+          "caption_ko": "마시멜로 스티커 세트",
+          "caption_ja": "＜BREAD vol.1＞ マシュマロシールセット",
+          "price": "1,650엔 (세금 포함)",
           "source": "https://conan-diner.com/goods/"
         },
         {
           "group": "굿즈",
-          "img": "https://conan-diner.com/wp-content/uploads/2026/09/stand_conan-1.jpg",
-          "caption_ko": "아크릴 스탠드 (코난) 1,650엔",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/エコバッグ-3.jpg",
+          "caption_ko": "에코백",
+          "caption_ja": "＜BREAD vol.1＞ エコバッグ",
+          "price": "2,750엔 (세금 포함)",
           "source": "https://conan-diner.com/goods/"
         },
         {
           "group": "굿즈",
           "img": "https://conan-diner.com/wp-content/uploads/2026/10/0U5A0509_w.jpg",
-          "caption_ko": "브레드 파우치 2,750엔",
+          "caption_ko": "브레드 파우치",
+          "caption_ja": "＜BREAD vol.1＞ブレッドポーチ",
+          "price": "2,750엔 (세금 포함)",
           "source": "https://conan-diner.com/goods/"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/conan_nui-1.jpg",
+          "caption_ko": "인형 마스코트 · 코난",
+          "caption_ja": "＜BREAD vol.1＞ ぬいぐるみマスコット(江戸川コナン)",
+          "price": "2,420엔 (세금 포함)",
+          "source": "https://conan-diner.com/goods/"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/ran_nui-1.jpg",
+          "caption_ko": "인형 마스코트 · 란",
+          "caption_ja": "＜BREAD vol.1＞ ぬいぐるみマスコット(毛利蘭)",
+          "price": "2,420엔 (세금 포함)",
+          "source": "https://conan-diner.com/goods/"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/shinichi_nui-1.jpg",
+          "caption_ko": "인형 마스코트 · 신이치",
+          "caption_ja": "＜BREAD vol.1＞ ぬいぐるみマスコット(工藤新一)",
+          "price": "2,420엔 (세금 포함)",
+          "source": "https://conan-diner.com/goods/"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/ai_nui-1.jpg",
+          "caption_ko": "인형 마스코트 · 하이바라",
+          "caption_ja": "＜BREAD vol.1＞ ぬいぐるみマスコット(灰原哀)",
+          "price": "2,420엔 (세금 포함)",
+          "source": "https://conan-diner.com/goods/"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/akai_nui-1.jpg",
+          "caption_ko": "인형 마스코트 · 아카이",
+          "caption_ja": "＜BREAD vol.1＞ ぬいぐるみマスコット(赤井秀一)",
+          "price": "2,420엔 (세금 포함)",
+          "source": "https://conan-diner.com/goods/"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/amuro_nui-1.jpg",
+          "caption_ko": "인형 마스코트 · 아무로",
+          "caption_ja": "＜BREAD vol.1＞ ぬいぐるみマスコット(安室透)",
+          "price": "2,420엔 (세금 포함)",
+          "source": "https://conan-diner.com/goods/"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/kid_nui-1.jpg",
+          "caption_ko": "인형 마스코트 · 키드",
+          "caption_ja": "＜BREAD vol.1＞ ぬいぐるみマスコット(怪盗キッド)",
+          "price": "2,420엔 (세금 포함)",
+          "source": "https://conan-diner.com/goods/"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/10/0U5A0519_w-1.jpg",
+          "caption_ko": "캔디 든 파우치 (밀크티 맛)",
+          "caption_ja": "＜BREAD vol.1＞ キャンディ入り巾着(ミルクティー味)",
+          "price": "1,296엔 (세금 포함)",
+          "source": "https://conan-diner.com/goods/"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/kanbadge_image.jpg",
+          "caption_ko": "캔배지 (랜덤 7종)",
+          "caption_ja": "＜DINER UNIFORM vol.1＞ 缶バッジ(ランダム7種)",
+          "price": "605엔 (세금 포함)",
+          "source": "https://conan-diner.com/goods/"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/0911_DC_acrylstand_toushin_kanpu_1_2.jpg",
+          "caption_ko": "아크릴 스탠드 · 코난",
+          "caption_ja": "＜DINER UNIFORM vol.1＞ アクリルスタンド(江戸川コナン)",
+          "price": "1,650엔 (세금 포함)",
+          "source": "https://conan-diner.com/goods/"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/0911_DC_acrylstand_toushin_kanpu_2_2.jpg",
+          "caption_ko": "아크릴 스탠드 · 란",
+          "caption_ja": "＜DINER UNIFORM vol.1＞ アクリルスタンド(毛利蘭)",
+          "price": "1,650엔 (세금 포함)",
+          "source": "https://conan-diner.com/goods/"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/0911_DC_acrylstand_toushin_kanpu_3_2.jpg",
+          "caption_ko": "아크릴 스탠드 · 신이치",
+          "caption_ja": "＜DINER UNIFORM vol.1＞ アクリルスタンド(工藤新一)",
+          "price": "1,650엔 (세금 포함)",
+          "source": "https://conan-diner.com/goods/"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/0911_DC_acrylstand_toushin_kanpu_4_2.jpg",
+          "caption_ko": "아크릴 스탠드 · 하이바라",
+          "caption_ja": "＜DINER UNIFORM vol.1＞ アクリルスタンド(灰原哀)",
+          "price": "1,650엔 (세금 포함)",
+          "source": "https://conan-diner.com/goods/"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/0911_DC_acrylstand_toushin_kanpu_5_2.jpg",
+          "caption_ko": "아크릴 스탠드 · 아카이",
+          "caption_ja": "＜DINER UNIFORM vol.1＞ アクリルスタンド(赤井秀一)",
+          "price": "1,650엔 (세금 포함)",
+          "source": "https://conan-diner.com/goods/"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/0911_DC_acrylstand_toushin_kanpu_6_2.jpg",
+          "caption_ko": "아크릴 스탠드 · 아무로",
+          "caption_ja": "＜DINER UNIFORM vol.1＞ アクリルスタンド(安室透)",
+          "price": "1,650엔 (세금 포함)",
+          "source": "https://conan-diner.com/goods/"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/0911_DC_acrylstand_toushin_kanpu_7_2.jpg",
+          "caption_ko": "아크릴 스탠드 · 키드",
+          "caption_ja": "＜DINER UNIFORM vol.1＞ アクリルスタンド(怪盗キッド)",
+          "price": "1,650엔 (세금 포함)",
+          "source": "https://conan-diner.com/goods/"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/10/0U5A0507_w.jpg",
+          "caption_ko": "쿠키 캔",
+          "caption_ja": "＜DINER UNIFORM vol.1＞ クッキー缶",
+          "price": "2,160엔 (세금 포함)",
+          "source": "https://conan-diner.com/goods/"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/10/1001_DC_clearfile_holder_kanpu.jpg",
+          "caption_ko": "클리어파일 홀더",
+          "caption_ja": "＜DINER UNIFORM vol.1＞ クリアファイルホルダー",
+          "price": "1,870엔 (세금 포함)",
+          "source": "https://conan-diner.com/goods/"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/0925_DC_clearfile_kanpu-01.jpg",
+          "caption_ko": "A4 클리어파일 · 코난",
+          "caption_ja": "＜DINER UNIFORM vol.1＞ A4クリアファイル(江戸川コナン)",
+          "price": "550엔 (세금 포함)",
+          "source": "https://conan-diner.com/goods/"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/0925_DC_clearfile_kanpu-02.jpg",
+          "caption_ko": "A4 클리어파일 · 란",
+          "caption_ja": "＜DINER UNIFORM vol.1＞ A4クリアファイル(毛利蘭)",
+          "price": "550엔 (세금 포함)",
+          "source": "https://conan-diner.com/goods/"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/0925_DC_clearfile_kanpu-03.jpg",
+          "caption_ko": "A4 클리어파일 · 신이치",
+          "caption_ja": "＜DINER UNIFORM vol.1＞ A4クリアファイル(工藤新一)",
+          "price": "550엔 (세금 포함)",
+          "source": "https://conan-diner.com/goods/"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/0925_DC_clearfile_kanpu-04.jpg",
+          "caption_ko": "A4 클리어파일 · 하이바라",
+          "caption_ja": "＜DINER UNIFORM vol.1＞ A4クリアファイル(灰原哀)",
+          "price": "550엔 (세금 포함)",
+          "source": "https://conan-diner.com/goods/"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/0925_DC_clearfile_kanpu-05.jpg",
+          "caption_ko": "A4 클리어파일 · 아카이",
+          "caption_ja": "＜DINER UNIFORM vol.1＞ A4クリアファイル(赤井秀一)",
+          "price": "550엔 (세금 포함)",
+          "source": "https://conan-diner.com/goods/"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/0925_DC_clearfile_kanpu-06.jpg",
+          "caption_ko": "A4 클리어파일 · 아무로",
+          "caption_ja": "＜DINER UNIFORM vol.1＞ A4クリアファイル(安室透)",
+          "price": "550엔 (세금 포함)",
+          "source": "https://conan-diner.com/goods/"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/0925_DC_clearfile_kanpu-07.jpg",
+          "caption_ko": "A4 클리어파일 · 키드",
+          "caption_ja": "＜DINER UNIFORM vol.1＞ A4クリアファイル(怪盗キッド)",
+          "price": "550엔 (세금 포함)",
+          "source": "https://conan-diner.com/goods/"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/10/0U5A0502_w.jpg",
+          "caption_ko": "종이 쇼퍼백",
+          "caption_ja": "＜DINER UNIFORM vol.1＞ 紙ショッパー",
+          "price": "330엔 (세금 포함)",
+          "source": "https://conan-diner.com/goods/"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/keyholder_image-1.jpg",
+          "caption_ko": "아크릴 키홀더 (랜덤 7종)",
+          "caption_ja": "＜DINER UNIFORM mini vol.1＞ アクリルキーホルダー(ランダム7種)",
+          "price": "770엔 (세금 포함)",
+          "source": "https://conan-diner.com/goods/"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/AC_ministand.jpg",
+          "caption_ko": "미니 아크릴 스탠드 (랜덤 7종)",
+          "caption_ja": "＜DINER UNIFORM mini vol.1＞ ミニアクリルスタンド(ランダム7種)",
+          "price": "990엔 (세금 포함)",
+          "source": "https://conan-diner.com/goods/"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/ACcoaster.jpg",
+          "caption_ko": "아크릴 코스터 (랜덤 7종)",
+          "caption_ja": "＜DINER UNIFORM mini vol.1＞ アクリルコースター(ランダム7種)",
+          "price": "990엔 (세금 포함)",
+          "source": "https://conan-diner.com/goods/"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/0925_DC_kinchaku.jpg",
+          "caption_ko": "파우치(긴차쿠)",
+          "caption_ja": "＜DINER UNIFORM mini vol.1＞ 巾着",
+          "price": "1,540엔 (세금 포함)",
+          "source": "https://conan-diner.com/goods/"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/10/1001_DC_coasterholder_kanpu.jpg",
+          "caption_ko": "코스터 홀더",
+          "caption_ja": "＜DINER UNIFORM mini vol.1＞ コースターホルダー",
+          "price": "1,540엔 (세금 포함)",
+          "source": "https://conan-diner.com/goods/"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/tote-1.jpg",
+          "caption_ko": "토트백",
+          "caption_ja": "＜DETECTIVE CONAN DINER＞ トートバッグ",
+          "price": "3,960엔 (세금 포함)",
+          "source": "https://conan-diner.com/goods/"
+        },
+        {
+          "group": "특전",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/10/tokuten-02.jpg",
+          "caption_ko": "통상 예약 특전 · 카드 포함 수수께끼 초대장 (전 7종)",
+          "caption_ja": "通常予約特典",
+          "kinds": "770엔 예약 시 전원",
+          "source": "https://conan-diner.com/tokuten/"
+        },
+        {
+          "group": "특전",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/10/tokuten-01.jpg",
+          "caption_ko": "프리미엄 예약 특전 · 5종 세트",
+          "caption_ja": "プレミアム予約特典",
+          "kinds": "5,500엔 예약 시 전원 · 캐릭터 1종 선택",
+          "source": "https://conan-diner.com/tokuten/"
+        },
+        {
+          "group": "특전",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/10/0925_DC_coaster_kanpu-1.png",
+          "caption_ko": "드링크 주문 특전 · 오리지널 종이 코스터 (전 7종)",
+          "caption_ja": "ドリンク注文特典",
+          "kinds": "대상 드링크 1잔당 랜덤 1장",
+          "source": "https://conan-diner.com/tokuten/"
+        },
+        {
+          "group": "특전",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/10/0925_DC_ClearCard_kanpu-1.png",
+          "caption_ko": "굿즈 구매 특전 · 오리지널 클리어 카드 (전 7종)",
+          "caption_ja": "物販購入特典",
+          "kinds": "굿즈 3,300엔마다 랜덤 1장",
+          "source": "https://conan-diner.com/tokuten/"
         }
       ],
-      "gallery_source": "https://conan-diner.com/menu/",
-      "gallery_note": "메뉴·굿즈 일부",
-      "thumb_small": "thumbs/b5272cf8e5d117dc.webp"
+      "gallery_source": "https://conan-diner.com/",
+      "gallery_note": "공식 메뉴·굿즈·특전 전체 (10/20 기준)",
+      "thumb_small": "thumbs/b5272cf8e5d117dc.webp",
+      "id": "conan-diner",
+      "info": [
+        {
+          "h": "⏰ 영업시간",
+          "items": [
+            "프리오픈 11/19(목)~11/25(수): 11:00~20:30 (단축 영업). 14:30~15:30 시작 회차(⑪~⑮)와 20시 이후 회차(㉖~㉙)는 없어요 (마지막 입장 19:15)",
+            "11/24(화) 휴업, 11/25(수)는 16:30 회차(⑯)부터 영업",
+            "그랜드 오픈 11/26(목)부터: 11:00~22:00",
+            "75분 교체제 · 회차 시작 10분 전까지 입구 도착, 20분 넘게 늦으면 예약 취소",
+            "프리오픈도 메뉴·굿즈는 그랜드 오픈과 같아요"
+          ]
+        },
+        {
+          "h": "🎫 예약 일정 (당분간 예약제만)",
+          "items": [
+            "예약 대상 기간: 11/19~12/31",
+            "① 공식 앱 프리미엄 클럽 회원 선착: 10/21(수) 18:00 ~ 10/25(일) 23:59",
+            "② 일반 추첨: 10/27(화) 18:00 ~ 11/1(일) 23:59 · 발표 11/5(목) 12:00~",
+            "③ 일반 선착: 11/6(금) 18:00~ (방문 전날 15:00까지)",
+            "예약금: 통상 770엔 / 프리미엄 특전 포함 5,500엔 (1인, 세금 포함) · 신용카드·PayPay",
+            "4세 이상은 1인 1예약 필요 · 결제 1회당 회차별 4장까지 · 전자 티켓, 취소·변경 불가",
+            "현장에서 1인 1메뉴 이상 주문 (사이드 드링크는 제외)"
+          ]
+        },
+        {
+          "h": "🎁 예약 특전",
+          "items": [
+            "통상 예약(770엔): 카드 포함 수수께끼 초대장 (카드 랜덤 7종)",
+            "프리미엄 예약(5,500엔): 카드 포함 수수께끼 초대장 · 넥 스트랩 · 다이컷 미니 타월 · 패스풍 카드 · 마르쉐백 5종 세트 (예약 때 캐릭터 1명 선택)",
+            "수수께끼를 풀면 클리어 특전 스티커 증정 · 방문 시기별 그림 변경 (코난 26년 11~12월 → 란 1월 → 신이치 2월 → 하이바라 3월 → 아카이 4월 → 아무로 5월 → 키드 6월)",
+            "필기구가 필요한 수수께끼가 있어요 (펜 지참 권장)"
+          ]
+        },
+        {
+          "h": "🏪 매장 특전",
+          "items": [
+            "드링크 주문 특전: 다이너 드링크·카페라테·셰이크 보틀·사이드 드링크 1잔당 오리지널 종이 코스터 1장 (랜덤 7종)",
+            "굿즈 구매 특전: 다이너 굿즈 3,300엔마다 오리지널 클리어 카드 1장 (랜덤 7종) · 6,600엔이면 2장 · 계산 합산 불가 · 소진 시 종료"
+          ]
+        },
+        {
+          "h": "🍞 세트·사이드 메뉴",
+          "items": [
+            "다이너 브레드·샐러드·수프 세트 1,420엔",
+            "나비넥타이 변성기 라이스·샐러드·수프 세트 990엔",
+            "라이스·샐러드·수프 세트 990엔",
+            "다이너 브레드·샐러드 세트 1,070엔",
+            "다이너 브레드·수프 세트 1,070엔",
+            "나비넥타이 변성기 라이스·샐러드 세트 770엔",
+            "나비넥타이 변성기 라이스·수프 세트 770엔",
+            "라이스·샐러드 세트 770엔",
+            "라이스·수프 세트 770엔",
+            "샐러드·수프 세트 770엔",
+            "다이너 브레드 (코난 모티프) 690엔",
+            "나비넥타이 변성기 라이스 390엔",
+            "라이스 390엔",
+            "수프 (오리지널 머그) 390엔",
+            "샐러드 390엔",
+            "사이드 드링크: 커피(hot/ice)·홍차(hot/ice)·콜라·진저에일·오렌지 (1메뉴 주문 대상 외)"
+          ]
+        },
+        {
+          "h": "📌 아직 미공개",
+          "items": [
+            "30주년 한정 메뉴(티라미수·부케 파르페) 제공 기간"
+          ]
+        }
+      ],
+      "info_source": "https://conan-diner.com/information/"
     },
     {
       "reservation": "",
