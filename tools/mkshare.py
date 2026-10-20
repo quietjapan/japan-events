@@ -57,7 +57,6 @@ for i,e in seen.items():
 <meta property="og:url" content="{url}"><meta property="og:image" content="{img}">
 <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{q(t)}"><meta name="twitter:description" content="{q(desc)}"><meta name="twitter:image" content="{img}">
-<meta http-equiv="refresh" content="0;url={dest}">
 <script>location.replace("{dest}"+location.hash)</script>
 </head><body><p><a href="{dest}">{q(e.get('title_ko',''))} 자세히 보기 →</a></p>{'<p>'+q(e['copyright'])+'</p>' if e.get('copyright') else ''}</body></html>
 """)
