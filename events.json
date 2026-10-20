@@ -222,7 +222,8 @@
       "gallery_source": "https://csm-cafe.ltr-online.com",
       "gallery_note": "이미지는 공식 사이트 이미지(실제와 다를 수 있음). 가격은 공식 표기 그대로.",
       "thumb_pos": "72% 30%",
-      "blog_url": "https://blog.naver.com/rownsh00/224441699963"
+      "blog_url": "https://blog.naver.com/rownsh00/224441699963",
+      "thumb_small": "thumbs/a2426a9aa8a2b5e7.webp"
     },
     {
       "title_ko": "키타로 탄생: 게게게의 수수께끼 × and GALLERY 콜라보 카페",
@@ -261,7 +262,8 @@
       "lon": 139.7605,
       "title_ko_source": "https://www.haveagood-holiday.com/ko/articles/kitaro-tanjo-and-gallery-collaboration-cafe-2026 (한국어 표기 확인; 鬼太郎=키타로)",
       "summary_ko": "미즈키 시게루 탄생 100주년 기념작 「키타로 탄생: 게게게의 수수께끼」 콜라보 카페예요. '달빛 야회' 테마의 가을 느낌 신규 일러스트와 캐릭터 메뉴, 굿즈를 만날 수 있어요.",
-      "summary_source": "https://collabocafe.and-gallery.com/kitaro-tanjo-2026"
+      "summary_source": "https://collabocafe.and-gallery.com/kitaro-tanjo-2026",
+      "thumb_small": "thumbs/9c07c95ceb9e89b1.webp"
     },
     {
       "title_ko": "페이트/그랜드 오더 콜라보 레스토랑 「영령들의 만찬회」",
@@ -1065,7 +1067,8 @@
         }
       ],
       "gallery_source": "https://www.princehotels.co.jp/sunshine/restaurant/contents/fate-go/",
-      "gallery_note": "전반·후반에 메뉴와 특전이 바뀌어요. 이미지는 모두 공식 이미지(이미지 컷)예요"
+      "gallery_note": "전반·후반에 메뉴와 특전이 바뀌어요. 이미지는 모두 공식 이미지(이미지 컷)예요",
+      "thumb_small": "thumbs/1e75d398f8faf7f4.webp"
     },
     {
       "title_ko": "하이큐!! × and GALLERY 콜라보 카페",
@@ -1321,7 +1324,8 @@
           "source": "https://collabocafe.and-gallery.com/haikyu"
         }
       ],
-      "gallery_note": "메뉴·굿즈 사진은 공식 사이트 이미지예요"
+      "gallery_note": "메뉴·굿즈 사진은 공식 사이트 이미지예요",
+      "thumb_small": "thumbs/139dc590f61e4dbb.webp"
     },
     {
       "title_ko": "은혼 팝업숍 in 타워레코드",
@@ -1360,7 +1364,8 @@
       "lon": 139.7005,
       "translation_check": true,
       "summary_ko": "타워레코드에서 여는 「은혼」 팝업숍이에요. '와소(일본 전통 의상) 헤드폰' 테마의 신규 일러스트 굿즈를 판매하고 구매 특전도 있어요.",
-      "summary_source": "https://tower.jp/article/feature_item/2026/09/25/4001"
+      "summary_source": "https://tower.jp/article/feature_item/2026/09/25/4001",
+      "thumb_small": "thumbs/df5d8bc2d45aec64.webp"
     },
     {
       "title_ko": "은혼 캐릭터 팝 스토어",
@@ -1451,7 +1456,8 @@
         }
       ],
       "gallery_source": "https://bandainamco-am.co.jp/chara_shop/gintama/goods.html",
-      "gallery_note": "굿즈별로 히지카타·오키타·카츠라·타카스기·카무이 디자인도 있어요"
+      "gallery_note": "굿즈별로 히지카타·오키타·카츠라·타카스기·카무이 디자인도 있어요",
+      "thumb_small": "thumbs/e88d7f1bb98be6e4.webp"
     },
     {
       "title_ko": "MAPPA EXPO 15주년",
@@ -1723,7 +1729,8 @@
       "gallery_more": {
         "url": "https://expo.mappa.co.jp/goods",
         "label": "MAPPA EXPO 굿즈 전체 보기 (공식)"
-      }
+      },
+      "thumb_small": "thumbs/b0a3cb14434d4591.webp"
     },
     {
       "title_ko": "헤타리아 20주년 원화전 WorldFesta",
@@ -1762,7 +1769,8 @@
       "lon": 139.7193,
       "translation_check": true,
       "summary_ko": "만화 「헤타리아」 탄생 20주년 기념 대규모 원화전이에요. 히마루야 히데카즈 작가의 연필화·컬러 일러스트와 실물 크기 이탈리아 입상, 포토 스폿, 기념 굿즈 코너가 있어요.",
-      "summary_source": "https://hetalia-20thEX.com/"
+      "summary_source": "https://hetalia-20thEX.com/",
+      "thumb_small": "thumbs/9aab4555d39687da.webp"
     },
     {
       "title_ko": "약사의 혼잣말 「하늘에 울리는 춤의 선율」",
@@ -1801,7 +1809,8 @@
       "lon": 139.7292,
       "translation_check": true,
       "summary_ko": "TV 애니메이션 「약사의 혼잣말」과 롯폰기 힐스 전망대 '도쿄 시티뷰'의 첫 콜라보 전시예요. 캐릭터들의 '춤'을 주제로 한 전시를 해발 250m 절경과 어우러진 연출로 볼 수 있어요.",
-      "summary_source": "https://kusuriya-event-roppongihills.com/"
+      "summary_source": "https://kusuriya-event-roppongihills.com/",
+      "thumb_small": "thumbs/8c636bac7547a207.webp"
     },
     {
       "title_ko": "超 다마고치 축제 in 시부하라",
@@ -1838,7 +1847,8 @@
       "verified_at": "2026-10-19",
       "translation_check": true,
       "summary_ko": "다마고치 30주년을 맞아 하라주쿠·시부야 일대에서 열리는 행사예요. 하라카도 특별 전시, 스탬프 랠리, 콜라보 매장, 굿즈 판매 등이 있어요.",
-      "summary_source": "https://tamagotchi-official.com/jp/cho-tama-festival"
+      "summary_source": "https://tamagotchi-official.com/jp/cho-tama-festival",
+      "thumb_small": "thumbs/fff61bfc79fe6743.webp"
     },
     {
       "title_ko": "후와후완더 시나모롤 파크",
@@ -1877,7 +1887,8 @@
       "lon": 139.7519,
       "translation_check": true,
       "summary_ko": "시나모롤과 친구들이 만든 '구름 위 놀이터' 콘셉트의 체험형 이벤트예요. 보고 만지고 들으며 사진도 찍고 몸을 움직이며 놀 수 있어요.",
-      "summary_source": "https://cinnamorollpark.sanrio.co.jp"
+      "summary_source": "https://cinnamorollpark.sanrio.co.jp",
+      "thumb_small": "thumbs/fcf5d97f3d86bf45.webp"
     },
     {
       "title_ko": "제66회 간다 헌책 축제",
@@ -1915,7 +1926,10 @@
       "lon": 139.7577,
       "translation_check": true,
       "summary_ko": "고서점 약 120곳이 모인 진보초에서 열리는 가을 헌책 축제예요. 야스쿠니 거리에 100대가 넘는 책 수레가 늘어서 약 500m의 '책 회랑'이 생겨요.",
-      "summary_source": "https://jimbou.info/news/20260908.html"
+      "summary_source": "https://jimbou.info/news/20260908.html",
+      "thumbnail": "https://jimbou.info/assets/img/news/2026_p1.jpg",
+      "thumbnail_source": "https://jimbou.info/news/20260908.html",
+      "thumb_small": "thumbs/71188b9615ecaf22.webp"
     },
     {
       "title_ko": "이치방쿠지 드래곤볼 SPIRIT OF THE SAIYAN",
@@ -2213,7 +2227,8 @@
         }
       ],
       "gallery_source": "https://1kuji.com/products/db_z8",
-      "gallery_note": "등급별 공식 상품 사진(등급당 최대 3장)이에요. 전체 사진은 공식 페이지에서 볼 수 있어요"
+      "gallery_note": "등급별 공식 상품 사진(등급당 최대 3장)이에요. 전체 사진은 공식 페이지에서 볼 수 있어요",
+      "thumb_small": "thumbs/df16cb79e15a691d.webp"
     },
     {
       "title_ko": "이치방쿠지 진격의 거인 ~심장을 바쳐라~",
@@ -2462,7 +2477,8 @@
         }
       ],
       "gallery_source": "https://1kuji.com/products/shingeki16",
-      "gallery_note": "등급별 공식 상품 사진(등급당 최대 3장)이에요. 전체 사진은 공식 페이지에서 볼 수 있어요"
+      "gallery_note": "등급별 공식 상품 사진(등급당 최대 3장)이에요. 전체 사진은 공식 페이지에서 볼 수 있어요",
+      "thumb_small": "thumbs/c38c59d5f7465635.webp"
     },
     {
       "title_ko": "이치방쿠지 카구라바치",
@@ -2736,7 +2752,8 @@
         }
       ],
       "gallery_source": "https://1kuji.com/products/kagurabachi",
-      "gallery_note": "등급별 공식 상품 사진(등급당 최대 3장)이에요. 전체 사진은 공식 페이지에서 볼 수 있어요"
+      "gallery_note": "등급별 공식 상품 사진(등급당 최대 3장)이에요. 전체 사진은 공식 페이지에서 볼 수 있어요",
+      "thumb_small": "thumbs/3060f8ac8af81a2b.webp"
     },
     {
       "title_ko": "이치방쿠지 원피스 -하늘에 울리는 \"섬의 노랫소리\"-",
@@ -2960,7 +2977,8 @@
         }
       ],
       "gallery_source": "https://1kuji.com/products/onep_o12",
-      "gallery_note": "등급별 공식 상품 사진(등급당 최대 3장)이에요. 전체 사진은 공식 페이지에서 볼 수 있어요"
+      "gallery_note": "등급별 공식 상품 사진(등급당 최대 3장)이에요. 전체 사진은 공식 페이지에서 볼 수 있어요",
+      "thumb_small": "thumbs/b443528555712f67.webp"
     },
     {
       "title_ko": "이치방쿠지 페이트/그랜드 오더 ~칼데아 픽업 메모리~",
@@ -3192,7 +3210,8 @@
         }
       ],
       "gallery_source": "https://1kuji.com/products/fate29",
-      "gallery_note": "등급별 공식 상품 사진(등급당 최대 3장)이에요. 전체 사진은 공식 페이지에서 볼 수 있어요"
+      "gallery_note": "등급별 공식 상품 사진(등급당 최대 3장)이에요. 전체 사진은 공식 페이지에서 볼 수 있어요",
+      "thumb_small": "thumbs/3cfba72699d89d08.webp"
     },
     {
       "title_ko": "이치방쿠지 고질라 괴수난무 -제로의 고동-",
@@ -3372,7 +3391,8 @@
         }
       ],
       "gallery_source": "https://1kuji.com/products/godzilla10",
-      "gallery_note": "등급별 공식 상품 사진(등급당 최대 3장)이에요. 전체 사진은 공식 페이지에서 볼 수 있어요"
+      "gallery_note": "등급별 공식 상품 사진(등급당 최대 3장)이에요. 전체 사진은 공식 페이지에서 볼 수 있어요",
+      "thumb_small": "thumbs/3316d3e6114e2b75.webp"
     },
     {
       "title_ko": "이치방쿠지 죠죠의 기묘한 모험 The Gathering of RIVALS",
@@ -3476,7 +3496,8 @@
         }
       ],
       "gallery_source": "https://1kuji.com/products/jojo_26",
-      "gallery_note": "등급별 공식 상품 사진(등급당 최대 3장)이에요. 전체 사진은 공식 페이지에서 볼 수 있어요"
+      "gallery_note": "등급별 공식 상품 사진(등급당 최대 3장)이에요. 전체 사진은 공식 페이지에서 볼 수 있어요",
+      "thumb_small": "thumbs/1ab04310b7b312e2.webp"
     },
     {
       "title_ko": "이치방쿠지 페르소나 시리즈 30주년",
@@ -3550,7 +3571,8 @@
         }
       ],
       "gallery_source": "https://1kuji.com/products/persona_30th",
-      "gallery_note": "A상은 아직 비공개(？？？)라 공개된 등급만 넣었어요 · 등급별 공식 상품 사진(등급당 최대 3장)이에요. 전체 사진은 공식 페이지에서 볼 수 있어요"
+      "gallery_note": "A상은 아직 비공개(？？？)라 공개된 등급만 넣었어요 · 등급별 공식 상품 사진(등급당 최대 3장)이에요. 전체 사진은 공식 페이지에서 볼 수 있어요",
+      "thumb_small": "thumbs/4a937d6d2275de95.webp"
     },
     {
       "title_ko": "조시가야 데즈쿠리이치 (수공예 시장)",
@@ -3582,7 +3604,10 @@
       "translation_check": true,
       "summary_ko": "조시가야 기시보진에서 열리는 수공예 시장이에요. 10시~16시에 열리고, 비가 오면 중지돼요(개최 여부는 당일 아침 7시까지 X·블로그 공지).",
       "summary_source": "https://tezukuriichi.com/home.html",
-      "blog_url": "https://blog.naver.com/rownsh00/224431293407"
+      "blog_url": "https://blog.naver.com/rownsh00/224431293407",
+      "thumbnail": "https://tezukuriichi.com/images/front.jpg",
+      "thumbnail_source": "https://tezukuriichi.com/home.html",
+      "thumb_small": "thumbs/96ecf5d159d1fa0e.webp"
     },
     {
       "title_ko": "조시가야 데즈쿠리이치 (수공예 시장)",
@@ -3614,7 +3639,10 @@
       "translation_check": true,
       "summary_ko": "조시가야 기시보진에서 열리는 수공예 시장이에요. 10시~16시에 열리고, 비가 오면 중지돼요(개최 여부는 당일 아침 7시까지 X·블로그 공지).",
       "summary_source": "https://tezukuriichi.com/home.html",
-      "blog_url": "https://blog.naver.com/rownsh00/224431293407"
+      "blog_url": "https://blog.naver.com/rownsh00/224431293407",
+      "thumbnail": "https://tezukuriichi.com/images/front.jpg",
+      "thumbnail_source": "https://tezukuriichi.com/home.html",
+      "thumb_small": "thumbs/96ecf5d159d1fa0e.webp"
     },
     {
       "title_ko": "사카모토 데이즈 DJ 그루브 카페",
@@ -3630,7 +3658,7 @@
       "source_url": "https://charagoo.jp/collab/event/52daa83d12c9/",
       "notes": "하라카도점은 푸드코트 방식이에요",
       "checked_date": "2026-10-15",
-      "thumbnail": "http://shop.anique.jp/cdn/shop/articles/SDdj__KV___813-01_57ba2ad6-1aef-4aa9-a85d-872cca93a9bc.png?v=1790671286",
+      "thumbnail": "https://shop.anique.jp/cdn/shop/articles/SDdj__KV___813-01_57ba2ad6-1aef-4aa9-a85d-872cca93a9bc.png?v=1790671286",
       "thumbnail_source": "https://shop.anique.jp/blogs/news/sakamoto-days-dj-groove-cafe",
       "map_query": "東京都渋谷区神宮前6丁目31-21",
       "evidence": [
@@ -3682,7 +3710,8 @@
           "source": "https://shop.anique.jp/blogs/news/sakamoto-days-dj-groove-cafe"
         }
       ],
-      "gallery_source": "https://shop.anique.jp/blogs/news/sakamoto-days-dj-groove-cafe"
+      "gallery_source": "https://shop.anique.jp/blogs/news/sakamoto-days-dj-groove-cafe",
+      "thumb_small": "thumbs/b1ac8700c808ca65.webp"
     },
     {
       "title_ko": "블리치 천년혈전편 콜라보 카페",
@@ -3721,7 +3750,8 @@
       "lon": 139.6989,
       "translation_check": true,
       "summary_ko": "TV 애니메이션 최종 쿨 『블리치 천년혈전편 -화진담-』 방송 기념 콜라보 카페예요. 작품 세계관을 담은 메뉴 13가지와 굿즈 숍이 있어요.",
-      "summary_source": "https://cafe.parco.jp/event/BLEACH_cafe"
+      "summary_source": "https://cafe.parco.jp/event/BLEACH_cafe",
+      "thumb_small": "thumbs/8c23d306aa9f6ec2.webp"
     },
     {
       "title_ko": "나의 히어로 아카데미아 카페 WE ARE HERO HOLICS",
@@ -3855,7 +3885,8 @@
         }
       ],
       "gallery_source": "https://prtimes.jp/main/html/rd/p/000000329.000086964.html",
-      "gallery_note": "운영사(LTR) 보도자료 이미지"
+      "gallery_note": "운영사(LTR) 보도자료 이미지",
+      "thumb_small": "thumbs/8034210a26824349.webp"
     },
     {
       "title_ko": "진격의 거인 DJ 테마 팝업숍",
@@ -3894,7 +3925,8 @@
       "lon": 139.7005,
       "translation_check": true,
       "summary_ko": "「진격의 거인」 'DJ' 테마 팝업숍이에요. 에렌·미카사·아르민·리바이의 신규 일러스트 굿즈를 팔고, 3,300엔 구매마다 브로마이드 특전을 줘요.",
-      "summary_source": "https://shingeki-dj.anique.jp/"
+      "summary_source": "https://shingeki-dj.anique.jp/",
+      "thumb_small": "thumbs/bf21c1265151bb8c.webp"
     },
     {
       "title_ko": "유유백서 팝업숍",
@@ -3933,7 +3965,8 @@
       "lon": 139.7155,
       "translation_check": true,
       "summary_ko": "「유유백서」 팝업숍이에요. '일본 동화' 테마의 신규 일러스트와 미니 캐릭터 일러스트를 쓴 한정 굿즈를 판매해요.",
-      "summary_source": "https://www.kadokawa.co.jp/topics/17844/"
+      "summary_source": "https://www.kadokawa.co.jp/topics/17844/",
+      "thumb_small": "thumbs/dd0e0a126cf452df.webp"
     },
     {
       "title_ko": "동방 Project × 도쿄타워",
@@ -3972,7 +4005,8 @@
       "lon": 139.7454,
       "translation_check": true,
       "summary_ko": "도쿄타워에서 열리는 「동방 Project」 콜라보 이벤트예요. 풋타운과 전망대에서 굿즈 판매와 참가형 이벤트가 있고, 클리어하면 스티커를 줘요.",
-      "summary_source": "https://shop.hakurei-sukeikai.com/event/id/28141"
+      "summary_source": "https://shop.hakurei-sukeikai.com/event/id/28141",
+      "thumb_small": "thumbs/864720faf423cc81.webp"
     },
     {
       "title_ko": "제5인격 팝업숍 in 핸즈 (시부야)",
@@ -4012,7 +4046,8 @@
       "thumbnail_source": "https://prtimes.jp/main/html/rd/p/000008866.000016756.html",
       "translation_check": true,
       "summary_ko": "게임 「제5인격(Identity V)」 팝업숍이에요. '할로윈' 테마 신상품을 먼저 팔고, 대상 굿즈 2,200엔 구매마다 체키풍 카드 특전을 줘요.",
-      "summary_source": "https://prtimes.jp/main/html/rd/p/000008866.000016756.html"
+      "summary_source": "https://prtimes.jp/main/html/rd/p/000008866.000016756.html",
+      "thumb_small": "thumbs/f9be1727402b21f8.webp"
     },
     {
       "title_ko": "치이카와 ☆ 별 내리는 스카이트리와 비밀의 섬",
@@ -4051,7 +4086,8 @@
       "lon": 139.8138,
       "translation_check": true,
       "summary_ko": "「영화 치이카와 인어 섬의 비밀」 콜라보 이벤트예요. 스카이트리 전망대에서 영화 세계관을 담은 특별 공간과 포토 스폿을 즐길 수 있어요(전망대 입장료 필요).",
-      "summary_source": "https://www.tokyo-skytree.jp/event/special/chiikawa/"
+      "summary_source": "https://www.tokyo-skytree.jp/event/special/chiikawa/",
+      "thumb_small": "thumbs/7c1f484388ba2b66.webp"
     },
     {
       "title_ko": "고질라 박람회 마이너스의 세계",
@@ -4090,7 +4126,8 @@
       "lon": 139.7672,
       "translation_check": true,
       "summary_ko": "영화 『고질라 -1.0』부터 신작 『고질라 -0.0』까지의 제작 자료와 소품을 보여주는 특별전이에요. 구상부터 완성까지 영화가 만들어진 과정을 따라가 볼 수 있어요.",
-      "summary_source": "https://www.godzilla-tokusatsu.com/special_exhibition/"
+      "summary_source": "https://www.godzilla-tokusatsu.com/special_exhibition/",
+      "thumb_small": "thumbs/115ec6c845f5ec7f.webp"
     },
     {
       "title_ko": "다카하타 후도존 국화 축제",
@@ -4124,7 +4161,8 @@
       "lon": 139.4128,
       "translation_check": true,
       "summary_ko": "다카하타 후도존 곤고지에서 열리는 국화 축제예요.",
-      "summary_source": "https://www.takahatafudoson.or.jp/"
+      "summary_source": "https://www.takahatafudoson.or.jp/",
+      "thumb_small": "thumbs/399ca0f6655eaafd.webp"
     },
     {
       "title_ko": "다카하타 후도존 단풍 축제",
@@ -4157,7 +4195,8 @@
       "lon": 139.4128,
       "translation_check": true,
       "summary_ko": "다카하타 후도존 곤고지에서 열리는 단풍 축제예요.",
-      "summary_source": "https://www.takahatafudoson.or.jp/"
+      "summary_source": "https://www.takahatafudoson.or.jp/",
+      "thumb_small": "thumbs/399ca0f6655eaafd.webp"
     },
     {
       "title_ko": "다카하타 후도존 고자레이치 (잡동사니 시장)",
@@ -4191,7 +4230,8 @@
       "translation_check": true,
       "summary_ko": "다카하타 후도존 곤고지 경내에서 열리는 '고자레이치(잡동사니 시장)'예요.",
       "summary_source": "https://www.takahatafudoson.or.jp/",
-      "blog_url": "https://blog.naver.com/rownsh00/224431293407"
+      "blog_url": "https://blog.naver.com/rownsh00/224431293407",
+      "thumb_small": "thumbs/399ca0f6655eaafd.webp"
     },
     {
       "title_ko": "제5인격 팝업숍 in 핸즈 (신주쿠)",
@@ -4231,7 +4271,8 @@
       "thumbnail_source": "https://prtimes.jp/main/html/rd/p/000008866.000016756.html",
       "translation_check": true,
       "summary_ko": "게임 「제5인격(Identity V)」 팝업숍이에요. '할로윈' 테마 신상품을 먼저 팔고, 대상 굿즈 2,200엔 구매마다 체키풍 카드 특전을 줘요.",
-      "summary_source": "https://prtimes.jp/main/html/rd/p/000008866.000016756.html"
+      "summary_source": "https://prtimes.jp/main/html/rd/p/000008866.000016756.html",
+      "thumb_small": "thumbs/f9be1727402b21f8.webp"
     },
     {
       "title_ko": "오이 경마장 플리마켓 (Tokyo City Flea Market)",
@@ -4265,7 +4306,8 @@
       "translation_check": true,
       "summary_ko": "오이 경마장에서 열리는 플리마켓 'Tokyo City Flea Market'이에요.",
       "summary_source": "https://trx.jp/",
-      "blog_url": "https://blog.naver.com/rownsh00/224431293407"
+      "blog_url": "https://blog.naver.com/rownsh00/224431293407",
+      "thumb_small": "thumbs/aa84162be2e291ba.webp"
     },
     {
       "title_ko": "오이 경마장 플리마켓 (Tokyo City Flea Market)",
@@ -4299,7 +4341,8 @@
       "translation_check": true,
       "summary_ko": "오이 경마장에서 열리는 플리마켓 'Tokyo City Flea Market'이에요.",
       "summary_source": "https://trx.jp/",
-      "blog_url": "https://blog.naver.com/rownsh00/224431293407"
+      "blog_url": "https://blog.naver.com/rownsh00/224431293407",
+      "thumb_small": "thumbs/aa84162be2e291ba.webp"
     },
     {
       "title_ko": "오이 경마장 플리마켓 (Tokyo City Flea Market)",
@@ -4333,7 +4376,8 @@
       "translation_check": true,
       "summary_ko": "오이 경마장에서 열리는 플리마켓 'Tokyo City Flea Market'이에요.",
       "summary_source": "https://trx.jp/",
-      "blog_url": "https://blog.naver.com/rownsh00/224431293407"
+      "blog_url": "https://blog.naver.com/rownsh00/224431293407",
+      "thumb_small": "thumbs/aa84162be2e291ba.webp"
     },
     {
       "title_ko": "크록스×체인소맨 콜라보 + atmos 이케부쿠로 팝업",
@@ -4447,7 +4491,8 @@
         }
       ],
       "gallery_source": "https://prtimes.jp/main/html/rd/p/000000258.000023595.html",
-      "gallery_note": "크록스 공식 보도자료(PR TIMES) 이미지예요"
+      "gallery_note": "크록스 공식 보도자료(PR TIMES) 이미지예요",
+      "thumb_small": "thumbs/a0780c7eaa81d081.webp"
     },
     {
       "title_ko": "나카이케부쿠로공원 플리마켓",
@@ -4480,7 +4525,8 @@
       "summary_source": "https://www.city.toshima.lg.jp/150/2607271700.html",
       "lat": 35.7302,
       "lon": 139.7166,
-      "translation_check": true
+      "translation_check": true,
+      "thumb_small": "thumbs/0c6a527f873f02c2.webp"
     },
     {
       "title_ko": "스위트 12월호 부록 ― 질 바이 질스튜어트 퍼 백&파우치 참",
@@ -4578,7 +4624,8 @@
       ],
       "gallery_source": "https://tkj.jp/sweet/next",
       "gallery_note": "사진·설명: 宝島社 공식 페이지",
-      "translation_check": true
+      "translation_check": true,
+      "thumb_small": "thumbs/97f356bba0e87f78.webp"
     },
     {
       "title_ko": "인레드 12월호 부록 ― 스픽&스팬×헬로키티 트위드 파우치",
@@ -4636,7 +4683,8 @@
       ],
       "gallery_source": "https://tkj.jp/inred/next",
       "gallery_note": "사진·설명: 宝島社 공식 페이지",
-      "translation_check": true
+      "translation_check": true,
+      "thumb_small": "thumbs/32b1cd9fc311fc6b.webp"
     },
     {
       "title_ko": "오토나뮤즈 12월호 부록 ― 그로구 디자인 장바구니 가방",
@@ -4718,7 +4766,8 @@
       ],
       "gallery_source": "https://tkj.jp/otonamuse/next",
       "gallery_note": "사진·설명: 宝島社 공식 페이지",
-      "translation_check": true
+      "translation_check": true,
+      "thumb_small": "thumbs/07723817d50088f4.webp"
     },
     {
       "title_ko": "글로우 12월호 부록 ― 아쿠아스큐텀 175주년 다이어리",
@@ -4808,7 +4857,8 @@
       ],
       "gallery_source": "https://tkj.jp/glow/next",
       "gallery_note": "사진·설명: 宝島社 공식 페이지",
-      "translation_check": true
+      "translation_check": true,
+      "thumb_small": "thumbs/20767762158686a6.webp"
     },
     {
       "title_ko": "모노맥스 12월호 부록 ― 기노쿠니야 3WAY 가방",
@@ -4898,7 +4948,8 @@
       ],
       "gallery_source": "https://tkj.jp/max/next",
       "gallery_note": "사진·설명: 宝島社 공식 페이지",
-      "translation_check": true
+      "translation_check": true,
+      "thumb_small": "thumbs/2ed24adf98aed33e.webp"
     },
     {
       "title_ko": "오토나노 오샤레테초 12월호 부록 ― 마루코는 아홉살 40주년 문구 세트",
@@ -4996,7 +5047,8 @@
       ],
       "gallery_source": "https://tkj.jp/osharetecho/next",
       "gallery_note": "사진·설명: 宝島社 공식 페이지",
-      "translation_check": true
+      "translation_check": true,
+      "thumb_small": "thumbs/13f2f352f03e077a.webp"
     },
     {
       "title_ko": "린네루 12월호 부록 ― 무민 나무 스탬프 세트",
@@ -5070,7 +5122,8 @@
       ],
       "gallery_source": "https://tkj.jp/liniere/next",
       "gallery_note": "사진·설명: 宝島社 공식 페이지",
-      "translation_check": true
+      "translation_check": true,
+      "thumb_small": "thumbs/ee5c681222fadedb.webp"
     },
     {
       "title_ko": "스위트 11월호 부록 ― 하와이 한정 에스터버니 토트백&키홀더",
@@ -5152,7 +5205,8 @@
       ],
       "gallery_source": "https://tkj.jp/sweet/202611/",
       "gallery_note": "사진·설명: 宝島社 공식 페이지",
-      "translation_check": true
+      "translation_check": true,
+      "thumb_small": "thumbs/524bf29f5be9ccdf.webp"
     },
     {
       "title_ko": "인레드 11월호 부록 ― 피너츠×와일드띵스 숄더백",
@@ -5242,7 +5296,8 @@
       ],
       "gallery_source": "https://tkj.jp/inred/202611/",
       "gallery_note": "사진·설명: 宝島社 공식 페이지",
-      "translation_check": true
+      "translation_check": true,
+      "thumb_small": "thumbs/12191cdcaf13f2c7.webp"
     },
     {
       "title_ko": "오토나노 오샤레테초 11월호 부록 ― 헬로키티 자수 복주머니 토트",
@@ -5324,7 +5379,8 @@
       ],
       "gallery_source": "https://tkj.jp/osharetecho/202611/",
       "gallery_note": "사진·설명: 宝島社 공식 페이지",
-      "translation_check": true
+      "translation_check": true,
+      "thumb_small": "thumbs/91101175fcb9f33a.webp"
     },
     {
       "title_ko": "글로우 11월호 부록 ― 러싯×스누피 쇼핑백",
@@ -5398,7 +5454,8 @@
       ],
       "gallery_source": "https://tkj.jp/glow/202611/",
       "gallery_note": "사진·설명: 宝島社 공식 페이지",
-      "translation_check": true
+      "translation_check": true,
+      "thumb_small": "thumbs/02b49577d951d76b.webp"
     },
     {
       "title_ko": "오토나뮤즈 11월호 부록 ― 시텐×헬로키티 퀼팅 토트",
@@ -5464,7 +5521,8 @@
       ],
       "gallery_source": "https://tkj.jp/otonamuse/202611/",
       "gallery_note": "사진·설명: 宝島社 공식 페이지",
-      "translation_check": true
+      "translation_check": true,
+      "thumb_small": "thumbs/2ac02f832233907f.webp"
     },
     {
       "title_ko": "모노맥스 11월호 부록 ― 콜맨 풀오픈 2WAY 가방",
@@ -5562,7 +5620,8 @@
       ],
       "gallery_source": "https://tkj.jp/max/202611/",
       "gallery_note": "사진·설명: 宝島社 공식 페이지",
-      "translation_check": true
+      "translation_check": true,
+      "thumb_small": "thumbs/f7f3d96c3dca19ad.webp"
     },
     {
       "title_ko": "미니 11월호 부록 ― 먀쿠먀쿠 365일 일력",
@@ -5644,7 +5703,8 @@
       ],
       "gallery_source": "https://tkj.jp/mini/202611/",
       "gallery_note": "사진·설명: 宝島社 공식 페이지",
-      "translation_check": true
+      "translation_check": true,
+      "thumb_small": "thumbs/bafee51c53e0c393.webp"
     },
     {
       "title_ko": "차오 12월호 부록 ― 산엑스×차오 히로인 열쇠 비밀 노트",
@@ -5674,7 +5734,8 @@
       "summary_source": "https://ciao.shogakukan.co.jp/topics/208233/",
       "image_hd": "https://cdn.ciao.shogakukan.co.jp/wp-content/uploads/2026/09/ciao2612-furoku.jpg",
       "image_fit": "contain",
-      "translation_check": true
+      "translation_check": true,
+      "thumb_small": "thumbs/a5d0b30c3f0536f8.webp"
     },
     {
       "title_ko": "나카요시 12월호 부록 ― 슈고캐라 크리스마스 스티커북 세트",
@@ -5710,7 +5771,8 @@
       "summary_source": "https://nakayosi.kodansha.co.jp/",
       "image_hd": "https://nakayosi.kodansha.co.jp/content/images/_topics/slider202612_01.jpg",
       "image_fit": "contain",
-      "translation_check": true
+      "translation_check": true,
+      "thumb_small": "thumbs/b3a2a94165446696.webp"
     },
     {
       "title_ko": "극장판 『100미터.』 POP UP SHOP",
@@ -5780,7 +5842,8 @@
           "source": "https://www.medicos-e.net/newsdetail/hyakuemu/"
         }
       ],
-      "gallery_note": "가격은 상품 라인업 이미지에서 확인할 수 있어요"
+      "gallery_note": "가격은 상품 라인업 이미지에서 확인할 수 있어요",
+      "thumb_small": "thumbs/c4e1696d9869f850.webp"
     },
     {
       "title_ko": "샤인포스트 POP UP SHOP",
@@ -5880,10 +5943,11 @@
       "summary_source": "https://www.the-chara.com/blog/?p=123501",
       "thumbnail": "https://thechara.xsrv.jp/wp-content/uploads/2026/10/202610_okerhtki_kv221.jpg",
       "thumbnail_source": "https://www.the-chara.com/blog/?p=123501",
-      "thumb_pos": "50% 15%"
+      "thumb_pos": "50% 15%",
+      "thumb_small": "thumbs/28db0f847f193bc0.webp"
     },
     {
-      "title_ko": "쵸코야바 카페스탠드 (ちょこっとヤバシティ)",
+      "title_ko": "살짝 위험한 시티(쵸콧토 야바시티) 카페스탠드",
       "title_ja": "ちょこっとヤバシティ × animate cafe ちょこヤバカフェスタンド",
       "category": "콜라보카페",
       "area": "도쿄",
@@ -5911,7 +5975,8 @@
       "translation_check": true,
       "verified_at": "2026-10-19",
       "summary_ko": "애니메이션 『ちょこっとヤバシティ』 배신 시작 기념 콜라보 카페예요. 애니메이트 카페 스탠드 이케부쿠로 4호점에서 열려요.",
-      "summary_source": "https://chocoyaba.com/news/index00040000.html"
+      "summary_source": "https://chocoyaba.com/news/index00040000.html",
+      "thumb_small": "thumbs/fff98a1adceb0fe1.webp"
     },
     {
       "title_ko": "요괴학교 선생님 시작했습니다! POP UP SHOP",
@@ -5962,7 +6027,8 @@
           "source": "https://www.medicos-e.net/newsdetail/yohaji_anime_3/"
         }
       ],
-      "gallery_note": "가격은 상품 라인업 이미지에서 확인할 수 있어요"
+      "gallery_note": "가격은 상품 라인업 이미지에서 확인할 수 있어요",
+      "thumb_small": "thumbs/35fdd9a6546780e3.webp"
     },
     {
       "title_ko": "BLACK LAGOON 25주년 원화전",
@@ -5995,7 +6061,8 @@
       "lon": 139.7094,
       "verified_at": "2026-10-19",
       "summary_ko": "히로에 레이의 『BLACK LAGOON』 연재 25주년 원화전이에요. 명대사·명장면 원화를 공개하고 기념 굿즈도 많이 나와요.",
-      "summary_source": "https://s.mxtv.jp/event/blacklagoon25th/"
+      "summary_source": "https://s.mxtv.jp/event/blacklagoon25th/",
+      "thumb_small": "thumbs/2cb3ddc881a09b9a.webp"
     },
     {
       "title_ko": "메이드 인 어비스전 (전기)",
@@ -6026,7 +6093,8 @@
       "translation_check": true,
       "verified_at": "2026-10-19",
       "summary_ko": "「극장 시리즈 【제1부】 메이드 인 어비스 깨어나는 신비」 개봉 기념 만화 원화전이에요. 11/12는 전시 교체로 휴관해요.",
-      "summary_source": "https://www.kyodoprinting.co.jp/lp/event/madeinabyss/"
+      "summary_source": "https://www.kyodoprinting.co.jp/lp/event/madeinabyss/",
+      "thumb_small": "thumbs/5c1e4f8a3021b88c.webp"
     },
     {
       "title_ko": "메이드 인 어비스전 (후기)",
@@ -6057,7 +6125,8 @@
       "translation_check": true,
       "verified_at": "2026-10-19",
       "summary_ko": "「극장 시리즈 【제1부】 메이드 인 어비스 깨어나는 신비」 개봉 기념 만화 원화전의 후기예요. 후기부터 전시 일부가 바뀌고 판매 상품이 추가돼요.",
-      "summary_source": "https://www.kyodoprinting.co.jp/lp/event/madeinabyss/"
+      "summary_source": "https://www.kyodoprinting.co.jp/lp/event/madeinabyss/",
+      "thumb_small": "thumbs/5c1e4f8a3021b88c.webp"
     },
     {
       "title_ko": "영웅전설 궤적 시리즈 × ORBcafe 콜라보 카페",
@@ -6090,7 +6159,8 @@
       "lon": 139.7009,
       "verified_at": "2026-10-19",
       "summary_ko": "『영웅전설 궤적 시리즈』 기간 한정 콜라보 카페예요. 세계관·캐릭터를 담은 메뉴와 한정 노벨티, 오리지널 굿즈가 있고, 90분제·원오더예요.",
-      "summary_source": "https://www.falcom.co.jp/archives/246115"
+      "summary_source": "https://www.falcom.co.jp/archives/246115",
+      "thumb_small": "thumbs/6ef536bec81bdc08.webp"
     },
     {
       "title_ko": "애니플렉스 팝업숍 2026 가을 (이케부쿠로)",
@@ -6146,7 +6216,8 @@
           "full": "https://www.animate.co.jp/assets/uploads/2026/10/1791972314-35613c07ddf5089f3d9941a0cb6ec947-1920x2195.jpg"
         }
       ],
-      "gallery_note": "작품별 공식 상품 라인업 이미지예요"
+      "gallery_note": "작품별 공식 상품 라인업 이미지예요",
+      "thumb_small": "thumbs/b3692c210dd31d4a.webp"
     },
     {
       "title_ko": "이치방쿠지 우마무스메 프리티 더비 14탄",
@@ -6382,7 +6453,8 @@
         }
       ],
       "gallery_source": "https://1kuji.com/products/umamusume17",
-      "gallery_note": "등급별 공식 상품 사진(등급당 최대 3장)이에요. 전체 사진은 공식 페이지에서 볼 수 있어요"
+      "gallery_note": "등급별 공식 상품 사진(등급당 최대 3장)이에요. 전체 사진은 공식 페이지에서 볼 수 있어요",
+      "thumb_small": "thumbs/825b35e17e9356c4.webp"
     },
     {
       "title_ko": "치이카와 캡슐 스틱 (가챠)",
@@ -6447,7 +6519,8 @@
           "source": "https://gashapon.jp/products/detail.php?jan_code=4570118187321000"
         }
       ],
-      "gallery_source": "https://gashapon.jp/products/detail.php?jan_code=4570118187321000"
+      "gallery_source": "https://gashapon.jp/products/detail.php?jan_code=4570118187321000",
+      "thumb_small": "thumbs/603484fd769e7302.webp"
     },
     {
       "title_ko": "원피스 유라유라시타이 (가챠)",
@@ -6512,7 +6585,8 @@
           "source": "https://gashapon.jp/products/detail.php?jan_code=4570118196545000"
         }
       ],
-      "gallery_source": "https://gashapon.jp/products/detail.php?jan_code=4570118196545000"
+      "gallery_source": "https://gashapon.jp/products/detail.php?jan_code=4570118196545000",
+      "thumb_small": "thumbs/f04f37df3f4e91ac.webp"
     },
     {
       "title_ko": "장송의 프리렌 마치보우케 3 (가챠)",
@@ -6583,7 +6657,8 @@
           "source": "https://gashapon.jp/products/detail.php?jan_code=4582770068955000"
         }
       ],
-      "gallery_source": "https://gashapon.jp/products/detail.php?jan_code=4582770068955000"
+      "gallery_source": "https://gashapon.jp/products/detail.php?jan_code=4582770068955000",
+      "thumb_small": "thumbs/319441afd8dacf06.webp"
     },
     {
       "title_ko": "죠죠의 기묘한 모험 황금의 바람 메지루시 액세서리 01 (가챠)",
@@ -6660,7 +6735,8 @@
           "source": "https://gashapon.jp/products/detail.php?jan_code=4582770055481000"
         }
       ],
-      "gallery_source": "https://gashapon.jp/products/detail.php?jan_code=4582770055481000"
+      "gallery_source": "https://gashapon.jp/products/detail.php?jan_code=4582770055481000",
+      "thumb_small": "thumbs/bde586f28e738348.webp"
     },
     {
       "title_ko": "이치방쿠지 홀로라이브 FLOW GLOW",
@@ -6802,7 +6878,8 @@
       "gallery_source": "https://1kuji.com/products/hololive-flowglow",
       "gallery_note": "등급별 공식 상품 사진(등급당 최대 3장)이에요. 전체 사진은 공식 페이지에서 볼 수 있어요",
       "thumbnail": "https://assets.1kuji.com/uploads/product/top_banner/10769/5ede787e-6598-4333-a0e4-8f68d085fd1c.webp",
-      "thumbnail_source": "https://1kuji.com/products/hololive-flowglow"
+      "thumbnail_source": "https://1kuji.com/products/hololive-flowglow",
+      "thumb_small": "thumbs/50225d75251473f6.webp"
     },
     {
       "title_ko": "이치방쿠지 원피스 ~애니멀 대집합!~",
@@ -6884,7 +6961,8 @@
         }
       ],
       "gallery_source": "https://1kuji.com/products/onep105",
-      "gallery_note": "공식 페이지에 공개된 A상·D상만 넣었어요(나머지는 순차 공개) · 등급별 공식 상품 사진(등급당 최대 3장)이에요. 전체 사진은 공식 페이지에서 볼 수 있어요"
+      "gallery_note": "공식 페이지에 공개된 A상·D상만 넣었어요(나머지는 순차 공개) · 등급별 공식 상품 사진(등급당 최대 3장)이에요. 전체 사진은 공식 페이지에서 볼 수 있어요",
+      "thumb_small": "thumbs/caa7766e68ae78f1.webp"
     },
     {
       "title_ko": "이치방쿠지 헌터×헌터 키메라 앤트 2 (재판매)",
@@ -7157,7 +7235,8 @@
         }
       ],
       "gallery_source": "https://1kuji.com/products/hxh8_2",
-      "gallery_note": "등급별 공식 상품 사진(등급당 최대 3장)이에요. 전체 사진은 공식 페이지에서 볼 수 있어요"
+      "gallery_note": "등급별 공식 상품 사진(등급당 최대 3장)이에요. 전체 사진은 공식 페이지에서 볼 수 있어요",
+      "thumb_small": "thumbs/6eb4bc8d1b2dd4c8.webp"
     },
     {
       "title_ko": "이치방쿠지 카드캡터 사쿠라 클리어 카드편 ~Blessed collection~",
@@ -7350,7 +7429,8 @@
         }
       ],
       "gallery_source": "https://1kuji.com/products/sakura15",
-      "gallery_note": "등급별 공식 상품 사진(등급당 최대 3장)이에요. 전체 사진은 공식 페이지에서 볼 수 있어요"
+      "gallery_note": "등급별 공식 상품 사진(등급당 최대 3장)이에요. 전체 사진은 공식 페이지에서 볼 수 있어요",
+      "thumb_small": "thumbs/3f410c5a03b820a9.webp"
     },
     {
       "title_ko": "이치방쿠지 에스터버니 -ROMANCE ANGEL-",
@@ -7588,7 +7668,8 @@
         }
       ],
       "gallery_source": "https://1kuji.com/products/estherbunny",
-      "gallery_note": "등급별 공식 상품 사진(등급당 최대 3장)이에요. 전체 사진은 공식 페이지에서 볼 수 있어요"
+      "gallery_note": "등급별 공식 상품 사진(등급당 최대 3장)이에요. 전체 사진은 공식 페이지에서 볼 수 있어요",
+      "thumb_small": "thumbs/66f35ccaed4c8981.webp"
     },
     {
       "title_ja": "GA文庫20周年記念POP UP SHOP",
@@ -7781,7 +7862,8 @@
         }
       ],
       "gallery_source": "https://conan-diner.com/menu/",
-      "gallery_note": "메뉴·굿즈 일부"
+      "gallery_note": "메뉴·굿즈 일부",
+      "thumb_small": "thumbs/b5272cf8e5d117dc.webp"
     },
     {
       "reservation": "",
@@ -7831,7 +7913,8 @@
           "quote": "【開催期間】2026年10月31日(土)～11月15日(日) 【開催場所】MEDICOS SHOP渋谷（MAGNET by SHIBUYA109 5階）",
           "checked": "2026-10-19"
         }
-      ]
+      ],
+      "thumb_small": "thumbs/79a2a34f69ad0f57.webp"
     },
     {
       "reservation": "콜라보룸만 예약제",
@@ -7862,7 +7945,8 @@
           "quote": "2026年10⽉30⽇(金)9:00〜12月15⽇(火)21:00 ネットカフェ&カラオケDiCE 札幌狸小路本店 、 仙台店 、 大宮店 、 池袋店 、 自由が丘店 、 なんば道頓堀本店",
           "checked": "2026-10-19"
         }
-      ]
+      ],
+      "thumb_small": "thumbs/cb20dc4f88c65c9c.webp"
     },
     {
       "reservation": "",
@@ -7942,7 +8026,8 @@
           "source": "https://prtimes.jp/main/html/rd/p/000009446.000016064.html"
         }
       ],
-      "gallery_source": "https://prtimes.jp/main/html/rd/p/000009446.000016064.html"
+      "gallery_source": "https://prtimes.jp/main/html/rd/p/000009446.000016064.html",
+      "thumb_small": "thumbs/e99431bf96a95958.webp"
     },
     {
       "reservation": "",
@@ -7993,7 +8078,8 @@
           "quote": "ワゴン＆同時通販 2026年11月11日(水)～11月24日(火) 営業時間 11:00～20:00(最終日のみ18:00まで) 開催場所 JR池袋駅 地下中央通路 中央改札前 池袋スキマストア",
           "checked": "2026-10-19"
         }
-      ]
+      ],
+      "thumb_small": "thumbs/dbb071d02b582547.webp"
     },
     {
       "reservation": "불필요",
@@ -8063,7 +8149,8 @@
           "source": "https://bandainamco-am.co.jp/crossstore/store/crossstore_tokyo/news/20261015.html"
         }
       ],
-      "gallery_source": "https://bandainamco-am.co.jp/crossstore/store/crossstore_tokyo/news/20261015.html"
+      "gallery_source": "https://bandainamco-am.co.jp/crossstore/store/crossstore_tokyo/news/20261015.html",
+      "thumb_small": "thumbs/81aea71cd6bb1895.webp"
     },
     {
       "reservation": "",
@@ -8094,7 +8181,8 @@
           "quote": "■渋谷ロフト会場 日程: 2026年10月23日(金)～11月10日(火)",
           "checked": "2026-10-19"
         }
-      ]
+      ],
+      "thumb_small": "thumbs/6c14ae4ebf5c4252.webp"
     },
     {
       "reservation": "",
@@ -8126,7 +8214,8 @@
           "quote": "■ 銀座ロフト会場　日程　:2026年11月7日(土)～11月29日(日)",
           "checked": "2026-10-19"
         }
-      ]
+      ],
+      "thumb_small": "thumbs/fc2e197e4a099007.webp"
     },
     {
       "reservation": "11/7·8은 LINE 선착 정리권",
@@ -8208,7 +8297,8 @@
           "source": "https://www.animate.co.jp/onlyshop/49939/"
         }
       ],
-      "gallery_source": "https://www.animate.co.jp/onlyshop/49939/"
+      "gallery_source": "https://www.animate.co.jp/onlyshop/49939/",
+      "thumb_small": "thumbs/9ea9222a4489536d.webp"
     },
     {
       "reservation": "",
@@ -8302,7 +8392,8 @@
           "source": "https://bushiroad-creative.com/topics/104744/"
         }
       ],
-      "gallery_source": "https://bushiroad-creative.com/topics/104744/"
+      "gallery_source": "https://bushiroad-creative.com/topics/104744/",
+      "thumb_small": "thumbs/37580ec6e2f782b4.webp"
     },
     {
       "reservation": "",
@@ -8402,7 +8493,8 @@
           "quote": "【開催期間】 2026 年 11 月 6 日 ( 金 ) ～ 2026 年 11 月 23 日（月・祝） 【開催場所】新宿マルイメン 8 階イベントスペース",
           "checked": "2026-10-19"
         }
-      ]
+      ],
+      "thumb_small": "thumbs/db90e33e0e4be292.webp"
     },
     {
       "reservation": "불필요 (11/6은 셔플 추첨 입장)",
@@ -8508,7 +8600,8 @@
           "source": "https://store.amnibus.com/dn-angel-storeblue/"
         }
       ],
-      "gallery_source": "https://store.amnibus.com/dn-angel-storeblue/"
+      "gallery_source": "https://store.amnibus.com/dn-angel-storeblue/",
+      "thumb_small": "thumbs/9c7f69384d0eb704.webp"
     },
     {
       "reservation": "",
@@ -8539,7 +8632,8 @@
           "quote": "バンダイナムコCross Store アトレ秋葉原店： 2026年10月31日(土) ～ 2026年11月23日(月祝)",
           "checked": "2026-10-19"
         }
-      ]
+      ],
+      "thumb_small": "thumbs/b19a342d092fc7c3.webp"
     },
     {
       "reservation": "",
@@ -8598,7 +8692,8 @@
           "quote": "【開催期間】 2026 年 11 月 13 日 ( 金 ) ～ 2026 年 11 月 25 日 ( 水 ) 【開催場所】 MEDICOS SHOP 新宿（新宿マルイ アネックス 2F ）",
           "checked": "2026-10-19"
         }
-      ]
+      ],
+      "thumb_small": "thumbs/507dc9d665e6ff58.webp"
     },
     {
       "reservation": "",
@@ -8666,7 +8761,8 @@
           "quote": "【開催期間】 2026 年 11 月 14 日 ( 土 ) ～ 2026 年 11 月 29 日 ( 日 ) 【開催場所】 MEDICOS SHOP 新宿（新宿マルイ アネックス 2F ）",
           "checked": "2026-10-19"
         }
-      ]
+      ],
+      "thumb_small": "thumbs/1bd15097025b5633.webp"
     },
     {
       "reservation": "",
@@ -8697,7 +8793,8 @@
           "quote": "2026年11月10日発売 表紙：【A3!】",
           "checked": "2026-10-19"
         }
-      ]
+      ],
+      "thumb_small": "thumbs/8e45bde6e1c71303.webp"
     },
     {
       "title_ko": "오이 경마장 플리마켓 (Tokyo City Flea Market)",
@@ -8731,7 +8828,8 @@
       "translation_check": true,
       "summary_ko": "오이 경마장에서 열리는 플리마켓 'Tokyo City Flea Market'이에요.",
       "summary_source": "https://trx.jp/",
-      "blog_url": "https://blog.naver.com/rownsh00/224431293407"
+      "blog_url": "https://blog.naver.com/rownsh00/224431293407",
+      "thumb_small": "thumbs/aa84162be2e291ba.webp"
     },
     {
       "title_ko": "오이 경마장 플리마켓 (Tokyo City Flea Market)",
@@ -8765,7 +8863,8 @@
       "translation_check": true,
       "summary_ko": "오이 경마장에서 열리는 플리마켓 'Tokyo City Flea Market'이에요.",
       "summary_source": "https://trx.jp/",
-      "blog_url": "https://blog.naver.com/rownsh00/224431293407"
+      "blog_url": "https://blog.naver.com/rownsh00/224431293407",
+      "thumb_small": "thumbs/aa84162be2e291ba.webp"
     },
     {
       "title_ko": "오이 경마장 플리마켓 (Tokyo City Flea Market)",
@@ -8799,7 +8898,8 @@
       "translation_check": true,
       "summary_ko": "오이 경마장에서 열리는 플리마켓 'Tokyo City Flea Market'이에요.",
       "summary_source": "https://trx.jp/",
-      "blog_url": "https://blog.naver.com/rownsh00/224431293407"
+      "blog_url": "https://blog.naver.com/rownsh00/224431293407",
+      "thumb_small": "thumbs/aa84162be2e291ba.webp"
     },
     {
       "title_ko": "오이 경마장 플리마켓 (Tokyo City Flea Market)",
@@ -8833,7 +8933,8 @@
       "translation_check": true,
       "summary_ko": "오이 경마장에서 열리는 플리마켓 'Tokyo City Flea Market'이에요.",
       "summary_source": "https://trx.jp/",
-      "blog_url": "https://blog.naver.com/rownsh00/224431293407"
+      "blog_url": "https://blog.naver.com/rownsh00/224431293407",
+      "thumb_small": "thumbs/aa84162be2e291ba.webp"
     },
     {
       "title_ko": "오이 경마장 플리마켓 (Tokyo City Flea Market)",
@@ -8867,7 +8968,8 @@
       "translation_check": true,
       "summary_ko": "오이 경마장에서 열리는 플리마켓 'Tokyo City Flea Market'이에요.",
       "summary_source": "https://trx.jp/",
-      "blog_url": "https://blog.naver.com/rownsh00/224431293407"
+      "blog_url": "https://blog.naver.com/rownsh00/224431293407",
+      "thumb_small": "thumbs/aa84162be2e291ba.webp"
     },
     {
       "title_ko": "오이 경마장 플리마켓 (Tokyo City Flea Market)",
@@ -8901,7 +9003,8 @@
       "translation_check": true,
       "summary_ko": "오이 경마장에서 열리는 플리마켓 'Tokyo City Flea Market'이에요.",
       "summary_source": "https://trx.jp/",
-      "blog_url": "https://blog.naver.com/rownsh00/224431293407"
+      "blog_url": "https://blog.naver.com/rownsh00/224431293407",
+      "thumb_small": "thumbs/aa84162be2e291ba.webp"
     },
     {
       "title_ko": "오이 경마장 플리마켓 (Tokyo City Flea Market)",
@@ -8935,7 +9038,8 @@
       "translation_check": true,
       "summary_ko": "오이 경마장에서 열리는 플리마켓 'Tokyo City Flea Market'이에요.",
       "summary_source": "https://trx.jp/",
-      "blog_url": "https://blog.naver.com/rownsh00/224431293407"
+      "blog_url": "https://blog.naver.com/rownsh00/224431293407",
+      "thumb_small": "thumbs/aa84162be2e291ba.webp"
     },
     {
       "title_ko": "오이 경마장 플리마켓 (Tokyo City Flea Market)",
@@ -8969,7 +9073,8 @@
       "translation_check": true,
       "summary_ko": "오이 경마장에서 열리는 플리마켓 'Tokyo City Flea Market'이에요.",
       "summary_source": "https://trx.jp/",
-      "blog_url": "https://blog.naver.com/rownsh00/224431293407"
+      "blog_url": "https://blog.naver.com/rownsh00/224431293407",
+      "thumb_small": "thumbs/aa84162be2e291ba.webp"
     },
     {
       "title_ko": "오이 경마장 플리마켓 (Tokyo City Flea Market)",
@@ -9003,7 +9108,8 @@
       "translation_check": true,
       "summary_ko": "오이 경마장에서 열리는 플리마켓 'Tokyo City Flea Market'이에요.",
       "summary_source": "https://trx.jp/",
-      "blog_url": "https://blog.naver.com/rownsh00/224431293407"
+      "blog_url": "https://blog.naver.com/rownsh00/224431293407",
+      "thumb_small": "thumbs/aa84162be2e291ba.webp"
     },
     {
       "title_ko": "오이 경마장 플리마켓 (Tokyo City Flea Market)",
@@ -9037,7 +9143,8 @@
       "translation_check": true,
       "summary_ko": "오이 경마장에서 열리는 플리마켓 'Tokyo City Flea Market'이에요.",
       "summary_source": "https://trx.jp/",
-      "blog_url": "https://blog.naver.com/rownsh00/224431293407"
+      "blog_url": "https://blog.naver.com/rownsh00/224431293407",
+      "thumb_small": "thumbs/aa84162be2e291ba.webp"
     },
     {
       "area": "도쿄",
@@ -9143,7 +9250,8 @@
           "caption_ko": "미니 포스터 (전 5종, 3,300엔 구매마다 랜덤 1장)",
           "source": "https://prtimes.jp/main/html/rd/p/000000351.000092133.html"
         }
-      ]
+      ],
+      "thumb_small": "thumbs/d58087b1348225ca.webp"
     },
     {
       "area": "도쿄",
@@ -9284,7 +9392,8 @@
           "caption_ko": "스티커 (스킬 잡지 무늬)",
           "source": "https://prtimes.jp/main/html/rd/p/000000343.000092133.html"
         }
-      ]
+      ],
+      "thumb_small": "thumbs/fdb9cb091dd7670e.webp"
     },
     {
       "area": "도쿄",
@@ -9376,7 +9485,8 @@
           "caption_ko": "축광 핀배지 (전 3종) 각 2,200엔",
           "source": "https://prtimes.jp/main/html/rd/p/000000354.000092133.html"
         }
-      ]
+      ],
+      "thumb_small": "thumbs/f3cbc597a312e932.webp"
     },
     {
       "area": "도쿄",
@@ -9424,7 +9534,8 @@
           "source": "https://eeo.today/pr/gintama2610-tokyo/"
         }
       ],
-      "gallery_note": "eeo 공식 페이지 이미지"
+      "gallery_note": "eeo 공식 페이지 이미지",
+      "thumb_small": "thumbs/99426a2f891a25a3.webp"
     },
     {
       "area": "도쿄",
@@ -9495,7 +9606,8 @@
           "caption_ko": "공식 이미지 6",
           "source": "https://eeo.today/graffartcafe/title/diaace/"
         }
-      ]
+      ],
+      "thumb_small": "thumbs/3673b31c5bae1021.webp"
     },
     {
       "area": "도쿄",
@@ -9558,7 +9670,8 @@
           "caption_ko": "기념품 안내",
           "source": "https://www.sweets-paradise.jp/collaboration/kamen-rider"
         }
-      ]
+      ],
+      "thumb_small": "thumbs/a869924b07d2f8ab.webp"
     }
   ]
 }
