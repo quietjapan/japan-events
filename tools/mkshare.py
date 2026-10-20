@@ -8,7 +8,7 @@ ROOT=Path(__file__).resolve().parent.parent; OUT=ROOT/"i"; SITE="https://quietja
 UA={"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/130 Safari/537.36"}
 SHOP={"팝업스토어","콜라보카페","쿠지","가챠","잡지 부록"}
 # 로컬 공식 이미지로 OG를 만들 항목 (id -> 파일)
-LOCAL={"conan-diner":Path("/workspace/blog/conan_photos/01_menu.jpg")}
+LOCAL={"conan-diner":Path(__file__).parent/"og_src"/"conan-diner.png"}
 FORCE="--force" in sys.argv
 def b36(n):
     s="0123456789abcdefghijklmnopqrstuvwxyz";r=""
