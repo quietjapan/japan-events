@@ -1399,7 +1399,59 @@
       "lon": 139.7714,
       "translation_check": true,
       "summary_ko": "반다이남코 크로스 스토어 아토레 아키하바라점의 「은혼」 캐릭터 팝 스토어예요. 이곳 한정 신규 일러스트 오리지널 굿즈를 팔고, 기간별로 캐릭터 '축제'가 바뀌어요.",
-      "summary_source": "https://bandainamco-am.co.jp/chara_shop/gintama/"
+      "summary_source": "https://bandainamco-am.co.jp/chara_shop/gintama/",
+      "gallery": [
+        {
+          "group": "오리지널 굿즈 (긴토키 디자인 예시)",
+          "img": "https://bandainamco-am.co.jp/images/assets/chara_shop/gintama/goods/2026/img_AcrylicStand-Gintoki-1.png",
+          "caption_ko": "아크릴 스탠드 각 1,800엔 (전 12종)",
+          "source": "https://bandainamco-am.co.jp/chara_shop/gintama/goods.html"
+        },
+        {
+          "group": "오리지널 굿즈 (긴토키 디자인 예시)",
+          "img": "https://bandainamco-am.co.jp/images/assets/chara_shop/gintama/goods/2026/img_BigAcrylicStand-Gintoki.png",
+          "caption_ko": "빅 아크릴 스탠드 각 7,900엔 (전 6종)",
+          "source": "https://bandainamco-am.co.jp/chara_shop/gintama/goods.html"
+        },
+        {
+          "group": "오리지널 굿즈 (긴토키 디자인 예시)",
+          "img": "https://bandainamco-am.co.jp/images/assets/chara_shop/gintama/goods/2026/img_Tapestry-Gintoki.png",
+          "caption_ko": "태피스트리 각 5,500엔 (전 6종)",
+          "source": "https://bandainamco-am.co.jp/chara_shop/gintama/goods.html"
+        },
+        {
+          "group": "오리지널 굿즈 (긴토키 디자인 예시)",
+          "img": "https://bandainamco-am.co.jp/images/assets/chara_shop/gintama/goods/2026/img_CanBadgeSet-Gintoki.png",
+          "caption_ko": "75mm 캔배지 세트 각 1,500엔",
+          "source": "https://bandainamco-am.co.jp/chara_shop/gintama/goods.html"
+        },
+        {
+          "group": "오리지널 굿즈 (긴토키 디자인 예시)",
+          "img": "https://bandainamco-am.co.jp/images/assets/chara_shop/gintama/goods/2026/img_AcrylicObject-Gintoki.png",
+          "caption_ko": "아크릴 오브제 각 1,200엔",
+          "source": "https://bandainamco-am.co.jp/chara_shop/gintama/goods.html"
+        },
+        {
+          "group": "오리지널 굿즈 (긴토키 디자인 예시)",
+          "img": "https://bandainamco-am.co.jp/images/assets/chara_shop/gintama/goods/2026/img_DoubleTagKeyholder-Gintoki.png",
+          "caption_ko": "더블 태그 키홀더 각 1,500엔",
+          "source": "https://bandainamco-am.co.jp/chara_shop/gintama/goods.html"
+        },
+        {
+          "group": "오리지널 굿즈 (긴토키 디자인 예시)",
+          "img": "https://bandainamco-am.co.jp/images/assets/chara_shop/gintama/goods/2026/img_MiniAcrylicBlockStand-A-Gintoki.png",
+          "caption_ko": "미니 아크릴 블록 스탠드 A 990엔",
+          "source": "https://bandainamco-am.co.jp/chara_shop/gintama/goods.html"
+        },
+        {
+          "group": "오리지널 굿즈 (긴토키 디자인 예시)",
+          "img": "https://bandainamco-am.co.jp/images/assets/chara_shop/gintama/goods/2026/img_MiniShikishi-Gintoki-1.png",
+          "caption_ko": "미니 색지 600엔",
+          "source": "https://bandainamco-am.co.jp/chara_shop/gintama/goods.html"
+        }
+      ],
+      "gallery_source": "https://bandainamco-am.co.jp/chara_shop/gintama/goods.html",
+      "gallery_note": "굿즈별로 히지카타·오키타·카츠라·타카스기·카무이 디자인도 있어요"
     },
     {
       "title_ko": "MAPPA EXPO 15주년",
@@ -1439,7 +1491,239 @@
       "translation_check": true,
       "summary_ko": "애니메이션 스튜디오 MAPPA 창립 15주년 기념 전시예요. 『체인소맨 레제편』, 『진격의 거인』, 『주술회전』 등 MAPPA 작품의 세계관을 다양한 연출로 체험할 수 있어요.",
       "summary_source": "https://expo.mappa.co.jp",
-      "blog_url": "https://blog.naver.com/rownsh00/224440627007"
+      "blog_url": "https://blog.naver.com/rownsh00/224440627007",
+      "gallery": [
+        {
+          "group": "체인소맨 레제편",
+          "source": "https://expo.mappa.co.jp/goods",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_8a311737-566e-425d-a9fe-f71ef5b94b35_small.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_8a311737-566e-425d-a9fe-f71ef5b94b35.webp",
+          "caption_ko": "15주년 KV 아크릴 블록 4,400엔",
+          "caption_ja": "アクリルブロック【15th KV：劇場版『チェンソーマン レゼ篇』】"
+        },
+        {
+          "group": "체인소맨 레제편",
+          "source": "https://expo.mappa.co.jp/goods",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_0c55f573-22e0-471a-a547-31d1ad7e8ccc_small.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_0c55f573-22e0-471a-a547-31d1ad7e8ccc.webp",
+          "caption_ko": "15주년 KV 미스트그래프 22,000엔",
+          "caption_ja": "ミストグラフ【15th KV：劇場版『チェンソーマン レゼ篇』】"
+        },
+        {
+          "group": "체인소맨 레제편",
+          "source": "https://expo.mappa.co.jp/goods",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_722fb2c8-d910-42fb-8917-b56b1af5f910_small.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_722fb2c8-d910-42fb-8917-b56b1af5f910.webp",
+          "caption_ko": "새 일러스트 클리어 파일 (덴지) 700엔",
+          "caption_ja": "クリアファイル【描き下ろし：劇場版『チェンソーマン レゼ篇』】デンジ"
+        },
+        {
+          "group": "체인소맨 레제편",
+          "source": "https://expo.mappa.co.jp/goods",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_2106c837-4507-426b-828e-c4a756b54e2b_small.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_2106c837-4507-426b-828e-c4a756b54e2b.webp",
+          "caption_ko": "새 일러스트 클리어 파일 (레제) 700엔",
+          "caption_ja": "クリアファイル【描き下ろし：劇場版『チェンソーマン レゼ篇』】レゼ"
+        },
+        {
+          "group": "체인소맨 레제편",
+          "source": "https://expo.mappa.co.jp/goods",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_0e9bd0d8-2355-48c5-b7d0-676078705e8f_small.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_0e9bd0d8-2355-48c5-b7d0-676078705e8f.webp",
+          "caption_ko": "새 일러스트 아크릴 패널 (덴지) 3,300엔",
+          "caption_ja": "アクリルパネル【描き下ろし：劇場版『チェンソーマン レゼ篇』】デンジ"
+        },
+        {
+          "group": "체인소맨 레제편",
+          "source": "https://expo.mappa.co.jp/goods",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_dbc826c0-c8a7-4653-870d-a31708734feb_small.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_dbc826c0-c8a7-4653-870d-a31708734feb.webp",
+          "caption_ko": "새 일러스트 아크릴 패널 (레제) 3,300엔",
+          "caption_ja": "アクリルパネル【描き下ろし：劇場版『チェンソーマン レゼ篇』】レゼ"
+        },
+        {
+          "group": "체인소맨 레제편",
+          "source": "https://expo.mappa.co.jp/goods",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_ef6a61cd-7c48-475c-b580-0ef5d5c674d5_small.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_ef6a61cd-7c48-475c-b580-0ef5d5c674d5.webp",
+          "caption_ko": "새 일러스트 A3 포스터 (덴지) 1,700엔",
+          "caption_ja": "A3ポスター【描き下ろし：劇場版『チェンソーマン レゼ篇』】デンジ"
+        },
+        {
+          "group": "체인소맨 레제편",
+          "source": "https://expo.mappa.co.jp/goods",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_387e1591-6e50-4b4a-9d27-78b4dbaef223_small.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_387e1591-6e50-4b4a-9d27-78b4dbaef223.webp",
+          "caption_ko": "새 일러스트 A3 포스터 (레제) 1,700엔",
+          "caption_ja": "A3ポスター【描き下ろし：劇場版『チェンソーマン レゼ篇』】レゼ"
+        },
+        {
+          "group": "체인소맨 레제편",
+          "source": "https://expo.mappa.co.jp/goods",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_79c048c7-6910-4919-9093-802c8590226b_small.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_79c048c7-6910-4919-9093-802c8590226b.webp",
+          "caption_ko": "새 일러스트 토트백 (덴지) 2,200엔",
+          "caption_ja": "トートバッグ【描き下ろし：劇場版『チェンソーマン レゼ篇』】デンジ"
+        },
+        {
+          "group": "체인소맨 레제편",
+          "source": "https://expo.mappa.co.jp/goods",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_e52bfbe4-a21e-4228-a4d2-83590d460343_small.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_e52bfbe4-a21e-4228-a4d2-83590d460343.webp",
+          "caption_ko": "새 일러스트 토트백 (레제) 2,200엔",
+          "caption_ja": "トートバッグ【描き下ろし：劇場版『チェンソーマン レゼ篇』】レゼ"
+        },
+        {
+          "group": "주술회전",
+          "source": "https://expo.mappa.co.jp/goods",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_7fcfb639-4138-46c7-b903-cee7e234a4dd_small.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_7fcfb639-4138-46c7-b903-cee7e234a4dd.webp",
+          "caption_ko": "15주년 KV 아크릴 블록 4,400엔",
+          "caption_ja": "アクリルブロック【15th KV：アニメ『呪術廻戦』】"
+        },
+        {
+          "group": "주술회전",
+          "source": "https://expo.mappa.co.jp/goods",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_53bd4c7f-4ef7-47ce-972d-119a4f9a9787_small.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_53bd4c7f-4ef7-47ce-972d-119a4f9a9787.webp",
+          "caption_ko": "15주년 KV 미스트그래프 22,000엔",
+          "caption_ja": "ミストグラフ【15th KV：アニメ『呪術廻戦』】"
+        },
+        {
+          "group": "주술회전",
+          "source": "https://expo.mappa.co.jp/goods",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_017c090a-ceba-4baa-9e04-9a60569e9acd_small.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_017c090a-ceba-4baa-9e04-9a60569e9acd.webp",
+          "caption_ko": "새 일러스트 아크릴 패널 (회옥·옥절) 3,300엔",
+          "caption_ja": "アクリルパネル【描き下ろし：アニメ『呪術廻戦』「懐玉・玉折」】"
+        },
+        {
+          "group": "주술회전",
+          "source": "https://expo.mappa.co.jp/goods",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_354079c2-3589-422b-b948-83b46960f7d0_small.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_354079c2-3589-422b-b948-83b46960f7d0.webp",
+          "caption_ko": "새 일러스트 A3 포스터 (회옥·옥절) 1,700엔",
+          "caption_ja": "A3ポスター【描き下ろし：アニメ『呪術廻戦』「懐玉・玉折」】"
+        },
+        {
+          "group": "주술회전",
+          "source": "https://expo.mappa.co.jp/goods",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_5aceee18-9af6-434d-8887-78863ff79528_small.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_5aceee18-9af6-434d-8887-78863ff79528.webp",
+          "caption_ko": "새 일러스트 아크릴 패널 (극장판 0) 3,300엔",
+          "caption_ja": "アクリルパネル【描き下ろし：『劇場版 呪術廻戦 0』】"
+        },
+        {
+          "group": "주술회전",
+          "source": "https://expo.mappa.co.jp/goods",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_d3aa0f9f-fe67-4768-9e07-759f68f59e22_small.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_d3aa0f9f-fe67-4768-9e07-759f68f59e22.webp",
+          "caption_ko": "새 일러스트 A3 포스터 (극장판 0) 1,700엔",
+          "caption_ja": "A3ポスター【描き下ろし：『劇場版 呪術廻戦 0』】"
+        },
+        {
+          "group": "주술회전",
+          "source": "https://expo.mappa.co.jp/goods",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_6b10e87c-073d-4d33-8d19-340b4b1eac5f_small.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_6b10e87c-073d-4d33-8d19-340b4b1eac5f.webp",
+          "caption_ko": "새 일러스트 아크릴 패널 (시부야 사변) 3,300엔",
+          "caption_ja": "アクリルパネル【描き下ろし：アニメ『呪術廻戦』「渋谷事変」】"
+        },
+        {
+          "group": "주술회전",
+          "source": "https://expo.mappa.co.jp/goods",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_b6569b25-be40-4714-93d7-0dcd52daf893_small.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_b6569b25-be40-4714-93d7-0dcd52daf893.webp",
+          "caption_ko": "새 일러스트 A3 포스터 (시부야 사변) 1,700엔",
+          "caption_ja": "A3ポスター【描き下ろし：アニメ『呪術廻戦』「渋谷事変」】"
+        },
+        {
+          "group": "주술회전",
+          "source": "https://expo.mappa.co.jp/goods",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_ad497be1-9ad7-4e95-a844-b0f9126ab3ca_small.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_ad497be1-9ad7-4e95-a844-b0f9126ab3ca.webp",
+          "caption_ko": "새 일러스트 아크릴 패널 (사멸회유 전편) 3,300엔",
+          "caption_ja": "アクリルパネル【描き下ろし：アニメ『呪術廻戦』「死滅回游 前編」】"
+        },
+        {
+          "group": "주술회전",
+          "source": "https://expo.mappa.co.jp/goods",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_540d59e6-41b6-4975-935b-9f326456ef85_small.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_540d59e6-41b6-4975-935b-9f326456ef85.webp",
+          "caption_ko": "새 일러스트 A3 포스터 (사멸회유 전편) 1,700엔",
+          "caption_ja": "A3ポスター【描き下ろし：アニメ『呪術廻戦』「死滅回游 前編」】"
+        },
+        {
+          "group": "진격의 거인",
+          "source": "https://expo.mappa.co.jp/goods",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_1123f3c4-7d27-41ce-a9fc-8769352ba3cb_small.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_1123f3c4-7d27-41ce-a9fc-8769352ba3cb.webp",
+          "caption_ko": "15주년 KV 아크릴 블록 4,400엔",
+          "caption_ja": "アクリルブロック【15th KV：『進撃の巨人』The Final Season】"
+        },
+        {
+          "group": "진격의 거인",
+          "source": "https://expo.mappa.co.jp/goods",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_5a0f8f56-2b1b-4e61-ae6d-6e5ad62094d9_small.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_5a0f8f56-2b1b-4e61-ae6d-6e5ad62094d9.webp",
+          "caption_ko": "15주년 KV A3 클리어 포스터 2,200엔",
+          "caption_ja": "A3クリアポスター【15th KV：『進撃の巨人』The Final Season】"
+        },
+        {
+          "group": "진격의 거인",
+          "source": "https://expo.mappa.co.jp/goods",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_4fd702b1-eaae-4ccd-85bf-9cbf8fad98cf_small.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_4fd702b1-eaae-4ccd-85bf-9cbf8fad98cf.webp",
+          "caption_ko": "15주년 KV 티셔츠 5,500엔",
+          "caption_ja": "Tシャツ【15th KV：『進撃の巨人』The Final Season】"
+        },
+        {
+          "group": "진격의 거인",
+          "source": "https://expo.mappa.co.jp/goods",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_28dc7890-f759-4964-93fb-6bf240b0c4e9_small.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_28dc7890-f759-4964-93fb-6bf240b0c4e9.webp",
+          "caption_ko": "새 일러스트 클리어 파일 700엔",
+          "caption_ja": "クリアファイル【描き下ろし：『進撃の巨人』The Final Season】"
+        },
+        {
+          "group": "진격의 거인",
+          "source": "https://expo.mappa.co.jp/goods",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_1c1c36ec-a7e9-4b15-9855-fe61c3aad24f_small.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_1c1c36ec-a7e9-4b15-9855-fe61c3aad24f.webp",
+          "caption_ko": "새 일러스트 아크릴 패널 3,300엔",
+          "caption_ja": "アクリルパネル【描き下ろし：『進撃の巨人』The Final Season】"
+        },
+        {
+          "group": "진격의 거인",
+          "source": "https://expo.mappa.co.jp/goods",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_9c7ca85b-2a40-4a4f-b92f-dea95f8cff69_small.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_9c7ca85b-2a40-4a4f-b92f-dea95f8cff69.webp",
+          "caption_ko": "새 일러스트 A3 포스터 1,700엔",
+          "caption_ja": "A3ポスター【描き下ろし：『進撃の巨人』The Final Season】"
+        },
+        {
+          "group": "진격의 거인",
+          "source": "https://expo.mappa.co.jp/goods",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_a05d8516-584d-4966-8d70-b1bbe75abb8c_small.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_a05d8516-584d-4966-8d70-b1bbe75abb8c.webp",
+          "caption_ko": "새 일러스트 티셔츠 5,500엔",
+          "caption_ja": "Tシャツ【描き下ろし：『進撃の巨人』The Final Season】"
+        },
+        {
+          "group": "진격의 거인",
+          "source": "https://expo.mappa.co.jp/goods",
+          "img": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_b92337be-a0cd-4be1-8b2d-528418a97fa5_small.webp",
+          "full": "https://storage.googleapis.com/studio-design-asset-files/projects/brqEPrDrO4/s-1500x1500_v-fms_webp_b92337be-a0cd-4be1-8b2d-528418a97fa5.webp",
+          "caption_ko": "새 일러스트 토트백 2,200엔",
+          "caption_ja": "トートバッグ【描き下ろし：『進撃の巨人』The Final Season】"
+        }
+      ],
+      "gallery_source": "https://expo.mappa.co.jp/goods",
+      "gallery_note": "체인소맨·주술회전·진격의 거인 굿즈 일부만 골랐어요. 다른 작품 굿즈 전체는 공식 굿즈 페이지에서",
+      "gallery_more": {
+        "url": "https://expo.mappa.co.jp/goods",
+        "label": "MAPPA EXPO 굿즈 전체 보기 (공식)"
+      }
     },
     {
       "title_ko": "헤타리아 20주년 원화전 WorldFesta",
@@ -3369,7 +3653,36 @@
       "lon": 139.7041,
       "translation_check": true,
       "summary_ko": "「사카모토 데이즈」 콜라보 카페예요. 'DJ' 테마의 신규 일러스트 굿즈와 캐릭터 이미지 메뉴가 있고, 메뉴를 주문하면 오리지널 특전을 줘요.",
-      "summary_source": "https://shop.anique.jp/blogs/news/sakamoto-days-dj-groove-cafe"
+      "summary_source": "https://shop.anique.jp/blogs/news/sakamoto-days-dj-groove-cafe",
+      "gallery": [
+        {
+          "group": "메뉴·굿즈 안내",
+          "img": "https://cdn.shopify.com/s/files/1/0233/6705/7488/files/922-01.png?v=1790301420&width=900",
+          "full": "https://cdn.shopify.com/s/files/1/0233/6705/7488/files/922-01.png?v=1790301420",
+          "caption_ko": "메뉴 (푸드 1,320엔 · 드링크 1,210엔) · 주문 특전 코스터",
+          "source": "https://shop.anique.jp/blogs/news/sakamoto-days-dj-groove-cafe"
+        },
+        {
+          "group": "메뉴·굿즈 안내",
+          "img": "https://cdn.shopify.com/s/files/1/0233/6705/7488/files/1001__-02.png?v=1791974685&width=900",
+          "full": "https://cdn.shopify.com/s/files/1/0233/6705/7488/files/1001__-02.png?v=1791974685",
+          "caption_ko": "오리지널 굿즈 라인업",
+          "source": "https://shop.anique.jp/blogs/news/sakamoto-days-dj-groove-cafe"
+        },
+        {
+          "group": "구매 특전",
+          "img": "https://prcdn.freetls.fastly.net/release_image/48489/345/48489-345-67eab53a069f88082e56d3f698b71e00-1920x1080.png?width=900",
+          "caption_ko": "카페 매장 ver.",
+          "source": "https://shop.anique.jp/blogs/news/sakamoto-days-dj-groove-cafe"
+        },
+        {
+          "group": "구매 특전",
+          "img": "https://prcdn.freetls.fastly.net/release_image/48489/345/48489-345-a55b8e4b72a4e594da75fed786c5412b-1920x1080.png?width=900",
+          "caption_ko": "웹 판매 ver.",
+          "source": "https://shop.anique.jp/blogs/news/sakamoto-days-dj-groove-cafe"
+        }
+      ],
+      "gallery_source": "https://shop.anique.jp/blogs/news/sakamoto-days-dj-groove-cafe"
     },
     {
       "title_ko": "블리치 천년혈전편 콜라보 카페",
@@ -3448,7 +3761,101 @@
       "lon": 139.7041,
       "translation_check": true,
       "summary_ko": "애니메이션 「나의 히어로 아카데미아」 테마 카페예요. 도쿄·오사카·아이치·홋카이도에서 기간 한정으로 순차 오픈해요.",
-      "summary_source": "https://prtimes.jp/main/html/rd/p/000000329.000086964.html"
+      "summary_source": "https://prtimes.jp/main/html/rd/p/000000329.000086964.html",
+      "gallery": [
+        {
+          "group": "특전",
+          "img": "https://prcdn.freetls.fastly.net/release_image/86964/329/86964-329-536e92b9e21a2b4b89cf20450d0bee7d-800x1000.jpg",
+          "caption_ko": "사전 예약 특전 홀로그램 스티커",
+          "source": "https://prtimes.jp/main/html/rd/p/000000329.000086964.html"
+        },
+        {
+          "group": "특전",
+          "img": "https://prcdn.freetls.fastly.net/release_image/86964/329/86964-329-3e739929c21d2112c09374dbac279555-800x1000.jpg",
+          "caption_ko": "드링크 특전 코스터 (전 7종)",
+          "source": "https://prtimes.jp/main/html/rd/p/000000329.000086964.html"
+        },
+        {
+          "group": "특전",
+          "img": "https://prcdn.freetls.fastly.net/release_image/86964/329/86964-329-92a1315c30cc930ad8390c45b523a807-800x1000.jpg",
+          "caption_ko": "굿즈 구매 특전 히어로 카드 (랜덤 7종)",
+          "source": "https://prtimes.jp/main/html/rd/p/000000329.000086964.html"
+        },
+        {
+          "group": "피자 (각 2,090엔)",
+          "img": "https://prcdn.freetls.fastly.net/release_image/86964/329/86964-329-2370165a05d70e3cfedc9d4c58420fe6-800x600.jpg",
+          "caption_ko": "미도리야 · 바질 크림과 루콜라",
+          "source": "https://prtimes.jp/main/html/rd/p/000000329.000086964.html"
+        },
+        {
+          "group": "피자 (각 2,090엔)",
+          "img": "https://prcdn.freetls.fastly.net/release_image/86964/329/86964-329-d8a62216059fca229706e903e3530be0-800x600.jpg",
+          "caption_ko": "바쿠고 · 미트볼 카레",
+          "source": "https://prtimes.jp/main/html/rd/p/000000329.000086964.html"
+        },
+        {
+          "group": "피자 (각 2,090엔)",
+          "img": "https://prcdn.freetls.fastly.net/release_image/86964/329/86964-329-f10f47d9297d6b58e5a4ee8a47dc9994-800x600.jpg",
+          "caption_ko": "우라라카 · 초코 마시멜로",
+          "source": "https://prtimes.jp/main/html/rd/p/000000329.000086964.html"
+        },
+        {
+          "group": "피자 (각 2,090엔)",
+          "img": "https://prcdn.freetls.fastly.net/release_image/86964/329/86964-329-7572a4226d06217d9a11fd830f78a073-800x600.jpg",
+          "caption_ko": "토도로키 · 고르곤졸라 & 페퍼로니",
+          "source": "https://prtimes.jp/main/html/rd/p/000000329.000086964.html"
+        },
+        {
+          "group": "피자 (각 2,090엔)",
+          "img": "https://prcdn.freetls.fastly.net/release_image/86964/329/86964-329-3f432b54a3f674957c30c0787e0d95a2-800x600.jpg",
+          "caption_ko": "올마이트 · 마르게리타",
+          "source": "https://prtimes.jp/main/html/rd/p/000000329.000086964.html"
+        },
+        {
+          "group": "피자 (각 2,090엔)",
+          "img": "https://prcdn.freetls.fastly.net/release_image/86964/329/86964-329-b7edc5cca58f9e57b8009ecb959ba2c7-800x600.jpg",
+          "caption_ko": "엔데버 · 칠리 토마토",
+          "source": "https://prtimes.jp/main/html/rd/p/000000329.000086964.html"
+        },
+        {
+          "group": "피자 (각 2,090엔)",
+          "img": "https://prcdn.freetls.fastly.net/release_image/86964/329/86964-329-e2109d4925e9db361390e27fbcb2370d-800x600.jpg",
+          "caption_ko": "호크스 · 데리마요 치킨",
+          "source": "https://prtimes.jp/main/html/rd/p/000000329.000086964.html"
+        },
+        {
+          "group": "디저트·사이드",
+          "img": "https://prcdn.freetls.fastly.net/release_image/86964/329/86964-329-68a1c057c0c7d29ea7f2d5cea514718e-800x600.jpg",
+          "caption_ko": "미도리야 · 딸기 크림 도넛 990엔",
+          "source": "https://prtimes.jp/main/html/rd/p/000000329.000086964.html"
+        },
+        {
+          "group": "디저트·사이드",
+          "img": "https://prcdn.freetls.fastly.net/release_image/86964/329/86964-329-abafd62ebb30e6188ed0d87c427900bd-800x600.jpg",
+          "caption_ko": "바쿠고 · 바나나 커스터드 도넛 990엔",
+          "source": "https://prtimes.jp/main/html/rd/p/000000329.000086964.html"
+        },
+        {
+          "group": "디저트·사이드",
+          "img": "https://prcdn.freetls.fastly.net/release_image/86964/329/86964-329-9bdaaa54d46a0dd6b19ef3f750972846-800x600.jpg",
+          "caption_ko": "토도로키 · 솔트 아이스 & 카시스 도넛 990엔",
+          "source": "https://prtimes.jp/main/html/rd/p/000000329.000086964.html"
+        },
+        {
+          "group": "디저트·사이드",
+          "img": "https://prcdn.freetls.fastly.net/release_image/86964/329/86964-329-8d726e7bb6c4d9f6aa6942aa2fea3fff-800x600.jpg",
+          "caption_ko": "우라라카 · 사워크림 감자튀김 790엔",
+          "source": "https://prtimes.jp/main/html/rd/p/000000329.000086964.html"
+        },
+        {
+          "group": "디저트·사이드",
+          "img": "https://prcdn.freetls.fastly.net/release_image/86964/329/86964-329-d390dc8320ad2a2ee73a54bb894fd342-800x600.jpg",
+          "caption_ko": "호크스 · 버팔로 윙 790엔",
+          "source": "https://prtimes.jp/main/html/rd/p/000000329.000086964.html"
+        }
+      ],
+      "gallery_source": "https://prtimes.jp/main/html/rd/p/000000329.000086964.html",
+      "gallery_note": "운영사(LTR) 보도자료 이미지"
     },
     {
       "title_ko": "진격의 거인 DJ 테마 팝업숍",
@@ -7130,7 +7537,101 @@
           "quote": "通常特典付き予約：770円(税込) プレミアム特典付き予約：5,500円(税込)",
           "checked": "2026-10-19"
         }
-      ]
+      ],
+      "gallery": [
+        {
+          "group": "메인 메뉴",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/08/0728_DC_gousei_3-1.jpg",
+          "caption_ko": "에도가와 코난 · 데미 햄버그 라이스",
+          "source": "https://conan-diner.com/menu/"
+        },
+        {
+          "group": "메인 메뉴",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/08/0817_DC_gousei_4.jpg",
+          "caption_ko": "모리 란 · 교토풍 크림 햄버그",
+          "source": "https://conan-diner.com/menu/"
+        },
+        {
+          "group": "메인 메뉴",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/08/0817_DC_gousei_5.jpg",
+          "caption_ko": "쿠도 신이치 · 멘치카츠",
+          "source": "https://conan-diner.com/menu/"
+        },
+        {
+          "group": "메인 메뉴",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/R_0925_DC_gousei_7.jpg",
+          "caption_ko": "하이바라 아이 · 크림 파스타 실험",
+          "source": "https://conan-diner.com/menu/"
+        },
+        {
+          "group": "메인 메뉴",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/0817_DC_gousei_6-1.jpg",
+          "caption_ko": "아카이 슈이치 · 빨간 스나이퍼 카츠카레",
+          "source": "https://conan-diner.com/menu/"
+        },
+        {
+          "group": "메인 메뉴",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/0914_DC_gousei_24_2.jpg",
+          "caption_ko": "아무로 토오루 · 트리플 페이스 샌드",
+          "source": "https://conan-diner.com/menu/"
+        },
+        {
+          "group": "메인 메뉴",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/0910_DC_gousei_8.jpg",
+          "caption_ko": "괴도 키드 · 해시드 비프",
+          "source": "https://conan-diner.com/menu/"
+        },
+        {
+          "group": "디저트·드링크",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/10/1005_DC_gousei_22-1024x683.jpg",
+          "caption_ko": "TV 애니 30주년 부케 파르페",
+          "source": "https://conan-diner.com/menu/"
+        },
+        {
+          "group": "디저트·드링크",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/0U5A0081-1.jpg",
+          "caption_ko": "코난 다이너 파르페",
+          "source": "https://conan-diner.com/menu/"
+        },
+        {
+          "group": "디저트·드링크",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/0728_DC_gousei_2.jpg",
+          "caption_ko": "다이너 드링크 (에도가와 코난)",
+          "source": "https://conan-diner.com/menu/"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/conan_nui-1.jpg",
+          "caption_ko": "인형 마스코트 (코난) 2,420엔",
+          "source": "https://conan-diner.com/goods/"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/10/0U5A0505_w.jpg",
+          "caption_ko": "러버 스트랩 (랜덤 7종) 880엔",
+          "source": "https://conan-diner.com/goods/"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/kanbadge_image.jpg",
+          "caption_ko": "캔배지 (랜덤 7종) 605엔",
+          "source": "https://conan-diner.com/goods/"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/09/stand_conan-1.jpg",
+          "caption_ko": "아크릴 스탠드 (코난) 1,650엔",
+          "source": "https://conan-diner.com/goods/"
+        },
+        {
+          "group": "굿즈",
+          "img": "https://conan-diner.com/wp-content/uploads/2026/10/0U5A0509_w.jpg",
+          "caption_ko": "브레드 파우치 2,750엔",
+          "source": "https://conan-diner.com/goods/"
+        }
+      ],
+      "gallery_source": "https://conan-diner.com/menu/",
+      "gallery_note": "메뉴·굿즈 일부"
     },
     {
       "reservation": "",
@@ -7242,7 +7743,56 @@
           "quote": "開催期間：2026年11月14日（土）～2026年11月29日（日） 開催場所：アニメイト（池袋本店・札幌店・名古屋店・秋葉原店・ラシック福岡天神店・大阪日本橋店・通販）",
           "checked": "2026-10-19"
         }
-      ]
+      ],
+      "gallery": [
+        {
+          "group": "페어 선행 판매 굿즈",
+          "img": "https://prcdn.freetls.fastly.net/release_image/16064/9446/16064-9446-4cb8e52c6fb684d4f27ed99517158f4c-3900x2753.jpg?width=1200",
+          "full": "https://prcdn.freetls.fastly.net/release_image/16064/9446/16064-9446-4cb8e52c6fb684d4f27ed99517158f4c-3900x2753.jpg",
+          "caption_ko": "굿즈 라인업 1",
+          "source": "https://prtimes.jp/main/html/rd/p/000009446.000016064.html"
+        },
+        {
+          "group": "페어 선행 판매 굿즈",
+          "img": "https://prcdn.freetls.fastly.net/release_image/16064/9446/16064-9446-87aebdfc80f5152300b8697296c3423f-3900x2753.jpg?width=1200",
+          "full": "https://prcdn.freetls.fastly.net/release_image/16064/9446/16064-9446-87aebdfc80f5152300b8697296c3423f-3900x2753.jpg",
+          "caption_ko": "굿즈 라인업 2",
+          "source": "https://prtimes.jp/main/html/rd/p/000009446.000016064.html"
+        },
+        {
+          "group": "페어 선행 판매 굿즈",
+          "img": "https://prcdn.freetls.fastly.net/release_image/16064/9446/16064-9446-f4c4d08a08ef3cda15acf4678df8405a-3900x2753.jpg?width=1200",
+          "full": "https://prcdn.freetls.fastly.net/release_image/16064/9446/16064-9446-f4c4d08a08ef3cda15acf4678df8405a-3900x2753.jpg",
+          "caption_ko": "굿즈 라인업 3",
+          "source": "https://prtimes.jp/main/html/rd/p/000009446.000016064.html"
+        },
+        {
+          "group": "페어 선행 판매 굿즈",
+          "img": "https://prcdn.freetls.fastly.net/release_image/16064/9446/16064-9446-18ceb4e63daf0d081a86d612976f8b79-3900x2753.jpg?width=1200",
+          "full": "https://prcdn.freetls.fastly.net/release_image/16064/9446/16064-9446-18ceb4e63daf0d081a86d612976f8b79-3900x2753.jpg",
+          "caption_ko": "굿즈 라인업 4",
+          "source": "https://prtimes.jp/main/html/rd/p/000009446.000016064.html"
+        },
+        {
+          "group": "특전",
+          "img": "https://prcdn.freetls.fastly.net/release_image/16064/9446/16064-9446-029df2466818381501b3ca34ae58ff6a-1600x1200.jpg",
+          "caption_ko": "글리터 캔배지 BOX 구매 특전 (애니메이트 한정)",
+          "source": "https://prtimes.jp/main/html/rd/p/000009446.000016064.html"
+        },
+        {
+          "group": "특전",
+          "img": "https://prcdn.freetls.fastly.net/release_image/16064/9446/16064-9446-17631dba2a6c23ae2bae7562d1741707-1600x1200.jpg",
+          "caption_ko": "오로라 캔배지 BOX 구매 특전 (애니메이트 한정)",
+          "source": "https://prtimes.jp/main/html/rd/p/000009446.000016064.html"
+        },
+        {
+          "group": "특전",
+          "img": "https://prcdn.freetls.fastly.net/release_image/16064/9446/16064-9446-c86aeb4eb91311bb2145406f44f3702f-1600x1200.jpg",
+          "caption_ko": "페어 구매 특전 필름풍 일러스트 카드 (1,100엔마다)",
+          "source": "https://prtimes.jp/main/html/rd/p/000009446.000016064.html"
+        }
+      ],
+      "gallery_source": "https://prtimes.jp/main/html/rd/p/000009446.000016064.html"
     },
     {
       "reservation": "",
@@ -7324,7 +7874,46 @@
           "quote": "開催日時：2026年10月24日(土)～11月23日(月・祝)",
           "checked": "2026-10-19"
         }
-      ]
+      ],
+      "gallery": [
+        {
+          "group": "굿즈 라인업",
+          "img": "https://bandainamco-am.co.jp/images/crossstore/store/news/crossstore_tokyo/20261015/product_001.jpg",
+          "caption_ko": "D3P WEB SHOP 굿즈",
+          "source": "https://bandainamco-am.co.jp/crossstore/store/crossstore_tokyo/news/20261015.html"
+        },
+        {
+          "group": "굿즈 라인업",
+          "img": "https://bandainamco-am.co.jp/images/crossstore/store/news/crossstore_tokyo/20261015/product_002.jpg",
+          "caption_ko": "「이이쟝」 콜라보 굿즈",
+          "source": "https://bandainamco-am.co.jp/crossstore/store/crossstore_tokyo/news/20261015.html"
+        },
+        {
+          "group": "굿즈 라인업",
+          "img": "https://bandainamco-am.co.jp/images/crossstore/store/news/crossstore_tokyo/20261015/product_003.jpg",
+          "caption_ko": "오리지널 프린트 티셔츠",
+          "source": "https://bandainamco-am.co.jp/crossstore/store/crossstore_tokyo/news/20261015.html"
+        },
+        {
+          "group": "특전·이벤트",
+          "img": "https://bandainamco-am.co.jp/images/crossstore/store/news/crossstore_tokyo/20261015/sticker_list01.jpg",
+          "caption_ko": "스티커 1탄 (전 10종) 10/24~11/6 배포",
+          "source": "https://bandainamco-am.co.jp/crossstore/store/crossstore_tokyo/news/20261015.html"
+        },
+        {
+          "group": "특전·이벤트",
+          "img": "https://bandainamco-am.co.jp/images/crossstore/store/news/crossstore_tokyo/20261015/sticker_list02.jpg",
+          "caption_ko": "스티커 2탄 (전 9종) 11/7~11/23 배포",
+          "source": "https://bandainamco-am.co.jp/crossstore/store/crossstore_tokyo/news/20261015.html"
+        },
+        {
+          "group": "특전·이벤트",
+          "img": "https://bandainamco-am.co.jp/images/crossstore/store/news/crossstore_tokyo/20261015/statue.jpg",
+          "caption_ko": "실물 크기 레인저 입상 전시",
+          "source": "https://bandainamco-am.co.jp/crossstore/store/crossstore_tokyo/news/20261015.html"
+        }
+      ],
+      "gallery_source": "https://bandainamco-am.co.jp/crossstore/store/crossstore_tokyo/news/20261015.html"
     },
     {
       "reservation": "",
@@ -7418,7 +8007,58 @@
           "quote": "開催期間：2026年11月7日(土)～2026年11月29日(日) 開催店舗：池袋本店3Fわくわくスペース",
           "checked": "2026-10-19"
         }
-      ]
+      ],
+      "gallery": [
+        {
+          "group": "판매 굿즈 Flower ver.",
+          "img": "https://www.animate.co.jp/assets/uploads/2026/09/1790582195-3fd5d407e1e30707b48122e382934467.jpg",
+          "caption_ko": "빅 캔배지 & 아크릴 카드 세트 (예약 상품)",
+          "source": "https://www.animate.co.jp/onlyshop/49939/"
+        },
+        {
+          "group": "판매 굿즈 Flower ver.",
+          "img": "https://www.animate.co.jp/assets/uploads/2026/09/1790582068-ce7fda6ab48aa73ed08a665ad0e71fe1.jpg",
+          "caption_ko": "트레이딩 캔배지 A (전 8종)",
+          "source": "https://www.animate.co.jp/onlyshop/49939/"
+        },
+        {
+          "group": "판매 굿즈 Flower ver.",
+          "img": "https://www.animate.co.jp/assets/uploads/2026/09/1790582083-771cb32975817e14744d258fd0c221c1.jpg",
+          "caption_ko": "트레이딩 캔배지 B (전 8종)",
+          "source": "https://www.animate.co.jp/onlyshop/49939/"
+        },
+        {
+          "group": "판매 굿즈 Flower ver.",
+          "img": "https://www.animate.co.jp/assets/uploads/2026/09/1790582098-8191e4615129012a99566c7dcd9d3a1e.jpg",
+          "caption_ko": "트레이딩 미니캐릭터 아크릴 스탠드",
+          "source": "https://www.animate.co.jp/onlyshop/49939/"
+        },
+        {
+          "group": "판매 굿즈 Flower ver.",
+          "img": "https://www.animate.co.jp/assets/uploads/2026/09/1790582115-148ffa46cc236217cc285adcd0d3dcf7.jpg",
+          "caption_ko": "아크릴 스탠드 (8종)",
+          "source": "https://www.animate.co.jp/onlyshop/49939/"
+        },
+        {
+          "group": "판매 굿즈 Flower ver.",
+          "img": "https://www.animate.co.jp/assets/uploads/2026/09/1790582129-1c4b48eeec9be8b864825848d087af46.jpg",
+          "caption_ko": "반짝이 아크릴 키홀더 (8종)",
+          "source": "https://www.animate.co.jp/onlyshop/49939/"
+        },
+        {
+          "group": "판매 굿즈 Flower ver.",
+          "img": "https://www.animate.co.jp/assets/uploads/2026/09/1790582145-3bf2443f7a45589de2bf91db8dee2e3c.jpg",
+          "caption_ko": "트레이딩 카드 (전 8종)",
+          "source": "https://www.animate.co.jp/onlyshop/49939/"
+        },
+        {
+          "group": "판매 굿즈 Flower ver.",
+          "img": "https://www.animate.co.jp/assets/uploads/2026/09/1790582159-8e8a89721aa7f2a70de00db0f61338ca.jpg",
+          "caption_ko": "클리어 파일 세트",
+          "source": "https://www.animate.co.jp/onlyshop/49939/"
+        }
+      ],
+      "gallery_source": "https://www.animate.co.jp/onlyshop/49939/"
     },
     {
       "reservation": "",
@@ -7449,7 +8089,70 @@
           "quote": "｜POP UP STORE 2026年11月6日(金) ～ 11月23日(月・祝)",
           "checked": "2026-10-19"
         }
-      ]
+      ],
+      "gallery": [
+        {
+          "group": "판매 굿즈",
+          "img": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/09210825/VGD_acst_ari_set.jpg",
+          "caption_ko": "아크릴 스탠드 After Party ver. 각 1,760엔",
+          "source": "https://bushiroad-creative.com/topics/104744/"
+        },
+        {
+          "group": "판매 굿즈",
+          "img": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/09210836/vg_TRbadge_ari.jpg",
+          "caption_ko": "트레이딩 캔배지 After Party ver. 550엔",
+          "source": "https://bushiroad-creative.com/topics/104744/"
+        },
+        {
+          "group": "판매 굿즈",
+          "img": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/09210846/3_vang_HAKU_acrylkey_sample_set_ari.jpg",
+          "caption_ko": "박 아크릴 키홀더 After Party ver. 각 990엔",
+          "source": "https://bushiroad-creative.com/topics/104744/"
+        },
+        {
+          "group": "판매 굿즈",
+          "img": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/09210858/4_vang_AkcardST_sample_05.jpg",
+          "caption_ko": "아크릴 카드 스탠드 After Party ver. 각 2,750엔",
+          "source": "https://bushiroad-creative.com/topics/104744/"
+        },
+        {
+          "group": "판매 굿즈",
+          "img": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/09210911/5_vang_TRminiACblock_sample_ari.jpg",
+          "caption_ko": "트레이딩 미니 아크릴 블록 마커 770엔",
+          "source": "https://bushiroad-creative.com/topics/104744/"
+        },
+        {
+          "group": "판매 굿즈",
+          "img": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/09210916/6_vang_postcard_sample_ari.jpg",
+          "caption_ko": "환진성전편 포스트카드 세트 3,300엔",
+          "source": "https://bushiroad-creative.com/topics/104744/"
+        },
+        {
+          "group": "판매 굿즈",
+          "img": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/09210923/VGDz_genshin_AkcardST_ari.jpg",
+          "caption_ko": "스노돔풍 아크릴 키홀더 1,650엔",
+          "source": "https://bushiroad-creative.com/topics/104744/"
+        },
+        {
+          "group": "판매 굿즈",
+          "img": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/09210937/7_vang_acst_sample_set_ari.jpg",
+          "caption_ko": "환진성전편·운명성전편 아크릴 스탠드 각 1,760엔",
+          "source": "https://bushiroad-creative.com/topics/104744/"
+        },
+        {
+          "group": "판매 굿즈",
+          "img": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/09210946/8_vang_TRacrylkey_sample_ari.jpg",
+          "caption_ko": "트레이딩 아크릴 키홀더 770엔",
+          "source": "https://bushiroad-creative.com/topics/104744/"
+        },
+        {
+          "group": "구매 특전",
+          "img": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/14170137/261106-1123_cf-vanguard-divinez-PUS_MY-1-1024x723.jpg",
+          "caption_ko": "뱅가드 PR 카드 (전 8종, 3,300엔마다)",
+          "source": "https://bushiroad-creative.com/topics/104744/"
+        }
+      ],
+      "gallery_source": "https://bushiroad-creative.com/topics/104744/"
     },
     {
       "reservation": "",
@@ -7580,7 +8283,82 @@
           "quote": "開催期間 2026年11月6日(金)～2026年11月22日(日) 開催場所 MAGNET by SHIBUYA109 5F／AMNIBUS STORE -blue-",
           "checked": "2026-10-19"
         }
-      ]
+      ],
+      "gallery": [
+        {
+          "group": "특전",
+          "img": "https://amnibus-store.s3.amazonaws.com/wp-content/uploads/21eb1411c487d9a8b4f7c77124266319.jpg",
+          "caption_ko": "구매 특전 포스트카드 (2,000엔마다)",
+          "source": "https://store.amnibus.com/dn-angel-storeblue/"
+        },
+        {
+          "group": "특전",
+          "img": "https://amnibus-store.s3.amazonaws.com/wp-content/uploads/a908a89ad8f072f23b92354cce1595bf.jpg",
+          "caption_ko": "니와 다이스케 생일 기획 특전",
+          "source": "https://store.amnibus.com/dn-angel-storeblue/"
+        },
+        {
+          "group": "판매 굿즈",
+          "img": "https://amnibus-store.s3.amazonaws.com/wp-content/uploads/5a3537bd14163d2272d2a79bd885a15e.jpg",
+          "caption_ko": "트레이딩 미니캐릭터 별하늘 메이드&집사 글리터 캔배지",
+          "source": "https://store.amnibus.com/dn-angel-storeblue/"
+        },
+        {
+          "group": "판매 굿즈",
+          "img": "https://amnibus-store.s3.amazonaws.com/wp-content/uploads/9761d7d59be4b96e5ae1b86eb1b25a26.jpg",
+          "caption_ko": "트레이딩 미니캐릭터 아크릴 스탠드",
+          "source": "https://store.amnibus.com/dn-angel-storeblue/"
+        },
+        {
+          "group": "판매 굿즈",
+          "img": "https://amnibus-store.s3.amazonaws.com/wp-content/uploads/0229901e4ef9dbd577f3cdb01b1acf0d.jpg",
+          "caption_ko": "트레이딩 미니캐릭터 일러스트 카드",
+          "source": "https://store.amnibus.com/dn-angel-storeblue/"
+        },
+        {
+          "group": "판매 굿즈",
+          "img": "https://amnibus-store.s3.amazonaws.com/wp-content/uploads/add6c2218a35f6eeaca6330ce83e4fd9.jpg",
+          "caption_ko": "트레이딩 미니캐릭터 아크릴 카드",
+          "source": "https://store.amnibus.com/dn-angel-storeblue/"
+        },
+        {
+          "group": "판매 굿즈",
+          "img": "https://amnibus-store.s3.amazonaws.com/wp-content/uploads/6d69b7fa2c0b1e49a70d0ef2fc75bc55.jpg",
+          "caption_ko": "클리어 다이컷 스티커",
+          "source": "https://store.amnibus.com/dn-angel-storeblue/"
+        },
+        {
+          "group": "판매 굿즈",
+          "img": "https://amnibus-store.s3.amazonaws.com/wp-content/uploads/90fadee911488a5ba23e501e45aa5c5e.jpg",
+          "caption_ko": "BIG 아크릴 키홀더 각 1,100엔",
+          "source": "https://store.amnibus.com/dn-angel-storeblue/"
+        },
+        {
+          "group": "판매 굿즈",
+          "img": "https://amnibus-store.s3.amazonaws.com/wp-content/uploads/96531b97c3de3a65f347848ddf6b4d49.jpg",
+          "caption_ko": "BIG 아크릴 스탠드 각 1,980엔",
+          "source": "https://store.amnibus.com/dn-angel-storeblue/"
+        },
+        {
+          "group": "판매 굿즈",
+          "img": "https://amnibus-store.s3.amazonaws.com/wp-content/uploads/0eb05c034836100a1ee19b2a25787cc7.jpg",
+          "caption_ko": "트레이딩 원작 컷 캔배지 495엔",
+          "source": "https://store.amnibus.com/dn-angel-storeblue/"
+        },
+        {
+          "group": "판매 굿즈",
+          "img": "https://amnibus-store.s3.amazonaws.com/wp-content/uploads/4897b4d152aa3687f13a38f921d4ac3d.jpg",
+          "caption_ko": "A6 아크릴 패널 각 2,178엔 (선행 판매)",
+          "source": "https://store.amnibus.com/dn-angel-storeblue/"
+        },
+        {
+          "group": "판매 굿즈",
+          "img": "https://amnibus-store.s3.amazonaws.com/wp-content/uploads/e25ca2574226705b14182cb058e794fa.jpg",
+          "caption_ko": "포스트카드 6장 세트 1,100엔 (선행 판매)",
+          "source": "https://store.amnibus.com/dn-angel-storeblue/"
+        }
+      ],
+      "gallery_source": "https://store.amnibus.com/dn-angel-storeblue/"
     },
     {
       "reservation": "",
