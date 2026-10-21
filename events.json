@@ -10297,6 +10297,146 @@
       "thumbnail": "https://maebashi-witches.com/static/ogp.png",
       "summary_ko": "「마에바시 위치즈」 6명이 저지+메이드 복장으로 새로 그려진 일러스트 굿즈 팝업이에요. 3,000엔 구매마다 추첨회가 있고, 첫 3일은 셔플 입장이에요.",
       "thumb_small": "thumbs/f2296dfab3c87d22.webp"
+    },
+    {
+      "id": "gbc-animetokyo",
+      "area": "도쿄",
+      "reservation": "불필요",
+      "checked_date": "2026-10-21",
+      "evidence": [
+        {
+          "url": "https://animetokyo.jp/archives/events/events90/",
+          "tier": "official",
+          "quote": "開催期間：2026年11月14日（土）～2027年1月31日（日） 入場料：無料 / (공식 사이트) 11時～19時 (最終入場18:30)",
+          "checked": "2026-10-21"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-21",
+      "translation_check": true,
+      "summary_source": "https://animetokyo.jp/archives/events/events90/",
+      "source_url": "https://animetokyo.jp/archives/events/events90/",
+      "thumbnail_source": "https://animetokyo.jp/archives/events/events90/",
+      "gallery_source": "https://animetokyo.jp/archives/events/events90/",
+      "title_ko": "걸즈 밴드 크라이 특별 기획전 (이케부쿠로 · 아니메 도쿄 스테이션)",
+      "title_ja": "『ガールズバンドクライ』特別企画展",
+      "category": "전시·행사",
+      "venue": "아니메 도쿄 스테이션 (이케부쿠로)",
+      "start": "2026-11-14",
+      "end": "2027-01-31",
+      "official_url": "https://animetokyo.jp/archives/events/events90/",
+      "notes": "11:00~19:00 (최종 입장 18:30). 입장 무료. 휴관일: 11/16·24·30, 12/7·14·21·28~31, 1/1~4·12·18·25",
+      "map_query": "アニメ東京ステーション 豊島区南池袋2-25-5",
+      "lat": 35.7285,
+      "lon": 139.7135,
+      "thumbnail": "https://girls-band-cry.com/wp-content/themes/gbc_v1-1/assets/images/common/ogp_cinema_01.jpg",
+      "summary_ko": "「걸즈 밴드 크라이」 무료 기획전이에요. 등신대 아크릴 스탠드, 작중 장면 재현 코너, 역대 라이브 포스터·CD 전시, 니나 포토 스폿, AR 체험이 있어요.",
+      "thumb_small": "thumbs/badecf8e178f0630.webp"
+    },
+    {
+      "id": "dungeon-meshi-volks",
+      "area": "도쿄",
+      "reservation": "불필요",
+      "checked_date": "2026-10-21",
+      "evidence": [
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000009694.000016064.html",
+          "tier": "official",
+          "quote": "開催期間:2026年11月7日(土)～2026年11月23日(月・祝) 開催場所:ボークス 秋葉原ホビー天国2 6Ｆフロア 営業時間:平日11:00～20:00/土日祝10:00～20:00",
+          "checked": "2026-10-21"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-21",
+      "translation_check": true,
+      "summary_source": "https://prtimes.jp/main/html/rd/p/000009694.000016064.html",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000009694.000016064.html",
+      "thumbnail_source": "https://prtimes.jp/main/html/rd/p/000009694.000016064.html",
+      "gallery_source": "https://prtimes.jp/main/html/rd/p/000009694.000016064.html",
+      "title_ko": "던전밥 POP UP SHOP in 볼크스 (아키하바라)",
+      "title_ja": "『TVアニメ「ダンジョン飯」 POP UP SHOP in ボークス』",
+      "category": "팝업스토어",
+      "venue": "볼크스 아키하바라 호비 천국2 6층",
+      "start": "2026-11-07",
+      "end": "2026-11-23",
+      "official_url": "https://prtimes.jp/main/html/rd/p/000009694.000016064.html",
+      "notes": "평일 11:00~20:00 / 토일공휴일 10:00~20:00. 굿즈 275~3,300엔. 2,000엔(세금 포함) 구매마다 브로마이드(전 9종) 랜덤 1장 (영수증 합산 불가). 일부 트레이딩 굿즈 BOX 구매 선착순 특전. 오사카 쇼룸은 11/28~12/13",
+      "map_query": "ボークス 秋葉原ホビー天国2",
+      "lat": 35.6995,
+      "lon": 139.7712,
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/16064/9694/16064-9694-aedcf40dee4743671de67db8b40b8416-1140x640.jpg",
+      "summary_ko": "「던전밥」 '우편배달' 콘셉트 새 일러스트 굿즈를 먼저 파는 팝업이에요. 2,000엔마다 브로마이드 특전이 있고, 이후 오사카에서도 열려요.",
+      "thumb_small": "thumbs/5e71b586fdbf2c5f.webp"
+    },
+    {
+      "id": "trigun-shinjuku",
+      "area": "도쿄",
+      "reservation": "불필요",
+      "checked_date": "2026-10-21",
+      "evidence": [
+        {
+          "url": "https://eeo.today/pr/trigun-shinjuku/",
+          "tier": "official",
+          "quote": "ワゴン 2026年11月12日(木)～11月25日(水) 営業時間 12:00～20:00(最終日のみ18:00まで) 開催場所 JR新宿駅中央東口改札外 新宿マーケットスペース",
+          "checked": "2026-10-21"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-21",
+      "translation_check": true,
+      "summary_source": "https://eeo.today/pr/trigun-shinjuku/",
+      "source_url": "https://eeo.today/pr/trigun-shinjuku/",
+      "thumbnail_source": "https://eeo.today/pr/trigun-shinjuku/",
+      "gallery_source": "https://eeo.today/pr/trigun-shinjuku/",
+      "title_ko": "TRIGUN STARGAZE POP UP SHOP (신주쿠 마켓 스페이스 · eeo)",
+      "title_ja": "アニメ『TRIGUN STARGAZE』POP UP SHOP in 新宿マーケットスペース by eeo",
+      "category": "팝업스토어",
+      "venue": "JR 신주쿠역 중앙동쪽 개찰구 밖 신주쿠 마켓 스페이스",
+      "start": "2026-11-12",
+      "end": "2026-11-25",
+      "official_url": "https://eeo.today/pr/trigun-shinjuku/",
+      "notes": "12:00~20:00 (마지막 날 18:00까지). 2,200엔(세금 포함) 구매마다 일러스트 카드(전 10종) 랜덤 1장. 혼잡 시 입장 정리권. 통판도 있음",
+      "map_query": "JR新宿駅 新宿マーケットスペース",
+      "lat": 35.6905,
+      "lon": 139.7005,
+      "thumbnail": "https://eeo.today/pr/trigun-shinjuku/assets/images/ogp.jpg",
+      "summary_ko": "「TRIGUN STARGAZE」 새 일러스트·그래프아트 굿즈 왜건 팝업이에요. 신주쿠역 개찰구 바로 밖이라 지나가다 들르기 좋아요.",
+      "thumb_small": "thumbs/61c06f02e4ab411f.webp"
+    },
+    {
+      "id": "drstone-shinjuku",
+      "area": "도쿄",
+      "reservation": "불필요",
+      "checked_date": "2026-10-21",
+      "evidence": [
+        {
+          "url": "https://eeo.today/pr/dr_stone2611-popup/",
+          "tier": "official",
+          "quote": "開催期間 2026年11月26日(木)～12月9日(水) 営業時間 12:00～20:00(最終日のみ18:00まで) 開催場所 JR新宿駅中央東口改札外 新宿マーケットスペース",
+          "checked": "2026-10-21"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-21",
+      "translation_check": true,
+      "summary_source": "https://eeo.today/pr/dr_stone2611-popup/",
+      "source_url": "https://eeo.today/pr/dr_stone2611-popup/",
+      "thumbnail_source": "https://eeo.today/pr/dr_stone2611-popup/",
+      "gallery_source": "https://eeo.today/pr/dr_stone2611-popup/",
+      "title_ko": "Dr.STONE POP UP SHOP (신주쿠 마켓 스페이스 · eeo)",
+      "title_ja": "TVアニメ『Dr.STONE』POP UP SHOP in 新宿マーケットスペース by eeo",
+      "category": "팝업스토어",
+      "venue": "JR 신주쿠역 중앙동쪽 개찰구 밖 신주쿠 마켓 스페이스",
+      "start": "2026-11-26",
+      "end": "2026-12-09",
+      "official_url": "https://eeo.today/pr/dr_stone2611-popup/",
+      "notes": "12:00~20:00 (마지막 날 18:00까지). 2,200엔(세금 포함) 구매마다 일러스트 카드(전 5종) 랜덤 1장. 혼잡 시 입장 정리권. 오사카 아베노 라쿠바스는 2027/1/15~1/24",
+      "map_query": "JR新宿駅 新宿マーケットスペース",
+      "lat": 35.6905,
+      "lon": 139.7005,
+      "thumbnail": "https://eeo.today/pr/dr_stone2611-popup/assets/images/ogp.jpg",
+      "summary_ko": "「Dr.STONE」 굿즈 왜건 팝업이에요. 신주쿠역 개찰구 밖이라 짧게 들르기 좋고, 내년 1월엔 오사카에서도 열려요.",
+      "thumb_small": "thumbs/6080e5829c7612d6.webp"
     }
   ]
 }
