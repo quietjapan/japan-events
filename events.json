@@ -1,6 +1,6 @@
 {
   "base_date": "2026-10-20",
-  "last_updated": "2026-10-20",
+  "last_updated": "2026-10-21",
   "is_sample": false,
   "events": [
     {
@@ -5911,7 +5911,8 @@
           "source": "https://www.medicos-e.net/newsdetail/shinepost/"
         }
       ],
-      "gallery_note": "가격은 상품 라인업 이미지에서 확인할 수 있어요"
+      "gallery_note": "가격은 상품 라인업 이미지에서 확인할 수 있어요",
+      "thumb_small": "thumbs/fee4e8ca539607a4.webp"
     },
     {
       "title_ko": "『어서 와, 첫사랑』 POP UP SHOP",
@@ -10226,6 +10227,76 @@
         }
       ],
       "thumb_small": "thumbs/a869924b07d2f8ab.webp"
+    },
+    {
+      "id": "suisei-kabukicho",
+      "area": "도쿄",
+      "reservation": "불필요",
+      "checked_date": "2026-10-21",
+      "evidence": [
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000000437.000050845.html",
+          "tier": "official",
+          "quote": "開催期間：2026年10月23日（金）～11月8日（日） ●販売箇所：東急歌舞伎町タワー 3F namco TOKYO ●営業時間：2026年10月23日(金)～11月8日（日） 11:00～23:00",
+          "checked": "2026-10-21"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-21",
+      "translation_check": true,
+      "summary_source": "https://prtimes.jp/main/html/rd/p/000000437.000050845.html",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000437.000050845.html",
+      "thumbnail_source": "https://prtimes.jp/main/html/rd/p/000000437.000050845.html",
+      "gallery_source": "https://prtimes.jp/main/html/rd/p/000000437.000050845.html",
+      "title_ko": "호시마치 스이세이×도큐 가부키초 타워 『KABUKICHO STELLAR TOWER』 (신주쿠)",
+      "title_ja": "星街すいせい×東急歌舞伎町タワー『KABUKICHO STELLAR TOWER』",
+      "category": "팝업스토어",
+      "venue": "도큐 가부키초 타워 (굿즈: 3층 namco TOKYO)",
+      "start": "2026-10-23",
+      "end": "2026-11-08",
+      "official_url": "https://prtimes.jp/main/html/rd/p/000000437.000050845.html",
+      "notes": "굿즈 3층 namco TOKYO 11:00~23:00 (라인업·입장 방법은 스이세이·namco TOKYO 공식 SNS 확인). 콜라보 푸드: 2층 신주쿠 카부키hall~가부키 요코초 11:00~23:00 / 3층 namco TOKYO 11:00~22:00 / 5층 X PLACE/WATER TERRACE 12:00~익일 7:00 / 17층 JAM17 GELATERIA 10:00~22:00. 콜라보 상품 구매 시 스티커(랜덤 4종). 10/23~25 2층 특별 전시 11:00~21:00",
+      "map_query": "東急歌舞伎町タワー",
+      "lat": 35.6957,
+      "lon": 139.7006,
+      "thumbnail": "https://prcdn.freetls.fastly.net/release_image/50845/437/50845-437-c4c753e9f90a5f8c5349b12d5c84252b-1920x1080.jpg",
+      "summary_ko": "호시마치 스이세이의 할로윈 신곡 「ゾンビゾンビゾンビ」 발매 기념으로 도큐 가부키초 타워 전체가 콜라보해요. 3층 namco TOKYO 한정 굿즈, 여러 층 매장의 콜라보 푸드·드링크와 스티커 특전, 첫 3일 특별 전시가 있어요.",
+      "thumb_small": "thumbs/a45e8f0a566f7556.webp"
+    },
+    {
+      "id": "maebashi-witches-popup",
+      "area": "도쿄",
+      "reservation": "불필요",
+      "checked_date": "2026-10-21",
+      "evidence": [
+        {
+          "url": "https://www.maebashi-witches.com/news/detail.php?id=25791",
+          "tier": "official",
+          "quote": "【開催場所】東京アニメセンター in DNP PLAZA SHIBUYA（渋谷MODI 2F） 【開催期間】2026年10月23日（金）～11月8日（日） 【営業時間】11:00～19:00",
+          "checked": "2026-10-21"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-21",
+      "translation_check": true,
+      "summary_source": "https://www.maebashi-witches.com/news/detail.php?id=25791",
+      "source_url": "https://www.maebashi-witches.com/news/detail.php?id=25791",
+      "thumbnail_source": "https://www.maebashi-witches.com/news/detail.php?id=25791",
+      "gallery_source": "https://www.maebashi-witches.com/news/detail.php?id=25791",
+      "title_ko": "마에바시 위치즈 큐루에모♡저지 메이드 POP UP SHOP (시부야)",
+      "title_ja": "『前橋ウィッチーズ』きゅるエモ♡ジャージメイド POP UP SHOP",
+      "category": "팝업스토어",
+      "venue": "도쿄 애니메 센터 in DNP PLAZA SHIBUYA (시부야 MODI 2층)",
+      "start": "2026-10-23",
+      "end": "2026-11-08",
+      "official_url": "https://www.maebashi-witches.com/news/detail.php?id=25791",
+      "notes": "11:00~19:00. 1회 결제 3,000엔(세금 포함)마다 BIG 아크릴 스탠드 등 추첨회 참가. 10/23~25는 셔플 입장 (시부야 MODI 앞 정리권 10:45~10:50 배포)",
+      "map_query": "渋谷MODI",
+      "lat": 35.6627,
+      "lon": 139.7006,
+      "thumbnail": "https://maebashi-witches.com/static/ogp.png",
+      "summary_ko": "「마에바시 위치즈」 6명이 저지+메이드 복장으로 새로 그려진 일러스트 굿즈 팝업이에요. 3,000엔 구매마다 추첨회가 있고, 첫 3일은 셔플 입장이에요.",
+      "thumb_small": "thumbs/f2296dfab3c87d22.webp"
     }
   ]
 }
