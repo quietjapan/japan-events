@@ -9868,6 +9868,1779 @@
       "thumbnail": "https://animetokyo.jp/wp-content/uploads/2024/10/soraiz_OGP.jpg",
       "thumb_small": "thumbs/a8f35153fe64c9c8.webp",
       "summary_ko": "「걸즈 밴드 크라이」 무료 기획전이에요. 등신대 아크릴 스탠드, 작중 장면 재현 코너, 역대 라이브 포스터·CD 전시, 니나 포토 스폿, AR 체험이 있어요."
+    },
+    {
+      "title_ko": "超 다마고치 축제 in 시부하라",
+      "title_ja": "祝3000しゅ～ねん!?超たまごっち祭 in シブハラ",
+      "category": "전시·행사",
+      "area": "도쿄",
+      "venue": "도큐플라자 하라주쿠 「하라카도」 4층 MAZE 외",
+      "start": "2026-11-07",
+      "end": "2026-12-06",
+      "reservation": "",
+      "price": "",
+      "official_url": "https://tamagotchi-official.com/jp/cho-tama-festival",
+      "source_url": "https://charagoo.jp/collab/event/1b6ee1927b7b/",
+      "notes": "사전 예약·정리권 운영 가능성 있음 (공식 X에서 안내 예정)",
+      "checked_date": "2026-10-15",
+      "thumbnail": "https://charagoo.jp/wp-content/uploads/2026/10/tamagotchi-news-20261107.png",
+      "thumbnail_source": "https://charagoo.jp/collab/event/1b6ee1927b7b/",
+      "map_query": "",
+      "evidence": [
+        {
+          "url": "https://tamagotchi-official.com/jp/cho-tama-festival",
+          "tier": "official",
+          "quote": "みつをいっしょに見つけにいきましょう! 開催日時 2026年 11月7日(土)〜12月6日(日) 11:00〜20:00 ※本イベントは予告なく変更・中止になる場合があります。 ※本イベントは事前予約・当日整理券での",
+          "checked": "2026-10-19"
+        },
+        {
+          "url": "https://charagoo.jp/collab/event/1b6ee1927b7b/",
+          "tier": "aggregator",
+          "quote": " in シブハラはたまごっちのコラボ・イベントです。期間は2026年11月7日〜12月6日。場所は東急プラザ原宿「ハラカド」4階 MAZE(メイン会場)ほか原宿・渋谷エリア。 たまごっちの30周年を記念し、原宿",
+          "checked": "2026-10-19"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-19",
+      "translation_check": true,
+      "summary_ko": "다마고치 30주년을 맞아 하라주쿠·시부야 일대에서 열리는 행사예요. 하라카도 특별 전시, 스탬프 랠리, 콜라보 매장, 굿즈 판매 등이 있어요.",
+      "summary_source": "https://tamagotchi-official.com/jp/cho-tama-festival",
+      "thumb_small": "thumbs/fff61bfc79fe6743.webp"
+    },
+    {
+      "title_ko": "블리치 천년혈전편 콜라보 카페",
+      "title_ja": "BLEACH 千年血戦篇-禍進譚- THE COLLABORATION CAFE",
+      "category": "콜라보카페",
+      "area": "도쿄",
+      "venue": "시부야 PARCO",
+      "start": "2026-09-18",
+      "end": "2026-11-03",
+      "reservation": "",
+      "price": "",
+      "official_url": "https://cafe.parco.jp/event/BLEACH_cafe",
+      "source_url": "https://charagoo.jp/collab/event/f1d17d57f967/",
+      "notes": "",
+      "checked_date": "2026-10-15",
+      "thumbnail": "https://image.parco.jp/SCCWEB/image/cafe/store/storage/w1078xh604/event_bleach_kv_yoko.jpg",
+      "thumbnail_source": "https://cafe.parco.jp/event/BLEACH_cafe",
+      "map_query": "東京都渋谷区宇田川町15-1",
+      "evidence": [
+        {
+          "url": "https://cafe.parco.jp/event/BLEACH_cafe",
+          "tier": "official",
+          "quote": "東京都渋谷区宇田川町15-1 渋谷PARCO 6F 開催期間 2026.9.18(金) - 11.3(火・祝) SNS VIEW SHIBUYA SHINSAI",
+          "checked": "2026-10-19"
+        },
+        {
+          "url": "https://charagoo.jp/collab/event/f1d17d57f967/",
+          "tier": "aggregator",
+          "quote": "ON CAFEはBLEACHのコラボ・イベントです。期間は2026年9月18日〜12月22日。場所は渋谷PARCO、心斎橋PARCO、名古屋PARCO。 TVアニメ『BLEACH 千年血戦篇-禍進譚-』のコラボカ",
+          "checked": "2026-10-15"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-19",
+      "lat": 35.6622,
+      "lon": 139.6989,
+      "translation_check": true,
+      "summary_ko": "TV 애니메이션 최종 쿨 『블리치 천년혈전편 -화진담-』 방송 기념 콜라보 카페예요. 작품 세계관을 담은 메뉴 13가지와 굿즈 숍이 있어요.",
+      "summary_source": "https://cafe.parco.jp/event/BLEACH_cafe",
+      "thumb_small": "thumbs/8c23d306aa9f6ec2.webp"
+    },
+    {
+      "title_ko": "스위트 12월호 부록 ― 질 바이 질스튜어트 퍼 백&파우치 참",
+      "title_ja": "sweet 2026年12月号 特別付録 JILL by JILL STUART ふわもこ♡ファーバッグ&ポーチチャーム",
+      "category": "잡지 부록",
+      "area": "전국",
+      "venue": "서점·편의점",
+      "start": "2026-11-12",
+      "end": null,
+      "price": "1,980엔(세금 포함)",
+      "official_url": "https://tkj.jp/sweet/next",
+      "source_url": "https://tkj.jp/sweet/next",
+      "checked_date": "2026-10-16",
+      "thumbnail": "https://tkj.jp/magazine/data/sweet/202612/img/nextbranditem_8808_s.jpg",
+      "thumbnail_source": "https://tkj.jp/sweet/next",
+      "evidence": [
+        {
+          "url": "https://tkj.jp/sweet/next",
+          "tier": "official",
+          "quote": "次号予告|2026年12月号 11月12日(木)発売 表紙:浜辺美波 / 特別価格:1980円(税込) 特別付録 Now Loading... NEXT ISSUE FEATURE ヒロイン顔して、 愛されHOLIDAY♡ +1アイテムで日常にもきらめきを やっぱり乙女な♡ ドレス至上主義 コートを着ても脱いでも勝ち! ふわモコ女子で愛されホリデイ ヌケ感がカギ! シーン別ホリデイMAKE-UP 私達の“みちょぱ”、カムバ! ホリデイに着たい、タイニーエデン♡ ※価格・特集内容は変更になる場合があります 増刊号発売 12月号増刊 同日発売!! 特別付録は JILL by JILL STUART× Mezzo Piano [ジル バイ ジルスチュアート× メゾピアノ] ベリエちゃん ふかふかトートバッグ&チャーム3点セット 増刊号を詳しく見る JILL by JILL STUART [ジル バイ ジルスチュアート] ふわもこ♡ ファーバッグ&ポーチチャーム サイズ",
+          "checked": "2026-10-19"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-19",
+      "summary_ko": "질 바이 질스튜어트의 폭신폭신한 퍼 백과 파우치 참 세트가 부록이에요. 같은 날 증간호(부록: 베리에짱 토트백&참 3종)도 나와요.",
+      "summary_source": "https://tkj.jp/sweet/next",
+      "image_hd": "https://tkj.jp/magazine/data/sweet/202612/img/nextbranditem_8808_xxl.jpg",
+      "image_fit": "contain",
+      "gallery": [
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/sweet/202612/img/nextbranditem_8809_l.jpg",
+          "full": "https://tkj.jp/magazine/data/sweet/202612/img/nextbranditem_8809_xxl.jpg",
+          "caption_ko": "차분한 더스티 핑크에 그레이지 로고를 더한 어른스러운 배색",
+          "caption_ja": "上品なくすみピンクにグレージュのロゴを合わせた絶妙な配色が、大人可愛さを演出します",
+          "source": "https://tkj.jp/sweet/next"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/sweet/202612/img/nextbranditem_8810_l.jpg",
+          "full": "https://tkj.jp/magazine/data/sweet/202612/img/nextbranditem_8810_xxl.jpg",
+          "caption_ko": "코디에 달콤함을 더해줘요",
+          "caption_ja": "コーデに甘さをプラス",
+          "source": "https://tkj.jp/sweet/next"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/sweet/202612/img/nextbranditem_8811_l.jpg",
+          "full": "https://tkj.jp/magazine/data/sweet/202612/img/nextbranditem_8811_xxl.jpg",
+          "caption_ko": "[퍼 백] 풍성한 페이크 퍼와 동글동글한 모양",
+          "caption_ja": "【ファーバッグ】リッチなふわふわフェイクファー＆ころんとした形にキュン♡",
+          "source": "https://tkj.jp/sweet/next"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/sweet/202612/img/nextbranditem_8812_l.jpg",
+          "full": "https://tkj.jp/magazine/data/sweet/202612/img/nextbranditem_8812_xxl.jpg",
+          "caption_ko": "넉넉하게 들어가는 탄탄한 바닥 폭",
+          "caption_ja": "たっぷり入る！ しっかりマチもポイント",
+          "source": "https://tkj.jp/sweet/next"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/sweet/202612/img/nextbranditem_8813_l.jpg",
+          "full": "https://tkj.jp/magazine/data/sweet/202612/img/nextbranditem_8813_xxl.jpg",
+          "caption_ko": "원핸들로 바꿔 들어도 좋아요",
+          "caption_ja": "ワンハンドルにアレンジしても♡",
+          "source": "https://tkj.jp/sweet/next"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/sweet/202612/img/nextbranditem_8814_l.jpg",
+          "full": "https://tkj.jp/magazine/data/sweet/202612/img/nextbranditem_8814_xxl.jpg",
+          "caption_ko": "옆면 D링으로 자유롭게 연출",
+          "caption_ja": "サイドはDカンつきでアレンジ自在！",
+          "source": "https://tkj.jp/sweet/next"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/sweet/202612/img/nextbranditem_8815_l.jpg",
+          "full": "https://tkj.jp/magazine/data/sweet/202612/img/nextbranditem_8815_xxl.jpg",
+          "caption_ko": "[파우치 참] 백과 세트인 로고 퍼 파우치",
+          "caption_ja": "【ポーチチャーム】バッグとおそろいのロゴ入りファーポーチ",
+          "source": "https://tkj.jp/sweet/next"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/sweet/202612/img/nextbranditem_8816_l.jpg",
+          "full": "https://tkj.jp/magazine/data/sweet/202612/img/nextbranditem_8816_xxl.jpg",
+          "caption_ko": "자주 쓰는 소지품을 넣어두기 좋아요",
+          "caption_ja": "すぐ使いたいアイテムをIN",
+          "source": "https://tkj.jp/sweet/next"
+        }
+      ],
+      "gallery_source": "https://tkj.jp/sweet/next",
+      "gallery_note": "사진·설명: 宝島社 공식 페이지",
+      "translation_check": true
+    },
+    {
+      "title_ko": "인레드 12월호 부록 ― 스픽&스팬×헬로키티 트위드 파우치",
+      "title_ja": "InRed 2026年12月号 特別付録 SPICK & SPAN × HELLO KITTY がま口ツイードポーチ",
+      "category": "잡지 부록",
+      "area": "전국",
+      "venue": "서점·편의점",
+      "start": "2026-11-06",
+      "end": null,
+      "price": "1,760엔(세금 포함)",
+      "official_url": "https://tkj.jp/inred/next",
+      "source_url": "https://tkj.jp/inred/next",
+      "checked_date": "2026-10-16",
+      "thumbnail": "https://tkj.jp/magazine/data/inred/202612/img/nextbranditem_8796_s.jpg",
+      "thumbnail_source": "https://tkj.jp/inred/next",
+      "evidence": [
+        {
+          "url": "https://tkj.jp/inred/next",
+          "tier": "official",
+          "quote": "次号予告|2026年12月号 11月6日(金)発売 表紙:今田美桜 / 特別価格:1760円(税込) 特別付録 Now Loading... NEXT ISSUE FEATURE 30代の願望別“ほしい”コート うっとりする♡ホリデーコスメ 上戸彩さんが旅する小豆島 ※価格・特集内容は変更になる場合があります 増刊号発売! 12月号増刊 同日発売!! 特別付録は SPICK & SPAN × HELLO KITTY [スピック&スパン×ハローキティ] バッグに結んでお出かけの相棒に スカーフ風エコバッグ 増刊号を詳しく見る SPICK & SPAN × HELLO KITTY [スピック&スパン×ハローキティ] とびきり可愛い刺繍ワッペン付き がま口ツイードポーチ",
+          "checked": "2026-10-19"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-19",
+      "summary_ko": "스픽&스팬과 헬로키티가 콜라보한, 자수 와펜이 달린 똑딱이(가마구치) 트위드 파우치예요. 크기는 약 높이 11×밑폭 17×폭 5cm예요.",
+      "summary_source": "https://tkj.jp/inred/next",
+      "image_hd": "https://tkj.jp/magazine/data/inred/202612/img/nextbranditem_8796_xxl.jpg",
+      "image_fit": "contain",
+      "gallery": [
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/inred/202612/img/nextbranditem_8797_l.jpg",
+          "full": "https://tkj.jp/magazine/data/inred/202612/img/nextbranditem_8797_xxl.jpg",
+          "caption_ko": "본격적인 자수 와펜",
+          "caption_ja": "本格的な刺繡ワッペン！",
+          "source": "https://tkj.jp/inred/next"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/inred/202612/img/nextbranditem_8798_l.jpg",
+          "full": "https://tkj.jp/magazine/data/inred/202612/img/nextbranditem_8798_xxl.jpg",
+          "caption_ko": "입구가 크게 열려 안이 잘 보여요",
+          "caption_ja": "ガバッと大きく開くので中身が見やすい",
+          "source": "https://tkj.jp/inred/next"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/inred/202612/img/nextbranditem_8799_l.jpg",
+          "full": "https://tkj.jp/magazine/data/inred/202612/img/nextbranditem_8799_xxl.jpg",
+          "caption_ko": "가젯 케이스나 화장품 파우치로 활약",
+          "caption_ja": "ガジェットケースやコスメポーチとして活躍",
+          "source": "https://tkj.jp/inred/next"
+        }
+      ],
+      "gallery_source": "https://tkj.jp/inred/next",
+      "gallery_note": "사진·설명: 宝島社 공식 페이지",
+      "translation_check": true
+    },
+    {
+      "title_ko": "오토나뮤즈 12월호 부록 ― 그로구 디자인 장바구니 가방",
+      "title_ja": "otona MUSE 2026年12月号 特別付録 BEAUTY&YOUTH UNITED ARROWS グローグーデザインのお買い物バッグ",
+      "category": "잡지 부록",
+      "area": "전국",
+      "venue": "서점·편의점",
+      "start": "2026-10-28",
+      "end": null,
+      "price": "1,920엔(세금 포함)",
+      "official_url": "https://tkj.jp/otonamuse/next",
+      "source_url": "https://tkj.jp/otonamuse/next",
+      "checked_date": "2026-10-16",
+      "thumbnail": "https://tkj.jp/magazine/data/otonamuse/202612/img/nextbranditem_8780_s.jpg",
+      "thumbnail_source": "https://tkj.jp/otonamuse/next",
+      "evidence": [
+        {
+          "url": "https://tkj.jp/otonamuse/next",
+          "tier": "official",
+          "quote": "次号予告|2026年12月号 10月28日(水)発売 表紙:中村アン / 特別価格:1920円(税込) 特別付録 Now Loading... NEXT ISSUE Main Issue 神アウターを探せ! 「アウターが主役」の素敵コーデをたっぷりお届け 最愛ブランドから届いた“間違いない”1着! スタイリスト高木千智さんが厳選した3着で冬の着まわし おしゃれミューズが推す、MY BESTアウター ほか 今再び、パンプスが大復活! 佐田真由美が着る BEAUTY&YOUTH UNITED ARROWSの新作 河北裕介連載 大人の秋メイク feat.内田理央 みんなのフェムテック&フェムケア and more ※価格・特集内容は変更になる場合があります 増刊号発売! 12月号増刊 同時発売!! 特別付録は BEAUTY&YOUTH UNITED ARROWS [ビューティー&ユース ユナイテッドアローズ] 繊細なお花刺繍の ランチトートバッグ 増刊号を詳しく見る BEAUTY&YOUTH UNITED ARROWS [ビューティー&ユース ユナイテッドアローズ] グローグーデザインの お買い物バッグ",
+          "checked": "2026-10-19"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-19",
+      "summary_ko": "뷰티앤유스 유나이티드 애로우즈의 그로구(스타워즈) 디자인 장바구니 가방이에요. 크기는 약 세로 36×가로 50×폭 12cm예요.",
+      "summary_source": "https://tkj.jp/otonamuse/next",
+      "image_hd": "https://tkj.jp/magazine/data/otonamuse/202612/img/nextbranditem_8780_xxl.jpg",
+      "image_fit": "contain",
+      "gallery": [
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/otonamuse/202612/img/nextbranditem_8781_l.jpg",
+          "full": "https://tkj.jp/magazine/data/otonamuse/202612/img/nextbranditem_8781_xxl.jpg",
+          "caption_ko": "양면 A면 디자인",
+          "caption_ja": "両A面仕様",
+          "source": "https://tkj.jp/otonamuse/next"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/otonamuse/202612/img/nextbranditem_8782_l.jpg",
+          "full": "https://tkj.jp/magazine/data/otonamuse/202612/img/nextbranditem_8782_xxl.jpg",
+          "caption_ko": "그로구와 함께 장보기! 넉넉한 대용량 에코백",
+          "caption_ja": "食いしんぼうグローグーと買い物へ！ たっぷり入る大容量のエコバッグ",
+          "source": "https://tkj.jp/otonamuse/next"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/otonamuse/202612/img/nextbranditem_8783_l.jpg",
+          "full": "https://tkj.jp/magazine/data/otonamuse/202612/img/nextbranditem_8783_xxl.jpg",
+          "caption_ko": "반대쪽 면에는 BEAUTY&YOUTH UNITED ARROWS 로고",
+          "caption_ja": "両A面仕様で、もう一方の面にはBEAUTY＆YOUTH UNITED ARROWSのロゴ入り",
+          "source": "https://tkj.jp/otonamuse/next"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/otonamuse/202612/img/nextbranditem_8784_l.jpg",
+          "full": "https://tkj.jp/magazine/data/otonamuse/202612/img/nextbranditem_8784_xxl.jpg",
+          "caption_ko": "어깨에 멜 수 있는 손잡이 길이라 무거운 짐도 편하게",
+          "caption_ja": "肩掛けして使える持ち手の長さで、重たい荷物の持ち運びも楽ちん！",
+          "source": "https://tkj.jp/otonamuse/next"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/otonamuse/202612/img/nextbranditem_8785_l.jpg",
+          "full": "https://tkj.jp/magazine/data/otonamuse/202612/img/nextbranditem_8785_xxl.jpg",
+          "caption_ko": "2L 페트병도 쏙 들어가는 큰 사이즈",
+          "caption_ja": "２Lのペットボトルもすっぽり。まとめ買いにも使える大きめサイズです",
+          "source": "https://tkj.jp/otonamuse/next"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/otonamuse/202612/img/nextbranditem_8786_l.jpg",
+          "full": "https://tkj.jp/magazine/data/otonamuse/202612/img/nextbranditem_8786_xxl.jpg",
+          "caption_ko": "두꺼운 가을·겨울 아우터 위에도 어깨에 메기 쉬워요",
+          "caption_ja": "厚手の秋冬アウターでも肩掛けしやすい！ グローグーがキャッチーなアクセントに",
+          "source": "https://tkj.jp/otonamuse/next"
+        }
+      ],
+      "gallery_source": "https://tkj.jp/otonamuse/next",
+      "gallery_note": "사진·설명: 宝島社 공식 페이지",
+      "translation_check": true
+    },
+    {
+      "title_ko": "글로우 12월호 부록 ― 아쿠아스큐텀 175주년 다이어리",
+      "title_ja": "GLOW 2026年12月号 特別付録 アクアスキュータム 175周年特別デザイン豪華手帳",
+      "category": "잡지 부록",
+      "area": "전국",
+      "venue": "서점·편의점",
+      "start": "2026-10-28",
+      "end": null,
+      "price": "1,890엔(세금 포함)",
+      "official_url": "https://tkj.jp/glow/next",
+      "source_url": "https://tkj.jp/glow/next",
+      "checked_date": "2026-10-16",
+      "thumbnail": "https://tkj.jp/magazine/data/glow/202612/img/nextbranditem_8772_s.jpg",
+      "thumbnail_source": "https://tkj.jp/glow/next",
+      "evidence": [
+        {
+          "url": "https://tkj.jp/glow/next",
+          "tier": "official",
+          "quote": "次号予告|2026年12月号 10月28日(水)発売 表紙:篠原ともえ / 特別価格:1890円(税込) 特別付録 Now Loading... NEXT ISSUE FEATURE 暖冬時代、着ぶくれゼロの 「薄軽アウター」があればいい! OVER40女子のキレイとQOLを底上げ! GLOW家電大賞 ... and more! ※価格・特集内容は変更になる場合があります 増刊号発売! 12月号増刊 同日発売!! 特別付録は ローラ アシュレイ 缶ケース入り文具9点セット 増刊号を詳しく見る アクアスキュータム 175周年特別デザイン豪華手帳",
+          "checked": "2026-10-19"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-19",
+      "summary_ko": "아쿠아스큐텀 175주년 특별 디자인의 B6 사이즈 다이어리(160쪽, 올컬러)가 부록이에요.",
+      "summary_source": "https://tkj.jp/glow/next",
+      "image_hd": "https://tkj.jp/magazine/data/glow/202612/img/nextbranditem_8772_xxl.jpg",
+      "image_fit": "contain",
+      "gallery": [
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/glow/202612/img/nextbranditem_8773_l.jpg",
+          "full": "https://tkj.jp/magazine/data/glow/202612/img/nextbranditem_8773_xxl.jpg",
+          "caption_ko": "11월 시작이라 바로 쓸 수 있어요, 위클리 레프트 형식",
+          "caption_ja": "11月始まりで今すぐ使える！ ウイークリーレフトで使いやすい！",
+          "source": "https://tkj.jp/glow/next"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/glow/202612/img/nextbranditem_8774_l.jpg",
+          "full": "https://tkj.jp/magazine/data/glow/202612/img/nextbranditem_8774_xxl.jpg",
+          "caption_ko": "커버는 분리해서 계속 쓸 수 있어요",
+          "caption_ja": "カバーは取り外して繰り返し使える",
+          "source": "https://tkj.jp/glow/next"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/glow/202612/img/nextbranditem_8775_l.jpg",
+          "full": "https://tkj.jp/magazine/data/glow/202612/img/nextbranditem_8775_xxl.jpg",
+          "caption_ko": "편리한 가름끈 2개",
+          "caption_ja": "便利な2本のしおり付き",
+          "source": "https://tkj.jp/glow/next"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/glow/202612/img/nextbranditem_8776_l.jpg",
+          "full": "https://tkj.jp/magazine/data/glow/202612/img/nextbranditem_8776_xxl.jpg",
+          "caption_ko": "커버 안쪽에 175주년 로고 금박",
+          "caption_ja": "カバー裏には175周年ロゴをゴールドで箔押し",
+          "source": "https://tkj.jp/glow/next"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/glow/202612/img/nextbranditem_8777_l.jpg",
+          "full": "https://tkj.jp/magazine/data/glow/202612/img/nextbranditem_8777_xxl.jpg",
+          "caption_ko": "먼슬리 페이지",
+          "caption_ja": "マンスリーページ",
+          "source": "https://tkj.jp/glow/next"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/glow/202612/img/nextbranditem_8778_l.jpg",
+          "full": "https://tkj.jp/magazine/data/glow/202612/img/nextbranditem_8778_xxl.jpg",
+          "caption_ko": "위클리 페이지",
+          "caption_ja": "ウイークリーページ",
+          "source": "https://tkj.jp/glow/next"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/glow/202612/img/nextbranditem_8779_l.jpg",
+          "full": "https://tkj.jp/magazine/data/glow/202612/img/nextbranditem_8779_xxl.jpg",
+          "caption_ko": "자유 메모 페이지",
+          "caption_ja": "フリースぺース",
+          "source": "https://tkj.jp/glow/next"
+        }
+      ],
+      "gallery_source": "https://tkj.jp/glow/next",
+      "gallery_note": "사진·설명: 宝島社 공식 페이지",
+      "translation_check": true
+    },
+    {
+      "title_ko": "모노맥스 12월호 부록 ― 기노쿠니야 3WAY 가방",
+      "title_ja": "MonoMax 2026年12月号 特別付録 紀ノ国屋 3WAYバッグ",
+      "category": "잡지 부록",
+      "area": "전국",
+      "venue": "서점·편의점",
+      "start": "2026-11-09",
+      "end": null,
+      "price": "1,590엔(세금 포함)",
+      "official_url": "https://tkj.jp/max/next",
+      "source_url": "https://tkj.jp/max/next",
+      "checked_date": "2026-10-16",
+      "thumbnail": "https://tkj.jp/magazine/data/max/202612/img/nextbranditem_8800_s.jpg",
+      "thumbnail_source": "https://tkj.jp/max/next",
+      "evidence": [
+        {
+          "url": "https://tkj.jp/max/next",
+          "tier": "official",
+          "quote": "次号予告|2026年12月号 11月9日(月)発売 特別価格:1590円(税込) 特別付録 Now Loading... NEXT ISSUE 次号大特集 シーンを選ばず大活躍! オンオフ無双の傑作ギア ※価格・特集内容は変更になる場合があります 増刊号発売! 12月号増刊 同日発売!! 特別付録は 紀ノ国屋 じゃばら式収納ポーチ 増刊号を詳しく見る 紀ノ国屋 3WAYバッグ",
+          "checked": "2026-10-19"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-19",
+      "summary_ko": "도쿄의 고급 슈퍼 기노쿠니야의 3WAY 가방이에요. 크기는 약 높이 35×폭 26×폭 12.5cm이고 숄더 스트랩이 달려 있어요.",
+      "summary_source": "https://tkj.jp/max/next",
+      "image_hd": "https://tkj.jp/magazine/data/max/202612/img/nextbranditem_8800_xxl.jpg",
+      "image_fit": "contain",
+      "gallery": [
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/max/202612/img/nextbranditem_8801_l.jpg",
+          "full": "https://tkj.jp/magazine/data/max/202612/img/nextbranditem_8801_xxl.jpg",
+          "caption_ko": "분리 가능한 스트랩으로 3가지 방식으로 들 수 있어요",
+          "caption_ja": "取り外し可能なストラップ付きで3通りの持ち方が可能！",
+          "source": "https://tkj.jp/max/next"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/max/202612/img/nextbranditem_8802_l.jpg",
+          "full": "https://tkj.jp/magazine/data/max/202612/img/nextbranditem_8802_xxl.jpg",
+          "caption_ko": "① 토트백 ② 숄더백",
+          "caption_ja": "【1】トートバッグ【2】ショルダーバッグ",
+          "source": "https://tkj.jp/max/next"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/max/202612/img/nextbranditem_8803_l.jpg",
+          "full": "https://tkj.jp/magazine/data/max/202612/img/nextbranditem_8803_xxl.jpg",
+          "caption_ko": "③ 백팩",
+          "caption_ja": "【3】リュック",
+          "source": "https://tkj.jp/max/next"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/max/202612/img/nextbranditem_8804_l.jpg",
+          "full": "https://tkj.jp/magazine/data/max/202612/img/nextbranditem_8804_xxl.jpg",
+          "caption_ko": "두 손이 자유로워요",
+          "caption_ja": "両手がフリーに！",
+          "source": "https://tkj.jp/max/next"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/max/202612/img/nextbranditem_8805_l.jpg",
+          "full": "https://tkj.jp/magazine/data/max/202612/img/nextbranditem_8805_xxl.jpg",
+          "caption_ko": "안쪽에 소품 수납용 포켓",
+          "caption_ja": "内装には小物収納に最適なポケットを搭載",
+          "source": "https://tkj.jp/max/next"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/max/202612/img/nextbranditem_8806_l.jpg",
+          "full": "https://tkj.jp/magazine/data/max/202612/img/nextbranditem_8806_xxl.jpg",
+          "caption_ko": "앞 포켓은 장지갑이 들어가는 크기",
+          "caption_ja": "前面ポケットは長財布が入るサイズ感！",
+          "source": "https://tkj.jp/max/next"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/max/202612/img/nextbranditem_8807_l.jpg",
+          "full": "https://tkj.jp/magazine/data/max/202612/img/nextbranditem_8807_xxl.jpg",
+          "caption_ko": "넉넉한 대용량",
+          "caption_ja": "たっぷり入る大容量",
+          "source": "https://tkj.jp/max/next"
+        }
+      ],
+      "gallery_source": "https://tkj.jp/max/next",
+      "gallery_note": "사진·설명: 宝島社 공식 페이지",
+      "translation_check": true
+    },
+    {
+      "title_ko": "오토나노 오샤레테초 12월호 부록 ― 마루코는 아홉살 40주년 문구 세트",
+      "title_ja": "大人のおしゃれ手帖 2026年12月号 特別付録 『ちびまる子ちゃん』原作40周年記念 文具セット",
+      "category": "잡지 부록",
+      "area": "전국",
+      "venue": "서점·편의점",
+      "start": "2026-11-06",
+      "end": null,
+      "price": "1,680엔(세금 포함)",
+      "official_url": "https://tkj.jp/osharetecho/next",
+      "source_url": "https://tkj.jp/osharetecho/next",
+      "checked_date": "2026-10-16",
+      "thumbnail": "https://tkj.jp/magazine/data/osharetecho/202612/img/nextbranditem_8787_s.jpg",
+      "thumbnail_source": "https://tkj.jp/osharetecho/next",
+      "evidence": [
+        {
+          "url": "https://tkj.jp/osharetecho/next",
+          "tier": "official",
+          "quote": "次号予告|2026年12月号 11月6日(金)発売 表紙:原田知世 / 特別価格:1680円(税込) 特別付録 Now Loading... NEXT ISSUE Contents 居心地のいい「片付く家」 インテリアで作る豊かな暮らし ☐模様替えで解決! 住まいが整うアイデア ☐1日10分お掃除カレンダー 小川 糸さんから届いた 季節のレシピ 疲れてる?って言わせない シワ・たるみケア 1万円以下のクリスマスコフレ 2026年更年期白書 竹田 純さんの床バレエ 甲斐みのり ぶらり旅 ほか ※価格・特集内容は変更になる場合があります 増刊号発売! 12月号増刊 同日発売!! 特別付録は 『ちびまる子ちゃん』 原作40周年記念 パッカブルバッグ 増刊号を詳しく見る 『ちびまる子ちゃん』 原作40周年記念 文具セット",
+          "checked": "2026-10-19"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-19",
+      "summary_ko": "『마루코는 아홉살』 원작 40주년 기념 문구 세트로, 스티커·편지지·엽서·마스킹테이프·미니 봉투가 들어 있어요.",
+      "summary_source": "https://tkj.jp/osharetecho/next",
+      "image_hd": "https://tkj.jp/magazine/data/osharetecho/202612/img/nextbranditem_8787_xxl.jpg",
+      "image_fit": "contain",
+      "gallery": [
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/osharetecho/202612/img/nextbranditem_8788_l.jpg",
+          "full": "https://tkj.jp/magazine/data/osharetecho/202612/img/nextbranditem_8788_xxl.jpg",
+          "caption_ko": "6종 아이템, 총 12점 세트",
+          "caption_ja": "超豪華6アイテム、計12点がセットに",
+          "source": "https://tkj.jp/osharetecho/next"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/osharetecho/202612/img/nextbranditem_8789_l.jpg",
+          "full": "https://tkj.jp/magazine/data/osharetecho/202612/img/nextbranditem_8789_xxl.jpg",
+          "caption_ko": "① 종이 박스",
+          "caption_ja": "【1】紙製ボックス",
+          "source": "https://tkj.jp/osharetecho/next"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/osharetecho/202612/img/nextbranditem_8790_l.jpg",
+          "full": "https://tkj.jp/magazine/data/osharetecho/202612/img/nextbranditem_8790_xxl.jpg",
+          "caption_ko": "② 말랑 입체 스티커 ③ 한 줄 편지지(21장)",
+          "caption_ja": "【2】ぷくぷくシール 【3】一筆箋（21枚入り）",
+          "source": "https://tkj.jp/osharetecho/next"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/osharetecho/202612/img/nextbranditem_8791_l.jpg",
+          "full": "https://tkj.jp/magazine/data/osharetecho/202612/img/nextbranditem_8791_xxl.jpg",
+          "caption_ko": "④ 엽서 3장 ⑤ 마스킹 테이프 ⑥ 미니 봉투 5장",
+          "caption_ja": "【4】ポストカード3枚 【5】マスキングテープ【6】ミニポチ袋5枚",
+          "source": "https://tkj.jp/osharetecho/next"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/osharetecho/202612/img/nextbranditem_8792_l.jpg",
+          "full": "https://tkj.jp/magazine/data/osharetecho/202612/img/nextbranditem_8792_xxl.jpg",
+          "caption_ko": "원작 40주년 일러스트가 가득",
+          "caption_ja": "原作40周年の素敵なイラストがいっぱい！",
+          "source": "https://tkj.jp/osharetecho/next"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/osharetecho/202612/img/nextbranditem_8793_l.jpg",
+          "full": "https://tkj.jp/magazine/data/osharetecho/202612/img/nextbranditem_8793_xxl.jpg",
+          "caption_ko": "액자에 넣어 인테리어 아트로",
+          "caption_ja": "フレームに入れてインテリアアートに",
+          "source": "https://tkj.jp/osharetecho/next"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/osharetecho/202612/img/nextbranditem_8794_l.jpg",
+          "full": "https://tkj.jp/magazine/data/osharetecho/202612/img/nextbranditem_8794_xxl.jpg",
+          "caption_ko": "지갑에 넣어 들고 다녀도 좋아요",
+          "caption_ja": "財布に入れて持ち歩いても",
+          "source": "https://tkj.jp/osharetecho/next"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/osharetecho/202612/img/nextbranditem_8795_l.jpg",
+          "full": "https://tkj.jp/magazine/data/osharetecho/202612/img/nextbranditem_8795_xxl.jpg",
+          "caption_ko": "폰 케이스나 노트에 붙여서",
+          "caption_ja": "スマホカバーやノートにペタッ！",
+          "source": "https://tkj.jp/osharetecho/next"
+        }
+      ],
+      "gallery_source": "https://tkj.jp/osharetecho/next",
+      "gallery_note": "사진·설명: 宝島社 공식 페이지",
+      "translation_check": true
+    },
+    {
+      "title_ko": "린네루 12월호 부록 ― 무민 나무 스탬프 세트",
+      "title_ja": "リンネル 2026年12月号 特別付録 MOOMIN ムーミンと仲間たち 木製スタンプセット",
+      "category": "잡지 부록",
+      "area": "전국",
+      "venue": "서점·편의점",
+      "start": "2026-10-20",
+      "end": null,
+      "price": "1,720엔(세금 포함)",
+      "official_url": "https://tkj.jp/liniere/next",
+      "source_url": "https://tkj.jp/liniere/next",
+      "checked_date": "2026-10-16",
+      "thumbnail": "https://tkj.jp/magazine/data/liniere/202612/img/nextbranditem_8763_s.jpg",
+      "thumbnail_source": "https://tkj.jp/liniere/next",
+      "evidence": [
+        {
+          "url": "https://tkj.jp/liniere/next",
+          "tier": "official",
+          "quote": "次号予告|2026年12月号 10月20日(火)発売 特別価格:1720円(税込) 特別付録 Now Loading... NEXT ISSUE NEXT CONTENTS もっと豊かに、軽やかに暮らす 私を満たす、北欧の時間 フィンランドに学ぶひとり時間の過ごし方 北欧の温もりを、日々の暮らしに 小さな幸せを運ぶ、心ときめくアウターとニット ※価格・特集内容は変更になる場合があります 増刊号発売! 12月号増刊 同日発売!! 特別付録は MOOMIN × Samansa Mos2 [ムーミン×サマンサ モスモス] カラビナ付きで便利! 小さくたためるエコバッグ 増刊号を詳しく見る MOOMIN [ムーミン] 季節のあいさつやスケジュール帳に ムーミンと仲間たち 木製スタンプセット",
+          "checked": "2026-10-19"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-19",
+      "summary_ko": "무민과 친구들의 나무 스탬프 세트가 틴케이스에 들어 있어요. 같은 날 증간호(부록: 무민×사만사 모스모스 에코백)도 나와요.",
+      "summary_source": "https://tkj.jp/liniere/next",
+      "image_hd": "https://tkj.jp/magazine/data/liniere/202612/img/nextbranditem_8763_xxl.jpg",
+      "image_fit": "contain",
+      "gallery": [
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/liniere/202612/img/nextbranditem_8764_l.jpg",
+          "full": "https://tkj.jp/magazine/data/liniere/202612/img/nextbranditem_8764_xxl.jpg",
+          "caption_ko": "무민 세계관을 담은 나무 스탬프 세트",
+          "caption_ja": "ムーミンの世界観を表現した、木製のスタンプセット",
+          "source": "https://tkj.jp/liniere/next"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/liniere/202612/img/nextbranditem_8765_l.jpg",
+          "full": "https://tkj.jp/magazine/data/liniere/202612/img/nextbranditem_8765_xxl.jpg",
+          "caption_ko": "스탬프 수납 캔에도 무민이 숨어 있어요. 꽃 모티프 디자인",
+          "caption_ja": "スタンプを収納する缶にもムーミンがかくれんぼ！ 机の上にそのまま置いておいてもかわいい花モチーフのデザインです",
+          "source": "https://tkj.jp/liniere/next"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/liniere/202612/img/nextbranditem_8766_l.jpg",
+          "full": "https://tkj.jp/magazine/data/liniere/202612/img/nextbranditem_8766_xxl.jpg",
+          "caption_ko": "메모나 다이어리에 콕 찍어 꾸미기",
+          "caption_ja": "メモや手帳にポンッと押して彩りの演出も。全面にスタンプして、自分だけのオリジナルデザインを制作するのも楽しい",
+          "source": "https://tkj.jp/liniere/next"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/liniere/202612/img/nextbranditem_8767_l.jpg",
+          "full": "https://tkj.jp/magazine/data/liniere/202612/img/nextbranditem_8767_xxl.jpg",
+          "caption_ko": "무지 종이봉투를 손수 만든 포장으로",
+          "caption_ja": "思いを届ける手作りのラッピング。無地の紙袋が素敵にグレードアップします",
+          "source": "https://tkj.jp/liniere/next"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/liniere/202612/img/nextbranditem_8769_l.jpg",
+          "full": "https://tkj.jp/magazine/data/liniere/202612/img/nextbranditem_8769_xxl.jpg",
+          "caption_ko": "[캔 케이스 크기] 세로 10×가로 10×높이 3cm (편집부 조사)",
+          "caption_ja": "【缶ケースサイズ】縦10×横10×高さ3cm（編集部調べ）",
+          "source": "https://tkj.jp/liniere/next"
+        }
+      ],
+      "gallery_source": "https://tkj.jp/liniere/next",
+      "gallery_note": "사진·설명: 宝島社 공식 페이지",
+      "translation_check": true
+    },
+    {
+      "title_ko": "스위트 11월호 부록 ― 하와이 한정 에스터버니 토트백&키홀더",
+      "title_ja": "sweet 2026年11月号 ハワイ限定! 日焼けエスターバニー トートバッグ&キーホルダー",
+      "category": "잡지 부록",
+      "area": "전국",
+      "venue": "서점·편의점",
+      "start": "2026-10-09",
+      "end": null,
+      "price": "1,890엔(세금 포함)",
+      "official_url": "https://tkj.jp/sweet/next",
+      "source_url": "https://tkj.jp/sweet/next",
+      "checked_date": "2026-10-16",
+      "thumbnail": "https://tkj.jp/magazine/data/sweet/202611/img/branditem_8942_s.jpg",
+      "thumbnail_source": "https://tkj.jp/sweet/next",
+      "evidence": [
+        {
+          "url": "https://tkj.jp/sweet/next",
+          "tier": "official",
+          "quote": "sweet 11月号発売中! 中身を見る 2026年10月9日(金)発売 特別価格:1890円(税込) 表紙:山中柔太朗 カートに入れる 定期購読のお申し込みはこちら 外部サイト(Fujisan.co.jp)へリンクします。 ブランドアイテム ハワイ限定! 日焼けエスターバニー トートバッグ& キーホルダー",
+          "checked": "2026-10-19"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-19",
+      "summary_ko": "하와이 한정 디자인인 '햇볕에 탄 에스터버니' 토트백과 키홀더 세트예요.",
+      "summary_source": "https://tkj.jp/sweet/next",
+      "image_hd": "https://tkj.jp/magazine/data/sweet/202611/img/branditem_8942_xxl.jpg",
+      "image_fit": "contain",
+      "gallery": [
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/sweet/202611/img/branditem_8943_l.jpg",
+          "full": "https://tkj.jp/magazine/data/sweet/202611/img/branditem_8943_xxl.jpg",
+          "caption_ko": "토트백과 아크릴 키홀더 2종 세트",
+          "caption_ja": "トートバッグとアクリルキーホルダーの豪華2点セット",
+          "source": "https://tkj.jp/sweet/202611/"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/sweet/202611/img/branditem_8944_l.jpg",
+          "full": "https://tkj.jp/magazine/data/sweet/202611/img/branditem_8944_xxl.jpg",
+          "caption_ko": "핑크 톤에 태닝한 에스터버니가 돋보여요",
+          "caption_ja": "ピンクを基調としたキュートな世界観に日焼けエスターバニーが映える！",
+          "source": "https://tkj.jp/sweet/202611/"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/sweet/202611/img/branditem_8947_l.jpg",
+          "full": "https://tkj.jp/magazine/data/sweet/202611/img/branditem_8947_xxl.jpg",
+          "caption_ko": "노트북·태블릿 들고 다니기에",
+          "caption_ja": "PCやタブレットの持ち運びに",
+          "source": "https://tkj.jp/sweet/202611/"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/sweet/202611/img/branditem_8948_l.jpg",
+          "full": "https://tkj.jp/magazine/data/sweet/202611/img/branditem_8948_xxl.jpg",
+          "caption_ko": "어깨에 멜 수 있어 편리해요",
+          "caption_ja": "肩掛けできて便利！",
+          "source": "https://tkj.jp/sweet/202611/"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/sweet/202611/img/branditem_8949_l.jpg",
+          "full": "https://tkj.jp/magazine/data/sweet/202611/img/branditem_8949_xxl.jpg",
+          "caption_ko": "에스터버니·선글라스·로고가 이어진 아크릴 키홀더",
+          "caption_ja": "日焼けエスターバニー、サングラス、ロゴの3つが連なる豪華なアクリルキーホルダー",
+          "source": "https://tkj.jp/sweet/202611/"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/sweet/202611/img/branditem_8951_l.jpg",
+          "full": "https://tkj.jp/magazine/data/sweet/202611/img/branditem_8951_xxl.jpg",
+          "caption_ko": "참은 하나씩 따로 달 수도 있어요",
+          "caption_ja": "チャームは1個ずつもつけられる",
+          "source": "https://tkj.jp/sweet/202611/"
+        }
+      ],
+      "gallery_source": "https://tkj.jp/sweet/202611/",
+      "gallery_note": "사진·설명: 宝島社 공식 페이지",
+      "translation_check": true
+    },
+    {
+      "title_ko": "인레드 11월호 부록 ― 피너츠×와일드띵스 숄더백",
+      "title_ja": "InRed 2026年11月号 PEANUTS × WILD THINGS 撥水加工&止水ファスナー ショルダーバッグ",
+      "category": "잡지 부록",
+      "area": "전국",
+      "venue": "서점·편의점",
+      "start": "2026-10-07",
+      "end": null,
+      "price": "1,760엔(세금 포함)",
+      "official_url": "https://tkj.jp/inred/next",
+      "source_url": "https://tkj.jp/inred/next",
+      "checked_date": "2026-10-16",
+      "thumbnail": "https://tkj.jp/magazine/data/inred/202611/img/branditem_8918_s.jpg",
+      "thumbnail_source": "https://tkj.jp/inred/next",
+      "evidence": [
+        {
+          "url": "https://tkj.jp/inred/next",
+          "tier": "official",
+          "quote": "InRed 11月号発売中! 中身を見る 2026年10月7日(水)発売 特別価格:1760円(税込) 表紙:芳根京子 カートに入れる 定期購読のお申し込みはこちら 外部サイト(Fujisan.co.jp)へリンクします。 ブランドアイテム PEANUTSTM × WILD THINGS [ピーナッツ×ワイルドシングス] 撥水加工&止水ファスナー 雨に強い! ショルダーバッグ",
+          "checked": "2026-10-19"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-19",
+      "summary_ko": "피너츠(스누피)와 와일드띵스가 콜라보한 숄더백으로, 발수 가공과 방수 지퍼가 달려 있어 비 오는 날에도 쓰기 좋아요.",
+      "summary_source": "https://tkj.jp/inred/next",
+      "image_hd": "https://tkj.jp/magazine/data/inred/202611/img/branditem_8918_xxl.jpg",
+      "image_fit": "contain",
+      "gallery": [
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/inred/202611/img/branditem_8919_l.jpg",
+          "full": "https://tkj.jp/magazine/data/inred/202611/img/branditem_8919_xxl.jpg",
+          "caption_ko": "갑작스러운 비에도 안심, 가볍고 쓰기 편한 숄더백",
+          "caption_ja": "突然の雨でも安心の軽くて使いやすいショルダーバッグ",
+          "source": "https://tkj.jp/inred/202611/"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/inred/202611/img/branditem_8920_l.jpg",
+          "full": "https://tkj.jp/magazine/data/inred/202611/img/branditem_8920_xxl.jpg",
+          "caption_ko": "길이 조절 스트랩",
+          "caption_ja": "長さ調節できるストラップ",
+          "source": "https://tkj.jp/inred/202611/"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/inred/202611/img/branditem_8921_l.jpg",
+          "full": "https://tkj.jp/magazine/data/inred/202611/img/branditem_8921_xxl.jpg",
+          "caption_ko": "물을 튕겨내는 발수 가공",
+          "caption_ja": "水をはじく撥水加工！",
+          "source": "https://tkj.jp/inred/202611/"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/inred/202611/img/branditem_8922_l.jpg",
+          "full": "https://tkj.jp/magazine/data/inred/202611/img/branditem_8922_xxl.jpg",
+          "caption_ko": "물 스며듦을 막는 지수 지퍼",
+          "caption_ja": "水の浸入を防ぐ止水ファスナー",
+          "source": "https://tkj.jp/inred/202611/"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/inred/202611/img/branditem_8923_l.jpg",
+          "full": "https://tkj.jp/magazine/data/inred/202611/img/branditem_8923_xxl.jpg",
+          "caption_ko": "지퍼 포켓",
+          "caption_ja": "ファスナー付きポケット",
+          "source": "https://tkj.jp/inred/202611/"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/inred/202611/img/branditem_8924_l.jpg",
+          "full": "https://tkj.jp/magazine/data/inred/202611/img/branditem_8924_xxl.jpg",
+          "caption_ko": "나눠 수납할 수 있는 칸막이",
+          "caption_ja": "分けて収納できる仕切り付き",
+          "source": "https://tkj.jp/inred/202611/"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/inred/202611/img/branditem_8925_l.jpg",
+          "full": "https://tkj.jp/magazine/data/inred/202611/img/branditem_8925_xxl.jpg",
+          "caption_ko": "스트랩을 떼면 파우치로",
+          "caption_ja": "ショルダーストラップを外してポーチとして",
+          "source": "https://tkj.jp/inred/202611/"
+        }
+      ],
+      "gallery_source": "https://tkj.jp/inred/202611/",
+      "gallery_note": "사진·설명: 宝島社 공식 페이지",
+      "translation_check": true
+    },
+    {
+      "title_ko": "오토나노 오샤레테초 11월호 부록 ― 헬로키티 자수 복주머니 토트",
+      "title_ja": "大人のおしゃれ手帖 2026年11月号 HELLO KITTY 豪華刺しゅう巾着トート",
+      "category": "잡지 부록",
+      "area": "전국",
+      "venue": "서점·편의점",
+      "start": "2026-10-07",
+      "end": null,
+      "price": "1,780엔(세금 포함)",
+      "official_url": "https://tkj.jp/osharetecho/next",
+      "source_url": "https://tkj.jp/osharetecho/next",
+      "checked_date": "2026-10-16",
+      "thumbnail": "https://tkj.jp/magazine/data/osharetecho/202611/img/branditem_8926_s.jpg",
+      "thumbnail_source": "https://tkj.jp/osharetecho/next",
+      "evidence": [
+        {
+          "url": "https://tkj.jp/osharetecho/next",
+          "tier": "official",
+          "quote": "大人のおしゃれ手帖 11月号発売中! 中身を見る 2026年10月7日(水)発売 特別価格:1780円(税込) 表紙:木村多江 お近くの書店またはオンライン書店でお買い求めください。 定期購読のお申し込みはこちら 外部サイト(Fujisan.co.jp)へリンクします。 ブランドアイテム HELLO KITTY [ハローキティ] 大容量で使いやすい! 豪華刺しゅう巾着トート",
+          "checked": "2026-10-19"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-19",
+      "summary_ko": "헬로키티 자수가 들어간 대용량 복주머니(킨차쿠) 토트백이에요. 크기는 약 세로 41×가로 41cm예요.",
+      "summary_source": "https://tkj.jp/osharetecho/next",
+      "image_hd": "https://tkj.jp/magazine/data/osharetecho/202611/img/branditem_8926_xxl.jpg",
+      "image_fit": "contain",
+      "gallery": [
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/osharetecho/202611/img/branditem_8927_l.jpg",
+          "full": "https://tkj.jp/magazine/data/osharetecho/202611/img/branditem_8927_xxl.jpg",
+          "caption_ko": "헬로키티와 콜라보한 대형 가방",
+          "caption_ja": "ハローキティとコラボレーションした大型バッグ",
+          "source": "https://tkj.jp/osharetecho/202611/"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/osharetecho/202611/img/branditem_8928_l.jpg",
+          "full": "https://tkj.jp/magazine/data/osharetecho/202611/img/branditem_8928_xxl.jpg",
+          "caption_ko": "키티와 로고는 자수 & 벨벳풍 원단",
+          "caption_ja": "ハローキティとロゴは刺しゅう＆ベルベット風生地",
+          "source": "https://tkj.jp/osharetecho/202611/"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/osharetecho/202611/img/branditem_8929_l.jpg",
+          "full": "https://tkj.jp/magazine/data/osharetecho/202611/img/branditem_8929_xxl.jpg",
+          "caption_ko": "올가을 트렌드인 버건디 컬러",
+          "caption_ja": "今秋トレンドのボルドーカラーも、大人の女性が持ちやすいポイント",
+          "source": "https://tkj.jp/osharetecho/202611/"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/osharetecho/202611/img/branditem_8930_l.jpg",
+          "full": "https://tkj.jp/magazine/data/osharetecho/202611/img/branditem_8930_xxl.jpg",
+          "caption_ko": "잡지·노트도 넉넉히 들어가는 큰 사이즈",
+          "caption_ja": "雑誌やノート類も余裕で入る大判サイズ",
+          "source": "https://tkj.jp/osharetecho/202611/"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/osharetecho/202611/img/branditem_8931_l.jpg",
+          "full": "https://tkj.jp/magazine/data/osharetecho/202611/img/branditem_8931_xxl.jpg",
+          "caption_ko": "취미나 덕질에도 활약",
+          "caption_ja": "趣味や推し活でも活躍",
+          "source": "https://tkj.jp/osharetecho/202611/"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/osharetecho/202611/img/branditem_8932_l.jpg",
+          "full": "https://tkj.jp/magazine/data/osharetecho/202611/img/branditem_8932_xxl.jpg",
+          "caption_ko": "입구를 조이면 복주머니(킨차쿠) 모양으로",
+          "caption_ja": "口を絞れば巾着型に",
+          "source": "https://tkj.jp/osharetecho/202611/"
+        }
+      ],
+      "gallery_source": "https://tkj.jp/osharetecho/202611/",
+      "gallery_note": "사진·설명: 宝島社 공식 페이지",
+      "translation_check": true
+    },
+    {
+      "title_ko": "글로우 11월호 부록 ― 러싯×스누피 쇼핑백",
+      "title_ja": "GLOW 2026年11月号 ラシット × スヌーピー 大きなサイズのショッピングBAG",
+      "category": "잡지 부록",
+      "area": "전국",
+      "venue": "서점·편의점",
+      "start": "2026-09-28",
+      "end": null,
+      "price": "1,980엔(세금 포함)",
+      "official_url": "https://tkj.jp/glow/next",
+      "source_url": "https://tkj.jp/glow/next",
+      "checked_date": "2026-10-16",
+      "thumbnail": "https://tkj.jp/magazine/data/glow/202611/img/branditem_8907_s.jpg",
+      "thumbnail_source": "https://tkj.jp/glow/next",
+      "evidence": [
+        {
+          "url": "https://tkj.jp/glow/next",
+          "tier": "official",
+          "quote": "GLOW 11月号発売中! 中身を見る 2026年9月28日(月)発売 特別価格:1980円(税込) 表紙:麻生久美子 カートに入れる 定期購読のお申し込みはこちら 外部サイト(Fujisan.co.jp)へリンクします。 ブランドアイテム ラシット × スヌーピー 大きなサイズの ショッピングBAG",
+          "checked": "2026-10-19"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-19",
+      "summary_ko": "러싯과 스누피가 콜라보한 큰 사이즈 쇼핑백이에요.",
+      "summary_source": "https://tkj.jp/glow/next",
+      "image_hd": "https://tkj.jp/magazine/data/glow/202611/img/branditem_8907_xxl.jpg",
+      "image_fit": "contain",
+      "gallery": [
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/glow/202611/img/branditem_8908_l.jpg",
+          "full": "https://tkj.jp/magazine/data/glow/202611/img/branditem_8908_xxl.jpg",
+          "caption_ko": "브라운 컬러에 러싯 모노그램과 스누피 태그를 더한 특별 디자인",
+          "caption_ja": "秋らしく大人っぽいブラウンカラーに、ラシットのアイコニックなモノグラム柄と、スヌーピーの可愛いタグをポイントにした特別デザイン",
+          "source": "https://tkj.jp/glow/202611/"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/glow/202611/img/branditem_8909_l.jpg",
+          "full": "https://tkj.jp/magazine/data/glow/202611/img/branditem_8909_xxl.jpg",
+          "caption_ko": "캐리어 위에 엎드린 스누피",
+          "caption_ja": "スーツケースの上に寝そべったスヌーピーが可愛い♥",
+          "source": "https://tkj.jp/glow/202611/"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/glow/202611/img/branditem_8910_l.jpg",
+          "full": "https://tkj.jp/magazine/data/glow/202611/img/branditem_8910_xxl.jpg",
+          "caption_ko": "손잡이에 러싯 모노그램",
+          "caption_ja": "持ち手にラシットのモノグラムをデザイン",
+          "source": "https://tkj.jp/glow/202611/"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/glow/202611/img/branditem_8911_l.jpg",
+          "full": "https://tkj.jp/magazine/data/glow/202611/img/branditem_8911_xxl.jpg",
+          "caption_ko": "어깨에 멜 수 있어요",
+          "caption_ja": "肩がけできる",
+          "source": "https://tkj.jp/glow/202611/"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/glow/202611/img/branditem_8912_l.jpg",
+          "full": "https://tkj.jp/magazine/data/glow/202611/img/branditem_8912_xxl.jpg",
+          "caption_ko": "넉넉한 대용량",
+          "caption_ja": "たっぷり入る大容量",
+          "source": "https://tkj.jp/glow/202611/"
+        }
+      ],
+      "gallery_source": "https://tkj.jp/glow/202611/",
+      "gallery_note": "사진·설명: 宝島社 공식 페이지",
+      "translation_check": true
+    },
+    {
+      "title_ko": "오토나뮤즈 11월호 부록 ― 시텐×헬로키티 퀼팅 토트",
+      "title_ja": "otona MUSE 2026年11月号 CITEN × Hello Kitty ふわふわキルティングトート",
+      "category": "잡지 부록",
+      "area": "전국",
+      "venue": "서점·편의점",
+      "start": "2026-09-28",
+      "end": null,
+      "price": "1,950엔(세금 포함)",
+      "official_url": "https://tkj.jp/otonamuse/next",
+      "source_url": "https://tkj.jp/otonamuse/next",
+      "checked_date": "2026-10-16",
+      "thumbnail": "https://tkj.jp/magazine/data/otonamuse/202611/img/branditem_8913_s.jpg",
+      "thumbnail_source": "https://tkj.jp/otonamuse/next",
+      "evidence": [
+        {
+          "url": "https://tkj.jp/otonamuse/next",
+          "tier": "official",
+          "quote": "オトナミューズ 11月号発売中! 中身を見る 2026年9月28日(月)発売 特別価格:1950円(税込) 表紙:佐々木希 お近くの書店またはオンライン書店でお買い求めください。 定期購読のお申し込みはこちら 外部サイト(Fujisan.co.jp)へリンクします。 ブランドアイテム CITEN × Hello Kitty [シテン×ハローキティ] ひょっこりタグが可愛い ふわふわキルティングトート",
+          "checked": "2026-10-19"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-19",
+      "summary_ko": "시텐과 헬로키티가 콜라보한 푹신한 퀼팅 토트백으로, 살짝 보이는 키티 태그가 포인트예요.",
+      "summary_source": "https://tkj.jp/otonamuse/next",
+      "image_hd": "https://tkj.jp/magazine/data/otonamuse/202611/img/branditem_8913_xxl.jpg",
+      "image_fit": "contain",
+      "gallery": [
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/otonamuse/202611/img/branditem_8914_l.jpg",
+          "full": "https://tkj.jp/magazine/data/otonamuse/202611/img/branditem_8914_xxl.jpg",
+          "caption_ko": "폭신한 퀼팅 토트, 퀼팅 하나하나가 키티 얼굴 모양",
+          "caption_ja": "シテンらしいふわふわのキルティングトート。キルティングをよく見てみると、なんとひとつひとつがキティの顔形に！",
+          "source": "https://tkj.jp/otonamuse/202611/"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/otonamuse/202611/img/branditem_8915_l.jpg",
+          "full": "https://tkj.jp/magazine/data/otonamuse/202611/img/branditem_8915_xxl.jpg",
+          "caption_ko": "옆면 태그는 키티 뒷모습까지 재현",
+          "caption_ja": "サイドのタグはキティの後ろ姿まで再現したのがこだわりポイント",
+          "source": "https://tkj.jp/otonamuse/202611/"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/otonamuse/202611/img/branditem_8916_l.jpg",
+          "full": "https://tkj.jp/magazine/data/otonamuse/202611/img/branditem_8916_xxl.jpg",
+          "caption_ko": "잡지·폰·지갑에 작은 노트북도 들어가요",
+          "caption_ja": "雑誌やスマホ、財布の他、小さめのノートパソコンも入ります",
+          "source": "https://tkj.jp/otonamuse/202611/"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/otonamuse/202611/img/branditem_8917_l.jpg",
+          "full": "https://tkj.jp/magazine/data/otonamuse/202611/img/branditem_8917_xxl.jpg",
+          "caption_ko": "재킷 코디에도 잘 어울려요",
+          "caption_ja": "ハンサムなジャケットにもぴったり♡",
+          "source": "https://tkj.jp/otonamuse/202611/"
+        }
+      ],
+      "gallery_source": "https://tkj.jp/otonamuse/202611/",
+      "gallery_note": "사진·설명: 宝島社 공식 페이지",
+      "translation_check": true
+    },
+    {
+      "title_ko": "모노맥스 11월호 부록 ― 콜맨 풀오픈 2WAY 가방",
+      "title_ja": "MonoMax 2026年11月号 Coleman フルオープン式 2WAYバッグ",
+      "category": "잡지 부록",
+      "area": "전국",
+      "venue": "서점·편의점",
+      "start": "2026-10-09",
+      "end": null,
+      "price": "1,590엔(세금 포함)",
+      "official_url": "https://tkj.jp/max/next",
+      "source_url": "https://tkj.jp/max/next",
+      "checked_date": "2026-10-16",
+      "thumbnail": "https://tkj.jp/magazine/data/max/202611/img/branditem_8933_s.jpg",
+      "thumbnail_source": "https://tkj.jp/max/next",
+      "evidence": [
+        {
+          "url": "https://tkj.jp/max/next",
+          "tier": "official",
+          "quote": "MonoMax 11月号発売中! 中身を見る 2026年10月9日(金)発売 特別価格:1590円(税込) カートに入れる 定期購読のお申し込みはこちら 外部サイト(Fujisan.co.jp)へリンクします。 ブランドアイテム Coleman [コールマン] フルオープン式 2WAYバッグ",
+          "checked": "2026-10-19"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-19",
+      "summary_ko": "아웃도어 브랜드 콜맨의 2WAY 가방으로, 입구가 끝까지 활짝 열려요.",
+      "summary_source": "https://tkj.jp/max/next",
+      "image_hd": "https://tkj.jp/magazine/data/max/202611/img/branditem_8933_xxl.jpg",
+      "image_fit": "contain",
+      "gallery": [
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/max/202611/img/branditem_8934_l.jpg",
+          "full": "https://tkj.jp/magazine/data/max/202611/img/branditem_8934_xxl.jpg",
+          "caption_ko": "특수 지퍼로 여러 방식으로 열 수 있는 대용량 가방",
+          "caption_ja": "特殊ファスナーでいろんな開け方ができる大容量のアイデアバッグ！",
+          "source": "https://tkj.jp/max/202611/"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/max/202611/img/branditem_8935_l.jpg",
+          "full": "https://tkj.jp/magazine/data/max/202611/img/branditem_8935_xxl.jpg",
+          "caption_ko": "토트백처럼",
+          "caption_ja": "トートバッグのように使える！",
+          "source": "https://tkj.jp/max/202611/"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/max/202611/img/branditem_8936_l.jpg",
+          "full": "https://tkj.jp/magazine/data/max/202611/img/branditem_8936_xxl.jpg",
+          "caption_ko": "캐리어처럼 활짝 열어서",
+          "caption_ja": "スーツケースのように使える！",
+          "source": "https://tkj.jp/max/202611/"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/max/202611/img/branditem_8937_l.jpg",
+          "full": "https://tkj.jp/magazine/data/max/202611/img/branditem_8937_xxl.jpg",
+          "caption_ko": "콜맨 일본 창업 50주년 기념 로고",
+          "caption_ja": "コールマン日本創業50周年記念ロゴ",
+          "source": "https://tkj.jp/max/202611/"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/max/202611/img/branditem_8938_l.jpg",
+          "full": "https://tkj.jp/magazine/data/max/202611/img/branditem_8938_xxl.jpg",
+          "caption_ko": "넣고 빼기 쉬운 앞 포켓",
+          "caption_ja": "出し入れしやすい便利な前面ポケット",
+          "source": "https://tkj.jp/max/202611/"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/max/202611/img/branditem_8939_l.jpg",
+          "full": "https://tkj.jp/magazine/data/max/202611/img/branditem_8939_xxl.jpg",
+          "caption_ko": "지퍼 손잡이가 저절로 움직이지 않는 '락 지퍼'",
+          "caption_ja": "引き手が勝手に動かない「ロックファスナー」採用！",
+          "source": "https://tkj.jp/max/202611/"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/max/202611/img/branditem_8940_l.jpg",
+          "full": "https://tkj.jp/magazine/data/max/202611/img/branditem_8940_xxl.jpg",
+          "caption_ko": "BIG 사이즈",
+          "caption_ja": "BIGサイズ！",
+          "source": "https://tkj.jp/max/202611/"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/max/202611/img/branditem_8941_l.jpg",
+          "full": "https://tkj.jp/magazine/data/max/202611/img/branditem_8941_xxl.jpg",
+          "caption_ko": "크기(약): 높이 26.5×폭 40×바닥 폭 18.5cm, 손잡이 길이 74cm",
+          "caption_ja": "サイズ（約）：高さ26.5×幅40×マチ18.5cm、ハンドルの長さ74cm",
+          "source": "https://tkj.jp/max/202611/"
+        }
+      ],
+      "gallery_source": "https://tkj.jp/max/202611/",
+      "gallery_note": "사진·설명: 宝島社 공식 페이지",
+      "translation_check": true
+    },
+    {
+      "title_ko": "미니 11월호 부록 ― 먀쿠먀쿠 365일 일력",
+      "title_ja": "mini 2026年11月号 特別付録 ミャクミャク 365日の日めくりカレンダー",
+      "category": "잡지 부록",
+      "area": "전국",
+      "venue": "서점·편의점",
+      "start": "2026-10-15",
+      "end": null,
+      "price": "2,200엔(세금 포함)",
+      "official_url": "https://tkj.jp/mini/next",
+      "source_url": "https://tkj.jp/mini/next",
+      "checked_date": "2026-10-16",
+      "thumbnail": "https://tkj.jp/magazine/data/mini/202611/img/branditem_8952_s.jpg",
+      "thumbnail_source": "https://tkj.jp/mini/next",
+      "evidence": [
+        {
+          "url": "https://tkj.jp/mini/next",
+          "tier": "official",
+          "quote": "mini 11月号発売中! 中身を見る 特別価格: 2200円 (税込) 2026年10月15日(木)発売 表紙:髙橋ひかる お求めは全国の書店・コンビニにて JANコード:4912084211165 mini最新号の情報を詳しく見る 公式サイト miniWEB(ミニウェブ)はこちら 今すぐ購入 mini 2026年11月号 商品コード:TD4912084211165 2200 円(税込) カートに入れる Fujisan.co.jpで定期購読 外部サイト(Fujisan.co.jp)へリンクします 特別付録 ミャクミャク 365日の日めくりカレンダー",
+          "checked": "2026-10-19"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-19",
+      "summary_ko": "오사카·간사이 엑스포 공식 캐릭터 먀쿠먀쿠의 2027년 일력(상·하반기 2권)이 상자에 들어 있어요.",
+      "summary_source": "https://tkj.jp/mini/next",
+      "image_hd": "https://tkj.jp/magazine/data/mini/202611/img/branditem_8952_xxl.jpg",
+      "image_fit": "contain",
+      "gallery": [
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/mini/202611/img/branditem_8953_l.jpg",
+          "full": "https://tkj.jp/magazine/data/mini/202611/img/branditem_8953_xxl.jpg",
+          "caption_ko": "상반기·하반기 2권 일력과 수납용 종이 박스 세트",
+          "caption_ja": "1～6月までの上半期と、7～12月までの下半期の2冊に分かれた日めくりカレンダーと、それらを収納できる豪華紙BOXがセットに",
+          "source": "https://tkj.jp/mini/202611/"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/mini/202611/img/branditem_8954_l.jpg",
+          "full": "https://tkj.jp/magazine/data/mini/202611/img/branditem_8954_xxl.jpg",
+          "caption_ko": "① 튼튼한 두꺼운 종이 박스 ② 2027년 일력 2권",
+          "caption_ja": "【1】しっかりした厚紙の箱【2】2027年 日めくりカレンダー2冊（上半期/下半期）",
+          "source": "https://tkj.jp/mini/202611/"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/mini/202611/img/branditem_8955_l.jpg",
+          "full": "https://tkj.jp/magazine/data/mini/202611/img/branditem_8955_xxl.jpg",
+          "caption_ko": "간이 스탠드 포함",
+          "caption_ja": "簡易スタンド付き",
+          "source": "https://tkj.jp/mini/202611/"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/mini/202611/img/branditem_8956_l.jpg",
+          "full": "https://tkj.jp/magazine/data/mini/202611/img/branditem_8956_xxl.jpg",
+          "caption_ko": "달마다 12가지 컬러",
+          "caption_ja": "月ごとに12色のカラーリング",
+          "source": "https://tkj.jp/mini/202611/"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/mini/202611/img/branditem_8957_l.jpg",
+          "full": "https://tkj.jp/magazine/data/mini/202611/img/branditem_8957_xxl.jpg",
+          "caption_ko": "매달 첫 장에 한 달 달력",
+          "caption_ja": "月頭には1か月分のカレンダーが！",
+          "source": "https://tkj.jp/mini/202611/"
+        },
+        {
+          "group": "부록 사진",
+          "img": "https://tkj.jp/magazine/data/mini/202611/img/branditem_8958_l.jpg",
+          "full": "https://tkj.jp/magazine/data/mini/202611/img/branditem_8958_xxl.jpg",
+          "caption_ko": "메시지를 써도 OK, 뒷면은 메모 공간",
+          "caption_ja": "メッセージを書いてもOK。裏面はメモスペースに！",
+          "source": "https://tkj.jp/mini/202611/"
+        }
+      ],
+      "gallery_source": "https://tkj.jp/mini/202611/",
+      "gallery_note": "사진·설명: 宝島社 공식 페이지",
+      "translation_check": true
+    },
+    {
+      "title_ko": "차오 12월호 부록 ― 산엑스×차오 히로인 열쇠 비밀 노트",
+      "title_ja": "ちゃお 2026年12月号 ふろく ハートの鍵つきひみつのヒロインノート",
+      "category": "잡지 부록",
+      "area": "전국",
+      "venue": "서점·편의점",
+      "start": "2026-11-02",
+      "end": null,
+      "price": "790엔(세금 포함)",
+      "official_url": "https://ciao.shogakukan.co.jp/topics/208233/",
+      "source_url": "https://ciao.shogakukan.co.jp/topics/208233/",
+      "checked_date": "2026-10-16",
+      "thumbnail": "https://cdn.ciao.shogakukan.co.jp/wp-content/uploads/2026/09/ciao2612-furoku.jpg",
+      "thumbnail_source": "https://ciao.shogakukan.co.jp/topics/208233/",
+      "evidence": [
+        {
+          "url": "https://ciao.shogakukan.co.jp/topics/208233/",
+          "tier": "official",
+          "quote": "来月号予告★ちゃお2026年12月号11月2日(月)ごろ発売! - ちゃおプラス まんが ランキング 記事&動画 定期購読 雑誌・コミックス ちゃお本誌紹介 ちゃおデラックス紹介 コミックス まんが家一覧 まんが賞 まんがスクール ちゃおプラスまんが賞 まんがの描き方 その他 サポーターショップ アンケート グッズショップ ホーム まんが ランキング 記事&動画 定期購読 雑誌 ちゃお本誌紹介 ちゃおデラックス紹介 コミックス まんが家一覧 まんが賞 まんがスクール ちゃおプラスまんが賞 まんがの描き方 ログイン 新規登録 はじめて りれき さがす 2026.10.02 ちゃお本誌紹介 来月号予告★ちゃお2026年12月号11月2日(月)ごろ発売! 11月2日(月)ごろ発売予定 価格 790円(税込) ふろく ハートの鍵つきひみつのヒロインノート ちゃお12月号のふろくは、ちゃおヒロインズ×サンエックスユニバースがコラボした ハートの鍵つきひみつのヒロインノート だよ! イラストは全部ちゃおの先生のかきおろし♡ 鍵つきだから、ナイショの計画や日記を書いたり、交換ノートにもできちゃうよ♪ さらに... 大人気キャラがちゃおにふろくで降臨! ★We Love♡モンチッチシール",
+          "checked": "2026-10-19"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-19",
+      "summary_ko": "차오 히로인즈와 산엑스(San-X) 유니버스가 콜라보한 하트 열쇠 달린 비밀 노트가 부록이에요. 몽치치 스티커 등도 함께 들어 있어요.",
+      "summary_source": "https://ciao.shogakukan.co.jp/topics/208233/",
+      "image_hd": "https://cdn.ciao.shogakukan.co.jp/wp-content/uploads/2026/09/ciao2612-furoku.jpg",
+      "image_fit": "contain",
+      "translation_check": true,
+      "thumb_small": "thumbs/a5d0b30c3f0536f8.webp"
+    },
+    {
+      "title_ko": "나카요시 12월호 부록 ― 슈고캐라 크리스마스 스티커북 세트",
+      "title_ja": "なかよし 2026年12月号 ふろく しゅごキャラ!×クリスマス メリクリ☆シール帳セット",
+      "category": "잡지 부록",
+      "area": "전국",
+      "venue": "서점·편의점",
+      "start": "2026-11-02",
+      "end": null,
+      "price": "660엔(세금 포함)",
+      "official_url": "https://nakayosi.kodansha.co.jp/latest/2026/12.html",
+      "source_url": "https://nakayosi.kodansha.co.jp/latest/2026/12.html",
+      "checked_date": "2026-10-16",
+      "thumbnail": "https://nakayosi.kodansha.co.jp/content/images/_topics/slider202612_01.jpg",
+      "thumbnail_source": "https://nakayosi.kodansha.co.jp/",
+      "evidence": [
+        {
+          "url": "https://nakayosi.kodansha.co.jp/",
+          "tier": "official",
+          "quote": "11月2日(月)発売のなかよし12月号の情報はこちら! しゅごキャラ!×クリスマスが最強かわいい♡ メリクリ☆シール帳セット",
+          "checked": "2026-10-19"
+        },
+        {
+          "url": "https://nakayosi.kodansha.co.jp/latest/2026/12.html",
+          "tier": "official",
+          "quote": "12 月号 2026/11/2(月)発売 価格：660円[税込] … なかよし12月号のふろくは、『しゅごキャラ！ ジュエルジョーカー』のメリクリ☆シール帳セット☆",
+          "checked": "2026-10-16"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-19",
+      "summary_ko": "『슈고캐라!』와 크리스마스를 테마로 한 스티커북 세트가 부록이에요.",
+      "summary_source": "https://nakayosi.kodansha.co.jp/",
+      "image_hd": "https://nakayosi.kodansha.co.jp/content/images/_topics/slider202612_01.jpg",
+      "image_fit": "contain",
+      "translation_check": true
+    },
+    {
+      "title_ko": "치이카와 캡슐 스틱 (가챠)",
+      "title_ja": "ちいかわ カプセルステッキ",
+      "category": "가챠",
+      "area": "전국",
+      "venue": "전국 판매처 (가챠 코너 등)",
+      "start": "2026-10-29",
+      "end": null,
+      "reservation": "불필요",
+      "price": "1회 400엔",
+      "official_url": "https://gashapon.jp/products/detail.php?jan_code=4570118187321000",
+      "source_url": "https://gashapon.jp/products/detail.php?jan_code=4570118187321000",
+      "notes": "발매 시기: 2026년 10월 5주차. 지역·매장마다 다를 수 있어요",
+      "checked_date": "2026-10-15",
+      "thumbnail": "https://bandai-a.akamaihd.net/bc/img/model/xl/1000256911_1.jpg",
+      "thumbnail_source": "https://gashapon.jp/products/detail.php?jan_code=4570118187321000",
+      "evidence": [
+        {
+          "url": "https://gashapon.jp/products/detail.php?jan_code=4570118187321000",
+          "tier": "official",
+          "quote": "発売時期 2026年10月 第5週 価格",
+          "checked": "2026-10-16"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-16",
+      "thumb_kind": "product",
+      "date_label": "10월 5째 주 발매 (지역·매장별 상이)",
+      "translation_check": true,
+      "summary_ko": "「치이카와」 가챠예요. 조립하면 높이 약 13cm 스틱이 되고, 함께 나온 플로키 인형과 같이 장식할 수도 있어요. 1회 400엔, 전 4종이에요.",
+      "summary_source": "https://gashapon.jp/products/detail.php?jan_code=4570118187321000",
+      "gallery": [
+        {
+          "group": "상품 이미지 (공식)",
+          "img": "https://bandai-a.akamaihd.net/bc/img/model/xl/1000256911_1.jpg",
+          "caption_ko": "메인 이미지",
+          "source": "https://gashapon.jp/products/detail.php?jan_code=4570118187321000"
+        },
+        {
+          "group": "상품 이미지 (공식)",
+          "img": "https://bandai-a.akamaihd.net/bc/img/model/xl/1000256911_2.jpg",
+          "caption_ko": "라인업 1",
+          "source": "https://gashapon.jp/products/detail.php?jan_code=4570118187321000"
+        },
+        {
+          "group": "상품 이미지 (공식)",
+          "img": "https://bandai-a.akamaihd.net/bc/img/model/xl/1000256911_3.jpg",
+          "caption_ko": "라인업 2",
+          "source": "https://gashapon.jp/products/detail.php?jan_code=4570118187321000"
+        },
+        {
+          "group": "상품 이미지 (공식)",
+          "img": "https://bandai-a.akamaihd.net/bc/img/model/xl/1000256911_4.jpg",
+          "caption_ko": "라인업 3",
+          "source": "https://gashapon.jp/products/detail.php?jan_code=4570118187321000"
+        },
+        {
+          "group": "상품 이미지 (공식)",
+          "img": "https://bandai-a.akamaihd.net/bc/img/model/xl/1000256911_5.jpg",
+          "caption_ko": "라인업 4",
+          "source": "https://gashapon.jp/products/detail.php?jan_code=4570118187321000"
+        }
+      ],
+      "gallery_source": "https://gashapon.jp/products/detail.php?jan_code=4570118187321000",
+      "thumb_small": "thumbs/603484fd769e7302.webp"
+    },
+    {
+      "title_ko": "원피스 유라유라시타이 (가챠)",
+      "title_ja": "ONE PIECE ゆらゆらし隊",
+      "category": "가챠",
+      "area": "전국",
+      "venue": "전국 판매처 (가챠 코너 등)",
+      "start": "2026-10-29",
+      "end": null,
+      "reservation": "불필요",
+      "price": "1회 500엔",
+      "official_url": "https://gashapon.jp/products/detail.php?jan_code=4570118196545000",
+      "source_url": "https://gashapon.jp/products/detail.php?jan_code=4570118196545000",
+      "notes": "발매 시기: 2026년 10월 5주차. 지역·매장마다 다를 수 있어요",
+      "checked_date": "2026-10-15",
+      "thumbnail": "https://bandai-a.akamaihd.net/bc/img/model/xl/1000258612_1.jpg",
+      "thumbnail_source": "https://gashapon.jp/products/detail.php?jan_code=4570118196545000",
+      "evidence": [
+        {
+          "url": "https://gashapon.jp/products/detail.php?jan_code=4570118196545000",
+          "tier": "official",
+          "quote": "発売時期 2026年10月 第5週 価格",
+          "checked": "2026-10-16"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-16",
+      "thumb_kind": "product",
+      "date_label": "10월 5째 주 발매 (지역·매장별 상이)",
+      "translation_check": true,
+      "summary_ko": "「원피스」 가챠예요. 머리가 스프링으로 흔들리는 보블헤드 신 시리즈예요. 1회 500엔, 전 4종이에요.",
+      "summary_source": "https://gashapon.jp/products/detail.php?jan_code=4570118196545000",
+      "gallery": [
+        {
+          "group": "상품 이미지 (공식)",
+          "img": "https://bandai-a.akamaihd.net/bc/img/model/xl/1000258612_1.jpg",
+          "caption_ko": "메인 이미지",
+          "source": "https://gashapon.jp/products/detail.php?jan_code=4570118196545000"
+        },
+        {
+          "group": "상품 이미지 (공식)",
+          "img": "https://bandai-a.akamaihd.net/bc/img/model/xl/1000258612_2.jpg",
+          "caption_ko": "라인업 1",
+          "source": "https://gashapon.jp/products/detail.php?jan_code=4570118196545000"
+        },
+        {
+          "group": "상품 이미지 (공식)",
+          "img": "https://bandai-a.akamaihd.net/bc/img/model/xl/1000258612_3.jpg",
+          "caption_ko": "라인업 2",
+          "source": "https://gashapon.jp/products/detail.php?jan_code=4570118196545000"
+        },
+        {
+          "group": "상품 이미지 (공식)",
+          "img": "https://bandai-a.akamaihd.net/bc/img/model/xl/1000258612_4.jpg",
+          "caption_ko": "라인업 3",
+          "source": "https://gashapon.jp/products/detail.php?jan_code=4570118196545000"
+        },
+        {
+          "group": "상품 이미지 (공식)",
+          "img": "https://bandai-a.akamaihd.net/bc/img/model/xl/1000258612_5.jpg",
+          "caption_ko": "라인업 4",
+          "source": "https://gashapon.jp/products/detail.php?jan_code=4570118196545000"
+        }
+      ],
+      "gallery_source": "https://gashapon.jp/products/detail.php?jan_code=4570118196545000",
+      "thumb_small": "thumbs/f04f37df3f4e91ac.webp"
+    },
+    {
+      "title_ko": "장송의 프리렌 마치보우케 3 (가챠)",
+      "title_ja": "葬送のフリーレン まちぼうけ3",
+      "category": "가챠",
+      "area": "전국",
+      "venue": "전국 판매처 (가챠 코너 등)",
+      "start": "2026-10-29",
+      "end": null,
+      "reservation": "불필요",
+      "price": "1회 400엔",
+      "official_url": "https://gashapon.jp/products/detail.php?jan_code=4582770068955000",
+      "source_url": "https://gashapon.jp/products/detail.php?jan_code=4582770068955000",
+      "notes": "발매 시기: 2026년 10월 5주차. 지역·매장마다 다를 수 있어요",
+      "checked_date": "2026-10-15",
+      "thumbnail": "https://bandai-a.akamaihd.net/bc/img/model/xl/1000258552_1.jpg",
+      "thumbnail_source": "https://gashapon.jp/products/detail.php?jan_code=4582770068955000",
+      "evidence": [
+        {
+          "url": "https://gashapon.jp/products/detail.php?jan_code=4582770068955000",
+          "tier": "official",
+          "quote": "発売時期 2026年10月 第5週 価格",
+          "checked": "2026-10-16"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-16",
+      "thumb_kind": "product",
+      "date_label": "10월 5째 주 발매 (지역·매장별 상이)",
+      "translation_check": true,
+      "summary_ko": "「장송의 프리렌」 '마치보우케' 가챠 3탄이에요. 잠든 프리렌 등 여러 캐릭터가 나와요. 1회 400엔, 전 5종이에요.",
+      "summary_source": "https://gashapon.jp/products/detail.php?jan_code=4582770068955000",
+      "gallery": [
+        {
+          "group": "상품 이미지 (공식)",
+          "img": "https://bandai-a.akamaihd.net/bc/img/model/xl/1000258552_1.jpg",
+          "caption_ko": "메인 이미지",
+          "source": "https://gashapon.jp/products/detail.php?jan_code=4582770068955000"
+        },
+        {
+          "group": "상품 이미지 (공식)",
+          "img": "https://bandai-a.akamaihd.net/bc/img/model/xl/1000258552_2.jpg",
+          "caption_ko": "라인업 1",
+          "source": "https://gashapon.jp/products/detail.php?jan_code=4582770068955000"
+        },
+        {
+          "group": "상품 이미지 (공식)",
+          "img": "https://bandai-a.akamaihd.net/bc/img/model/xl/1000258552_3.jpg",
+          "caption_ko": "라인업 2",
+          "source": "https://gashapon.jp/products/detail.php?jan_code=4582770068955000"
+        },
+        {
+          "group": "상품 이미지 (공식)",
+          "img": "https://bandai-a.akamaihd.net/bc/img/model/xl/1000258552_4.jpg",
+          "caption_ko": "라인업 3",
+          "source": "https://gashapon.jp/products/detail.php?jan_code=4582770068955000"
+        },
+        {
+          "group": "상품 이미지 (공식)",
+          "img": "https://bandai-a.akamaihd.net/bc/img/model/xl/1000258552_5.jpg",
+          "caption_ko": "라인업 4",
+          "source": "https://gashapon.jp/products/detail.php?jan_code=4582770068955000"
+        },
+        {
+          "group": "상품 이미지 (공식)",
+          "img": "https://bandai-a.akamaihd.net/bc/img/model/xl/1000258552_6.jpg",
+          "caption_ko": "라인업 5",
+          "source": "https://gashapon.jp/products/detail.php?jan_code=4582770068955000"
+        }
+      ],
+      "gallery_source": "https://gashapon.jp/products/detail.php?jan_code=4582770068955000",
+      "thumb_small": "thumbs/319441afd8dacf06.webp"
+    },
+    {
+      "title_ko": "죠죠의 기묘한 모험 황금의 바람 메지루시 액세서리 01 (가챠)",
+      "title_ja": "ジョジョの奇妙な冒険 黄金の風 めじるしアクセサリー01",
+      "category": "가챠",
+      "area": "전국",
+      "venue": "전국 판매처 (가챠 코너 등)",
+      "start": "2026-10-29",
+      "end": null,
+      "reservation": "불필요",
+      "price": "1회 300엔",
+      "official_url": "https://gashapon.jp/products/detail.php?jan_code=4582770055481000",
+      "source_url": "https://gashapon.jp/products/detail.php?jan_code=4582770055481000",
+      "notes": "발매 시기: 2026년 10월 5주차 (최강 가샤 스테이션 선행 판매 중). 지역·매장마다 다를 수 있어요",
+      "checked_date": "2026-10-15",
+      "thumbnail": "https://bandai-a.akamaihd.net/bc/img/model/xl/1000258561_1.jpg",
+      "thumbnail_source": "https://gashapon.jp/products/detail.php?jan_code=4582770055481000",
+      "evidence": [
+        {
+          "url": "https://gashapon.jp/products/detail.php?jan_code=4582770055481000",
+          "tier": "official",
+          "quote": "発売時期 2026年10月 第5週 価格",
+          "checked": "2026-10-16"
+        }
+      ],
+      "source_tier": "official",
+      "verified_at": "2026-10-16",
+      "thumb_kind": "product",
+      "date_label": "10월 5째 주 발매 (지역·매장별 상이)",
+      "translation_check": true,
+      "summary_ko": "애니메이션 「죠죠의 기묘한 모험 황금의 바람」 캐릭터들이 '메지루시(표시용) 액세서리'로 나온 가챠예요. 1회 300엔, 전 6종이에요.",
+      "summary_source": "https://gashapon.jp/products/detail.php?jan_code=4582770055481000",
+      "gallery": [
+        {
+          "group": "상품 이미지 (공식)",
+          "img": "https://bandai-a.akamaihd.net/bc/img/model/xl/1000258561_1.jpg",
+          "caption_ko": "메인 이미지",
+          "source": "https://gashapon.jp/products/detail.php?jan_code=4582770055481000"
+        },
+        {
+          "group": "상품 이미지 (공식)",
+          "img": "https://bandai-a.akamaihd.net/bc/img/model/xl/1000258561_2.jpg",
+          "caption_ko": "라인업 1",
+          "source": "https://gashapon.jp/products/detail.php?jan_code=4582770055481000"
+        },
+        {
+          "group": "상품 이미지 (공식)",
+          "img": "https://bandai-a.akamaihd.net/bc/img/model/xl/1000258561_3.jpg",
+          "caption_ko": "라인업 2",
+          "source": "https://gashapon.jp/products/detail.php?jan_code=4582770055481000"
+        },
+        {
+          "group": "상품 이미지 (공식)",
+          "img": "https://bandai-a.akamaihd.net/bc/img/model/xl/1000258561_4.jpg",
+          "caption_ko": "라인업 3",
+          "source": "https://gashapon.jp/products/detail.php?jan_code=4582770055481000"
+        },
+        {
+          "group": "상품 이미지 (공식)",
+          "img": "https://bandai-a.akamaihd.net/bc/img/model/xl/1000258561_5.jpg",
+          "caption_ko": "라인업 4",
+          "source": "https://gashapon.jp/products/detail.php?jan_code=4582770055481000"
+        },
+        {
+          "group": "상품 이미지 (공식)",
+          "img": "https://bandai-a.akamaihd.net/bc/img/model/xl/1000258561_6.jpg",
+          "caption_ko": "라인업 5",
+          "source": "https://gashapon.jp/products/detail.php?jan_code=4582770055481000"
+        },
+        {
+          "group": "상품 이미지 (공식)",
+          "img": "https://bandai-a.akamaihd.net/bc/img/model/xl/1000258561_7.jpg",
+          "caption_ko": "라인업 6",
+          "source": "https://gashapon.jp/products/detail.php?jan_code=4582770055481000"
+        }
+      ],
+      "gallery_source": "https://gashapon.jp/products/detail.php?jan_code=4582770055481000",
+      "thumb_small": "thumbs/bde586f28e738348.webp"
+    },
+    {
+      "title_ja": "GA文庫20周年記念POP UP SHOP",
+      "category": "팝업스토어",
+      "area": "도쿄",
+      "venue": "코토부키야 아키하바라관 2F",
+      "end": "2026-11-15",
+      "reservation": "",
+      "price": "",
+      "official_url": "https://www.kotobukiya.co.jp/event/detail/1397/",
+      "source_url": "https://www.kotobukiya.co.jp/event/detail/1397/",
+      "checked_date": "2026-10-19",
+      "map_query": "コトブキヤ秋葉原館",
+      "source_tier": "official",
+      "title_ko": "GA문고 20주년 기념 POP UP SHOP (전반)",
+      "start": "2026-11-06",
+      "notes": "전반·후반 판매 상품이 달라요. 후반은 11/20~11/29",
+      "evidence": [
+        {
+          "url": "https://www.kotobukiya.co.jp/event/detail/1397/",
+          "tier": "official",
+          "quote": "開催場所 ▶ コトブキヤ秋葉原館2F 開催期間 ▶ 前半:11月6日(金) 〜 11月15日(日)",
+          "checked": "2026-10-19"
+        }
+      ],
+      "translation_check": true,
+      "summary_ko": "GA문고 20주년 기념 팝업숍 전반이에요. 『옆집 천사님 때문에 어느새 인간적으로 타락한 사연』『노우린』『히키코마리 흡혈공주의 번민』 신규 굿즈를 팔고 특전 미니 포토카드를 나눠 줘요.",
+      "summary_source": "https://www.kotobukiya.co.jp/event/detail/1397/"
+    },
+    {
+      "title_ja": "GA文庫20周年記念POP UP SHOP",
+      "category": "팝업스토어",
+      "area": "도쿄",
+      "venue": "코토부키야 아키하바라관 2F",
+      "end": "2026-11-29",
+      "reservation": "",
+      "price": "",
+      "official_url": "https://www.kotobukiya.co.jp/event/detail/1397/",
+      "source_url": "https://www.kotobukiya.co.jp/event/detail/1397/",
+      "checked_date": "2026-10-19",
+      "map_query": "コトブキヤ秋葉原館",
+      "source_tier": "official",
+      "title_ko": "GA문고 20주년 기념 POP UP SHOP (후반)",
+      "start": "2026-11-20",
+      "notes": "전반·후반 판매 상품이 달라요. 전반은 11/6~11/15",
+      "evidence": [
+        {
+          "url": "https://www.kotobukiya.co.jp/event/detail/1397/",
+          "tier": "official",
+          "quote": "開催期間 ▶ 前半:11月6日(金) 〜 11月15日(日) 後半:11月20日(金) 〜 11月29日(日)",
+          "checked": "2026-10-19"
+        }
+      ],
+      "translation_check": true,
+      "summary_ko": "GA문고 20주년 기념 팝업숍 후반이에요. 『던전에서 만남을 추구하면 안 되는 걸까』『기어와라! 냐루코 양』『마녀의 여행』 신규 굿즈를 팔고 특전 미니 포토카드를 나눠 줘요.",
+      "summary_source": "https://www.kotobukiya.co.jp/event/detail/1397/"
+    },
+    {
+      "reservation": "",
+      "price": "아크릴 스탠드 각 1,760엔, 트레이딩 캔배지 550엔, 아크릴 카드 스탠드 각 2,750엔 (세금 포함)",
+      "checked_date": "2026-10-19",
+      "source_tier": "official",
+      "translation_check": true,
+      "verified_at": "2026-10-19",
+      "title_ko": "카드파이트!! 뱅가드 Divinez 시리즈 완결 기념 POP UP STORE",
+      "title_ja": "カードファイト!! ヴァンガード Divinez シリーズ完結記念POP UP STORE",
+      "category": "팝업스토어",
+      "area": "도쿄",
+      "venue": "뱅가드 스토어 (AKIHABARA 게이머즈 4층), 애니메이트 이케부쿠로 본점·아키하바라·시부야·신주쿠 외",
+      "start": "2026-11-06",
+      "end": "2026-11-23",
+      "official_url": "https://bushiroad-creative.com/topics/104744/",
+      "thumbnail": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/15195218/Animate_VG_banner_1920%C3%971080_MAIN-1-1024x576.jpg",
+      "map_query": "AKIHABARAゲーマーズ本店",
+      "notes": "3,300엔마다 새로 그린 뱅가드 PR 카드(전 8종) 랜덤 1장. 애니메이트 통판도 같이 해요",
+      "summary_ko": "『카드파이트!! 뱅가드 Divinez』 완결 기념 팝업이에요. 'After Party ver.' 새 일러스트 굿즈를 팔고, 구매 특전으로 PR 카드를 줘요.",
+      "source_url": "https://bushiroad-creative.com/topics/104744/",
+      "summary_source": "https://bushiroad-creative.com/topics/104744/",
+      "thumbnail_source": "https://bushiroad-creative.com/topics/104744/",
+      "evidence": [
+        {
+          "url": "https://bushiroad-creative.com/topics/104744/",
+          "tier": "official",
+          "quote": "｜POP UP STORE 2026年11月6日(金) ～ 11月23日(月・祝)",
+          "checked": "2026-10-19"
+        }
+      ],
+      "gallery": [
+        {
+          "group": "판매 굿즈",
+          "img": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/09210825/VGD_acst_ari_set.jpg",
+          "caption_ko": "아크릴 스탠드 After Party ver. 각 1,760엔",
+          "source": "https://bushiroad-creative.com/topics/104744/"
+        },
+        {
+          "group": "판매 굿즈",
+          "img": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/09210836/vg_TRbadge_ari.jpg",
+          "caption_ko": "트레이딩 캔배지 After Party ver. 550엔",
+          "source": "https://bushiroad-creative.com/topics/104744/"
+        },
+        {
+          "group": "판매 굿즈",
+          "img": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/09210846/3_vang_HAKU_acrylkey_sample_set_ari.jpg",
+          "caption_ko": "박 아크릴 키홀더 After Party ver. 각 990엔",
+          "source": "https://bushiroad-creative.com/topics/104744/"
+        },
+        {
+          "group": "판매 굿즈",
+          "img": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/09210858/4_vang_AkcardST_sample_05.jpg",
+          "caption_ko": "아크릴 카드 스탠드 After Party ver. 각 2,750엔",
+          "source": "https://bushiroad-creative.com/topics/104744/"
+        },
+        {
+          "group": "판매 굿즈",
+          "img": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/09210911/5_vang_TRminiACblock_sample_ari.jpg",
+          "caption_ko": "트레이딩 미니 아크릴 블록 마커 770엔",
+          "source": "https://bushiroad-creative.com/topics/104744/"
+        },
+        {
+          "group": "판매 굿즈",
+          "img": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/09210916/6_vang_postcard_sample_ari.jpg",
+          "caption_ko": "환진성전편 포스트카드 세트 3,300엔",
+          "source": "https://bushiroad-creative.com/topics/104744/"
+        },
+        {
+          "group": "판매 굿즈",
+          "img": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/09210923/VGDz_genshin_AkcardST_ari.jpg",
+          "caption_ko": "스노돔풍 아크릴 키홀더 1,650엔",
+          "source": "https://bushiroad-creative.com/topics/104744/"
+        },
+        {
+          "group": "판매 굿즈",
+          "img": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/09210937/7_vang_acst_sample_set_ari.jpg",
+          "caption_ko": "환진성전편·운명성전편 아크릴 스탠드 각 1,760엔",
+          "source": "https://bushiroad-creative.com/topics/104744/"
+        },
+        {
+          "group": "판매 굿즈",
+          "img": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/09210946/8_vang_TRacrylkey_sample_ari.jpg",
+          "caption_ko": "트레이딩 아크릴 키홀더 770엔",
+          "source": "https://bushiroad-creative.com/topics/104744/"
+        },
+        {
+          "group": "구매 특전",
+          "img": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/14170137/261106-1123_cf-vanguard-divinez-PUS_MY-1-1024x723.jpg",
+          "caption_ko": "뱅가드 PR 카드 (전 8종, 3,300엔마다)",
+          "source": "https://bushiroad-creative.com/topics/104744/"
+        }
+      ],
+      "gallery_source": "https://bushiroad-creative.com/topics/104744/"
+    },
+    {
+      "reservation": "",
+      "price": "",
+      "checked_date": "2026-10-19",
+      "source_tier": "official",
+      "translation_check": true,
+      "verified_at": "2026-10-19",
+      "title_ko": "PASH! 12월호 ― 표지 A3!, 종이판 A1 포스터",
+      "title_ja": "PASH! 2026年12月号",
+      "category": "잡지 부록",
+      "area": "전국",
+      "venue": "서점·편의점",
+      "start": "2026-11-10",
+      "end": null,
+      "official_url": "https://pash-up.jp/reserve/60000143",
+      "thumbnail": "https://cdn.pash-up.jp/thum/60000/60000143/60000143-p.jpg",
+      "image_fit": "contain",
+      "notes": "종이판에만 A1 포스터와 클리어 파일이 들어가요(전자판 미포함). 포스터 그림은 아직 공식 미공개",
+      "summary_ko": "애니메이션 잡지 PASH! 12월호예요. 표지는 『A3!』 효도 쿠몬·효도 주자이고, 종이판에 A1 포스터와 클리어 파일이 붙어요.",
+      "source_url": "https://pash-up.jp/reserve/60000143",
+      "summary_source": "https://pash-up.jp/reserve/60000143",
+      "thumbnail_source": "https://pash-up.jp/reserve/60000143",
+      "evidence": [
+        {
+          "url": "https://pash-up.jp/reserve/60000143",
+          "tier": "official",
+          "quote": "2026年11月10日発売 表紙：【A3!】",
+          "checked": "2026-10-19"
+        }
+      ],
+      "thumb_small": "thumbs/8e45bde6e1c71303.webp"
     }
   ]
 }
