@@ -106,6 +106,7 @@ function render(){
     &&(!q||[e.title_ko,e.title_ja,e.venue,e.summary_ko].join(" ").normalize("NFKC").toLowerCase().includes(q)))
    .sort((a,b)=>st.bm?((a.e.start||"9").localeCompare(b.e.start||"9")||sortKey(a.e).localeCompare(sortKey(b.e))):sortKey(a.e).localeCompare(sortKey(b.e)));
   CARDS=rows.map(r=>r.e);
+  window.QJCAL&&QJCAL(CARDS);
   document.getElementById("count").textContent=st.bm?`${rows.length}건 (도쿄·오사카 전체)`:`${REG[st.region]} ${rows.length}건`;
   const fc=document.getElementById("fcnt");if(fc){const n=(st.area?1:0)+((st.from||st.to)?1:0)+(st.s!=="all"?1:0);fc.hidden=!n;fc.textContent=n?`${n}개 적용 중`:""}
   document.getElementById("magintro").hidden=st.bm||st.cat!==MAG;
@@ -240,3 +241,4 @@ document.addEventListener("click",ev=>{const b=ev.target.closest(".card .bm");if
   const k=seriesKey(e),on=!BM.has(k);on?BM.add(k):BM.delete(k);saveBM();window.gtag&&gtag("event","toggle_bookmark",{item:e.title_ko,category:e.category,on});
   if(st.bm&&!on){render();return}b.classList.toggle("on",on);b.textContent=on?"★":"☆";b.setAttribute("aria-pressed",on);b.setAttribute("aria-label",on?"북마크 해제":"북마크");b.title=on?"북마크 해제":"북마크"});
 document.addEventListener("click",ev=>{if(ev.target.closest("#freset")&&window.resetFilters)resetFilters()});
+window.QJ_openDetail=openDetail;window.QJ_hasDetail=hasDetail;
