@@ -2,7 +2,12 @@ const CATS=["팝업스토어","콜라보카페","전시·행사","축제","가�
 const STOCK=new Set(["가챠","쿠지"]);const SHOP=new Set(["팝업스토어","콜라보카페","쿠지","가챠","잡지 부록"]);
 const hasGal=e=>!!(e.gallery&&e.gallery.length);const hasDetail=e=>SHOP.has(e.category)||hasGal(e);const MAG="잡지 부록";const MAG_DAYS=35;
 const CATCLS={"팝업스토어":"c-pop","콜라보카페":"c-cafe","전시·행사":"c-expo","축제":"c-fest","가챠":"c-gacha","쿠지":"c-kuji","플리마켓":"c-flea","잡지 부록":"c-mag"};
-const st={cat:"",area:"",q:"",s:"all",from:"",to:"",bm:false};
+const st={cat:"",area:"",q:"",s:"all",from:"",to:"",bm:false,region:"tokyo"};
+// 🗾 지역(도쿄/오사카) 토글: events.json의 region(tokyo/osaka/all). all(전국: 가챠·쿠지·잡지 부록)은 두 지역 모두에 보여요.
+const REG={tokyo:"도쿄",osaka:"오사카"};const REGK="qj_region";
+const regionOf=e=>e.region||(e.area==="오사카"?"osaka":e.area==="전국"?"all":"tokyo");
+const inRegion=e=>{const r=regionOf(e);return r==="all"||r===st.region};
+(()=>{let r=null;try{r=new URLSearchParams(location.search).get("region")}catch(e){}if(!REG[r]){try{r=localStorage.getItem(REGK)}catch(e){}}st.region=REG[r]?r:"tokyo";window.QJ_REGION=st.region;document.documentElement.setAttribute("data-region",st.region);document.querySelectorAll("#region button[data-r]").forEach(b=>{const on=b.dataset.r===st.region;b.classList.toggle("on",on);b.setAttribute("aria-pressed",on)})})();
 // ⭐ 북마크: 이 기기 브라우저(localStorage)에만 저장. 묶인 카드도 같은 키(seriesKey)로 저장돼요.
 const BMK="qj_bm";let BM=new Set();try{BM=new Set(JSON.parse(localStorage.getItem(BMK)||"[]"))}catch(e){}
 const saveBM=()=>{try{localStorage.setItem(BMK,JSON.stringify([...BM]))}catch(e){}};let EV=[];
@@ -94,14 +99,14 @@ function units(){return GROUPS.map(g=>{if(g.length===1)return{e:g[0],x:status(g[
 function render(){
   const q=st.q.trim().normalize("NFKC").toLowerCase();
   const rows=units().filter(({e,x})=>x.k!=="end"
-    &&(!st.bm||BM.has(seriesKey(e)))
+    &&(st.bm?BM.has(seriesKey(e)):inRegion(e))
     &&(st.bm||!st.cat||e.category===st.cat)&&(!st.area||e.area===st.area)
     &&(st.s==="all"||(st.s==="soon"?x.k==="soon":x.k!=="soon"))
     &&(e._dates?e._dates.some(inRange):inRange(e))
     &&(!q||[e.title_ko,e.title_ja,e.venue,e.summary_ko].join(" ").normalize("NFKC").toLowerCase().includes(q)))
    .sort((a,b)=>st.bm?((a.e.start||"9").localeCompare(b.e.start||"9")||sortKey(a.e).localeCompare(sortKey(b.e))):sortKey(a.e).localeCompare(sortKey(b.e)));
   CARDS=rows.map(r=>r.e);
-  document.getElementById("count").textContent=`${rows.length}건`;
+  document.getElementById("count").textContent=st.bm?`${rows.length}건 (도쿄·오사카 전체)`:`${REG[st.region]} ${rows.length}건`;
   const fc=document.getElementById("fcnt");if(fc){const n=(st.area?1:0)+((st.from||st.to)?1:0)+(st.s!=="all"?1:0);fc.hidden=!n;fc.textContent=n?`${n}개 적용 중`:""}
   document.getElementById("magintro").hidden=st.bm||st.cat!==MAG;
   document.getElementById("list").innerHTML=rows.length?rows.map(({e,x},ci)=>{const u=e._dates?null:urg(e,x);return `
@@ -145,8 +150,15 @@ fetch("events.json",{cache:"no-store"}).then(r=>r.json()).then(d=>{
   const chips=document.getElementById("chips");
   chips.innerHTML=["",...CATS].map(c=>`<button data-c="${c}" class="${c?"":"on"}">${c||"전체"}</button>`).join("")+`<button data-bm="1" class="bmtab">⭐ 북마크</button>`;
   chips.onclick=ev=>{const b=ev.target.closest("button");if(!b)return;st.bm=!!b.dataset.bm;st.cat=st.bm?"":b.dataset.c;chips.querySelectorAll("button").forEach(x=>x.classList.toggle("on",x===b));render();window.gtag&&gtag("event","select_tab",{tab:st.bm?"북마크":(b.dataset.c||"전체")})};
-  const sel=document.getElementById("area");[...new Set(EV.map(e=>e.area))].forEach(a=>sel.add(new Option(a,a)));
+  const sel=document.getElementById("area");
+  const fillArea=()=>{const areas=[...new Set(EV.filter(inRegion).map(e=>e.area))];while(sel.options.length>1)sel.remove(1);areas.forEach(a=>sel.add(new Option(a,a)));if(st.area&&!areas.includes(st.area))st.area="";sel.value=st.area};fillArea();
   sel.onchange=()=>{st.area=sel.value;render()};
+  const rg=document.getElementById("region");
+  const paintRegion=()=>{document.documentElement.setAttribute("data-region",st.region);if(rg)rg.querySelectorAll("button").forEach(b=>{const on=b.dataset.r===st.region;b.classList.toggle("on",on);b.setAttribute("aria-pressed",on)})};
+  window.setRegion=(r,{persist=true,track=false}={})=>{if(!REG[r])return;const ch=r!==st.region;st.region=r;window.QJ_REGION=r;if(persist){try{localStorage.setItem(REGK,r)}catch(x){}}
+    paintRegion();if(ch){fillArea();render();window.QJWX&&QJWX(r)}if(track&&window.gtag)gtag("event","select_region",{region:REG[r]})};
+  if(rg)rg.onclick=ev=>{const b=ev.target.closest("button[data-r]");if(!b)return;const r=b.dataset.r;if(r===st.region)return;setRegion(r,{track:true})};
+  paintRegion();
   const fr=document.getElementById("from"),to=document.getElementById("to");
   const setR=()=>{st.from=fr.value;st.to=to.value;if(st.from&&st.to&&st.from>st.to){st.to=st.from;to.value=st.from}to.min=st.from||"";render()};
   fr.onchange=setR;to.onchange=setR;
@@ -156,8 +168,10 @@ fetch("events.json",{cache:"no-store"}).then(r=>r.json()).then(d=>{
   document.getElementById("q").oninput=e=>{st.q=e.target.value;render()};
   const tg=document.getElementById("status");tg.onclick=ev=>{const b=ev.target.closest("button");if(!b)return;st.s=b.dataset.s;tg.querySelectorAll("button").forEach(x=>x.classList.toggle("on",x===b));render()};
   render();
+  try{const sp=new URLSearchParams(location.search);if(sp.has("region")){sp.delete("region");const q=sp.toString();history.replaceState(null,"",location.pathname+(q?"?"+q:"")+location.hash)}}catch(x){}
   const want=new URLSearchParams(location.search).get("item");
   if(want){try{history.replaceState(null,"",baseURL()+location.hash)}catch(x){}
+    {const raw0=EV.find(c=>itemId(c)===want);if(raw0){const r0=regionOf(raw0);if(r0!=="all"&&r0!==st.region&&window.setRegion)setRegion(r0,{persist:false})}}
     let e=CARDS.find(c=>itemId(c)===want)||CARDS.find(c=>(c._dates||[]).some(d=>itemId(d)===want));
     if(!e){const raw=EV.find(c=>itemId(c)===want);if(raw){const b=[...chips.querySelectorAll("button")].find(x=>x.dataset.c===raw.category);if(b)b.click();e=CARDS.find(c=>c.title_ko===raw.title_ko&&c.category===raw.category)||raw}}
     if(e&&hasDetail(e))openDetail(e)}
