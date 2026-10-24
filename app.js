@@ -2,7 +2,7 @@ const CATS=["팝업스토어","콜라보카페","전시·행사","축제","가�
 const STOCK=new Set(["가챠","쿠지"]);const SHOP=new Set(["팝업스토어","콜라보카페","쿠지","가챠","잡지 부록"]);
 const hasGal=e=>!!(e.gallery&&e.gallery.length);const hasDetail=e=>!!e;const MAG="잡지 부록";const MAG_DAYS=35;
 const CATCLS={"팝업스토어":"c-pop","콜라보카페":"c-cafe","전시·행사":"c-expo","축제":"c-fest","가챠":"c-gacha","쿠지":"c-kuji","플리마켓":"c-flea","잡지 부록":"c-mag"};
-const st={cat:"",area:"",q:"",s:"all",from:"",to:"",bm:false,region:"tokyo"};
+const st={qd:"all",cat:"",area:"",q:"",s:"all",from:"",to:"",bm:false,region:"tokyo"};
 // 🗾 지역(도쿄/오사카) 토글: events.json의 region(tokyo/osaka/all). all(전국: 가챠·쿠지·잡지 부록)은 두 지역 모두에 보여요.
 const REG={tokyo:"도쿄",osaka:"오사카"};const REGK="qj_region";
 const regionOf=e=>e.region||(e.area==="오사카"?"osaka":e.area==="전국"?"all":"tokyo");
@@ -11,7 +11,8 @@ const inRegion=e=>{const r=regionOf(e);return r==="all"||r===st.region};
 // ⭐ 북마크: 이 기기 브라우저(localStorage)에만 저장. 묶인 카드도 같은 키(seriesKey)로 저장돼요.
 const BMK="qj_bm";let BM=new Set();try{BM=new Set(JSON.parse(localStorage.getItem(BMK)||"[]"))}catch(e){}
 const saveBM=()=>{try{localStorage.setItem(BMK,JSON.stringify([...BM]))}catch(e){}};let EV=[];
-const today=(()=>{const d=new Date();d.setHours(0,0,0,0);return d})();
+const tokyoYMD=(d=new Date())=>{const p=new Intl.DateTimeFormat("en-CA",{timeZone:"Asia/Tokyo",year:"numeric",month:"2-digit",day:"2-digit"}).formatToParts(d);const g=t=>p.find(x=>x.type===t).value;return`${g("year")}-${g("month")}-${g("day")}`};
+const today=(()=>{const[y,m,d]=tokyoYMD().split("-").map(Number);return new Date(y,m-1,d)})();window.QJ_TODAY=today;
 const pd=s=>{if(!s)return null;const[y,m,d]=s.split("-").map(Number);return new Date(y,m-1,d)};
 const fmt=s=>{const d=pd(s);if(!d)return"";return `${d.getMonth()+1}/${d.getDate()}(${"일월화수목금토"[d.getDay()]})`};
 function status(e){const s=pd(e.start),en=pd(e.end);
@@ -24,6 +25,17 @@ function urg(e,x){const s=pd(e.start),en=pd(e.end);
   if(x.k==="ending"){const l=Math.round((en-today)/864e5);return{c:l<=7?"u-hot":"u-warm",t:`🔥 ${l===0?"오늘 종료":"D-"+l}`}}
   if((STOCK.has(e.category)||e.category===MAG)&&s&&s>today){const l=Math.round((s-today)/864e5);if(l<=7)return{c:"u-new",t:`🆕 곧 발매 D-${l}`}}
   return null}
+// 상태 배지(일본 시간 기준): 종료 임박=3일 안에 끝남, 곧 시작=7일 안에 시작, 진행 중
+function qstat(e,x){if(e._dates)return null;const s=pd(e.start),en=pd(e.end);x=x||status(e);
+  if(x.k==="soon"){if(!s)return null;const n=Math.round((s-today)/864e5);return n<=7?{k:"start7",t:n<=1?(n===0?"오늘 시작":"내일 시작"):`곧 시작 D-${n}`}:null}
+  if(x.k==="now"||x.k==="ending"){if(en&&e.category!==MAG){const l=Math.round((en-today)/864e5);if(l<=3)return{k:"end3",t:l===0?"오늘 종료":`종료 임박 D-${l}`}}return{k:"live",t:x.t||"진행 중"}}return null}
+window.QJ_qstat=qstat;
+// 빠른 날짜 필터: 전체 / 오늘 / 이번 주말 / 2주 이내 (일본 시간)
+const iso2=d=>`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;
+function qdRange(k){const t=new Date(today);if(k==="today")return[iso2(t),iso2(t)];
+  if(k==="weekend"){const w=t.getDay();const a=new Date(t),b=new Date(t);if(w===0)return[iso2(t),iso2(t)];a.setDate(t.getDate()+(6-w));b.setDate(a.getDate()+1);return[iso2(a),iso2(b)]}
+  if(k==="2w"){const b=new Date(t);b.setDate(t.getDate()+13);return[iso2(t),iso2(b)]}return null}
+const inQD=e=>{const r=qdRange(st.qd);if(!r)return true;const s=e.start||"0000",en=e.end||(e.category===MAG&&e.start?magEnd(e):"9999");return s<=r[1]&&en>=r[0]};
 const magEnd=e=>{const d=pd(e.start);d.setDate(d.getDate()+MAG_DAYS);return iso(d)};
 const inRange=e=>{if(!st.from&&!st.to)return true;const s=e.start||"0000",en=e.end||(e.category===MAG&&e.start?magEnd(e):"9999");
   return(!st.to||s<=st.to)&&(!st.from||en>=st.from)};
@@ -107,10 +119,11 @@ function render(keep){if(!keep)PAGE=0;
     &&(st.bm?BM.has(seriesKey(e)):inRegion(e))
     &&(st.bm||!st.cat||e.category===st.cat)&&(!st.area||e.area===st.area)
     &&(st.s==="all"||(st.s==="soon"?x.k==="soon":x.k!=="soon"))
-    &&(e._dates?e._dates.some(inRange):inRange(e))
+    &&(e._dates?e._dates.some(inRange):inRange(e))&&(e._dates?e._dates.some(inQD):inQD(e))
     &&(!q||[e.title_ko,e.title_ja,e.venue,e.summary_ko].join(" ").normalize("NFKC").toLowerCase().includes(q)))
    .sort((a,b)=>st.bm?((a.e.start||"9").localeCompare(b.e.start||"9")||sortKey(a.e).localeCompare(sortKey(b.e))):sortKey(a.e).localeCompare(sortKey(b.e)));
   CARDS=rows.map(r=>r.e);
+  {const vl=document.getElementById("vline");if(vl){const n=units().filter(({e,x})=>inRegion(e)&&(x.k==="now"||x.k==="ending")).length;vl.innerHTML=`지금 ${REG[st.region]}에서 열리는 애니·팝업 <b>${n}건</b>`}}
   window.QJCAL&&QJCAL(CARDS);
   document.getElementById("count").textContent=st.bm?`${rows.length}건 (도쿄·오사카 전체)`:`${REG[st.region]} ${rows.length}건`;
   const fc=document.getElementById("fcnt");if(fc){const n=(st.area?1:0)+((st.from||st.to)?1:0)+(st.s!=="all"?1:0);fc.hidden=!n;fc.textContent=n?`${n}개 적용 중`:""}
@@ -120,11 +133,11 @@ function render(keep){if(!keep)PAGE=0;
     pg.onclick=ev=>{const b=ev.target.closest("button[data-p]");if(!b||b.disabled)return;PAGE=+b.dataset.p;render(true);const L2=document.getElementById("list");const y=L2.getBoundingClientRect().top+scrollY-12;scrollTo({top:Math.max(0,y-(document.querySelector(".vtoggle")?60:0)),behavior:"smooth"})}}
    pg.innerHTML=pagerHTML(PAGE,NP);pg.hidden=NP<2}
   document.getElementById("list").innerHTML=rows.length?rows.slice(P0,P0+PER).map(({e,x},ci0)=>{const ci=ci0+P0;const u=e._dates?null:urg(e,x);return `
-  <article class="card${u?" "+u.c:""}${e._dates?" series":""}" data-i="${ci}">${u?`<div class="ub">${u.t}</div>`:""}${(()=>{const on=BM.has(seriesKey(e));return `<button type="button" class="bm${on?" on":""}" aria-pressed="${on}" aria-label="${on?"북마크 해제":"북마크"}" title="${on?"북마크 해제":"북마크"}">${on?"★":"☆"}</button>`})()}
-  <div class="top">${thumb(e)}<div class="tx"><div class="badges"><span class="b cat ${CATCLS[e.category]||""}">${esc(e.category)}</span><span class="b ${x.k}">${u&&x.k==="ending"?"곧 종료":x.t}</span><span class="b">${esc(e.area)}</span></div>
+  <article tabindex="0" role="button" aria-label="${esc(e.title_ko)} 자세히 보기" class="card${u?" "+u.c:""}${e._dates?" series":""}" data-i="${ci}">${u?`<div class="ub">${u.t}</div>`:""}${(()=>{const on=BM.has(seriesKey(e));return `<button type="button" class="bm${on?" on":""}" aria-pressed="${on}" aria-label="${on?"북마크 해제":"북마크"}" title="${on?"북마크 해제":"북마크"}">${on?"★":"☆"}</button>`})()}
+  <div class="top">${thumb(e)}<div class="tx"><div class="badges"><span class="b cat ${CATCLS[e.category]||""}">${esc(e.category)}</span>${(()=>{const q=qstat(e,x);return q?`<span class="b sb sb-${q.k}">${esc(q.t)}</span>`:`<span class="b ${x.k}">${u&&x.k==="ending"?"곧 종료":x.t}</span>`})()}<span class="b">${esc(e.area)}</span></div>
   <h2 class="dt">${esc(e.title_ko)}</h2>${e.title_ja?`<p class="ja">${esc(e.title_ja)}</p>`:""}</div></div>
   <ul class="cmeta"><li><span class="ci">🗓️</span>${e._dates?`다음 ${esc(fmt(e._dates[0].start))} <em>외 ${e._dates.length-1}회</em>`:esc(period(e))}</li>${e.venue?`<li><span class="ci">📍</span>${esc(e.venue)}</li>`:""}${e.price?`<li><span class="ci">🏷️</span>${pricet(e.price)}</li>`:""}</ul>
-  <div class="btns">${e.official_url?`<a href="${esc(e.official_url)}" target="_blank" rel="noopener">공식 사이트</a>`:""}<button type="button" class="dt more">자세히 보기</button></div>
+  <span class="cgo" aria-hidden="true">자세히 ›</span>
   </article>`}).join(""):(st.bm?`<div class="empty"><p>⭐ 아직 북마크한 일정이 없어요.</p><p class="esub">가고 싶은 일정의 ☆를 누르면 여기에 날짜순으로 모여요. (이 기기·브라우저에만 저장돼요)</p></div>`:`<div class="empty"><p>조건에 맞는 일정이 없어요.</p><button type="button" id="freset" class="freset">🔄 필터 초기화</button></div>`)}
 
 const WD=["일","월","화","수","목","금","토"];
@@ -143,7 +156,7 @@ function setUpdateLabel(last){
   const today=seoulYMD();
   const nextYMD=`${next.getFullYear()}-${String(next.getMonth()+1).padStart(2,"0")}-${String(next.getDate()).padStart(2,"0")}`;
   if(nextYMD<today) next=nextMonThuAfter(today,{inclusive:true});
-  el.textContent=`🗓️ 마지막 업데이트 ${fmtMDW(lastD)} · 다음 업데이트 ${fmtMDW(next)}`;
+  el.textContent=`${fmtMDW(lastD)} 업데이트 · 다음 ${fmtMDW(next)}`;
   el.hidden=false;
 }
 
@@ -154,6 +167,7 @@ fetch("events.json",{cache:"no-store"}).then(r=>r.json()).then(d=>{
   const chips=document.getElementById("chips");
   chips.innerHTML=["",...CATS].map(c=>`<button data-c="${c}" class="${c?"":"on"}">${c||"전체"}</button>`).join("")+`<button data-bm="1" class="bmtab">⭐ 북마크</button>`;
   chips.onclick=ev=>{const b=ev.target.closest("button");if(!b)return;st.bm=!!b.dataset.bm;st.cat=st.bm?"":b.dataset.c;chips.querySelectorAll("button").forEach(x=>x.classList.toggle("on",x===b));render();window.gtag&&gtag("event","select_tab",{tab:st.bm?"북마크":(b.dataset.c||"전체")})};
+  const qd=document.getElementById("qd");if(qd){qd.onclick=ev=>{const b=ev.target.closest("button[data-qd]");if(!b)return;st.qd=b.dataset.qd;qd.querySelectorAll("button").forEach(x=>{const on=x===b;x.classList.toggle("on",on);x.setAttribute("aria-pressed",on)});render();window.gtag&&gtag("event","select_date_chip",{chip:st.qd})}}
   const sel=document.getElementById("area");
   const fillArea=()=>{const areas=[...new Set(EV.filter(inRegion).map(e=>e.area))];while(sel.options.length>1)sel.remove(1);areas.forEach(a=>sel.add(new Option(a,a)));if(st.area&&!areas.includes(st.area))st.area="";sel.value=st.area};fillArea();
   sel.onchange=()=>{st.area=sel.value;render()};
@@ -167,7 +181,7 @@ fetch("events.json",{cache:"no-store"}).then(r=>r.json()).then(d=>{
   const setR=()=>{st.from=fr.value;st.to=to.value;if(st.from&&st.to&&st.from>st.to){st.to=st.from;to.value=st.from}to.min=st.from||"";render()};
   fr.onchange=setR;to.onchange=setR;
   document.getElementById("rreset").onclick=()=>{fr.value=to.value="";setR()};
-  window.resetFilters=()=>{fr.value=to.value="";st.from=st.to="";to.min="";sel.value="";st.area="";const qi=document.getElementById("q");qi.value="";st.q="";st.s="all";st.cat="";st.bm=false;
+  window.resetFilters=()=>{fr.value=to.value="";st.from=st.to="";to.min="";sel.value="";st.area="";const qi=document.getElementById("q");qi.value="";st.q="";st.s="all";st.cat="";st.bm=false;st.qd="all";document.querySelectorAll("#qd button").forEach(x=>{const on=x.dataset.qd==="all";x.classList.toggle("on",on);x.setAttribute("aria-pressed",on)});
     document.querySelectorAll("#status button").forEach(x=>x.classList.toggle("on",x.dataset.s==="all"));chips.querySelectorAll("button").forEach((x,i)=>x.classList.toggle("on",i===0));render()};
   document.getElementById("q").oninput=e=>{st.q=e.target.value;render()};
   const tg=document.getElementById("status");tg.onclick=ev=>{const b=ev.target.closest("button");if(!b)return;st.s=b.dataset.s;tg.querySelectorAll("button").forEach(x=>x.classList.toggle("on",x===b));render()};
@@ -248,7 +262,7 @@ document.addEventListener("click",ev=>{const a=ev.target.closest(".dgrid a.zoom"
   l.addEventListener("touchend",t=>{if(sx===null)return;const dx=t.changedTouches[0].clientX-sx,dy=t.changedTouches[0].clientY-sy;sx=null;if(Math.abs(dx)>45&&Math.abs(dx)>Math.abs(dy)*1.3)lbStep(dx<0?1:-1)});
   document.body.appendChild(l);lbShow();pushLayer("lb")},true);
 document.addEventListener("keydown",ev=>{if(!document.querySelector(".lb"))return;if(ev.key==="ArrowLeft")lbStep(-1);else if(ev.key==="ArrowRight")lbStep(1)});
-document.addEventListener("click",ev=>{const t=ev.target.closest(".card .dt");if(!t)return;const c=t.closest(".card");const e=CARDS[+c.dataset.i];if(e)openDetail(e)});
+document.addEventListener("click",ev=>{if(ev.target.closest(".card .bm,.card a"))return;const c=ev.target.closest(".card[data-i]");if(!c)return;const e=CARDS[+c.dataset.i];if(e)openDetail(e)});
 
 window.addEventListener("fxrate",()=>{if(typeof render==="function")render(true);const o=document.querySelector(".dov");if(o&&DETAIL_E){const sc=o.scrollTop;o.innerHTML=detail(DETAIL_E);o.scrollTop=sc}});
 document.addEventListener("click",ev=>{const b=ev.target.closest(".moredates");if(!b)return;const x=b.nextElementSibling;if(x){x.hidden=false;b.remove()}});
@@ -258,3 +272,5 @@ document.addEventListener("click",ev=>{const b=ev.target.closest(".card .bm");if
   if(st.bm&&!on){render(true);return}b.classList.toggle("on",on);b.textContent=on?"★":"☆";b.setAttribute("aria-pressed",on);b.setAttribute("aria-label",on?"북마크 해제":"북마크");b.title=on?"북마크 해제":"북마크"});
 document.addEventListener("click",ev=>{if(ev.target.closest("#freset")&&window.resetFilters)resetFilters()});
 window.QJ_gotoCard=e=>{const ix=CARDS.indexOf(e);if(ix<0)return false;const p=Math.floor(ix/PER);if(p!==PAGE){PAGE=p;render(true)}return true};window.QJ_openDetail=openDetail;window.QJ_hasDetail=hasDetail;
+
+document.addEventListener("keydown",ev=>{if(ev.key!=="Enter"&&ev.key!==" ")return;const c=ev.target.closest&&ev.target.closest(".card[data-i]");if(!c||ev.target!==c)return;ev.preventDefault();const e=CARDS[+c.dataset.i];if(e)openDetail(e)});
