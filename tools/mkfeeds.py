@@ -5,7 +5,7 @@
 import json, datetime, html, re, sys
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).parent))
-ROOT=Path(__file__).resolve().parent.parent;SITE="https://quietjapan.github.io/japan-events/";NAME="일본 행사 캘린더"
+ROOT=Path(__file__).resolve().parent.parent;SITE="https://quietjapan.github.io/japan-events/";NAME="오시카츠 재팬"
 from added import skey, hid
 iid=lambda e:e.get("id") or hid(skey(e))
 KST=datetime.timezone(datetime.timedelta(hours=9));now=datetime.datetime.now(KST);today=now.strftime("%Y-%m-%d")
@@ -55,7 +55,7 @@ for e in sorted(live,key=lambda e:e["start"]):
     i=iid(e)
     if i in seen or reg(e)=="all": continue
     seen.add(i);lst.append({"@type":"ListItem","position":len(lst)+1,"url":f"{SITE}i/{i}/","name":e.get("title_ko")})
-ld={"@context":"https://schema.org","@type":"ItemList","name":"도쿄·오사카·후쿠오카 애니·팝업·콜라보 행사","numberOfItems":len(lst),"itemListElement":lst}
+ld={"@context":"https://schema.org","@type":"ItemList","name":"도쿄·오사카·후쿠오카 애니·팝업·콜라보 행사","numberOfItems":len(lst),"itemListElement":lst,"publisher":{"@type":"Organization","name":NAME,"url":SITE,"logo":SITE+"icon-512.png"}}
 blk='<!--LD:start--><script type="application/ld+json">'+json.dumps(ld,ensure_ascii=False).replace("</","<\\/")+'</script><!--LD:end-->'
 ix=ROOT/"index.html";t=ix.read_text()
 t=re.sub(r"<!--LD:start-->.*?<!--LD:end-->",lambda m:blk,t,flags=re.S) if "<!--LD:start-->" in t else t.replace("</head>",blk+"\n</head>",1)
