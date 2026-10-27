@@ -91,3 +91,12 @@
 .bkline a:hover{color:var(--accent)}
 [data-theme="dark"] .bkline{color:#b3a697}
 @media(max-width:640px){.bkline{font-size:11px;letter-spacing:.28em;margin-bottom:6px}}
+/* 헤더 지역 배너 */
+.hdbg{position:absolute;inset:0;z-index:-1;pointer-events:none;overflow:hidden}
+.hdbg-i{position:absolute;top:0;right:0;height:100%;width:min(62%,1000px);background:no-repeat right center/auto 100%;opacity:0;transition:opacity .6s ease;
+  -webkit-mask-image:linear-gradient(90deg,transparent 0,rgba(0,0,0,.35) 18%,#000 42%);mask-image:linear-gradient(90deg,transparent 0,rgba(0,0,0,.35) 18%,#000 42%)}
+.hdbg-i.on{opacity:1}
+[data-theme="dark"] .hdbg-i{filter:brightness(.6) saturate(.75) sepia(.12);-webkit-mask-image:linear-gradient(90deg,transparent 0,transparent 30%,rgba(0,0,0,.5) 50%,#000 68%);mask-image:linear-gradient(90deg,transparent 0,transparent 30%,rgba(0,0,0,.5) 50%,#000 68%)}
+[data-theme="dark"] .hdbg-i.on{opacity:.85}
+@media(max-width:900px){.hdbg{display:none}}
+@media(prefers-reduced-motion:reduce){.hdbg-i{transition:none}}
