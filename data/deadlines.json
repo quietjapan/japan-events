@@ -2,14 +2,6 @@
  "_note": "events.json 필드에 날짜가 명시된 신청·예매 마감만. source_text는 해당 필드 원문 그대로.",
  "deadlines": [
   {
-   "match": "주술회전 PLAZA 긴자 로프트",
-   "deadline": "2026-10-28",
-   "label": "LivePocket 입장 추첨 신청 (11/7·8분)",
-   "source_text": "販売受付期間 2026年10月23日(金) 11:00〜2026年10月28日(水) 23:59",
-   "source_url": "https://livepocket.jp/e/jujutsukaisen-ginza1107",
-   "field": "official"
-  },
-  {
    "match": "conan-diner",
    "deadline": "2026-11-01",
    "label": "일반 추첨 신청",
