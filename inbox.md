@@ -29,3 +29,5 @@
 추가: TAMASHII NATION 2026(아키하바라)·엄마는 게임을 숨겼다×HMV(에소라 이케부쿠로/NAMBA)·다이아의 A actⅡ POP UP(HMV&BOOKS 시부야).
 보류 유지: 정반대인 너와 나 난바CITY — 공식(https://www.acgateway.com/ex_seihantai3/)에 여전히 「5月15日(金)～6月2日(火)で開催！」만 있고 11월 기간 문구 없음 → pending.json.
 last_updated 2026-11-10. -->
+
+<!-- 2026-11-11 정기 업데이트: 새 제보 없음. 캘린더 대조(collabo-cafe) 추가: 스파이 패밀리 POP UP -MASQUERADE- 시부야 츠타야 IP서점(12/10~28, 츠타야 공식 원문 확인). 종료 제거 8건(11/10 이전 end). 보류 재확인: 메조피아노(산리오 403)·정반대 난바CITY(11월 기간 없음)·블루록 애니메이트카페(기간 미표기) 유지. last_updated 2026-11-11. -->
