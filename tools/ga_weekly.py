@@ -162,20 +162,24 @@ def main():
         L.append(f"- {k}: {b[k]} ({b[k]/tot_s*100:.0f}%)")
     L.append("")
 
-    # 3
-    L.append("## 3. 🔥 많이 클릭된 항목 TOP 3")
-    lm = link_map()
-    cc = {}
-    for url, cnt in clicks:
-        k = label_link(url, lm); cc[k] = cc.get(k, 0) + int(cnt)
-    top = sorted(cc.items(), key=lambda kv: -kv[1])[:3]
-    for i, (k, v) in enumerate(top, 1): L.append(f"{i}. {k} · {v}회")
-    if not top: L.append("- (클릭 없음)")
-    L.append("<sub>공식 사이트·출처·지도 버튼의 외부 링크 클릭 기준이에요</sub>  ")
-    if custom:
-        L.append(f"<sub>커스텀 이벤트: {', '.join(custom)}</sub>")
-    else:
-        L.append("ℹ️ 탭(카테고리) 선택과 자세히 보기 열람은 아직 GA에 기록되지 않아요.")
+    # 3 — 자세히 보기 항목 / 탭
+    L.append("## 3. 🔥 많이 본 탭/항목 TOP 3")
+    details = run(eff, ["customEvent:item"], ["eventCount", "activeUsers"],
+                  f_and(kr(), f_eq("eventName", "open_detail")), limit=20)
+    drows = [(i, int(c), int(u)) for i, c, u in details if i and i not in ("(not set)",)]
+    drows.sort(key=lambda x: (-x[1], -x[2]))
+    top_items = drows[:3]
+    for i, (name, c, u) in enumerate(top_items, 1):
+        L.append(f"{i}. {name} · {c}회 ({u}명)")
+    tabs = run(eff, ["customEvent:tab"], ["eventCount", "activeUsers"],
+               f_and(kr(), f_eq("eventName", "select_tab")), limit=20)
+    trows = [(t, int(c), int(u)) for t, c, u in tabs if t and t not in ("(not set)",)]
+    trows.sort(key=lambda x: (-x[1], -x[2]))
+    if trows:
+        tab_s = " · ".join(f"{t} {c}회 ({u}명)" for t, c, u in trows[:3])
+        L.append(f"<sub>탭 TOP: {tab_s}</sub>  ")
+    if not top_items and not trows:
+        L.append("ℹ️ 탭(카테고리) 선택과 자세히 보기 열람은 아직 GA에 기록되지 않았어요.")
     L.append("")
 
     # 4
@@ -186,8 +190,39 @@ def main():
     L.append(" · ".join(f"{name.get(k,k)} {v}명 ({v/dsum*100:.0f}%)" for k, v in sorted(dd.items(), key=lambda kv: -kv[1])) or "(없음)")
     L.append("")
 
-    # 5
-    L.append("## 5. 📝 메모용 포인트")
+    # 5 — 다크모드
+    L.append("## 5. 🌙 다크모드 버튼")
+    theme_flt = f_and(kr(), f_eq("eventName", "toggle_theme"))
+    theme_tot = run(eff, [], ["eventCount", "activeUsers"], theme_flt)
+    theme_cnt = int(theme_tot[0][0]) if theme_tot else 0
+    theme_users = int(theme_tot[0][1]) if theme_tot else 0
+    L.append(f"{theme_cnt}회 · {theme_users}명")
+    theme_ratio = None
+    try:
+        trows_th = run(eff, ["customEvent:theme"], ["eventCount", "activeUsers"], theme_flt)
+        parts = []
+        for val, c, u in trows_th:
+            if val and val not in ("(not set)",):
+                parts.append(f"{val} {int(c)}회 ({int(u)}명)")
+        if parts:
+            theme_ratio = " · ".join(parts)
+            L.append(f"비율: {theme_ratio}")
+        elif theme_cnt:
+            L.append("dark/light 비율은 `theme` 맞춤 측정기준이 없어 확인할 수 없어요.")
+    except Exception:
+        if theme_cnt:
+            L.append("dark/light 비율은 `theme` 맞춤 측정기준이 없어 확인할 수 없어요.")
+    if theme_cnt == 0 or theme_users <= 1:
+        L.append("거의 안 눌리고 있으니, 아이콘 옆에 '다크모드' 표시를 추가하는 걸 고려해 볼 만해요.")
+    L.append("")
+
+    # 메모 (보고서 초안용)
+    lm = link_map()
+    cc = {}
+    for url, cnt in clicks:
+        k = label_link(url, lm); cc[k] = cc.get(k, 0) + int(cnt)
+    top = sorted(cc.items(), key=lambda kv: -kv[1])[:3]
+    L.append("## 📝 메모용 포인트")
     pts = []
     if prev_real is not None and prev_real:
         pts.append(f"방문자 {prev_real}→{real}명 ({(real-prev_real)/prev_real*100:+.0f}%)")
@@ -195,12 +230,18 @@ def main():
         pts.append(f"비교 기간 데이터 없음, 이번 기간 방문자 {real}명")
     blog = b["네이버 블로그 (PC)"] + b["네이버 블로그 (모바일)"]
     pts.append(f"블로그 경유 세션 {blog}/{sum(b.values())} ({blog/tot_s*100:.0f}%), 검색 유입 {b['검색']}")
-    if top: pts.append(f"클릭 1위: {top[0][0]} ({top[0][1]}회)")
+    if top_items:
+        pts.append(f"자세히 보기 1위: {top_items[0][0]} ({top_items[0][1]}회)")
+    elif top:
+        pts.append(f"외부 클릭 1위: {top[0][0]} ({top[0][1]}회)")
     if dd: pts.append(f"모바일 비중 {dd.get('mobile',0)/dsum*100:.0f}%")
     if raw is not None and real is not None and raw - real > 0:
         pts.append(f"해외·미상 접속 {raw-real}명 제외됨")
     if alt_city not in EXCLUDE_CITIES and real_alt is not None:
         pts.append(f"{alt_name}({alt_city})가 운영자라면 실제 방문자 {real_alt}명")
+    pts.append(f"다크모드 {theme_cnt}회 · {theme_users}명")
+    if custom:
+        pts.append("커스텀 이벤트: " + ", ".join(custom))
     for p in pts: L.append(f"- {p}")
     L.append("")
     L.append(f"<sub>생성 {dt.datetime.now().strftime('%Y-%m-%d %H:%M')} (KST) · 기준: activeUsers, 국가=대한민국</sub>")
